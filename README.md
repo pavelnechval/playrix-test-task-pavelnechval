@@ -18,7 +18,7 @@
   | Once Upon a Garden | сказочное фэнтези | A | `sets/once-upon-a-garden/sheets/window_A.png` |
   | The Lost Island | семейное приключение, поиск сокровищ | C | `sets/the-lost-island/sheets/window_C.png` |
 
-  - Все четыре на одном листе: `sets/ratings/final_sets_W022.jpg`.
+  - Все четыре на одном листе: `sets/ratings/final_sets_W024.jpg`.
   - Карточки по отдельности: `sets/<набор>/final_set/`. В `sources.json` записано, откуда взята каждая карточка.
 - **Тесты автономности:**
   - Набор «Sunny Frontier» (вестерн) сделал агент без контекста разговора, только по файлам скилла: `sets/sunny-frontier/`.

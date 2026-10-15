@@ -54,12 +54,12 @@
   "fill": "outpaint",
   "pad": [
    10,
-   20,
+   0,
    12,
-   150
+   285
   ],
-  "room_above": 0.305,
-  "seam": 0.95,
+  "room_above": 0.21,
+  "seam": 1.05,
   "zoom": 0.88
  },
  "B06": {
@@ -105,12 +105,12 @@
   "fill": "outpaint",
   "pad": [
    39,
-   92,
+   0,
    48,
-   150
+   311
   ],
-  "room_above": 0.317,
-  "seam": 1.02,
+  "room_above": 0.21,
+  "seam": 1.08,
   "zoom": 0.838
  },
  "B10": {

@@ -11,7 +11,8 @@ For each card, a vision call finds the main object's box on the full generated i
 <route folder>/boxes_raw.json). The script then picks the card-shaped window (9:10) that puts the object at
 the reference median size for its category (largest dimension: C1 0.82, C2 0.85, C3 0.89, C4 0.85; medians
 of the 160 reference cards, card_metrics.py), with at least 5% clear on the sides and about 14% clear above.
-The window may run past the picture by up to 12% per side. There the background is extended:
+The window may run past the picture by up to 12% per side, and up to 25% below an object on a plain backdrop or
+tabletop (categories 1-3; W024). There the background is extended:
 
 - outpaint (default): the image model (nano banana) continues the picture outward in the same style. Its
   colours are matched to the original at the seam, and the original pixels are kept and blended in over a
@@ -56,6 +57,9 @@ from sheets import CARD_ASPECT, build_sheet  # noqa: E402
 
 TARGET = {1: 0.82, 2: 0.85, 3: 0.89, 4: 0.85}  # reference medians of the object's largest dimension
 ROOM_ABOVE, ROOM_ABOVE_MAX, MARGIN, MAX_PAD = 0.14, 0.21, 0.05, 0.12  # room above: reference median and upper quartile
+# Below an object on a plain backdrop or tabletop (categories 1-3) the image model may extend further, so an object
+# drawn low can still be centred (W024: mugs, glasses and a TV dinner sat under 27-32% of empty wall). Scenes keep 12%.
+MAX_PAD_BELOW = 0.25
 OUT_W, OUT_H = 430, 480
 TOUCH = 10            # box units (of 1000): an object this close to an edge touches it
 OUTPAINT_MIN = 0.01   # outpaint when the window runs past the picture by more than this share of its side
@@ -130,7 +134,7 @@ def window(size: tuple[int, int], box: list[int], category: int, stretch: bool) 
     top = by0 - room
     # How far the window may run past the picture per side (left, top, right, bottom). Stretching a side the object
     # touches smears the object (W022, the beanstalk); the image model continues the object instead, so outpainting may.
-    pad = [MAX_PAD * W, MAX_PAD * H, MAX_PAD * W, MAX_PAD * H]
+    pad = [MAX_PAD * W, MAX_PAD * H, MAX_PAD * W, (MAX_PAD_BELOW if category in (1, 2, 3) and not stretch else MAX_PAD) * H]
     if stretch:
         touches = [x0 <= TOUCH, y0 <= TOUCH, x1 >= 1000 - TOUCH, y1 >= 1000 - TOUCH]
         pad = [0.0 if t else p for t, p in zip(touches, pad)]
@@ -168,12 +172,12 @@ def ring_diff(a: Image.Image, b: Image.Image, size: int = 256) -> float:
     return ImageStat.Stat(ImageChops.difference(a, b).convert("L"), ring_mask((size, size))).mean[0]
 
 
-def compose(image: Image.Image, model: Image.Image) -> tuple[Image.Image, dict]:
+def compose(image: Image.Image, model: Image.Image, margin: float = MAX_PAD) -> tuple[Image.Image, dict]:
     """Fit the model's extended square around the original picture: match its colours to the original at the seam
     (the model sometimes shifts the whole palette slightly: W022, the magic beans), check the alignment, blend the
     original back in over the seam."""
     W, H = image.size
-    S = round(max(W, H) * (1 + 2 * MAX_PAD))
+    S = round(max(W, H) * (1 + 2 * margin))
     ml, mt = (S - W) // 2, (S - H) // 2
     out = model.convert("RGB").resize((S, S), Image.LANCZOS)
     ring = ring_mask((W, H))
@@ -188,15 +192,15 @@ def compose(image: Image.Image, model: Image.Image) -> tuple[Image.Image, dict]:
     for i in range(feather):  # the original fades in over the seam
         draw.rectangle((i, i, W - 1 - i, H - 1 - i), outline=round(255 * i / feather))
     out.paste(image, (ml, mt), mask)
-    return out, {"offset": [ml, mt], "seam": round(seam, 2), "ok": seam <= SEAM_MAX, "colour_shift": shift}
+    return out, {"offset": [ml, mt], "seam": round(seam, 2), "ok": seam <= SEAM_MAX, "colour_shift": shift, "margin": margin}
 
 
-def outpaint(image: Image.Image, stem: Path) -> tuple[Image.Image, dict]:
-    """Extend the picture by MAX_PAD per side with the image model, keeping the picture itself pixel for pixel.
+def outpaint(image: Image.Image, stem: Path, margin: float = MAX_PAD) -> tuple[Image.Image, dict]:
+    """Extend the picture by `margin` per side with the image model, keeping the picture itself pixel for pixel.
     Writes the model's image and response as <stem>.model.png and <stem>.response.json; returns the canvas and info."""
     image = image.convert("RGB")
     W, H = image.size
-    S = round(max(W, H) * (1 + 2 * MAX_PAD))
+    S = round(max(W, H) * (1 + 2 * margin))
     ml, mt = (S - W) // 2, (S - H) // 2
     hint = stretch_pad(image, ml, mt, S - W - ml, S - H - mt)  # a colour placeholder the model repaints
     buffer = io.BytesIO()
@@ -205,7 +209,7 @@ def outpaint(image: Image.Image, stem: Path) -> tuple[Image.Image, dict]:
                                                              gemini_image.text_part(OUTPAINT_PROMPT)],
                                          aspect_ratio="1:1", image_size="1K")
     model = Image.open(io.BytesIO(result.pop("image_bytes"))).convert("RGB")
-    out, info = compose(image, model)
+    out, info = compose(image, model, margin)
     stem.parent.mkdir(exist_ok=True)
     model.save(f"{stem}.model.png")
     info["cost"] = round(costs.image_cost(result["response"].get("usage", {})), 4)
@@ -358,18 +362,21 @@ def main(argv: list[str]) -> int:
     for cid, (card, src, _) in (items.items() if not billing else []):
         if cid in cache and args.fill == "outpaint" and cid not in forced:
             size = Image.open(src).size
-            if max(overrun(size, window(size, cache[cid]["box"], card["category"], False))) > OUTPAINT_MIN * max(size):
+            pads = overrun(size, window(size, cache[cid]["box"], card["category"], False))
+            if max(pads) > OUTPAINT_MIN * max(size):
                 entry = op_cache.get(cid, {})
-                if {k: entry.get(k) for k in ("file", "mtime")} != stamp(src):  # a failed seam check is not retried
-                    need[cid] = src                                                # on re-runs; delete the entry to retry
+                margin = MAX_PAD if max(pads) <= MAX_PAD * max(size) + 1 else MAX_PAD_BELOW
+                # a failed seam check is not retried on re-runs (delete the entry to retry); a canvas too narrow is redone
+                if {k: entry.get(k) for k in ("file", "mtime")} != stamp(src) or entry.get("margin", MAX_PAD) < margin:
+                    need[cid] = (src, margin)
 
-    def run_outpaint(cid: str, src: Path) -> dict:
+    def run_outpaint(cid: str, src: Path, margin: float) -> dict:
         """Up to two model calls (one retry if the seam check fails); every attempt is kept as outpaint/<id>.try<n>.*"""
         done = len(list((route_dir / "outpaint").glob(f"{cid}.try*.model.png")))
         canvas, info, tries, cost = None, {}, 0, 0.0
         while tries < 2 and not info.get("ok"):
             tries += 1
-            canvas, info = outpaint(Image.open(src).convert("RGB"), route_dir / "outpaint" / f"{cid}.try{done + tries}")
+            canvas, info = outpaint(Image.open(src).convert("RGB"), route_dir / "outpaint" / f"{cid}.try{done + tries}", margin)
             costs.log(folder, "outpaint", cid, info["cost"])
             cost += info["cost"]
         canvas.save(route_dir / "outpaint" / f"{cid}.png")
@@ -380,7 +387,7 @@ def main(argv: list[str]) -> int:
 
     cost, done, unpainted = 0.0, 0, set()
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-        futures = {pool.submit(run_outpaint, cid, src): cid for cid, src in need.items()}
+        futures = {pool.submit(run_outpaint, cid, src, margin): cid for cid, (src, margin) in need.items()}
         for future in concurrent.futures.as_completed(futures):
             cid = futures[future]
             if future.cancelled():  # counted below
@@ -406,7 +413,7 @@ def main(argv: list[str]) -> int:
                 continue
             image, best = Image.open(src).convert("RGB"), None
             for name in entry.get("models") or sorted(p.name for p in (route_dir / "outpaint").glob(f"{cid}.try*.model.png")):
-                canvas, info = compose(image, Image.open(route_dir / "outpaint" / name))
+                canvas, info = compose(image, Image.open(route_dir / "outpaint" / name), entry.get("margin", MAX_PAD))
                 if best is None or info["seam"] < best[1]["seam"]:
                     best = (canvas, info, name)
             best[0].save(route_dir / "outpaint" / f"{cid}.png")
@@ -429,16 +436,18 @@ def main(argv: list[str]) -> int:
         entry = op_cache.get(cid, {})
         win = window(image.size, box, category, False)
         pads = overrun(image.size, win)
-        painted = entry.get("ok") and {k: entry.get(k) for k in ("file", "mtime")} == stamp(src)
+        wide = entry.get("margin", MAX_PAD) * max(image.size) + 1 >= max(pads)
+        painted = entry.get("ok") and {k: entry.get(k) for k in ("file", "mtime")} == stamp(src) and wide
         if billing and args.fill == "outpaint" and max(pads) > OUTPAINT_MIN * max(image.size) and not painted \
                 and cid not in forced:  # W023: no stretched stand-in while the balance is empty
             print(f"{cid}: needs a background extension; left as it was")
             continue
         if forced.get(cid, "stretch") != "stretch":  # an outpaint attempt chosen in review
-            canvas, entry = compose(image, Image.open(route_dir / "outpaint" / forced[cid]))
+            resp = route_dir / "outpaint" / forced[cid].replace(".model.png", ".response.json")
+            made_with = json.loads(resp.read_text(encoding="utf-8")).get("margin", MAX_PAD) if resp.exists() else MAX_PAD
+            canvas, entry = compose(image, Image.open(route_dir / "outpaint" / forced[cid]), made_with)
             ox, oy, fill = *entry["offset"], "outpaint"
-        elif args.fill == "outpaint" and max(pads) > OUTPAINT_MIN * max(image.size) and entry.get("ok") \
-                and {k: entry.get(k) for k in ("file", "mtime")} == stamp(src) and cid not in forced:
+        elif args.fill == "outpaint" and max(pads) > OUTPAINT_MIN * max(image.size) and painted and cid not in forced:
             canvas, (ox, oy), fill = Image.open(route_dir / "outpaint" / f"{cid}.png"), entry["offset"], "outpaint"
         else:
             if max(pads) > OUTPAINT_MIN * max(image.size):  # stretching: keep off the sides the object touches

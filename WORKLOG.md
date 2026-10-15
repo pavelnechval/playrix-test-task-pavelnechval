@@ -1116,6 +1116,41 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
 
 ---
 
+## 2026-10-15 / W024 / The Lost Island's second shovel replaced; low objects re-centred
+
+### Pavel's prompt (verbatim)
+
+> Lost Island still repeats a shovel as the focal subject of two cards. This is worth changing. Is it done? Any other art task not finished yet?
+
+### Actions and results
+
+1. **LI-C01 Shovel → Explorer Hat** (D-030).
+   - **Why this object.** It must not overlap the reference collection: Seafaring has a spyglass and a treasure map, Boyscout has binoculars. It must not overlap our own sets either: a brass compass would echo Once Upon a Garden's pocket watch. It also keeps the set's gold-coin motif, with a coin tucked in the hat band. X Marks the Spot keeps its shovel, because that is its story.
+   - **Plan changes** (backup `plan.before_W024.json`):
+     - name, subject, colours, role carry (gear 2, carry 4: still 4 roles);
+     - the moment now reads "from putting on the explorer's hat to the jewel-filled goblet".
+   - **Background.** A blue background was tried first. The validator refused it as a third same-colour neighbour pair (the card sits above X Marks the Spot). So the card keeps the original yellow rays, with an olive hat for contrast.
+   - **Drawing.** ChatGPT drew it in `gpt_v7_w024/`.
+     - Attempt 1: the rays came out yellow-orange (52% orange) beside the orange Fruit Basket. Kept in `gpt_v7_w024/try1/`.
+     - Attempt 2, with the note "clear lemon-yellow, no orange": 100% yellow, category 1 as planned, extent 0.82, detail lost 7.5.
+   - **Set check:** roles 4, stars in order, blue lead 3/3, 5 families, 2 of 13 same-colour neighbours.
+2. **The open art item from W019, "breathing room":** three category-2 cards were drawn low under an empty wall. Room above: LC-B05 Matching Mugs 0.31, LC-B09 Heart Glasses 0.32, PP-A09 TV Dinner 0.27; reference median about 0.14, upper quartile 0.21.
+   - **Cause:** framing could extend the background by only 12% below, so these three couldn't be centred.
+   - **Fix:** new `MAX_PAD_BELOW` in `reframe.py`. Below an object on a plain backdrop or tabletop (categories 1–3), the image model may now extend up to 25%; scenes stay at 12%.
+     - Canvases are outpainted with the margin they need, and a cached canvas is used only if it is wide enough.
+     - A dry run over all 40 final cards changed exactly these three.
+   - **Results:** room above 0.21 on all three. B05 and B09 have no flags left; A09 keeps only "fine detail lost".
+   - **A09:** the first deeper extension continued the wall-to-table line at a different height on both sides, which the seam check doesn't catch. Of three attempts, attempt 3 joins cleanly, so it is set as a review override with the reason. Cost about $0.18 for 5 calls.
+3. **Final sets re-assembled and re-measured;** combined sheet `sets/ratings/final_sets_W024.jpg`.
+   - Flags now: LC 3, PP 4, OG 2, LI 3.
+   - What remains:
+     - fine detail on scene cards (2 cleanup rounds done);
+     - full-width scenes;
+     - the hat at the room-above cap.
+   - **Other art tasks:** none open. The remaining flags are listed as accepted exceptions in the README.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.

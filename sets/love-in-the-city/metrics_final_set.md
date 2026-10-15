@@ -13,17 +13,17 @@ Our cards. A flag means the value is outside the reference middle half by more t
 
 | Card | Name | Planned C | Seen C | Extent | Margin | Room above | Detail lost | Highlight | Flags |
 |---|---|---|---|---|---|---|---|---|---|
-| B05 | Matching Mugs | C2 | C2 | 0.85 | 0.07 | 0.31 | 7.7 | 0.137 | much room above |
-| B09 | Heart Glasses | C2 | C2 | 0.85 | 0.07 | 0.32 | 10.1 | 0.004 | much room above |
+| B05 | Matching Mugs | C2 | C2 | 0.85 | 0.07 | 0.21 | 7.6 | 0.137 | - |
+| B09 | Heart Glasses | C2 | C2 | 0.85 | 0.07 | 0.21 | 10.1 | 0.004 | - |
 | B08 | Tulip Bucket | C3 | C3 | 0.89 | 0.05 | 0.14 | 13.4 | 0.021 | - |
-| B02 | Typewriter | C3 | C3 | 0.90 | 0.05 | 0.17 | 13.2 | 0.190 | - |
+| B02 | Typewriter | C3 | C3 | 0.89 | 0.05 | 0.17 | 13.2 | 0.190 | - |
 | B01 | Red Umbrella | C1 | C1 | 0.82 | 0.09 | 0.17 | 7.2 | 0.003 | - |
 | B04 | Heart Balloon | C1 | C1 | 0.81 | 0.05 | 0.14 | 7.2 | 0.020 | - |
 | B06 | Cafe Table | C4 | C4 | 0.85 | 0.00 | 0.00 | 12.3 | 0.114 | little room above |
-| B03 | Vintage Scooter | C4 | C4 | 0.84 | 0.08 | 0.14 | 14.6 | 0.040 | fine detail lost |
+| B03 | Vintage Scooter | C4 | C4 | 0.85 | 0.07 | 0.14 | 14.6 | 0.040 | fine detail lost |
 | B10 | Love Locks | C4 | C4 | 1.00 | 0.00 | 0.28 | 17.6 | 0.037 | too big, much room above, fine detail lost |
 | B07 | Engagement Ring | C1 | C1 | 0.81 | 0.05 | 0.14 | 9.0 | 0.078 | - |
 
 Extent across these cards: median 0.85, middle half 0.82-0.89 (a narrower spread = more even sizes).
 
-5 of 10 cards flagged.
+3 of 10 cards flagged.

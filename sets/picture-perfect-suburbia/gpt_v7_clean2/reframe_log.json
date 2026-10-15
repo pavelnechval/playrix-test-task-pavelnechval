@@ -26,14 +26,15 @@
  "A09": {
   "extent": 0.85,
   "fill": "outpaint",
+  "override": "W024 review: of three background attempts with the deeper 25% extension, attempt 3 continues the wall-to-table line at the same height on both sides; attempts 2 and 4 leave small steps at the edges, which the seam check does not catch.",
   "pad": [
    66,
-   132,
+   43,
    57,
-   150
+   239
   ],
-  "room_above": 0.268,
-  "seam": 0.95,
+  "room_above": 0.21,
+  "seam": 1.1,
   "zoom": 0.816
  },
  "A10": {

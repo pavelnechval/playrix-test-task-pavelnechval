@@ -1,0 +1,24 @@
+{
+ "C01": {
+  "_key": "224144:1792030489",
+  "box": [
+   210,
+   89,
+   749,
+   908
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 7.54,
+  "edge_full": 9.1,
+  "height": 0.539,
+  "highlight": 0.0001,
+  "margin": 0.089,
+  "margin_bottom": 0.251,
+  "margin_top": 0.21,
+  "saturation": 0.723,
+  "small_detail": "low",
+  "why": "The pith helmet floats against an abstract sunburst background with no supporting surface.",
+  "width": 0.819
+ }
+}

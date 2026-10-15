@@ -15,6 +15,6 @@ Plan check: 0 error(s), 6 warning(s).
 |---|---|---|---|---|---|---|---|---|---|
 | A | (not all cards finished) | | | | | | | | |
 | B | (not all cards finished) | | | | | | | | |
-| C | Digging up the island's treasure, from the first shovel to the jewel-filled goblet. / thrill of discovery | 4: carry 3, food 1, gear 3, place 3 | ok | blue: 3 / 3 | R Y P P B / B B G R G | 5 | 2/13 | 0 | C09 (orange -> red) |
+| C | Digging up the island's treasure, from putting on the explorer's hat to the jewel-filled goblet. / thrill of discovery | 4: carry 4, food 1, gear 2, place 3 | ok | blue: 3 / 3 | R Y P P B / B B G R G | 5 | 2/13 | 0 | C09 (orange -> red) |
 
 The visual items (name test, one world, mood, motif, overlap with other sets) are judged by the agent and the designer on the variant sheets; see SKILL.md.

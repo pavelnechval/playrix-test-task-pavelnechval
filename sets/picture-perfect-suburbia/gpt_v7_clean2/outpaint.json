@@ -20,19 +20,72 @@
  "A09": {
   "colour_shift": [
    0,
-   2,
-   8
+   3,
+   11
   ],
   "cost": 0.0354,
   "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A09.png",
-  "model": "A09.try1.model.png",
+  "margin": 0.25,
+  "model": "A09.try4.model.png",
+  "models": [
+   "A09.try4.model.png"
+  ],
   "mtime": 1792021617,
   "offset": [
-   150,
-   150
+   313,
+   313
   ],
   "ok": true,
-  "seam": 0.95,
+  "seam": 1.12,
+  "spent": 0.0354,
   "tries": 1
- }
+ },
+ "A09_history": [
+  {
+   "colour_shift": [
+    0,
+    2,
+    8
+   ],
+   "cost": 0.0354,
+   "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A09.png",
+   "margin": 0.25,
+   "model": "A09.try2.model.png",
+   "models": [
+    "A09.try2.model.png"
+   ],
+   "mtime": 1792021617,
+   "offset": [
+    313,
+    313
+   ],
+   "ok": true,
+   "seam": 1.07,
+   "spent": 0.0708,
+   "tries": 1
+  },
+  {
+   "colour_shift": [
+    -1,
+    2,
+    11
+   ],
+   "cost": 0.0354,
+   "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A09.png",
+   "margin": 0.25,
+   "model": "A09.try3.model.png",
+   "models": [
+    "A09.try3.model.png"
+   ],
+   "mtime": 1792021617,
+   "offset": [
+    313,
+    313
+   ],
+   "ok": true,
+   "seam": 1.1,
+   "spent": 0.0354,
+   "tries": 1
+  }
+ ]
 }

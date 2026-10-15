@@ -1,7 +1,7 @@
 {
  "set": "The Lost Island",
  "variant": "C",
- "note": "W022: ChatGPT (gpt_v7, reframed), Pavel's blind pick; simplified redraws from cleanup rounds 1-2 where detail lost fell by 2+ points with the same category and no size drift",
+ "note": "W024: ChatGPT (gpt_v7, reframed), Pavel's blind pick; simplified redraws from cleanup rounds 1-2; C01 Explorer Hat replaces the Shovel, which repeated the focal object of X Marks the Spot",
  "cards": {
   "C09": {
    "name": "Fruit Basket",
@@ -9,9 +9,9 @@
    "from": "gpt_v7/final"
   },
   "C01": {
-   "name": "Shovel",
+   "name": "Explorer Hat",
    "stars": 1,
-   "from": "gpt_v7/final"
+   "from": "gpt_v7_w024/final"
   },
   "C02": {
    "name": "Storm Lantern",

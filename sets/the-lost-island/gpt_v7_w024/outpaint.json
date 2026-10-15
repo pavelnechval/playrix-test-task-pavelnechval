@@ -1,0 +1,24 @@
+{
+ "C01": {
+  "colour_shift": [
+   0,
+   1,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\the-lost-island\\gpt_v7_w024\\raw\\C01.png",
+  "model": "C01.try2.model.png",
+  "models": [
+   "C01.try2.model.png"
+  ],
+  "mtime": 1792030442,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.08,
+  "spent": 0.0708,
+  "tries": 1
+ }
+}
