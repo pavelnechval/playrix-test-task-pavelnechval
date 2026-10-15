@@ -219,7 +219,9 @@ def validate(plan: dict, plan_path: Path | None = None) -> tuple[list[str], list
             for field in ("id", "name", "category", "subject", "unique_detail", "main_colors", "background", "bg_color"):
                 if card.get(field) in (None, ""):
                     errors.append(f"{cid}: missing {field}")
-            if card.get("category") not in (1, 2, 3, 4):  # no gold character cards (category 5), and no typos (W023)
+            # no gold character cards (category 5), and no typos (W023); W036: 2.0 or true passed as 2 and 1 here,
+            # then generation_parts looked up CATEGORY_2.0 and crashed, so the value must be a whole number
+            if type(card.get("category")) is not int or card["category"] not in (1, 2, 3, 4):
                 errors.append(f"{cid}: category {card.get('category')!r} is not 1-4")
             text = " ".join(str(card.get(f, "")) for f in ("name", "subject", "unique_detail", "background", "context_cue")).lower()
             errors += [f"{cid}: banned term '{term}'" for term in BANNED if re.search(rf"\b{re.escape(term)}\b", text)]
