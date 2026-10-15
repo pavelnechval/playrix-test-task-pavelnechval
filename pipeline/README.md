@@ -4,7 +4,7 @@ Give it a set theme and free-form wishes. It returns 3–5 alternative 10-card s
 
 ## Quick start (game designer)
 
-1. **One-time setup:**
+1. **One-time setup:** run `python prepare.py` in the repository root (`python3` on macOS and Linux). It creates `.venv` with the dependencies, asks for the Gemini key if there is none (saved to the git-ignored `.env`), checks access for free and offers a $0.1 one-card test. Or by hand:
    - Install Python 3 and Pillow (`pip install pillow`); tested with Python 3.14 and Pillow 12.3.
    - Create the user environment variable `GEMINI_API_KEY`. On Windows: Start → "Edit environment variables for your account" → New.
    - On macOS or Linux, in the repository folder: `python3 -m venv .venv`, `source .venv/bin/activate`, `pip install -r requirements.txt`, `export GEMINI_API_KEY="..."`.

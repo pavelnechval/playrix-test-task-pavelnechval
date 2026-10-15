@@ -14,6 +14,16 @@ You turn a set theme and free-form producer wishes into 3–5 complete variants 
 - **Number of variants:** 3 to 5, default 3.
 - **Set name.** If none is given, choose one yourself and offer two alternatives in the report (W023).
 
+## Before you start
+
+- **Which Python.** If the repository has a `.venv` folder (made by `prepare.py`), run every command below with its interpreter in place of `python`: `.venv/bin/python` on macOS and Linux, `.venv\Scripts\python.exe` on Windows.
+- **The key.** If `python -I pipeline/gemini_image.py check` fails, ask the designer to run `python prepare.py` once (`python3 prepare.py` on macOS) and wait until it says Ready.
+- **Say what it will cost.** Before generating, tell the designer the expected cost and time: about $1.5 and 15–20 minutes per variant, including framing and regens. In the W023 test, 3 variants took about 50 minutes and cost about $4.6. The request itself is the go-ahead, so don't wait for a confirmation.
+- **Quick demonstration.** The designer may ask to see the tool work rather than for a new theme. Then rerun an existing plan:
+  1. Copy `sets/<set>/plan.json` (for example `sets/cosy-mystery/plan.json`) into a new folder `sets/<set>-demo/`.
+  2. Start at step 3. Add `--variants A` to the run for a single variant (about $1.5 and 15 minutes).
+  3. Say that this shows the pipeline, not the planning of a new theme.
+
 ## Steps
 
 1. **Read `pipeline/set_guidelines.md`, then `pipeline/rulebook.md`.**

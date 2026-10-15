@@ -18,3 +18,7 @@ sets/**/cards/*/try*.jpg
 
 # Office lock files
 ~$*
+
+# Local environment and test output made by prepare.py
+.venv/
+sets/smoke-test/

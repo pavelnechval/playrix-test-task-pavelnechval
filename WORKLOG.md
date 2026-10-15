@@ -1249,6 +1249,56 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
    - what was not done, and why: the three-plus-one set split, the OpenAI API route, a rating table without Excel, a macOS run, the archive of intermediates, Miro.
 3. **Pointers updated:** WORKLOG W023 and W025, the README structure and HISTORY.
 
+---
+
+## 2026-10-15 / W028 / Three reviewer steps: one-command setup, quick demonstration
+
+### Pavel's prompt (verbatim)
+
+> Pavel: Is there a way to shorten amount of steps needed for reviewer to generate?
+>
+> Other model:
+> "Yes. The reviewer should see three steps: setup → describe the set → choose a result. Most of the previous list describes work the agent performs internally.
+> The biggest improvement would be one setup command that:
+> - Checks Python and creates the local environment.
+> - Installs dependencies.
+> - Checks whether the Gemini key is configured; prompts privately if missing.
+> - Tests access and offers the small paid image test.
+> - Clearly reports "Ready" or explains what needs fixing.
+> Installing Claude Code, signing in and enabling Gemini billing remain external prerequisites for someone starting from scratch.
+> Then the reviewer's experience becomes:
+> Step	Reviewer action	Time
+> 1. Prepare once	Download the repository, run setup and open the agent in that folder.	Target 5–10 minutes with prerequisites ready
+> 2. Describe the set	"Make three cosy space-adventure variants."	1 minute of input; approximately 50–70 minutes processing
+> 3. Choose	Review the previews and say "Use B."	3–5 minutes; agent exports everything
+>
+> For this submission, I'd add the setup helper and simplify the README around those three steps. Keep individual commands in an advanced section. The agent should automatically handle the smoke test, planning, validation, generation, framing, review and assembly—with the paid test clearly disclosed.
+> This reduces reviewer effort, rather than generation time. To shorten the wait as well, offer an optional "preview only" mode using an existing plan: it skips the planning stage, which took about 17 minutes in the recorded test. Clearly distinguish that demonstration from testing a completely new theme.
+> A hosted interface could remove local setup almost entirely, but it would introduce deployment, authentication and billing work. I wouldn't expand into that before submission."
+>
+> Yeah, we do not need hosted interface but other suggestion is good right?
+
+### Actions and results
+
+1. **New `prepare.py`** (standard library only, so it runs before anything is installed). Each step reports OK or what to fix, and it ends with "Ready":
+   1. Python 3.9+.
+   2. `.venv` with `requirements.txt`.
+   3. The Gemini key: from the environment (or the Windows registry), or from `.env`. If there is none, it asks with hidden input and saves to `.env`, which git ignores; mode 600 on macOS and Linux.
+   4. A free check of the key and of the two models the tool uses.
+   5. An optional paid one-card test (about $0.10) in `sets/smoke-test/`.
+   6. Whether the Codex CLI is installed.
+   - `keys.py` now also reads `.env`.
+   - `.gitignore` ignores `.venv/` and `sets/smoke-test/`.
+   - **Tested** end to end in a scratch copy: all six steps; the one-card test passed QA and was framed, $0.10. Also tested: the `.env` parser, the cost parser, and a run skipping the paid test.
+   - **Not tested:** installing Pillow into an empty `.venv`. The test venv saw the system Pillow, to avoid a download; that step is pip's standard install.
+2. **README:** it now opens with "Быстрый старт: три шага" (prepare → describe → choose), with typical time and cost and the quick demonstration. The details (requirements, compatibility, manual setup, manual test, what the agent does) moved to "Подробнее о запуске".
+3. **Skill: new "Before you start":**
+   - use `.venv`'s Python when it exists;
+   - point to `prepare.py` when the key check fails;
+   - tell the designer the cost and time before generating (about $1.5 and 15–20 minutes per variant), without waiting for a confirmation;
+   - the quick demonstration: copy an existing plan, start at validation, `--variants A`, and say it shows the pipeline, not planning.
+4. **Not done:** a hosted interface, as agreed.
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
