@@ -30,3 +30,18 @@ For subtle framing differences, enlarge two representative pairs and mark the ch
 Some complete reference rows include gold character scenes. They are useful for discussing the overall set’s palette and rhythm. For art-style matching, add a few larger pairs using only comparable category 1–4 cards. That gives reviewers a fairer, easier comparison.
 6. Improve the export and entry point.
 This PDF starts with seven pages of the original assignment and references; your work begins on page 8, and “Анализ” follows it. The “Начните здесь” panel is absent from the export. For a reviewer-facing PDF, put your overview and finals first, export smaller frames at higher quality, and provide the repository link separately. This file contains no embedded clickable link annotations.
+
+---
+
+## Second pass (pasted by Pavel, W033)
+
+I would fix three small things before sending:
+
+1. Make the workflow overview accurate for both routes. Step 3 currently says “12 references, checking every card, up to two retries,” while the introduction presents the diagram as shared by Gemini and ChatGPT. Later, you correctly explain that ChatGPT has no model judge. Label that step explicitly:
+   * Gemini: generation with 12 references → model judge → up to two retries.
+   * ChatGPT: generation from references → colour/framing checks → visual review.
+2. Soften the duplicate-checking claim. “Предметы не повторяются; это проверяет валидатор плана” suggests a stronger guarantee than the name-based overlap check provides. More precise: “Валидатор предупреждает о возможных повторах; агент проверяет смысловые пересечения.”
+3. Label the ChatGPT image limit as an observation. Replace “около 50 изображений за окно лимита” with “В наших тестах — около 50 изображений за окно лимита; доступный объём может меняться.” This keeps an experimental observation from reading like a fixed product allowance.
+
+For optional polish, give the major process sections their own named frames and make the initial shared view land on “Начните здесь” or the final sets. This would improve presentation and future PDF exports without rewriting the content.
+I would keep the final artwork and overall structure at this stage. The remaining work is a short accuracy and navigation pass. The board already supports a strong assessment of your ability to turn visual experimentation into a documented, repeatable production process.

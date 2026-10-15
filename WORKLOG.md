@@ -1501,6 +1501,55 @@ Asked whether, to split the process area into frames, the old copies may be dele
 
 ---
 
+## 2026-10-15 / W032 / Reviewer test 3: a pirate set on the last of the Gemini balance
+
+### Pavel's prompt (verbatim)
+
+> I have €4.89 balance left, shall we run small test on remaining ones? Does not have to be logged on Miro but we can add to repo if there are any findings or results.
+> This is input prompt as reviewer:
+> Theme: Pirate Adventure (with One Piece elements where copyright is ok)
+
+### Setup
+
+- A clean clone of GitHub commit ef95070 in `D:\JOB2026HUNT\PLAYRIX_TEST3`, with no `.env`; the key comes from the user environment, as it would for a reviewer.
+- A fresh agent with no conversation context works only in that folder and may not edit the tool or docs.
+- It follows the README's three steps: `prepare.py` (the paid one-card test skipped), then the skill. It gets Pavel's request verbatim and keeps within about $4 by the tool's own estimate, because the balance is €4.89.
+- It writes `sets/<set>/review_notes.md`:
+  - the designer report;
+  - how it handled the request for One Piece elements;
+  - every problem met, by severity;
+  - what would block a reviewer;
+  - time and cost.
+- This is the first reviewer test that includes `prepare.py`: test 2's clone (19f0c4c) predates it.
+
+### Results
+
+(pending)
+
+---
+
+## 2026-10-15 / W033 / Last accuracy pass on the board before submission
+
+### Pavel's prompt (verbatim; the pasted list is stored in `docs/reviews/2026-10-15_board_review.md`, "Second pass")
+
+> Last tweaks to Miro from other model before we submit task, I checked and I like it already enough to send.
+
+### Actions and results
+
+1. **Step 3 of the workflow diagram is labelled per route.**
+   - Gemini: generation with 12 references → model judge → up to 2 retries.
+   - ChatGPT: generation from references → background colour and framing checks → visual review.
+
+   The section subtitle says step 3 depends on the route and the other steps are shared. All six boxes are now 520 px tall so the longer text fits.
+2. **The repeat claim is softer.** Old: "предметы не повторяются; это проверяет валидатор плана". New: the validator warns about possible repeats by name, and the agent checks repeats in meaning. Two finals do share an object word (Storm Lantern, Fairy Lantern), so the old claim was too strong.
+3. **The ChatGPT limit is an observation:** "в наших тестах — около 50 изображений за окно лимита; доступный объём может меняться". Changed on the board, in README and in HISTORY.
+4. **A layout fault found and fixed.** Miro draws the detailed Mermaid scheme at about 5,364 × 1,105 px, not the estimated 400 px tall. After W031 it ran about 300 px into section 2.
+   - Section 2 and everything below moved down 515 px; the frame is now 38,654 px.
+   - Miro didn't confirm the move for 4 items. A read-back showed 3 still in place; one retry timed out, but a second read-back showed it had applied.
+5. **The optional polish was not done.** Named frames per section were declined in W031. The board's start view is a Miro setting for Pavel.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
