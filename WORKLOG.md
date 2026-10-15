@@ -1734,6 +1734,60 @@ The pipeline now has a safety net that runs in half a minute without a key and w
 
 ---
 
+## 2026-10-15 / W037 / Board brought level with the repository: test 3 (Pirates Ahoy!), four agents everywhere, about $30
+
+### Prompt (verbatim: the brief from the main session, which carries Pavel's go-ahead; the independent re-review of W035 named the board/repo mismatch as the one remaining consistency gap)
+
+> Background (from the session that started this one):
+> Pavel Nechval's Playrix "AI-pilled producer" test task: a card-set generation skill and pipeline, four final Cinema sets, a private GitHub repo and a Miro board (private; additions only, one long results frame, Russian). After the board was finished, a third reviewer-style autonomy test (Pirates Ahoy!, W032) was run and written into README, HISTORY, DECISIONS (D-036) and the skill, but the board was deliberately left at three tests. An independent re-review on 2026-10-15 rated the submission about 9/10 and named the board/repo mismatch as the one remaining consistency gap. Board conventions and ids are in DECISIONS D-034/D-035, WORKLOG W029/W031/W033/W035 and the memory file "Miro board build notes" (frame grows downward only, image_create x/y are the image centre, textArea height in read-back reveals wrapping, moves must be verified by read-back). The autonomy table rows are rect shapes with 40–44 px fonts; section 3 starts at frame-relative y≈29162 and section 4 at y≈35418 (as of W035). Keys are never printed or committed; the references are Playrix property.
+>
+> Task:
+> Bring the Miro board https://miro.com/app/board/uXjVEdsb-i4=/ level with the repository after reviewer test 3 (Pirates Ahoy!). Additions and text edits only; never move or delete existing items; everything in Russian in the board's existing style. Read the frame areas with canvas_read_as_svg before editing and follow the Canvas Composer skill (call canvas_get_canvas_composer_skill first, then step "edit"). Edits inside the results frame (id 3458764679652659682, translate(8694,-10632), 7324 wide) need the <g data-miro-id=… transform=… data-frame="Фрейм для описания хода работы и результатов"> wrapper with the frame rect.
+>
+> Facts to put on the board (all from the repo D:\JOB2026HUNT\PLAYRIX_PRODUCER: WORKLOG.md entry W032, README.md tests list and time table, HISTORY.md §8–9, sets/pirates-ahoy/review_notes.md):
+> - Test 3 "Pirates Ahoy!" (W032): clean clone of GitHub commit ef95070, fresh agent, started with prepare.py (22 s, key found without showing it, paid test card skipped). Request verbatim: "Theme: Pirate Adventure (with One Piece elements where copyright is ok)". Plan validated first time (3 overlap warnings answered in the plan). 30 cards, 43 images: 28 passed, 2 accepted with issues; the agent redrew 2 cards after the sheet review (a cannon-like object on Deck Feast; the Straw Hat weave). About 57 minutes (planning 32.5 because of the franchise question), $3.65. No tool errors, balance never ran out. Recommendation: variant A. Franchise handling: generic genre tropes only (straw hat, meat on the bone, tangerines, a dolphin figurehead, a deck feast); no names, characters, logos or signature designs reached the image model. Findings: QA does not look for weapons or franchise designs; framing zoomed 1.87× into part of a scene without warning; metrics ignore a hand-set box; the overlap warning compares only the last word of a name; background extension was needed on 24 of 30 cards. Fixed before submission: skill and docs only (D-036); code changes listed under "Что дальше".
+>
+> Edits:
+> 1. Section "3. Проверка автономности": the sentence "Три агента без контекста разговора сделали по набору…" (textArea 3458764687288752421) and the takeaway band above it (shape 3458764687317253367, "…три агента…") → четыре агента. Add a fourth table row "Тест 3 | Pirates Ahoy! | W032" under the Test 2 row with the same seven columns and cell styles as the existing rows (Тест / Исходные условия / Запрос / Результат теста / Время и стоимость / Вмешательства / Что исправлено после). The table is built from rect shapes; read the Test 2 row's rects to copy x positions, widths and fonts. The row needs vertical room: everything below the table (the caveat line 3458764687288752453, the "Наборы, которые сделали агенты" block with the 5195×3620 image, section 4 and the frame bottom) must move down by the new row's height, and the frame must grow by the same amount. Move in one canvas_update_from_svg per group and verify by read-back (W033 saw moves silently not applied). Update the caveat line if it says three sets.
+> 2. Under "Наборы, которые сделали агенты", add a fourth labelled row for Test 3 with its three windows: upload sets/pirates-ahoy/sheets/window_A.png, window_B.png, window_C.png (image_get_upload_url with the frame target and centre x/y + width, curl PUT, image_create with the token) laid out like the existing rows, with the left label "Тест 3, W032" and "чистый клон с GitHub, с prepare.py" in the same fonts as the other row labels.
+> 3. Section "4. Как запустить": in "Затраты" (shape 3458764687288861240) change "три теста" → "четыре теста" and "около $26" → "около $30"; in the Gemini route box (shape 3458764687288861237) "Так работали все три теста" → "все четыре теста"; in step 2 "В двух тестах: 45–55 минут, $3.3–4.6" → "В трёх тестах: 45–57 минут, $3.3–4.6". Check the "Начните здесь" panel text "Три набора, сделанные агентами без автора" (rect 3458764687289062566, loose above the frames) → "Четыре набора".
+> 4. Log the work as a new W-entry in WORKLOG.md (Pavel's prompt verbatim, item ids created, what moved by how much) in both D:\JOB2026HUNT\PLAYRIX_PRODUCER and the delivered clone D:\test_task\playrix-test-task-pavelnechval; commit locally in the clone; do not push.
+>
+> Done looks like: the board says four agents everywhere, has the Test 3 row and windows, the costs read about $30, the read-back shows no overlaps, and the WORKLOG entry is committed locally.
+
+Pavel's own words for this task are in the main session's log; this entry quotes the brief it sent.
+
+### Actions and results (all coordinates frame-relative, in the results frame 3458764679652659682)
+
+The board was read with `canvas_search` (every "три/двух тестах", "три агента", "три набора", "$26" on the board) and `canvas_read_as_svg` before any edit; the Canvas Composer skill was loaded (step "edit"). Nothing was deleted; no pre-existing item changed anything but its text or its y position.
+
+1. **Text edits, seven items, no geometry change.**
+   - `3458764687288752421` (section 3 subtitle): «Четыре агента без контекста разговора…».
+   - `3458764687317253367` (takeaway band): «…четыре агента сделали по набору…».
+   - `3458764687288752453` (caveat under the table): «Все четыре набора нарисованы маршрутом Gemini…».
+   - `3458764687288861235` (step 2): «В трёх тестах: 45–57 минут, $3.3–4.6».
+   - `3458764687288861237` (Gemini route): «Так работали все четыре теста».
+   - `3458764687288861240` («Затраты»): «около $30», «четыре теста», «$3.3–4.6 в трёх тестах».
+   - `3458764687289062566` («Начните здесь», loose panel): «Четыре набора, сделанные агентами без автора…».
+   - Two other matches were left as they are on purpose: the «Итог» subtitle «В брифе три набора, четвёртый сделан дополнительно» (`3458764687287501548`) is about the finals, and «вестерн и оба теста» in the story-1 caption (`3458764687288195688`) describes the sets planned under the guidelines at the time of that experiment.
+2. **The frame grew** from 38 654 to 40 595 px (+1 941 = the new row 631 + a fourth windows row 1 182 + 128 for a longer «Что дальше»). Bottom margin stays 300 px.
+3. **Section 4 moved down 1 813 px** in one update (11 items, `3458764687288861232`–`242`): the title is now at y 37 231.5 (was 35 418.5). In the same call «Что дальше» (`3458764687288861242`) got README's test-3 bullet («По итогам теста 3: проверка карточек ищет оружие и элементы франшиз; кадрирование предупреждает о сильном приближении сцены; замеры учитывают рамку, заданную вручную; повторы ищутся по смыслу…; в плане есть рассвет. Сейчас эти места закрывает обзор листов агентом») and grew from 419 to 547 px, so the table cell that points to «Что дальше» points at something.
+4. **Everything between the table and section 4 moved down 631 px** in one update (12 items): the caveat `…752453` (30 981 → 31 612), the heading «Наборы, которые сделали агенты» `…752454`, the three «Вариант A/B/C» labels `…752455`–`457`, the 5 195×3 620 composite image `…752709` (31 537 → 32 168) and the six row labels `…752458/459/464/465/466/467`.
+5. **The Test 3 row** (7 rects, `3458764687398246642`–`648`) sits at y 30 931–31 562 under the Test 2 row, with the same x positions, widths (760/1080/1120/1420/700/900/1015), fonts (38 px, bold first cell) and colours. Height 631 = 10 estimated lines of the «Что исправлено после» cell (Arial×1.10 estimate, as in W029). Cells: Тест 3 / Pirates Ahoy! / W032; clean clone of ef95070, prepare.py in 22 s, key found without showing it, paid card skipped; the request verbatim; plan OK first time with 3 overlap warnings answered, 30 cards, 43 images, 28 passed, 2 with issues, 2 cards redrawn, franchise handled by genre tropes only, recommendation A; about 57 min (32.5 planning) and $3.65; no interventions; skill and docs only (D-036) and the five findings parked in «Что дальше».
+6. **A fourth windows row** under the composite: label «Тест 3, W032» (`3458764687398246649`, y 36 224.5) and «чистый клон с GitHub, с prepare.py» (`3458764687398246650`, y 36 323.5), same fonts as the other row labels. The three windows were uploaded from `sets/pirates-ahoy/sheets/window_A.png`, `window_B.png`, `window_C.png` (3 728×2 529, about 4 MB each; `image_get_upload_url` with the frame target → `curl -X PUT` → `image_create`): ids `3458764687398445322` (A), `3458764687398445353` (B), `3458764687398445383` (C), each 1 635×1 109 at y 35 788, left edges 2 039 / 3 746 / 5 454: the same columns and the same 73 px row gap as the windows inside the composite (its 900×611 cells at 1.816×), so the row reads as a continuation of the grid. `image_create` x/y are confirmed to be the image centre (2 856.1 → left edge 2 039).
+7. **Verification:** every update was followed by a read-back; the final read of the whole area (67 items, frame-relative y 29 000 to the bottom) shows all moved items exactly at the computed positions, the table rows and cells touching only at their edges, the new windows between the composite's bottom (35 788) and the section 4 title (37 231.5) with the old 334 px gap, and the frame 40 595 px tall. No item overlaps another. Text wrapping inside the new cells could not be seen (the board is private; W029's estimate is used, the same as for the existing rows).
+
+### Not done / notes
+
+- The board's «Ограничения» box does not carry README's two test-3 limitations (QA does not look for weapons or franchise elements; framing can zoom into part of a scene). They are on the board in the Test 3 row and in «Что дальше»; the box sits beside «Затраты» at the same height, so growing it is a separate layout change.
+- The «Ограничения» bullet «Проверено только в Windows» predates W036's macOS CI job; left for that work's own follow-up.
+
+### Explain it simply
+
+The board now tells the same story as the repository: four agents tested the tool, not three, and the fourth test (a pirate set from a reviewer-style request that named a franchise) has its own row in the autonomy table and its three set windows under the others. The project's Gemini spend on the board reads about $30, as in HISTORY. Everything below the table was shifted down to make room, and the frame grew by the same amount; nothing was deleted or moved sideways.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
