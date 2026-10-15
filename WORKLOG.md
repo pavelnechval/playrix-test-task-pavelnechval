@@ -1346,6 +1346,59 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
    - the four final windows.
 
    One slip: the first two items were made outside the frame, because the frame wrapper lacked its title attribute. Moving items into a frame is refused, so these two items, made by the assistant seconds earlier and holding nothing else, were deleted and created again inside the frame. `image_create` takes centre coordinates; the first window was moved after the read-back showed this.
+4. **"Описание хода работы"** (results frame), in the order the plan agreed:
+   - **"1. Как работает":** a Mermaid flow of the tool. Blue steps are the agent and scripts; yellow steps are the human's.
+   - **"2. Эксперименты":**
+     - Models and routes, with the BENCH-03 sheet and Pavel's blind pick. The caveats sit beside the numbers: "players won't notice" is the rater's judgement; 7 of 7 is Pavel's preference, and ChatGPT stood first in the four final-set comparisons.
+     - Three stories, each with before and after images and the same caption, «Что заметил → что изменил → почему принял»:
+       - backgrounds and palette: all-blue skies, then scenes in their own setting. It also says that the four finals still lead with blue;
+       - framing: crop damage, then measured framing; stretched edges rejected; outpainting;
+       - evaluation: the judge against Pavel's ratings, 73% vs 60%, with the 10-card caveat; scripts check what can be measured, and the human chooses.
+     - The final sets beside reference sets of the same kind, with a table measured by the same scripts as the references:
+       - category as planned on 40 of 40;
+       - extent medians 0.82–0.85;
+       - 5–7 backdrop colours;
+       - lead colour on 3–4 cards, blue in all four;
+       - 1–2 same-colour neighbours;
+       - 12 of 40 cards flagged.
+
+       A caveat says these are estimates, and that framing aims at the reference medians, so that match is expected.
+   - **"3. Проверка автономности":** one row per test (Western W018, test 1 W023, test 2 W030) with these columns:
+     - starting conditions;
+     - request;
+     - result;
+     - time and cost;
+     - interventions;
+     - fixes made afterwards.
+
+     Each test's original result is kept apart from the fixes. Below the table are the 9 windows the agents made.
+   - **"4. Как запустить":**
+     - the three reviewer steps;
+     - both routes, labelled;
+     - the repository and how access works;
+     - costs: about $26 of Gemini API over the project, an estimate from the logs;
+     - limitations;
+     - next steps.
+5. **"Анализ" frame:**
+   - a table of what the references show next to what the tool adopted, 11 topics. Estimates and interpretations are labelled;
+   - the 12 production references by category;
+   - the Beach and Road Trip windows, with captions.
+6. **"Начните здесь"** panel above the frames:
+   - the reading order (итог → анализ → как работает → эксперименты → проверка автономности → как запустить), each linked to its section;
+   - the repository link.
+7. **Frames grown downward only.** The areas below were checked empty first. The results frame is now 30,848 px tall, and "Анализ" went from 5,835 to 7,124. Nothing that was on the board before was moved or deleted. The tables are built from shapes, so their text matches the board's font sizes.
+8. **Layout check.** The board is private and the in-app browser isn't signed in to Miro, so the check used Miro's measured text bounds:
+   - three titles were wrapping into the line below and were widened;
+   - one caption box was shortened.
+
+   The flow diagram draws at its natural size, about 2,900 × 400 px. The API can't resize it, and it looks small next to the 48–56 px captions; scaling it up in Miro is left for Pavel.
+9. **Archive of intermediate images:**
+   - `D:\JOB2026HUNT\PLAYRIX_ARCHIVE\playrix-test-task-intermediates.zip`, 922 files, 678 MB;
+   - `INDEX.md` inside and beside it lists every set, route and kind, with WORKLOG step numbers;
+   - paths inside match the repository.
+
+   Where to host it is Pavel's choice. Its size corrects the README's "about 450 MB", which predates both tests and the last cleanup rounds.
+10. **Docs:** README (the intermediates' size and the archive), HISTORY (about $26 over the project, all three tests, the board).
 
 ---
 
