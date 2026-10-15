@@ -1586,7 +1586,7 @@ Asked whether, to split the process area into frames, the old copies may be dele
 
 ### Pavel's prompts (verbatim)
 
-> Check task: https://miro.com/app/board/uXjVEdsb-i4=/ and rate execution in Miro and Repo D:	est_task\playrix-test-task-pavelnechval as independent reviewer for Playrix. How would you rate it? Do not write anything, just suggest.
+> Check task: https://miro.com/app/board/uXjVEdsb-i4=/ and rate execution in Miro and Repo D:\test_task\playrix-test-task-pavelnechval as independent reviewer for Playrix. How would you rate it? Do not write anything, just suggest.
 >
 > Let's go
 
