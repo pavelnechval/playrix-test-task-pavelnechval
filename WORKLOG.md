@@ -1550,6 +1550,38 @@ Asked whether, to split the process area into frames, the old copies may be dele
 
 ---
 
+## 2026-10-15 / W034 / README: Claude Code or Codex
+
+### Pavel's prompt (verbatim)
+
+> Pavel: Can reviewer run it not in Claude Code but with codex for example?
+>
+> Other model: "Yes—the repository already supports Codex. Claude Code isn’t required.
+> Your [AGENTS.md (line 1)](D:/test_task/playrix-test-task-pavelnechval/AGENTS.md:1) explicitly directs Codex to the same card-set instructions. Codex automatically reads this file when working in the project, as confirmed by [OpenAI’s documentation](https://learn.chatgpt.com/docs/agent-configuration/agents-md).
+> The reviewer would:
+>
+> 1. Download or clone the repository.
+> 2. Run `python prepare.py` (`python3 prepare.py` on macOS), providing a funded Gemini API key.
+> 3. Open the repository folder in Codex and describe the desired set.
+> 4. Review the generated variants and choose one.
+>
+> Codex manages the work; Gemini still generates and checks the images. Using Codex as the agent does not automatically switch to the separate ChatGPT image-generation route.
+> One documentation inconsistency remains: the README prerequisites and setup script’s final message still say “Claude Code,” although the README later explains that Codex works. Change those to “Claude Code or Codex” to remove doubt.
+> This is supported by the current setup and instructions; I haven’t run a new complete Codex reviewer test in this check."
+>
+> Let's just tweak readme
+
+### Actions and results
+
+- README now says "Claude Code или Codex" in the tool line, the two prerequisite lists and the manual macOS/Linux setup (`claude    # или: codex`).
+- The quick start adds three points:
+  - Codex reaches the same skill through `AGENTS.md`; this was checked in W025;
+  - the full reviewer tests ran in Claude Code;
+  - with either agent Gemini draws and checks the images, and choosing Codex doesn't switch on the ChatGPT route.
+- `prepare.py` still ends with "Open Claude Code in this folder". Left as it is because Pavel asked for the README only.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
