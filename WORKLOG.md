@@ -1179,6 +1179,53 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
    - Cosy Mystery now reads $3.50 + $0.229 = $3.73. Its `after_test.md` gives the whole cost: about $4.6 for the agent's run plus $0.23 to finish it.
 4. **Codex entry point.** New `AGENTS.md` (read by Codex) points to the same skill. The README and `pipeline/README.md` name Claude Code as the entry point, with Codex through `AGENTS.md`.
 5. **Pavel's question, an OpenAI (ChatGPT) API route for reviewers:** answered with a recommendation, see the reply. Not built.
+6. **Reviewer test 2 started** from a fresh GitHub clone (`D:\test_task\reviewer_test2`, commit 19f0c4c), with the README's own example (space adventure, 3 variants).
+
+---
+
+## 2026-10-15 / W026 / The API route as a next step; macOS quick start; Excel optional
+
+### Pavel's prompt (verbatim)
+
+> Otherwise I'd list the API route as a next step in the README; the client code from our early tests is already in the repo.
+>
+> Ok, yeah let's just mention it as next step and not do it. Clearly Gemini and Codex route works.
+>
+> Another suggestion from model when I asked what would happen if reviewer would be on macos
+> "
+>
+> Before handing it over, I'd make three small improvements:
+>
+> 1. Add a macOS quick-start: Python environment setup, dependency installation, setting `GEMINI_API_KEY`, and launching Claude Code from that terminal so it inherits the key.
+> 2. Clearly mark the Excel workflow as optional and Windows-only, with a simple alternative: give ratings and corrections directly in the conversation.
+> 3. Use the second reviewer test on a Mac, if available. Generate one card, run QA and framing, and build a preview window before spending on a complete set.
+>
+> For now, the accurate compatibility statement is: "Tested on Windows; the core pipeline is designed to work on macOS. Excel rating automation requires Windows."
+> "
+>
+> Should Excel automation be built in a way that it would run on MacOS?
+
+### Actions and results
+
+1. **Windows-only code checked:**
+   - the two Excel PowerShell scripts;
+   - the key reader's registry lookup, which runs only on Windows;
+   - fonts, which already fall back on macOS and Linux (W023).
+
+   Everything else is Python and Pillow, and the ChatGPT route calls `codex`, which exists on macOS too.
+2. **README (Russian):**
+   - compatibility statement: tested on Windows; the core pipeline is meant to run on macOS and Linux but wasn't run there; the Excel workbook needs Windows;
+   - setup for Windows and for macOS/Linux: venv, `pip install -r requirements.txt`, `export GEMINI_API_KEY`, start `claude` from the same terminal;
+   - a $0.1 smoke test before a full run: one card generated, checked and framed. Verified once: $0.10, `final/A01.png`;
+   - the rating workbook marked optional and Windows-only, with ratings in the conversation as the alternative;
+   - new "Что дальше" (next steps) section:
+     - the OpenAI API route;
+     - the same QA judge for the ChatGPT route;
+     - a rating table without Excel;
+     - a run on macOS.
+3. **`pipeline/README.md` and the skill:** the same macOS lines, and the rating loop's Excel steps marked optional. Without them, the agent takes scores and comments in the conversation and writes the redo list directly.
+4. **Not done:** a run on a Mac (no Mac here).
+5. **Pavel's question, a cross-platform Excel workbook:** recommended not now, see the reply.
 
 ---
 

@@ -76,7 +76,7 @@ You turn a set theme and free-form producer wishes into 3–5 complete variants 
      - Then run `python -I pipeline/reframe.py sets/<slug>/plan.json --route gpt`, and `python -I pipeline/compare_routes.py sets/<slug>/plan.json` for a blind side-by-side.
      - The ChatGPT plan allows about 50 images per usage window (W019); Codex reports the reset time.
 7. **Rating loop,** when the designer wants to rate. The commands are in `pipeline/README.md`, step 6.
-   1. Build the rating workbook, plus an optional external-model pack.
+   1. Build the rating workbook, plus an optional external-model pack. The workbook needs Windows and Excel. Without them, for example on macOS, ask the designer for scores and comments in the conversation and go straight to step 3.
    2. After rating, export the ratings and run `rating_report.py`.
    3. Write `sets/ratings/redo_roundN.json` from the designer's own redo rule (for example "3 and below in the chosen variant"). Give each card one precise note.
       - Where the designer left no comment, say in `reason` that the note is your reading, not theirs.

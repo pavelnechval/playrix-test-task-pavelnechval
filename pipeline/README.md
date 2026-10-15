@@ -7,6 +7,9 @@ Give it a set theme and free-form wishes. It returns 3–5 alternative 10-card s
 1. **One-time setup:**
    - Install Python 3 and Pillow (`pip install pillow`); tested with Python 3.14 and Pillow 12.3.
    - Create the user environment variable `GEMINI_API_KEY`. On Windows: Start → "Edit environment variables for your account" → New.
+   - On macOS or Linux, in the repository folder: `python3 -m venv .venv`, `source .venv/bin/activate`, `pip install -r requirements.txt`, `export GEMINI_API_KEY="..."`.
+     - Start Claude Code (`claude`) from that same terminal, so it inherits the key.
+     - Tested on Windows only; the core pipeline uses only Python and Pillow and is meant to run on macOS and Linux too.
 2. **The easy way:** open this folder in Claude Code and say, for example (Codex works too: `AGENTS.md` points it to the same skill):
    > Make a card set for the Cinema collection: "Love in the City", romantic comedy. Wishes: cosy, lots of hearts, no food. 3 variants.
 
@@ -32,7 +35,7 @@ Give it a set theme and free-form wishes. It returns 3–5 alternative 10-card s
      python -I pipeline/cardgen.py choose sets/<slug>/plan.json B04 try2
      ```
    - **Empty balance:** if the Gemini balance runs out (HTTP 402), every script stops with a message saying so and leaves finished cards as they are. Top it up in AI Studio and run the same command again.
-6. **Rate and redo** (the human taste loop). Steps 2 and 3 need Excel on Windows.
+6. **Rate and redo** (the human taste loop). Steps 2 and 3, the Excel workbook, are optional and need Excel on Windows. Without them, for example on macOS, the designer gives scores and comments in the conversation, and the agent writes the redo list (`sets/ratings/redo_roundN.json`) for step 5 directly.
    1. Make the rating pack: thumbnails, plus sheets and a request for an optional external model.
       ```
       python -I pipeline/review_pack.py sets/ratings sets/<slug>/plan.json [more plans]
