@@ -1,0 +1,30 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  offline:
+    # The suite is offline: urllib is blocked in tests/conftest.py, so no job can spend Gemini credits.
+    # macOS is the run the README lists as missing; the last step shows which fonts it fell back to.
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: python -m pip install -r requirements-dev.txt
+      - name: Offline tests
+        run: python -m pytest -q
+      - name: Fonts in use
+        run: >-
+          python -c "import sys; sys.path.insert(0, 'pipeline'); import set_window, sheets;
+          print('window title:', getattr(set_window.font(40), 'path', 'Pillow built-in'));
+          print('captions:', getattr(sheets.caption_font(14), 'path', 'Pillow built-in'))"
