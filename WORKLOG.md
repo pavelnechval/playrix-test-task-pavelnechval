@@ -1097,7 +1097,7 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
      - rebuilt the windows: `sets/cosy-mystery/sheets/all_windows.jpg`.
      - A09 Townhouse failed the seam check twice (14.8 and 13.4: fine window frames make a small shift score high). Attempt 4 shows no visible seam, while stretching smears the clouds, so it is set as a review override with the reason. About $0.23, logged in its `costs.jsonl`.
    - The set and a note about what was done after the test (`after_test.md`) are now in `sets/cosy-mystery/`.
-6. **Readiness review from another session** (`docs/submission-review-2026-10-15.md`, written at 03:22 by a session Pavel started; kept out of the repository until Pavel decides).
+6. **Readiness review from another session** (written at 03:22 by a session Pavel started; now `docs/reviews/2026-10-15_readiness_review.md`, added in W027).
    - It confirmed the QA-failure-as-pass bug, already fixed in item 5.
    - It found that plan validation didn't reject category 5. **Fix:** every card's category must be 1–4, tested on the Western plan (a C1 card set to 5 is now an error) and on all 5 real plans (0 errors).
    - Other suggestions taken:
@@ -1153,7 +1153,7 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
 
 ## 2026-10-15 / W025 / A second outside review: two failure paths, the cost line, the Codex entry point
 
-### Pavel's prompt (verbatim; the pasted review is stored in full in `docs/review_other_model_W025.md`, which is kept out of the repository with the earlier readiness review)
+### Pavel's prompt (verbatim; the pasted review is stored in full in `docs/reviews/2026-10-15_second_review.md`, added to the repository in W027)
 
 > Review from other model:
 >
@@ -1228,6 +1228,26 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
 5. **Pavel's question, a cross-platform Excel workbook:** recommended not now, see the reply.
 
 ---
+
+## 2026-10-15 / W027 / The outside reviews go into the repository
+
+### Pavel's prompt (verbatim)
+
+> One question is still open from before: should the two outside reviews go into the repo under docs/reviews/, with a short note on what we fixed?
+>
+> Yes, let's add them
+
+### Actions and results
+
+1. **Both reviews moved into `docs/reviews/`, unchanged:**
+   - `2026-10-15_readiness_review.md` (from another session, W023);
+   - `2026-10-15_second_review.md` (pasted by Pavel, W025).
+
+   They are no longer excluded from the repository.
+2. **New `docs/reviews/README.md` (Russian):**
+   - a table of every finding, with what was done and where (W/D);
+   - what was not done, and why: the three-plus-one set split, the OpenAI API route, a rating table without Excel, a macOS run, the archive of intermediates, Miro.
+3. **Pointers updated:** WORKLOG W023 and W025, the README structure and HISTORY.
 
 ## Entry template
 
