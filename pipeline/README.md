@@ -97,6 +97,21 @@ Give it a set theme and free-form wishes. It returns 3–5 alternative 10-card s
      python -I pipeline/card_metrics.py fixes sets/<slug>/plan.json
      ```
 
+## Tests
+
+Offline, in under a minute, with no API key:
+
+```
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+- `tests/conftest.py` blocks `urllib.request.urlopen` for every test, so no test can reach Gemini or spend money by accident. The API client is replaced by a scripted fake (`tests/support.py`), cards are synthetic Pillow images with a known backdrop colour and object box, and plans come from a factory that `validate` accepts clean.
+- Covered: the judge's answer parsing (no verdict is never a pass, W025); `produce_card` end to end in a temporary folder (retries with the producer's note, the pixel colour check, both empty-balance paths, `regen` with framing, `choose`, the single cost line); every validator rule; the framing geometry and `reframe.py` run offline; colour families, costs, sheets; `card_metrics` flags and notes; `rating_report`; the API client's error mapping and retries; key lookup; the set templates and `assemble_final.py`; `prepare.py` with its outside steps faked; and guards on the shipped data (every `sets/*/plan.json` validates, every `final_set/` has 10 cards in star order, the 12 references exist, every prompt placeholder is filled for every shipped card, the ChatGPT route uses the same card text, the docs name the cost line the code writes).
+- One test is marked `paid`: one real card generated, checked and framed, about $0.10. It is skipped unless a key and `RUN_PAID_TESTS=1` are set: `RUN_PAID_TESTS=1 python -m pytest -q tests/test_paid_smoke.py`.
+- One expected failure (`xfail`) is a question, not a defect: a copy of a card shifted by 4 px scores about 2 on the seam check, under `SEAM_MAX` 5.0, so such a misalignment passes today (W036).
+- `.github/workflows/tests.yml` runs the suite on Windows and macOS with Python 3.12 on every push, and prints which fonts each system used for the set window and the sheet captions.
+
 ## What happens inside
 
 ```
@@ -145,5 +160,6 @@ The QA judge enforces the brief and catches visible defects. Taste is settled by
 | `export_ratings.ps1`, `rating_report.py` | Read the filled workbook; merge with external ratings and QA |
 | `redo.py` | Regenerate a redo list with producer notes; before/after sheet |
 | `gemini_image.py`, `openai_image.py`, `keys.py`, `sheets.py` | API clients (standard library only), key reader, sheet builder |
+| `../tests/` | Offline pytest suite (see Tests above); `../pytest.ini`, `../requirements-dev.txt` |
 
 The reference images (`references/`) belong to the hiring company and are not part of a public repository.

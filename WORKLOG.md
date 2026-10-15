@@ -1670,6 +1670,70 @@ A reviewer who looks at the top of the board now sees two things side by side: t
 
 ---
 
+## 2026-10-15 / W036 / Offline test suite: fakes, a network guard, one validator fix, CI on Windows and macOS
+
+### Prompt (verbatim: the brief from the main session, which carries Pavel's go-ahead for this post-submission work; W035 lists the tests among the review's "not done" items)
+
+> Add an offline pytest suite to the Playrix card-set pipeline in this repository (root: README.md, pipeline/, sets/, references/). Do not change pipeline behaviour except where a test proves a real bug; in that case fix it minimally, keep the test, and log the fix in WORKLOG.md as a new W-entry (Pavel's prompts verbatim, actions, results) and DECISIONS.md if it changes a rule.
+>
+> Layout: tests/conftest.py, tests/test_*.py, pytest.ini with markers `paid` (skipped unless RUN_PAID_TESTS=1 and a key are set). Add `pytest` to a new requirements-dev.txt; keep requirements.txt as it is (Pillow only). All tests run with `python -m pytest -q` from the repository root and must finish offline in under a minute. conftest must monkeypatch urllib.request.urlopen (used in pipeline/gemini_image.py `_call`) to raise on any unexpected network call, so no test can spend money by accident.
+>
+> Fakes: a FakeGemini object that replaces gemini_image.generate_image / generate_text / list_models with a scripted queue of responses (PNG bytes, QA JSON strings, GeminiError(503), BillingError). Synthetic cards made with Pillow: a solid backdrop of a known colour family and a centred rectangle "object" with a known box, and monkeypatched reframe.raw_box / card_metrics.measure returning that box. A plan factory producing a valid schema 2 plan (see pipeline/rulebook.md §6 and sets/cosy-mystery/plan.json as a real example).
+>
+> Coverage, in priority order:
+> 1. cardgen.review parsing: boolean pass honoured; garbage, a JSON array and a non-boolean pass give pass None with qa_error (regression for W025). judge re-asks once then leaves unchecked. attempt_status/qa_pass mapping.
+> 2. produce_card integration in tmp_path: happy path (final 430x480, chosen.json, request/response logs, generate+qa rows in costs.jsonl); retry keeps producer note and adds reviewer fix, at most retries+1 images; pixel colour check overrules the judge; BillingError during generation sets STOP, leaves an existing final untouched, status interrupted, and a re-run reviews the waiting attempt without generating; BillingError during QA keeps previous final and chosen.json; regen frames its card; choose try1 restores the earlier attempt byte for byte; write_summary/cost_line give one total with no double counting and count unchecked separately.
+> 3. cardgen.validate: valid fixture passes; errors for category 0/5/string, wrong star layout, order not by stars, <4 roles, >4 cards per role, bad bg/window colour, 3 same-colour neighbours (WINDOW_PAIRS), 3 non-day cards; warnings for lead colour outside 3–5, same family object/backdrop, name >16 chars, collection overlap (use a temp copy of another plan); banned/people words whole-word only; schema 1 warns but passes.
+> 4. reframe: window() output aspect 430:480, extent at TARGET per category, margins >=5%, room above 14–21%, MAX_PAD 12% for scenes and MAX_PAD_BELOW 25% for C1–C3; overrun non-negative; stretch_pad sizes; ring_diff(a,a)==0; a test that shifts a copy by 4 px and reports the score against SEAM_MAX (expected to pass today at ~4.0 < 5.0; mark xfail with a note and ask Pavel whether a 4 px shift should be rejected). main with --route gemini --fill stretch makes no API call; --override/--box needs no API call; a failed box call leaves the file hash unchanged; --clear-override works.
+> 5. colour_check families per synthetic backdrop, neighbour on wheel passes, teal fails, C4 returns None; costs.image_cost/text_cost/totals; sheets.to_card/extend_to_card aspect and cropping; card_metrics.norms/card_flags/make_fixes thresholds and framed-card exclusions; measure_all with a failing API reports 0 measured and keeps the cache; rating_report.kappa/ranks and regexes; gemini_image._call error mapping (402 -> BillingError, no retry; 429/5xx/network retry up to limit; 400 no retry) and redact; keys.read_key precedence and .env parsing.
+> 6. set_window.find_slots returns 10 slots on each of references/miro_v1/set_templates/*.png; build + assemble_final on a fixture produce 10 PNGs, sources.json and a window file; draw_fitted never exceeds max_width.
+> 7. prepare.py with fakes: missing model or empty key exits 1; the key string never appears in captured stdout.
+> 8. Data guards: every sets/*/plan.json validates with zero errors; each final_set has 10 PNGs at 430x480 with stars 1,1,2,2,3,3,4,4,5,5 in order and the declared categories; refs_production.json lists 12 refs, 3 per category, all files present; the cost-line wording in .claude/skills/card-set/SKILL.md and pipeline/README.md matches cardgen.cost_line's prefix; every prompt file named in the docs exists; every placeholder in prompts/card_v7.md and prompts/qa_v4.md is filled by generation_parts/review for every card of every shipped plan, and codex_images.prepare uses the same card text.
+> 9. One paid smoke test (marker paid): one card generate+QA+reframe, about $0.10, skipped by default.
+>
+> Also add .github/workflows/tests.yml running the offline suite on windows-latest and macos-latest with Python 3.12 (the macOS job is the README's missing "прогон в macOS"; note any font fallback it reveals). Update pipeline/README.md with a short "Tests" section and README.md "Что дальше" (remove the tests item if it is listed, add macOS result). Done looks like: `python -m pytest -q` green offline on Windows, the workflow file present, a WORKLOG entry, one commit per logical step on this branch, no push.
+
+Pavel's own words for this task are in the main session's log; this entry quotes the brief it sent.
+
+### What was built
+
+- `tests/conftest.py`: every test runs offline. `urllib.request.urlopen` is replaced by a function that raises, so a test that reaches the network fails instead of spending money; retry back-off sleeps are skipped; `cardgen.STOP` is cleared around every test. Tests marked `paid` are skipped unless `RUN_PAID_TESTS=1` and a Gemini key are set.
+- `tests/support.py`: `FakeGemini` (scripted queues for `generate_image`, `generate_text`, `list_models`, with every call recorded; an empty queue raises, so "no API call" is simply "nothing queued"); synthetic cards (a solid backdrop of a known colour family with a rectangular object at a known box); a plan factory whose schema-2 plan passes `validate` with no errors and no warnings.
+- 13 test files, in the brief's priority order: `test_review_judge.py`, `test_produce_card.py`, `test_validate.py`, `test_reframe.py`, `test_colour_costs_sheets.py`, `test_card_metrics.py`, `test_rating_report.py`, `test_gemini_image.py`, `test_keys.py`, `test_set_window.py`, `test_prepare.py`, `test_data_guards.py`, `test_paid_smoke.py`, plus `test_smoke_fixtures.py` for the fixtures themselves.
+- `pytest.ini` (the `paid` marker), `requirements-dev.txt` (`-r requirements.txt` plus pytest), `.gitignore` ignores `.pytest_cache/`.
+- `.github/workflows/tests.yml`: the offline suite on windows-latest and macos-latest with Python 3.12, then a step that prints which font files `set_window.font` and `sheets.caption_font` resolved to, so the macOS log shows the fallback (Berlin Sans FB Demi exists only on Windows; macOS should land on Arial Black and Arial from `/System/Library/Fonts/Supplemental/`, and Pillow's built-in font is the last resort).
+- Docs: `pipeline/README.md` has a Tests section and lists `tests/` in its file table; `README.md` says the offline tests run in GitHub Actions on Windows and macOS (Совместимость, Что дальше, Структура репозитория).
+
+### What the tests found
+
+1. **Fixed, one real bug (`cardgen.validate`):** a card with `"category": 2.0` or `true` passed validation, because `2.0 == 2` and `true == 1` in Python, and the run then crashed in `generation_parts` on `CATEGORY_2.0` after the validator had printed `Plan OK`. The check now requires a whole number 1–4 (`type(...) is int`). The W023 rule itself (categories 1–4 only) is unchanged, so no DECISIONS row. The test keeps 0, 5, `"1"`, `null`, 2.0 and true as rejected values.
+2. **Seen and left as it is (recorded here, not changed):**
+   - `review()` replaces its own "unparseable QA answer" reason with the generic "QA answer has no true/false verdict" one step later; `pass` is None either way and the raw answer is kept, so the W025 guarantee holds. The test pins the behaviour as it is.
+   - The cost line adds the other kinds of spend after rounding each to a tenth of a cent, so $0.0354 + $0.0014 shows as "+ $0.036"; the printed total is right to the cent.
+   - A QA call that fails during a `regen` for any reason but billing leaves the new image as the final, marked `unchecked`; only the empty balance keeps the earlier final (W025). `choose try<n>` brings the earlier image back, so this stays as designed.
+   - The producer's note goes into the first request as well as every retry, as the rulebook says (section 7); the test asserts that.
+   - `codex_images.rel` expects the plan inside the repository; the test that compares the two routes' card text patches it to work from a temporary folder.
+   - The brief expected a 4 px shifted copy to score about 4.0 on the seam check; on a real finished card it scores about 1.8 (W022's 4.0 was measured before colour matching). The test is an `xfail` with the question in its reason.
+3. The slowest tests are the set templates: `find_slots` floods a quarter-scale alpha mask in pure Python, about 1 s per template, so the four-template check plus one assembled window take about 10 of the 28 seconds.
+
+### Results / evidence
+
+- `python -m pytest -q` on Windows 11, Python 3.14.7, Pillow 12.3.0, pytest 9.1.1: **330 passed, 1 skipped (the paid test), 1 xfailed, 28 s**, with no network access.
+- The macOS job has not run yet: the branch is local and not pushed, so the first Actions run happens after the push. The font step in the workflow is what will show the fallback.
+- The paid smoke test was not run (it needs `RUN_PAID_TESTS=1` and a key; about $0.10).
+- Git: the folder had no commits, so branch `tests` was built with a temporary index without touching HEAD or the working copy: a base commit of the folder as it was (3086 files, the folder's `.gitignore` applied), then one commit per step (the validator fix, the suite, the workflow, the docs). `main` is still unborn; `git log refs/heads/tests` lists the commits. Nothing was pushed.
+
+### Open questions
+
+- Should the seam check reject a 4 px shift? Today `SEAM_MAX` is 5.0 and a 4 px shifted copy of a finished card scores about 2 (`tests/test_reframe.py::test_seam_check_rejects_a_4px_shift`, xfail).
+- Whether the base commit of the working folder should become `main` (`git update-ref refs/heads/main <base>`, then `git reset` to sync the index), or the four step commits be rebased onto the submission repository's history instead.
+
+### Explain it simply
+
+The pipeline now has a safety net that runs in half a minute without a key and without spending anything: the Gemini calls are played by a stand-in with scripted answers, the cards are drawn by the tests themselves, and any attempt to reach the real network fails the test. The net already caught one hole: a mistyped category like 2.0 slipped past the plan check and would have crashed the run. A GitHub workflow runs the same tests on Windows and on a Mac.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
