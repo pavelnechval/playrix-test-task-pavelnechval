@@ -1,0 +1,146 @@
+{
+ "B01": {
+  "colour_shift": [
+   -3,
+   -1,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B01.png",
+  "model": "B01.try1.model.png",
+  "mtime": 1792015543,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.33,
+  "tries": 1
+ },
+ "B02": {
+  "colour_shift": [
+   2,
+   4,
+   4
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B02.png",
+  "model": "B02.try1.model.png",
+  "mtime": 1792015503,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.41,
+  "tries": 1
+ },
+ "B04": {
+  "colour_shift": [
+   0,
+   3,
+   6
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B04.png",
+  "model": "B04.try1.model.png",
+  "mtime": 1792015576,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.02,
+  "tries": 1
+ },
+ "B05": {
+  "colour_shift": [
+   1,
+   0,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B05.png",
+  "model": "B05.try1.model.png",
+  "mtime": 1792015378,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 0.95,
+  "tries": 1
+ },
+ "B06": {
+  "colour_shift": [
+   1,
+   3,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B06.png",
+  "model": "B06.try1.model.png",
+  "mtime": 1792015630,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.81,
+  "tries": 1
+ },
+ "B08": {
+  "colour_shift": [
+   1,
+   4,
+   6
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B08.png",
+  "model": "B08.try1.model.png",
+  "mtime": 1792015462,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.28,
+  "tries": 1
+ },
+ "B09": {
+  "colour_shift": [
+   0,
+   6,
+   6
+  ],
+  "cost": 0.0708,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B09.png",
+  "model": "B09.try2.model.png",
+  "mtime": 1792015423,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.02,
+  "tries": 2
+ },
+ "B10": {
+  "colour_shift": [
+   -1,
+   2,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B10.png",
+  "model": "B10.try1.model.png",
+  "mtime": 1792015713,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 2.48,
+  "tries": 1
+ }
+}

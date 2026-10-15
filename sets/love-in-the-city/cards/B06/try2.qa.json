@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The small round cafe table, two curly white chairs, striped awning, and vase with a red rose are all clearly identifiable."
+    },
+    "category": {
+      "pass": false,
+      "why": "The environment should only consist of a clear ground strip at the bottom with open sky behind the hero object, but there is a wall and window structure filling the background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with adequate margins around the top and sides, resting naturally on the ground strip."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright, warm, and juicy with clear separation between the foreground elements and the sky."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The building wall and window behind the table are extra scenery props not requested in the brief."
+    },
+    "style": {
+      "pass": true,
+      "why": "The chunky, smooth 3D forms and satin sheen match the reference cards well."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the wall and window column behind the table and support the awning on slender posts so the table and chairs silhouette cleanly against the open sky.",
+  "usage": {
+    "total_tokens": 7435,
+    "total_input_tokens": 3896,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 637
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 359,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 3180
+  },
+  "est_cost_usd": 0.012565,
+  "elapsed_s": 35.2
+}

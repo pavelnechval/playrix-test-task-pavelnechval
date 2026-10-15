@@ -1,0 +1,8 @@
+{
+ "gemini/A09": {
+  "mtime": 1792027306,
+  "image": "try4.jpg",
+  "why": "W023 review: both outpaint attempts failed the seam check (14.8, 13.4: fine window frames make a small misalignment score high), but attempt 4 shows no visible seam at full size, while stretching smears the clouds into streaks.",
+  "fill": "A09.try4.model.png"
+ }
+}

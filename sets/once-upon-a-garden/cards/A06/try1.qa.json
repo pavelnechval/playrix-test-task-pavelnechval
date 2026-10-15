@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "It is clearly a giant twisting beanstalk with large leaves and the requested golden beans hanging below them."
+    },
+    "category": {
+      "pass": false,
+      "why": "Category 4 requires visible sky above the object and a clear ground strip at the bottom, but the beanstalk pierces the top edge and rests on a floating dirt chunk rather than a continuous strip."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no characters, text, UI elements, or borders."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The top of the beanstalk is cut off by the upper edge of the frame instead of having a clear margin."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is saturated, warm, and bright, with strong contrast between the green stalk and the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and chunky with no noisy micro-textures or busy clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, semi-glossy chunky 3D volumes consistent with the reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the beanstalk so its top fits within the frame with sky above it, and extend the ground into a continuous strip spanning the entire bottom edge.",
+  "usage": {
+    "total_tokens": 5443,
+    "total_input_tokens": 3888,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 629
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 369,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1186
+  },
+  "est_cost_usd": 0.006609,
+  "elapsed_s": 14.6
+}

@@ -1,0 +1,29 @@
+{
+ "C02": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   150,
+   3,
+   0
+  ],
+  "room_above": 0.128,
+  "seam": 1.52,
+  "zoom": 0.894
+ },
+ "C10": {
+  "extent": 0.9,
+  "fill": "outpaint",
+  "override": "W022 review: the subject is the hammock together with the two palm trees that hold it; the vision box covered only the hammock, so the framing cut off the palm tops and added sand below.",
+  "pad": [
+   69,
+   150,
+   69,
+   150
+  ],
+  "room_above": 0.097,
+  "seam": 1.72,
+  "zoom": 0.806
+ }
+}

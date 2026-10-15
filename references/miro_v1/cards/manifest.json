@@ -1,0 +1,962 @@
+{
+  "r01c01": {
+    "bytes": 238709,
+    "file": "r01c01.png",
+    "miro_widget": "3458764679576006333",
+    "original_name": "CardC6_card_21.png"
+  },
+  "r01c02": {
+    "bytes": 290944,
+    "file": "r01c02.png",
+    "miro_widget": "3458764679576006335",
+    "original_name": "CardC6_card_22.png"
+  },
+  "r01c03": {
+    "bytes": 277721,
+    "file": "r01c03.png",
+    "miro_widget": "3458764679576006336",
+    "original_name": "CardC6_card_23.png"
+  },
+  "r01c04": {
+    "bytes": 276077,
+    "file": "r01c04.png",
+    "miro_widget": "3458764679576006337",
+    "original_name": "CardC6_card_24.png"
+  },
+  "r01c05": {
+    "bytes": 295649,
+    "file": "r01c05.png",
+    "miro_widget": "3458764679576006338",
+    "original_name": "CardC6_card_25.png"
+  },
+  "r01c06": {
+    "bytes": 278383,
+    "file": "r01c06.png",
+    "miro_widget": "3458764679576006339",
+    "original_name": "CardC6_card_26.png"
+  },
+  "r01c07": {
+    "bytes": 246888,
+    "file": "r01c07.png",
+    "miro_widget": "3458764679576006342",
+    "original_name": "CardC6_card_27.png"
+  },
+  "r01c08": {
+    "bytes": 323000,
+    "file": "r01c08.png",
+    "miro_widget": "3458764679576006345",
+    "original_name": "CardC6_card_28.png"
+  },
+  "r01c09": {
+    "bytes": 278892,
+    "file": "r01c09.png",
+    "miro_widget": "3458764679576006348",
+    "original_name": "CardC6_card_29.png"
+  },
+  "r01c10": {
+    "bytes": 216689,
+    "file": "r01c10.png",
+    "miro_widget": "3458764679576006351",
+    "original_name": "CardC6_card_30.png"
+  },
+  "r02c01": {
+    "bytes": 279865,
+    "file": "r02c01.png",
+    "miro_widget": "3458764679576006381",
+    "original_name": "CardC6_card_42.png"
+  },
+  "r02c02": {
+    "bytes": 297349,
+    "file": "r02c02.png",
+    "miro_widget": "3458764679576006382",
+    "original_name": "CardC6_card_43.png"
+  },
+  "r02c03": {
+    "bytes": 272702,
+    "file": "r02c03.png",
+    "miro_widget": "3458764679576006383",
+    "original_name": "CardC6_card_44.png"
+  },
+  "r02c04": {
+    "bytes": 302508,
+    "file": "r02c04.png",
+    "miro_widget": "3458764679576006385",
+    "original_name": "CardC6_card_45.png"
+  },
+  "r02c05": {
+    "bytes": 285061,
+    "file": "r02c05.png",
+    "miro_widget": "3458764679576006386",
+    "original_name": "CardC6_card_46.png"
+  },
+  "r02c06": {
+    "bytes": 341666,
+    "file": "r02c06.png",
+    "miro_widget": "3458764679576006387",
+    "original_name": "CardC6_card_48.png"
+  },
+  "r02c07": {
+    "bytes": 294721,
+    "file": "r02c07.png",
+    "miro_widget": "3458764679576006388",
+    "original_name": "CardC6_card_50.png"
+  },
+  "r02c08": {
+    "bytes": 336519,
+    "file": "r02c08.png",
+    "miro_widget": "3458764679576006389",
+    "original_name": "CardC6_card_41.png"
+  },
+  "r02c09": {
+    "bytes": 254030,
+    "file": "r02c09.png",
+    "miro_widget": "3458764679576006390",
+    "original_name": "CardC6_card_47.png"
+  },
+  "r02c10": {
+    "bytes": 297678,
+    "file": "r02c10.png",
+    "miro_widget": "3458764679576006391",
+    "original_name": "CardC6_card_49.png"
+  },
+  "r03c01": {
+    "bytes": 254687,
+    "file": "r03c01.png",
+    "miro_widget": "3458764679576006454",
+    "original_name": "CardC6_card_91.png"
+  },
+  "r03c02": {
+    "bytes": 200919,
+    "file": "r03c02.png",
+    "miro_widget": "3458764679576006455",
+    "original_name": "CardC6_card_92.png"
+  },
+  "r03c03": {
+    "bytes": 251047,
+    "file": "r03c03.png",
+    "miro_widget": "3458764679576006456",
+    "original_name": "CardC6_card_93.png"
+  },
+  "r03c04": {
+    "bytes": 217697,
+    "file": "r03c04.png",
+    "miro_widget": "3458764679576006457",
+    "original_name": "CardC6_card_94.png"
+  },
+  "r03c05": {
+    "bytes": 240779,
+    "file": "r03c05.png",
+    "miro_widget": "3458764679576006458",
+    "original_name": "CardC6_card_95.png"
+  },
+  "r03c06": {
+    "bytes": 216630,
+    "file": "r03c06.png",
+    "miro_widget": "3458764679576006459",
+    "original_name": "CardC6_card_96.png"
+  },
+  "r03c07": {
+    "bytes": 322806,
+    "file": "r03c07.png",
+    "miro_widget": "3458764679576006460",
+    "original_name": "CardC6_card_97.png"
+  },
+  "r03c08": {
+    "bytes": 257172,
+    "file": "r03c08.png",
+    "miro_widget": "3458764679576006461",
+    "original_name": "CardC6_card_98.png"
+  },
+  "r03c09": {
+    "bytes": 299369,
+    "file": "r03c09.png",
+    "miro_widget": "3458764679576006462",
+    "original_name": "CardC6_card_99.png"
+  },
+  "r03c10": {
+    "bytes": 343093,
+    "file": "r03c10.png",
+    "miro_widget": "3458764679576006463",
+    "original_name": "CardC6_card_100.png"
+  },
+  "r04c01": {
+    "bytes": 257107,
+    "file": "r04c01.png",
+    "miro_widget": "3458764679576006575",
+    "original_name": "CardC6_card_121.png"
+  },
+  "r04c02": {
+    "bytes": 270255,
+    "file": "r04c02.png",
+    "miro_widget": "3458764679576006576",
+    "original_name": "CardC6_card_122.png"
+  },
+  "r04c03": {
+    "bytes": 270030,
+    "file": "r04c03.png",
+    "miro_widget": "3458764679576006577",
+    "original_name": "CardC6_card_123.png"
+  },
+  "r04c04": {
+    "bytes": 244367,
+    "file": "r04c04.png",
+    "miro_widget": "3458764679576006580",
+    "original_name": "CardC6_card_124.png"
+  },
+  "r04c05": {
+    "bytes": 247933,
+    "file": "r04c05.png",
+    "miro_widget": "3458764679576006584",
+    "original_name": "CardC6_card_125.png"
+  },
+  "r04c06": {
+    "bytes": 254634,
+    "file": "r04c06.png",
+    "miro_widget": "3458764679576006587",
+    "original_name": "CardC6_card_126.png"
+  },
+  "r04c07": {
+    "bytes": 349659,
+    "file": "r04c07.png",
+    "miro_widget": "3458764679576006588",
+    "original_name": "CardC6_card_127.png"
+  },
+  "r04c08": {
+    "bytes": 347499,
+    "file": "r04c08.png",
+    "miro_widget": "3458764679576006590",
+    "original_name": "CardC6_card_128.png"
+  },
+  "r04c09": {
+    "bytes": 320579,
+    "file": "r04c09.png",
+    "miro_widget": "3458764679576006591",
+    "original_name": "CardC6_card_129.png"
+  },
+  "r04c10": {
+    "bytes": 318833,
+    "file": "r04c10.png",
+    "miro_widget": "3458764679576006593",
+    "original_name": "CardC6_card_130.png"
+  },
+  "r05c01": {
+    "bytes": 287012,
+    "file": "r05c01.png",
+    "miro_widget": "3458764679576006668",
+    "original_name": "CardC6_card_11.png"
+  },
+  "r05c02": {
+    "bytes": 259858,
+    "file": "r05c02.png",
+    "miro_widget": "3458764679576006669",
+    "original_name": "CardC6_card_12.png"
+  },
+  "r05c03": {
+    "bytes": 316744,
+    "file": "r05c03.png",
+    "miro_widget": "3458764679576006671",
+    "original_name": "CardC6_card_13.png"
+  },
+  "r05c04": {
+    "bytes": 297482,
+    "file": "r05c04.png",
+    "miro_widget": "3458764679576006672",
+    "original_name": "CardC6_card_14.png"
+  },
+  "r05c05": {
+    "bytes": 294297,
+    "file": "r05c05.png",
+    "miro_widget": "3458764679576006675",
+    "original_name": "CardC6_card_15.png"
+  },
+  "r05c06": {
+    "bytes": 290483,
+    "file": "r05c06.png",
+    "miro_widget": "3458764679576006676",
+    "original_name": "CardC6_card_16.png"
+  },
+  "r05c07": {
+    "bytes": 282248,
+    "file": "r05c07.png",
+    "miro_widget": "3458764679576006678",
+    "original_name": "CardC6_card_17.png"
+  },
+  "r05c08": {
+    "bytes": 298383,
+    "file": "r05c08.png",
+    "miro_widget": "3458764679576006680",
+    "original_name": "CardC6_card_18.png"
+  },
+  "r05c09": {
+    "bytes": 259007,
+    "file": "r05c09.png",
+    "miro_widget": "3458764679576006681",
+    "original_name": "CardC6_card_19.png"
+  },
+  "r05c10": {
+    "bytes": 259955,
+    "file": "r05c10.png",
+    "miro_widget": "3458764679576006682",
+    "original_name": "CardC6_card_20.png"
+  },
+  "r06c01": {
+    "bytes": 343581,
+    "file": "r06c01.png",
+    "miro_widget": "3458764679576006755",
+    "original_name": "CardC6_card_31.png"
+  },
+  "r06c02": {
+    "bytes": 280535,
+    "file": "r06c02.png",
+    "miro_widget": "3458764679576006756",
+    "original_name": "CardC6_card_32.png"
+  },
+  "r06c03": {
+    "bytes": 304283,
+    "file": "r06c03.png",
+    "miro_widget": "3458764679576006757",
+    "original_name": "CardC6_card_33.png"
+  },
+  "r06c04": {
+    "bytes": 292612,
+    "file": "r06c04.png",
+    "miro_widget": "3458764679576006759",
+    "original_name": "CardC6_card_34.png"
+  },
+  "r06c05": {
+    "bytes": 311834,
+    "file": "r06c05.png",
+    "miro_widget": "3458764679576006760",
+    "original_name": "CardC6_card_35.png"
+  },
+  "r06c06": {
+    "bytes": 308346,
+    "file": "r06c06.png",
+    "miro_widget": "3458764679576006761",
+    "original_name": "CardC6_card_36.png"
+  },
+  "r06c07": {
+    "bytes": 290670,
+    "file": "r06c07.png",
+    "miro_widget": "3458764679576006762",
+    "original_name": "CardC6_card_37.png"
+  },
+  "r06c08": {
+    "bytes": 282506,
+    "file": "r06c08.png",
+    "miro_widget": "3458764679576006764",
+    "original_name": "CardC6_card_38.png"
+  },
+  "r06c09": {
+    "bytes": 308662,
+    "file": "r06c09.png",
+    "miro_widget": "3458764679576006765",
+    "original_name": "CardC6_card_39.png"
+  },
+  "r06c10": {
+    "bytes": 274665,
+    "file": "r06c10.png",
+    "miro_widget": "3458764679576006766",
+    "original_name": "CardC6_card_40.png"
+  },
+  "r07c01": {
+    "bytes": 317558,
+    "file": "r07c01.png",
+    "miro_widget": "3458764679576006862",
+    "original_name": "CardC6_card_51.png"
+  },
+  "r07c02": {
+    "bytes": 335005,
+    "file": "r07c02.png",
+    "miro_widget": "3458764679576006863",
+    "original_name": "CardC6_card_52.png"
+  },
+  "r07c03": {
+    "bytes": 289901,
+    "file": "r07c03.png",
+    "miro_widget": "3458764679576006866",
+    "original_name": "CardC6_card_53.png"
+  },
+  "r07c04": {
+    "bytes": 281211,
+    "file": "r07c04.png",
+    "miro_widget": "3458764679576006868",
+    "original_name": "CardC6_card_54.png"
+  },
+  "r07c05": {
+    "bytes": 332884,
+    "file": "r07c05.png",
+    "miro_widget": "3458764679576006870",
+    "original_name": "CardC6_card_55.png"
+  },
+  "r07c06": {
+    "bytes": 259873,
+    "file": "r07c06.png",
+    "miro_widget": "3458764679576006871",
+    "original_name": "CardC6_card_56.png"
+  },
+  "r07c07": {
+    "bytes": 318172,
+    "file": "r07c07.png",
+    "miro_widget": "3458764679576006872",
+    "original_name": "CardC6_card_57.png"
+  },
+  "r07c08": {
+    "bytes": 293146,
+    "file": "r07c08.png",
+    "miro_widget": "3458764679576006874",
+    "original_name": "CardC6_card_58.png"
+  },
+  "r07c09": {
+    "bytes": 246716,
+    "file": "r07c09.png",
+    "miro_widget": "3458764679576006875",
+    "original_name": "CardC6_card_59.png"
+  },
+  "r07c10": {
+    "bytes": 316791,
+    "file": "r07c10.png",
+    "miro_widget": "3458764679576006878",
+    "original_name": "CardC6_card_60.png"
+  },
+  "r08c01": {
+    "bytes": 317402,
+    "file": "r08c01.png",
+    "miro_widget": "3458764679576193978",
+    "original_name": "CardC6_card_71.png"
+  },
+  "r08c02": {
+    "bytes": 256568,
+    "file": "r08c02.png",
+    "miro_widget": "3458764679576193979",
+    "original_name": "CardC6_card_72.png"
+  },
+  "r08c03": {
+    "bytes": 319947,
+    "file": "r08c03.png",
+    "miro_widget": "3458764679576193980",
+    "original_name": "CardC6_card_73.png"
+  },
+  "r08c04": {
+    "bytes": 272069,
+    "file": "r08c04.png",
+    "miro_widget": "3458764679576193981",
+    "original_name": "CardC6_card_74.png"
+  },
+  "r08c05": {
+    "bytes": 296950,
+    "file": "r08c05.png",
+    "miro_widget": "3458764679576193982",
+    "original_name": "CardC6_card_75.png"
+  },
+  "r08c06": {
+    "bytes": 325434,
+    "file": "r08c06.png",
+    "miro_widget": "3458764679576193983",
+    "original_name": "CardC6_card_76.png"
+  },
+  "r08c07": {
+    "bytes": 273515,
+    "file": "r08c07.png",
+    "miro_widget": "3458764679576193984",
+    "original_name": "CardC6_card_77.png"
+  },
+  "r08c08": {
+    "bytes": 246199,
+    "file": "r08c08.png",
+    "miro_widget": "3458764679576193985",
+    "original_name": "CardC6_card_78.png"
+  },
+  "r08c09": {
+    "bytes": 306630,
+    "file": "r08c09.png",
+    "miro_widget": "3458764679576193987",
+    "original_name": "CardC6_card_79.png"
+  },
+  "r08c10": {
+    "bytes": 362006,
+    "file": "r08c10.png",
+    "miro_widget": "3458764679576193988",
+    "original_name": "CardC6_card_80.png"
+  },
+  "r09c01": {
+    "bytes": 329347,
+    "file": "r09c01.png",
+    "miro_widget": "3458764679576194041",
+    "original_name": "CardC6_card_101.png"
+  },
+  "r09c02": {
+    "bytes": 304941,
+    "file": "r09c02.png",
+    "miro_widget": "3458764679576194042",
+    "original_name": "CardC6_card_102.png"
+  },
+  "r09c03": {
+    "bytes": 318189,
+    "file": "r09c03.png",
+    "miro_widget": "3458764679576194043",
+    "original_name": "CardC6_card_103.png"
+  },
+  "r09c04": {
+    "bytes": 312384,
+    "file": "r09c04.png",
+    "miro_widget": "3458764679576194044",
+    "original_name": "CardC6_card_104.png"
+  },
+  "r09c05": {
+    "bytes": 305022,
+    "file": "r09c05.png",
+    "miro_widget": "3458764679576194045",
+    "original_name": "CardC6_card_105.png"
+  },
+  "r09c06": {
+    "bytes": 309964,
+    "file": "r09c06.png",
+    "miro_widget": "3458764679576194046",
+    "original_name": "CardC6_card_106.png"
+  },
+  "r09c07": {
+    "bytes": 283988,
+    "file": "r09c07.png",
+    "miro_widget": "3458764679576194048",
+    "original_name": "CardC6_card_107.png"
+  },
+  "r09c08": {
+    "bytes": 285312,
+    "file": "r09c08.png",
+    "miro_widget": "3458764679576194049",
+    "original_name": "CardC6_card_108.png"
+  },
+  "r09c09": {
+    "bytes": 347108,
+    "file": "r09c09.png",
+    "miro_widget": "3458764679576194050",
+    "original_name": "CardC6_card_109.png"
+  },
+  "r09c10": {
+    "bytes": 387852,
+    "file": "r09c10.png",
+    "miro_widget": "3458764679576194051",
+    "original_name": "CardC6_card_110.png"
+  },
+  "r10c01": {
+    "bytes": 283574,
+    "file": "r10c01.png",
+    "miro_widget": "3458764679576194110",
+    "original_name": "CardC6_card_131.png"
+  },
+  "r10c02": {
+    "bytes": 256039,
+    "file": "r10c02.png",
+    "miro_widget": "3458764679576194111",
+    "original_name": "CardC6_card_132.png"
+  },
+  "r10c03": {
+    "bytes": 242355,
+    "file": "r10c03.png",
+    "miro_widget": "3458764679576194114",
+    "original_name": "CardC6_card_133.png"
+  },
+  "r10c04": {
+    "bytes": 234098,
+    "file": "r10c04.png",
+    "miro_widget": "3458764679576194115",
+    "original_name": "CardC6_card_134.png"
+  },
+  "r10c05": {
+    "bytes": 254162,
+    "file": "r10c05.png",
+    "miro_widget": "3458764679576194116",
+    "original_name": "CardC6_card_135.png"
+  },
+  "r10c06": {
+    "bytes": 355127,
+    "file": "r10c06.png",
+    "miro_widget": "3458764679576194118",
+    "original_name": "CardC6_card_136.png"
+  },
+  "r10c07": {
+    "bytes": 351589,
+    "file": "r10c07.png",
+    "miro_widget": "3458764679576194119",
+    "original_name": "CardC6_card_137.png"
+  },
+  "r10c08": {
+    "bytes": 321507,
+    "file": "r10c08.png",
+    "miro_widget": "3458764679576194121",
+    "original_name": "CardC6_card_138.png"
+  },
+  "r10c09": {
+    "bytes": 330924,
+    "file": "r10c09.png",
+    "miro_widget": "3458764679576194122",
+    "original_name": "CardC6_card_139.png"
+  },
+  "r10c10": {
+    "bytes": 318641,
+    "file": "r10c10.png",
+    "miro_widget": "3458764679576194123",
+    "original_name": "CardC6_card_140.png"
+  },
+  "r11c01": {
+    "bytes": 303089,
+    "file": "r11c01.png",
+    "miro_widget": "3458764679576194230",
+    "original_name": "CardC6_card_141.png"
+  },
+  "r11c02": {
+    "bytes": 309093,
+    "file": "r11c02.png",
+    "miro_widget": "3458764679576194231",
+    "original_name": "CardC6_card_142.png"
+  },
+  "r11c03": {
+    "bytes": 286436,
+    "file": "r11c03.png",
+    "miro_widget": "3458764679576194232",
+    "original_name": "CardC6_card_143.png"
+  },
+  "r11c04": {
+    "bytes": 302436,
+    "file": "r11c04.png",
+    "miro_widget": "3458764679576194233",
+    "original_name": "CardC6_card_144.png"
+  },
+  "r11c05": {
+    "bytes": 260912,
+    "file": "r11c05.png",
+    "miro_widget": "3458764679576194234",
+    "original_name": "CardC6_card_145.png"
+  },
+  "r11c06": {
+    "bytes": 305075,
+    "file": "r11c06.png",
+    "miro_widget": "3458764679576194235",
+    "original_name": "CardC6_card_146.png"
+  },
+  "r11c07": {
+    "bytes": 370286,
+    "file": "r11c07.png",
+    "miro_widget": "3458764679576194236",
+    "original_name": "CardC6_card_147.png"
+  },
+  "r11c08": {
+    "bytes": 309393,
+    "file": "r11c08.png",
+    "miro_widget": "3458764679576194238",
+    "original_name": "CardC6_card_148.png"
+  },
+  "r11c09": {
+    "bytes": 311173,
+    "file": "r11c09.png",
+    "miro_widget": "3458764679576194239",
+    "original_name": "CardC6_card_149.png"
+  },
+  "r11c10": {
+    "bytes": 287704,
+    "file": "r11c10.png",
+    "miro_widget": "3458764679576194240",
+    "original_name": "CardC6_card_150.png"
+  },
+  "r12c01": {
+    "bytes": 300885,
+    "file": "r12c01.png",
+    "miro_widget": "3458764679576194409",
+    "original_name": "CardC6_card_151.png"
+  },
+  "r12c02": {
+    "bytes": 290429,
+    "file": "r12c02.png",
+    "miro_widget": "3458764679576194410",
+    "original_name": "CardC6_card_152.png"
+  },
+  "r12c03": {
+    "bytes": 316932,
+    "file": "r12c03.png",
+    "miro_widget": "3458764679576194411",
+    "original_name": "CardC6_card_154.png"
+  },
+  "r12c04": {
+    "bytes": 310853,
+    "file": "r12c04.png",
+    "miro_widget": "3458764679576194412",
+    "original_name": "CardC6_card_155.png"
+  },
+  "r12c05": {
+    "bytes": 316519,
+    "file": "r12c05.png",
+    "miro_widget": "3458764679576194414",
+    "original_name": "CardC6_card_156.png"
+  },
+  "r12c06": {
+    "bytes": 292594,
+    "file": "r12c06.png",
+    "miro_widget": "3458764679576194415",
+    "original_name": "CardC6_card_153.png"
+  },
+  "r12c07": {
+    "bytes": 352916,
+    "file": "r12c07.png",
+    "miro_widget": "3458764679576194416",
+    "original_name": "CardC6_card_157.png"
+  },
+  "r12c08": {
+    "bytes": 275223,
+    "file": "r12c08.png",
+    "miro_widget": "3458764679576194417",
+    "original_name": "CardC6_card_158.png"
+  },
+  "r12c09": {
+    "bytes": 302740,
+    "file": "r12c09.png",
+    "miro_widget": "3458764679576194418",
+    "original_name": "CardC6_card_159.png"
+  },
+  "r12c10": {
+    "bytes": 292381,
+    "file": "r12c10.png",
+    "miro_widget": "3458764679576194419",
+    "original_name": "CardC6_card_160.png"
+  },
+  "r13c01": {
+    "bytes": 277549,
+    "file": "r13c01.png",
+    "miro_widget": "3458764679576194501",
+    "original_name": "CardC6_card_01.png"
+  },
+  "r13c02": {
+    "bytes": 295925,
+    "file": "r13c02.png",
+    "miro_widget": "3458764679576194503",
+    "original_name": "CardC6_card_02.png"
+  },
+  "r13c03": {
+    "bytes": 206818,
+    "file": "r13c03.png",
+    "miro_widget": "3458764679576194504",
+    "original_name": "CardC6_card_03.png"
+  },
+  "r13c04": {
+    "bytes": 294582,
+    "file": "r13c04.png",
+    "miro_widget": "3458764679576194505",
+    "original_name": "CardC6_card_04.png"
+  },
+  "r13c05": {
+    "bytes": 319008,
+    "file": "r13c05.png",
+    "miro_widget": "3458764679576194506",
+    "original_name": "CardC6_card_05.png"
+  },
+  "r13c06": {
+    "bytes": 283605,
+    "file": "r13c06.png",
+    "miro_widget": "3458764679576194507",
+    "original_name": "CardC6_card_06.png"
+  },
+  "r13c07": {
+    "bytes": 329840,
+    "file": "r13c07.png",
+    "miro_widget": "3458764679576194508",
+    "original_name": "CardC6_card_07.png"
+  },
+  "r13c08": {
+    "bytes": 261883,
+    "file": "r13c08.png",
+    "miro_widget": "3458764679576194509",
+    "original_name": "CardC6_card_08.png"
+  },
+  "r13c09": {
+    "bytes": 279738,
+    "file": "r13c09.png",
+    "miro_widget": "3458764679576194510",
+    "original_name": "CardC6_card_09.png"
+  },
+  "r13c10": {
+    "bytes": 277540,
+    "file": "r13c10.png",
+    "miro_widget": "3458764679576194511",
+    "original_name": "CardC6_card_10.png"
+  },
+  "r14c01": {
+    "bytes": 274257,
+    "file": "r14c01.png",
+    "miro_widget": "3458764679576194575",
+    "original_name": "CardC6_card_61.png"
+  },
+  "r14c02": {
+    "bytes": 301194,
+    "file": "r14c02.png",
+    "miro_widget": "3458764679576194576",
+    "original_name": "CardC6_card_62.png"
+  },
+  "r14c03": {
+    "bytes": 365248,
+    "file": "r14c03.png",
+    "miro_widget": "3458764679576194577",
+    "original_name": "CardC6_card_63.png"
+  },
+  "r14c04": {
+    "bytes": 334303,
+    "file": "r14c04.png",
+    "miro_widget": "3458764679576194578",
+    "original_name": "CardC6_card_64.png"
+  },
+  "r14c05": {
+    "bytes": 312873,
+    "file": "r14c05.png",
+    "miro_widget": "3458764679576194579",
+    "original_name": "CardC6_card_65.png"
+  },
+  "r14c06": {
+    "bytes": 325379,
+    "file": "r14c06.png",
+    "miro_widget": "3458764679576194580",
+    "original_name": "CardC6_card_66.png"
+  },
+  "r14c07": {
+    "bytes": 296670,
+    "file": "r14c07.png",
+    "miro_widget": "3458764679576194581",
+    "original_name": "CardC6_card_67.png"
+  },
+  "r14c08": {
+    "bytes": 264613,
+    "file": "r14c08.png",
+    "miro_widget": "3458764679576194582",
+    "original_name": "CardC6_card_68.png"
+  },
+  "r14c09": {
+    "bytes": 281038,
+    "file": "r14c09.png",
+    "miro_widget": "3458764679576194584",
+    "original_name": "CardC6_card_69.png"
+  },
+  "r14c10": {
+    "bytes": 344993,
+    "file": "r14c10.png",
+    "miro_widget": "3458764679576194586",
+    "original_name": "CardC6_card_70.png"
+  },
+  "r15c01": {
+    "bytes": 302986,
+    "file": "r15c01.png",
+    "miro_widget": "3458764679576194690",
+    "original_name": "CardC6_card_81.png"
+  },
+  "r15c02": {
+    "bytes": 339919,
+    "file": "r15c02.png",
+    "miro_widget": "3458764679576194692",
+    "original_name": "CardC6_card_82.png"
+  },
+  "r15c03": {
+    "bytes": 252521,
+    "file": "r15c03.png",
+    "miro_widget": "3458764679576194693",
+    "original_name": "CardC6_card_83.png"
+  },
+  "r15c04": {
+    "bytes": 290465,
+    "file": "r15c04.png",
+    "miro_widget": "3458764679576194694",
+    "original_name": "CardC6_card_84.png"
+  },
+  "r15c05": {
+    "bytes": 312791,
+    "file": "r15c05.png",
+    "miro_widget": "3458764679576194695",
+    "original_name": "CardC6_card_85.png"
+  },
+  "r15c06": {
+    "bytes": 301322,
+    "file": "r15c06.png",
+    "miro_widget": "3458764679576194696",
+    "original_name": "CardC6_card_86.png"
+  },
+  "r15c07": {
+    "bytes": 290750,
+    "file": "r15c07.png",
+    "miro_widget": "3458764679576194697",
+    "original_name": "CardC6_card_87.png"
+  },
+  "r15c08": {
+    "bytes": 321248,
+    "file": "r15c08.png",
+    "miro_widget": "3458764679576194698",
+    "original_name": "CardC6_card_88.png"
+  },
+  "r15c09": {
+    "bytes": 337621,
+    "file": "r15c09.png",
+    "miro_widget": "3458764679576194699",
+    "original_name": "CardC6_card_89.png"
+  },
+  "r15c10": {
+    "bytes": 352230,
+    "file": "r15c10.png",
+    "miro_widget": "3458764679576194700",
+    "original_name": "CardC6_card_90.png"
+  },
+  "r16c01": {
+    "bytes": 276003,
+    "file": "r16c01.png",
+    "miro_widget": "3458764679576194740",
+    "original_name": "CardC6_card_111.png"
+  },
+  "r16c02": {
+    "bytes": 282426,
+    "file": "r16c02.png",
+    "miro_widget": "3458764679576194741",
+    "original_name": "CardC6_card_112.png"
+  },
+  "r16c03": {
+    "bytes": 240199,
+    "file": "r16c03.png",
+    "miro_widget": "3458764679576194742",
+    "original_name": "CardC6_card_113.png"
+  },
+  "r16c04": {
+    "bytes": 272843,
+    "file": "r16c04.png",
+    "miro_widget": "3458764679576194743",
+    "original_name": "CardC6_card_114.png"
+  },
+  "r16c05": {
+    "bytes": 279968,
+    "file": "r16c05.png",
+    "miro_widget": "3458764679576194744",
+    "original_name": "CardC6_card_115.png"
+  },
+  "r16c06": {
+    "bytes": 203348,
+    "file": "r16c06.png",
+    "miro_widget": "3458764679576194745",
+    "original_name": "CardC6_card_116.png"
+  },
+  "r16c07": {
+    "bytes": 220605,
+    "file": "r16c07.png",
+    "miro_widget": "3458764679576194746",
+    "original_name": "CardC6_card_117.png"
+  },
+  "r16c08": {
+    "bytes": 251048,
+    "file": "r16c08.png",
+    "miro_widget": "3458764679576194747",
+    "original_name": "CardC6_card_118.png"
+  },
+  "r16c09": {
+    "bytes": 285249,
+    "file": "r16c09.png",
+    "miro_widget": "3458764679576194748",
+    "original_name": "CardC6_card_119.png"
+  },
+  "r16c10": {
+    "bytes": 322676,
+    "file": "r16c10.png",
+    "miro_widget": "3458764679576194749",
+    "original_name": "CardC6_card_120.png"
+  }
+}

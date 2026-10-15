@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The waterfall cave matches the brief with the cave entrance, inner glow, and rainbow spray."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 4 layout with water at the base and stylized sky in the background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, borders, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The rock formation touches and is cropped by both the left and right edges, lacking side margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant palette with nice warm interior lighting against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Volumes are clean and stylized without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Renders with smooth, chunky 3D forms consistent with the references."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the cave structure so it does not touch or get cut off by the left and right edges of the frame.",
+  "usage": {
+    "total_tokens": 4899,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 626
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 314,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 700
+  },
+  "est_cost_usd": 0.0049845,
+  "elapsed_s": 16.4
+}

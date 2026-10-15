@@ -1,0 +1,120 @@
+{
+  "card": {
+    "id": "C03",
+    "name": "X Marks the Spot",
+    "category": 4,
+    "subject": "a big red X painted on the sand with a shovel stuck in it, beside a palm tree",
+    "unique_detail": "a gold coin peeking out of the sand",
+    "main_colors": "red X, golden sand, green palm",
+    "background": "a strip of sandy beach at the bottom and a bright blue sky with soft clouds",
+    "bg_color": "blue",
+    "context_cue": "beach strip",
+    "why": "The treasure hunt's most famous symbol."
+  },
+  "model": "gemini-nano-banana-2.1",
+  "prompt_file": "card_v4.md",
+  "refs": [
+    {
+      "id": "R1",
+      "category": 1,
+      "cell": "r05c07",
+      "name": "Bottle",
+      "sha256": "a62377715927fd8102fc5b7b6dbae97f7205ea6069e71018b9ae3d3b6538c12f"
+    },
+    {
+      "id": "R2",
+      "category": 1,
+      "cell": "r01c01",
+      "name": "Graduation Cap",
+      "sha256": "e1bf421b541698f03a8ace4a91229344f2cfb4b2d5e2485906029975dc89d985"
+    },
+    {
+      "id": "R3",
+      "category": 1,
+      "cell": "r02c07",
+      "name": "Fan Fold",
+      "sha256": "15a5a69bb0344bdaadff3215c5bf5a373c3b43d162d46dd1af9da74b4307ed7c"
+    },
+    {
+      "id": "R4",
+      "category": 2,
+      "cell": "r07c06",
+      "name": "Tea Cup",
+      "sha256": "ddc79a1f7628cbc230a5080e0fb573fc140ebae9e0a4863167886835ca642440"
+    },
+    {
+      "id": "R5",
+      "category": 2,
+      "cell": "r02c04",
+      "name": "Mojito",
+      "sha256": "c0e54a9db82c11e936e4ebdcb9a0b6f1d894324b8eb1ae297b2958ad01ba1e0b"
+    },
+    {
+      "id": "R6",
+      "category": 2,
+      "cell": "r03c07",
+      "name": "Beach Bag",
+      "sha256": "cf50b600e75d5a886fccd7dfd43d19b95472a8ee1c2faf708c866711fe207082"
+    },
+    {
+      "id": "R7",
+      "category": 3,
+      "cell": "r06c02",
+      "name": "Bumpers",
+      "sha256": "c4e3f1e55f350b40b216e8257b746cb6191ebbaf3ea44d505633c85656e360c0"
+    },
+    {
+      "id": "R8",
+      "category": 3,
+      "cell": "r01c06",
+      "name": "Computer",
+      "sha256": "50c4297d7f339fb4066899952d6036e5fd8ce7f7bbb1e93147853934701bbc86"
+    },
+    {
+      "id": "R9",
+      "category": 3,
+      "cell": "r05c10",
+      "name": "Boxing Gloves",
+      "sha256": "b65f58de9ea936e1b95513d41694daf265be7abc24b625f2ef3a9ada6e87a151"
+    },
+    {
+      "id": "R10",
+      "category": 4,
+      "cell": "r14c08",
+      "name": "Lighthouse",
+      "sha256": "b7fa6d20599d73ff4c1c8a62a9d0daba1766560185aa1fc60937e61ab5c66fc5"
+    },
+    {
+      "id": "R11",
+      "category": 4,
+      "cell": "r06c09",
+      "name": "Coaster",
+      "sha256": "c13fc65f5520ad51f1996b0ec3a54ef7f9af6faefb6532a9de84ac2d40aa11f6"
+    },
+    {
+      "id": "R12",
+      "category": 4,
+      "cell": "r06c01",
+      "name": "Ferris Wheel",
+      "sha256": "ba38e19ce9bf22a7936c09fc8fa07e490a2af7b869c3c39d659b07f59cabb083"
+    }
+  ],
+  "text_parts": [
+    "You will create one illustration for a collectible card in a casual mobile game. The next 12 images are existing cards from this game. Use them only to learn the art style; never copy their objects.",
+    "Reference R1 (category 1: floating object, simple background):",
+    "Reference R2 (category 1: floating object, simple background):",
+    "Reference R3 (category 1: floating object, simple background):",
+    "Reference R4 (category 2: object on a plain surface, simple background):",
+    "Reference R5 (category 2: object on a plain surface, simple background):",
+    "Reference R6 (category 2: object on a plain surface, simple background):",
+    "Reference R7 (category 3: object on a realistic surface, simple back wall):",
+    "Reference R8 (category 3: object on a realistic surface, simple back wall):",
+    "Reference R9 (category 3: object on a realistic surface, simple back wall):",
+    "Reference R10 (category 4: object inside a realistic environment, low angle):",
+    "Reference R11 (category 4: object inside a realistic environment, low angle):",
+    "Reference R12 (category 4: object inside a realistic environment, low angle):",
+    "Task: draw a NEW card illustration that looks as if the same artist made it for the same card album, so that a player would not notice any difference next to the reference cards.\n\nCard brief:\n- Card: X Marks the Spot.\n- Object: a big red X painted on the sand with a shovel stuck in it, beside a palm tree.\n- Its one charming, distinctive detail: a gold coin peeking out of the sand.\n- Main colours of the object: red X, golden sand, green palm.\n- Background: a strip of sandy beach at the bottom and a bright blue sky with soft clouds.\n- Context cue: beach strip.\n\nRendering, matched exactly to the references:\n- A clean, polished 3D game-asset finish: smooth, chunky, simplified volumes with soft rounded edges and slightly exaggerated proportions, with crisp, clearly defined materials.\n- Bright, even, cheerful lighting from the upper front, with soft-edged highlight shapes and a satin sheen. Never wet-look, chrome or mirror-like gloss, and never dim, moody, theatrical or photographic lighting. The whole image is bright.\n- No outlines or dark contour lines, no painterly brush strokes, no flat cel shading, no photographic depth of field, no realistic micro-textures.\n\nObject:\n- The most typical, instantly recognizable version of the object, complete with its standard parts, with a clear, simple silhouette, seen from its most familiar angle.\n- Manufactured objects have smooth, clean surfaces and simple flowing lines: no grooves, ridges, panel lines, droplets, grip textures or busy decoration. Instead of generic stripes or bands, give the object the one charming detail from the brief.\n- Built structures keep their crafted structural details (bricks or planks, railings, windows), drawn in the same smooth, simplified way.\n- Vehicles use two main colours. Liquids are clearly visible and richly coloured. Steam, if any, is two or three thin, wispy, semi-transparent white strands.\n\nColour:\n- A warm, juicy, inviting palette with bright, highly saturated colours. Never pastel, muddy or washed out.\n- The background contrasts clearly with the object, ideally in its complementary colour, so the object never blends into it. No teal, grey, dark or muted backgrounds.\n\nBackground and context:\n- Follow the background from the brief. Any pattern (rays, rings, motifs) is clearly visible and centred behind the object, and never bleak or empty-looking.\n- Floor or surface and wall are in clearly different tones. At most the one context cue from the brief; never a full scene, props or scenery.\n\nFraming:\n- One main object, centred, with clear empty margins on every side, filling about 60-75% of the frame height. Nothing is cut off by the frame edges (a category 4 object may touch the bottom edge).\n\nComposition, category 4: The object is set into a realistic environment suited to it, seen from a low camera angle so it looks big and heroic, but still with some sky above it. Show only the key element of the setting as a clear strip at the bottom (for example a strip of street, grass or water). The rest of the background is a smooth, bright, saturated blue sky gradient with a few soft, realistic, volumetric cumulus clouds near the horizon. No busy terrain, crowds, rocks or scattered scenery: the object stays the clear, central focus. The environment is painted in the same stylized way as the object.\n\nOutput requirements:\n- A single full-bleed illustration.\n- No card frame, border, stars, ribbon, label, text, letters, numbers, logos or watermark.\n- No people or characters, and no extra objects beyond the subject and what its category allows.\n- Correction from the art review of the previous attempt: Remove the surface wear and splotches from the metal shovel to keep it completely clean and smooth."
+  ],
+  "fix": "Remove the surface wear and splotches from the metal shovel to keep it completely clean and smooth.",
+  "sent_at": "2026-10-13T22:00:41+00:00"
+}

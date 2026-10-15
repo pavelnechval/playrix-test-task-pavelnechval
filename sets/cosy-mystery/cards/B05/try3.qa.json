@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a grandfather clock complete with face, pendulum, and brass key."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 3 with a simple wooden surface and gradient back wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, numbers, UI, and watermarks."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered with solid silhouette and ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated tones with strong contrast against the vibrant green wall."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures or excessive small elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference style with chunky forms, smooth surfaces, and a satin sheen."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 0.98,
+        "orange": 0.02,
+        "grey/dark": 0.01,
+        "yellow": 0.0,
+        "teal": 0.0
+      },
+      "why": "background is green (98% of the background); planned green"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4958,
+    "total_input_tokens": 4082,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 823
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 277,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 599
+  },
+  "est_cost_usd": 0.004669,
+  "elapsed_s": 17.7
+}

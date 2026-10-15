@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a classic bobby helmet with requested badge, top knob, and tucked daisy."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object floats with a slight tilt on a gradient background with motif patterning."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, frames, UI elements, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Central placement with solid silhouette and comfortable margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated warm pink backdrop contrasts well with the deep navy helmet."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures, noise, or extraneous elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference style with smooth chunky 3D volumes and soft lighting."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 0.99,
+        "grey/dark": 0.01
+      },
+      "why": "background is pink (99% of the background); planned pink"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4792,
+    "total_input_tokens": 4057,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 798
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 278,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 457
+  },
+  "est_cost_usd": 0.0042335,
+  "elapsed_s": 14.9
+}

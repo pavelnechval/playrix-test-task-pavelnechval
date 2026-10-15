@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear golden apple with stem, leaf, and glint."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floats centrally with radiating rays on a gradient background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette with strong contrast against the red background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean surfaces with no noisy micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes with smooth satin shading matching the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4686,
+    "total_input_tokens": 3828,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 569
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 265,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 593
+  },
+  "est_cost_usd": 0.004488,
+  "elapsed_s": 19.0
+}

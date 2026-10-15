@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Matches all requested elements including antennae, screen glow, and knobs."
+    },
+    "category": {
+      "pass": false,
+      "why": "Baseboard trim introduces room scenery instead of a clean wall junction."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The object is oversized, crowding the side borders and top antenna margin."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm palette with sufficient separation between the cabinet and backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth stylized surfaces without excessive micro-textures or busy patterns."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent chunky 3D shapes with soft satin lighting matching the references."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the television to increase margins and remove the baseboard trim from the background.",
+  "usage": {
+    "total_tokens": 5268,
+    "total_input_tokens": 3879,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 620
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 210,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1179
+  },
+  "est_cost_usd": 0.0061065,
+  "elapsed_s": 17.8
+}

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The candlestick telephone is instantly recognizable with its round base, tall stem, mouthpiece, and detached hopping earpiece on a curly cord."
+    },
+    "category": {
+      "pass": true,
+      "why": "The telephone floats freely in space with no floor or table, tilted in three-quarter view, against a saturated radiating sunburst background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, logos, borders, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The telephone is nicely centered with ample margins on all sides and a bold, chunky silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The warm pink background is vibrant and saturated, providing excellent contrast against the black and gold telephone."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are clean, bold, and simplified without distracting micro-textures or extraneous details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style perfectly with smooth chunky 3D forms, soft satin/gloss lighting, and no outlines."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "warn",
+      "measured": {
+        "red": 0.56,
+        "pink": 0.44
+      },
+      "why": "background is red (56% of the background); planned pink"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4602,
+    "total_input_tokens": 4042,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 783
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 249,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 311
+  },
+  "est_cost_usd": 0.003701,
+  "elapsed_s": 8.8
+}

@@ -1,0 +1,741 @@
+{
+  "set": "Love in the City",
+  "updated": "2026-10-14T01:06:01+00:00",
+  "images_generated": 41,
+  "qa_reviews": 41,
+  "first_try_pass": 22,
+  "est_cost_usd": 2.51,
+  "status_counts": {
+    "passed": 28,
+    "accepted_with_issues": 2,
+    "unchecked": 0,
+    "failed": 0,
+    "not_started": 0
+  },
+  "cards": {
+    "A01": {
+      "id": "A01",
+      "name": "Rose Bouquet",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055215,
+          "gen_s": 23.7,
+          "qa_pass": true,
+          "qa_cost": 0.0043575,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A02": {
+      "id": "A02",
+      "name": "Rotary Phone",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "error": "no response recorded (run interrupted)"
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0552615,
+          "gen_s": 20.3,
+          "qa_pass": true,
+          "qa_cost": 0.0063055,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A03": {
+      "id": "A03",
+      "name": "City Taxi",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553305,
+          "gen_s": 23.2,
+          "qa_pass": false,
+          "qa_cost": 0.005461,
+          "fix": "Remove the houses along the horizon so the background consists solely of the road strip, clouds, and sky.",
+          "failed": [
+            "category",
+            "detail"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.05538,
+          "gen_s": 27.9,
+          "qa_pass": true,
+          "qa_cost": 0.004333,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A04": {
+      "id": "A04",
+      "name": "Heart Cupcake",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055238999999999996,
+          "gen_s": 25.4,
+          "qa_pass": true,
+          "qa_cost": 0.004917,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A05": {
+      "id": "A05",
+      "name": "Heart Chocolates",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055212,
+          "gen_s": 22.0,
+          "qa_pass": true,
+          "qa_cost": 0.0052955,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A06": {
+      "id": "A06",
+      "name": "Park Bench",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055306499999999995,
+          "gen_s": 22.5,
+          "qa_pass": false,
+          "qa_cost": 0.0069245,
+          "fix": "Scale down the composition so the entire cherry tree fits comfortably with visible sky above it.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055349999999999996,
+          "gen_s": 20.9,
+          "qa_pass": false,
+          "qa_cost": 0.0044765,
+          "fix": "Extend the grass into a solid ground strip running completely across the bottom edge instead of a floating platform.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0553545,
+          "gen_s": 22.6,
+          "qa_pass": false,
+          "qa_cost": 0.0087245,
+          "fix": "Scale down and reposition the tree so its entire canopy fits within the frame with clear sky margins at the top and sides.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        }
+      ]
+    },
+    "A07": {
+      "id": "A07",
+      "name": "Record Player",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055257,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.0068225,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A08": {
+      "id": "A08",
+      "name": "Love Letter",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552045,
+          "gen_s": 21.3,
+          "qa_pass": true,
+          "qa_cost": 0.005244,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A09": {
+      "id": "A09",
+      "name": "Perfume",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552165,
+          "gen_s": 21.2,
+          "qa_pass": false,
+          "qa_cost": 0.010296,
+          "fix": "Add a classic spray nozzle to the gold hardware on the side opposite the atomizer bulb.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.05526,
+          "gen_s": 23.4,
+          "qa_pass": true,
+          "qa_cost": 0.006297,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A10": {
+      "id": "A10",
+      "name": "Flower Kiosk",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055314,
+          "gen_s": 23.1,
+          "qa_pass": true,
+          "qa_cost": 0.0047165,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B01": {
+      "id": "B01",
+      "name": "Red Umbrella",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05519399999999999,
+          "gen_s": 30.2,
+          "qa_pass": true,
+          "qa_cost": 0.004522,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B02": {
+      "id": "B02",
+      "name": "Typewriter",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552585,
+          "gen_s": 17.8,
+          "qa_pass": true,
+          "qa_cost": 0.0053835,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B03": {
+      "id": "B03",
+      "name": "Vintage Scooter",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055294499999999996,
+          "gen_s": 23.1,
+          "qa_pass": true,
+          "qa_cost": 0.0046155,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B04": {
+      "id": "B04",
+      "name": "Heart Balloon",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552015,
+          "gen_s": 21.5,
+          "qa_pass": false,
+          "qa_cost": 0.005066,
+          "fix": "Add a slight tilt or three-quarter perspective to the balloon instead of facing it straight on.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055248,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.003449,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0556455,
+          "gen_s": 19.5,
+          "qa_pass": true,
+          "qa_cost": 0.003952,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B05": {
+      "id": "B05",
+      "name": "Matching Mugs",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552345,
+          "gen_s": 24.4,
+          "qa_pass": true,
+          "qa_cost": 0.006627,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B06": {
+      "id": "B06",
+      "name": "Cafe Table",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553185,
+          "gen_s": 22.6,
+          "qa_pass": false,
+          "qa_cost": 0.005701,
+          "fix": "Lower the camera angle for a more heroic perspective and connect the awning naturally over the table (such as via posts or a subtle cafe facade) so the scene reads as one unified central object rather than a floating awning separated from the furniture.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055407,
+          "gen_s": 30.2,
+          "qa_pass": false,
+          "qa_cost": 0.012565,
+          "fix": "Remove the wall and window column behind the table and support the awning on slender posts so the table and chairs silhouette cleanly against the open sky.",
+          "failed": [
+            "category",
+            "detail"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0553785,
+          "gen_s": 21.9,
+          "qa_pass": true,
+          "qa_cost": 0.009238,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B07": {
+      "id": "B07",
+      "name": "Engagement Ring",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055188,
+          "gen_s": 18.8,
+          "qa_pass": true,
+          "qa_cost": 0.00586,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B08": {
+      "id": "B08",
+      "name": "Tulip Bucket",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055257,
+          "gen_s": 17.5,
+          "qa_pass": false,
+          "qa_cost": 0.006594,
+          "fix": "Lower the viewpoint or make the tabletop surface solid to the bottom edge so the legs and space underneath are not visible.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553095,
+          "gen_s": 24.0,
+          "qa_pass": true,
+          "qa_cost": 0.005085,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B09": {
+      "id": "B09",
+      "name": "Heart Glasses",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552135,
+          "gen_s": 20.9,
+          "qa_pass": true,
+          "qa_cost": 0.0058145,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B10": {
+      "id": "B10",
+      "name": "Love Locks",
+      "status": "accepted_with_issues",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055299,
+          "gen_s": 19.2,
+          "qa_pass": false,
+          "qa_cost": 0.0070005,
+          "fix": "Scale down and frame the arched bridge railing so that its ends and all padlocks fit completely within the canvas with clear margins on both sides.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055359,
+          "gen_s": 26.0,
+          "qa_pass": false,
+          "qa_cost": 0.0099315,
+          "fix": "Scale down the footbridge slightly so the ends are fully visible and clear side margins are preserved instead of cutting off at the left and right edges.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.05536049999999999,
+          "gen_s": 26.2,
+          "qa_pass": false,
+          "qa_cost": 0.0110115,
+          "fix": "Scale down the bridge so it has clear margins on the left and right, and replace the rocky grassy banks with a simple, continuous strip of water across the bottom.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        }
+      ]
+    },
+    "C01": {
+      "id": "C01",
+      "name": "Wedding Rings",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055181999999999995,
+          "gen_s": 20.0,
+          "qa_pass": true,
+          "qa_cost": 0.0056435,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "Wedding Cake",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055250999999999995,
+          "gen_s": 19.5,
+          "qa_pass": true,
+          "qa_cost": 0.003818,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "Wedding Car",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552975,
+          "gen_s": 30.4,
+          "qa_pass": true,
+          "qa_cost": 0.0042905,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "Red Heel",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055206,
+          "gen_s": 21.0,
+          "qa_pass": true,
+          "qa_cost": 0.004182,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C05": {
+      "id": "C05",
+      "name": "Bridal Bouquet",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055195499999999995,
+          "gen_s": 17.8,
+          "qa_pass": true,
+          "qa_cost": 0.0046615,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C06": {
+      "id": "C06",
+      "name": "Garden Gazebo",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055292999999999995,
+          "gen_s": 24.6,
+          "qa_pass": true,
+          "qa_cost": 0.0037025,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C07": {
+      "id": "C07",
+      "name": "Tiara",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055183499999999996,
+          "gen_s": 19.6,
+          "qa_pass": true,
+          "qa_cost": 0.0045885,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C08": {
+      "id": "C08",
+      "name": "Gift Box",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05526,
+          "gen_s": 25.0,
+          "qa_pass": true,
+          "qa_cost": 0.005117,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C09": {
+      "id": "C09",
+      "name": "Heart Candles",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055210499999999996,
+          "gen_s": 25.9,
+          "qa_pass": true,
+          "qa_cost": 0.00804,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C10": {
+      "id": "C10",
+      "name": "Chapel Bell",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055296,
+          "gen_s": 39.9,
+          "qa_pass": true,
+          "qa_cost": 0.0042195,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    }
+  }
+}

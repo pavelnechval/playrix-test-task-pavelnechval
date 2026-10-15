@@ -1,0 +1,222 @@
+{
+ "A01": {
+  "_key": "243118:1792013640",
+  "box": [
+   140,
+   136,
+   951,
+   866
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 3.32,
+  "edge_full": 4.51,
+  "height": 0.811,
+  "highlight": 0.019,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.14,
+  "saturation": 0.669,
+  "small_detail": "low",
+  "why": "The wand is a simple, bold 3D shape floating against an abstract purple concentric background with minimal intricate details.",
+  "width": 0.73
+ },
+ "A02": {
+  "_key": "229877:1792013639",
+  "box": [
+   143,
+   281,
+   951,
+   720
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 9.21,
+  "edge_full": 11.2,
+  "height": 0.808,
+  "highlight": 0.0056,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.143,
+  "saturation": 0.666,
+  "small_detail": "medium",
+  "why": "The lantern stands on a mossy stone pedestal against a simple gradient studio background, with tiny floral vine details on its ring handle.",
+  "width": 0.439
+ },
+ "A03": {
+  "_key": "239181:1792013640",
+  "box": [
+   141,
+   78,
+   927,
+   923
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 6.54,
+  "edge_full": 8.19,
+  "height": 0.786,
+  "highlight": 0.055,
+  "margin": 0.073,
+  "margin_bottom": 0.073,
+  "margin_top": 0.141,
+  "saturation": 0.563,
+  "small_detail": "low",
+  "why": "The mushroom house has very bold, smooth, stylized 3D shapes with large features like polka dots, round windows, and a chunky door that remain easily readable at small sizes.",
+  "width": 0.845
+ },
+ "A04": {
+  "_key": "241947:1792013639",
+  "box": [
+   140,
+   77,
+   900,
+   922
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 4.6,
+  "edge_full": 6.15,
+  "height": 0.76,
+  "highlight": 0.0,
+  "margin": 0.077,
+  "margin_bottom": 0.1,
+  "margin_top": 0.14,
+  "saturation": 0.643,
+  "small_detail": "low",
+  "why": "The sack of magic beans rests on a plain flat pink surface against a simple pink background.",
+  "width": 0.845
+ },
+ "A05": {
+  "_key": "231416:1792013639",
+  "box": [
+   137,
+   127,
+   951,
+   876
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 2.55,
+  "edge_full": 3.81,
+  "height": 0.814,
+  "highlight": 0.0,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.137,
+  "saturation": 0.783,
+  "small_detail": "low",
+  "why": "The golden apple floats freely in front of a red sunburst ray background with no ground beneath it.",
+  "width": 0.749
+ },
+ "A06": {
+  "_key": "244536:1792013640",
+  "box": [
+   0,
+   155,
+   917,
+   846
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 7.19,
+  "edge_full": 9.44,
+  "height": 0.917,
+  "highlight": 0.0551,
+  "margin": 0.0,
+  "margin_bottom": 0.083,
+  "margin_top": 0.0,
+  "saturation": 0.489,
+  "small_detail": "medium",
+  "why": "The beanstalk grows centrally against a full cloudy sky environment, and its small golden beans could lose detail at small resolutions.",
+  "width": 0.691
+ },
+ "A07": {
+  "_key": "261167:1792013639",
+  "box": [
+   137,
+   108,
+   951,
+   891
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 8.38,
+  "edge_full": 10.09,
+  "height": 0.814,
+  "highlight": 0.0001,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.137,
+  "saturation": 0.626,
+  "small_detail": "medium",
+  "why": "The spinning wheel rests on a realistic wooden plank floor in front of a simple purple wall.",
+  "width": 0.783
+ },
+ "A08": {
+  "_key": "241191:1792013639",
+  "box": [
+   136,
+   137,
+   951,
+   862
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 2.69,
+  "edge_full": 3.98,
+  "height": 0.815,
+  "highlight": 0.0488,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.136,
+  "saturation": 0.482,
+  "small_detail": "low",
+  "why": "The crystal ball and stand float against a simple sunburst pattern background with no supporting surface.",
+  "width": 0.725
+ },
+ "A09": {
+  "_key": "250469:1792013639",
+  "box": [
+   147,
+   78,
+   852,
+   924
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 10.92,
+  "edge_full": 12.61,
+  "height": 0.705,
+  "highlight": 0.0036,
+  "margin": 0.076,
+  "margin_bottom": 0.148,
+  "margin_top": 0.147,
+  "saturation": 0.52,
+  "small_detail": "medium",
+  "why": "The pocket watch rests on a flat, plain surface against a simple green backdrop, with small heart-shaped hour markers and fine chain links.",
+  "width": 0.846
+ },
+ "A10": {
+  "_key": "257640:1792013936",
+  "box": [
+   140,
+   161,
+   952,
+   836
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 11.8,
+  "edge_full": 14.05,
+  "height": 0.812,
+  "highlight": 0.0311,
+  "margin": 0.048,
+  "margin_bottom": 0.048,
+  "margin_top": 0.14,
+  "saturation": 0.492,
+  "small_detail": "low",
+  "why": "The stone well is set centrally in an outdoor environment with grass, bushes, and a blue sky with clouds.",
+  "width": 0.675
+ }
+}

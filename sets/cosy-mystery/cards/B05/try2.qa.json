@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The hall clock includes all requested elements, such as the pendulum, marks, and key."
+    },
+    "category": {
+      "pass": true,
+      "why": "The clock rests on a polished surface against a simple vertical background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "The image is free of text, numbers, UI, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": false,
+      "why": "The green background is overly dark and muted rather than bright and saturated."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Surfaces are clean and stylized without excessive micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Volumes are chunky with a smooth satin sheen matching the references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 0.9,
+        "grey/dark": 0.09,
+        "orange": 0.01,
+        "yellow": 0.0
+      },
+      "why": "background is green (90% of the background); planned green"
+    }
+  },
+  "pass": false,
+  "fix": "Brighten and saturate the green wall background to eliminate the dark, muted tone.",
+  "usage": {
+    "total_tokens": 5792,
+    "total_input_tokens": 4082,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 823
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 296,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1414
+  },
+  "est_cost_usd": 0.007171,
+  "elapsed_s": 22.0
+}

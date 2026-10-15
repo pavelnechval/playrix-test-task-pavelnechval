@@ -1,0 +1,86 @@
+{
+ "B02": {
+  "colour_shift": [
+   2,
+   4,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B02.png",
+  "model": "B02.try1.model.png",
+  "models": [
+   "B02.try1.model.png"
+  ],
+  "mtime": 1792024511,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.76,
+  "tries": 1
+ },
+ "B03": {
+  "colour_shift": [
+   1,
+   2,
+   2
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B03.png",
+  "model": "B03.try1.model.png",
+  "models": [
+   "B03.try1.model.png"
+  ],
+  "mtime": 1792024612,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.59,
+  "tries": 1
+ },
+ "B06": {
+  "colour_shift": [
+   1,
+   3,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B06.png",
+  "model": "B06.try1.model.png",
+  "models": [
+   "B06.try1.model.png"
+  ],
+  "mtime": 1792024562,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.91,
+  "tries": 1
+ },
+ "B10": {
+  "colour_shift": [
+   -1,
+   1,
+   6
+  ],
+  "cost": 0.0354,
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B10.png",
+  "model": "B10.try1.model.png",
+  "models": [
+   "B10.try1.model.png"
+  ],
+  "mtime": 1792024660,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 4.85,
+  "tries": 1
+ }
+}

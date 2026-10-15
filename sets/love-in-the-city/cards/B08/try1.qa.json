@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly shows the bucket with tulips and gingham ribbon as requested."
+    },
+    "category": {
+      "pass": false,
+      "why": "The table structure shows legs and an open gap beneath, functioning as a prop rather than a solid ground plane."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm palette with clear separation from the yellow background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean stylized volumes without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference with smooth chunky shapes and a satin finish."
+    }
+  },
+  "pass": false,
+  "fix": "Lower the viewpoint or make the tabletop surface solid to the bottom edge so the legs and space underneath are not visible.",
+  "usage": {
+    "total_tokens": 5418,
+    "total_input_tokens": 3864,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 605
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 297,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1257
+  },
+  "est_cost_usd": 0.006594,
+  "elapsed_s": 24.8
+}

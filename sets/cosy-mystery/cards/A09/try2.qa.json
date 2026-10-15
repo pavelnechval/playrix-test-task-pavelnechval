@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested townhouse with all required architectural features."
+    },
+    "category": {
+      "pass": false,
+      "why": "The pavement slab ends abruptly on the sides, leaving the structure floating."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The roof and upper floor are cut off at the top margin."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Palette is warm, saturated, and separates cleanly from the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes and brickwork are suitably chunky without noisy micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth volumes and satin sheen matching the references."
+    }
+  },
+  "pass": false,
+  "fix": "Zoom out to fit the full roofline within the frame and extend the pavement fully across the bottom edge.",
+  "usage": {
+    "total_tokens": 5506,
+    "total_input_tokens": 4173,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 914
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 295,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1038
+  },
+  "est_cost_usd": 0.0060855,
+  "elapsed_s": 24.6
+}

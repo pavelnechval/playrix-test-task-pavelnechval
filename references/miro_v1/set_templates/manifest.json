@@ -1,0 +1,26 @@
+{
+  "template1_Orange": {
+    "bytes": 1744977,
+    "file": "template1_Orange.png",
+    "miro_widget": "3458764679659989299",
+    "original_name": "Orange.png"
+  },
+  "template2_Pink": {
+    "bytes": 1804330,
+    "file": "template2_Pink.png",
+    "miro_widget": "3458764679659989300",
+    "original_name": "Pink.png"
+  },
+  "template3_Violet": {
+    "bytes": 1830438,
+    "file": "template3_Violet.png",
+    "miro_widget": "3458764679659989297",
+    "original_name": "Violet.png"
+  },
+  "template4_Blue": {
+    "bytes": 1849064,
+    "file": "template4_Blue.png",
+    "miro_widget": "3458764679659989298",
+    "original_name": "blue.png"
+  }
+}

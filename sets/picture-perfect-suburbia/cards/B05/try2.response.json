@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 26.2,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdmS1hPYXFtZE9wXzV2ZElQMnJudGdRbxIXZktYT2FxbWRPcF81dmRJUDJybnRnUW8",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17157,
+      "total_input_tokens": 14429,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 989
+        }
+      ],
+      "total_cached_tokens": 7384,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 506
+        },
+        {
+          "modality": "image",
+          "tokens": 6878
+        }
+      ],
+      "total_output_tokens": 1543,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1185
+    },
+    "created": "2026-10-13T21:41:38Z",
+    "updated": "2026-10-13T21:41:38Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<599816 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the custom illustration of the roller skates card, created in the same 3D casual mobile game style as the references. Let me know if you would like any adjustments!",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2287048 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<644752 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0552435
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Speaker post, twin speakers, red lamp, and background screen are present."
+    },
+    "category": {
+      "pass": false,
+      "why": "Ground features lumpy rocks instead of a simple clean strip."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The background screen unbalances the composition and the angle lacks heroic scale."
+    },
+    "colour": {
+      "pass": false,
+      "why": "Predominantly cool grey and desaturated; lacks overall warmth and juicy tones."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Forms are chunky and simple without noisy micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth stylized volumes and satin finish align with reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Warm up the overall color palette, flatten the ground into a simple strip, and adopt a lower camera angle centered on the speaker post.",
+  "usage": {
+    "total_tokens": 5217,
+    "total_input_tokens": 3897,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 638
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 304,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1016
+  },
+  "est_cost_usd": 0.0059085,
+  "elapsed_s": 23.0
+}

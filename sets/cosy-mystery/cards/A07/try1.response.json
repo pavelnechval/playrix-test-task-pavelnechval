@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 20.5,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdEQ2ZRYXBxOUpvQ2p2ZElQMS1uaXNROBIXRENmUWFwcTlKb0NqdmRJUDEtbmlzUTg",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17430,
+      "total_input_tokens": 15018,
+      "input_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 1578
+        },
+        {
+          "modality": "image",
+          "tokens": 13440
+        }
+      ],
+      "total_cached_tokens": 7478,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 785
+        },
+        {
+          "modality": "image",
+          "tokens": 6693
+        }
+      ],
+      "total_output_tokens": 1495,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 917
+    },
+    "created": "2026-10-15T01:06:36Z",
+    "updated": "2026-10-15T01:06:36Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<616316 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the completed illustration for the \"Thinking Chair\" collectible card:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1043080 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<644856 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056126999999999996
+}

@@ -1,0 +1,122 @@
+{
+ "C01": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   137,
+   34,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.0,
+  "zoom": 0.93
+ },
+ "C02": {
+  "extent": 0.81,
+  "pad": [
+   0,
+   150,
+   4,
+   0
+  ],
+  "room_above": 0.117,
+  "zoom": 0.893
+ },
+ "C03": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   15,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.7,
+  "zoom": 1.523
+ },
+ "C04": {
+  "extent": 0.85,
+  "fill": "stretch",
+  "pad": [
+   5,
+   76,
+   7,
+   83
+  ],
+  "room_above": 0.163,
+  "zoom": 0.887
+ },
+ "C05": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "override": "W022 review: both outpaint attempts scored just above the seam limit (5.9 and 5.6 of 5.0), but attempt 2 shows no visible seam at full size, while stretching smears the ring backdrop into vertical streaks.",
+  "pad": [
+   0,
+   139,
+   27,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 5.56,
+  "zoom": 0.904
+ },
+ "C06": {
+  "extent": 0.895,
+  "pad": [
+   139,
+   150,
+   0,
+   150
+  ],
+  "room_above": 0.188,
+  "zoom": 0.806
+ },
+ "C07": {
+  "extent": 0.81,
+  "pad": [
+   0,
+   13,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.131
+ },
+ "C08": {
+  "extent": 0.82,
+  "pad": [
+   0,
+   60,
+   0,
+   55
+  ],
+  "room_above": 0.14,
+  "zoom": 0.916
+ },
+ "C09": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   29,
+   110,
+   40,
+   113
+  ],
+  "room_above": 0.185,
+  "seam": 0.92,
+  "zoom": 0.849
+ },
+ "C10": {
+  "extent": 0.85,
+  "pad": [
+   0,
+   129,
+   0,
+   0
+  ],
+  "room_above": 0.451,
+  "zoom": 0.906
+ }
+}

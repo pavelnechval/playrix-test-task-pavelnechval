@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the thatched cottage with all requested key elements present."
+    },
+    "category": {
+      "pass": true,
+      "why": "Stands firmly on a wide ground plane with an appropriate simple sky backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, interfaces, watermarks, and characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The cottage is oversized and crowds the top and side borders."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright, and vibrant palette with clear separation from the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Maintains chunky, simplified shapes without excessive micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, satin 3D render look of the reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the cottage slightly to ensure comfortable margins on the top and sides.",
+  "usage": {
+    "total_tokens": 5134,
+    "total_input_tokens": 4156,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 897
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 292,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 686
+  },
+  "est_cost_usd": 0.005012,
+  "elapsed_s": 14.8
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": false,
+      "why": "The hoop is much too thick and chunky, making it look like an inflatable pool float or candy wreath rather than a slender hula hoop."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object floats at an angle with no floor or support against a gradient background with radiating rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermarks, frames, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with generous margins on all sides."
+    },
+    "colour": {
+      "pass": false,
+      "why": "The red and yellow hoop blends into the warm orange and yellow sunburst background, lacking clear color separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "There are no micro-textures, grooves, or distracting extra props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The render has smooth rounded volumes, a satin sheen, and no outlines, matching the reference style."
+    }
+  },
+  "pass": false,
+  "fix": "Make the hoop tube significantly thinner so it reads distinctly as a hula hoop, and change the background to a contrasting cool color like cyan or purple to make the yellow and red pop.",
+  "usage": {
+    "total_tokens": 5984,
+    "total_input_tokens": 3827,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 568
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 351,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1806
+  },
+  "est_cost_usd": 0.0083845,
+  "elapsed_s": 21.6
+}

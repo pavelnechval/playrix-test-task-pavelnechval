@@ -1,0 +1,123 @@
+{
+  "card": {
+    "id": "B05",
+    "name": "Hall Clock",
+    "category": 3,
+    "role": "gear",
+    "stars": 3,
+    "light": "day",
+    "subject": "A tall grandfather clock of glossy honey-brown wood with a rounded hood, a big round cream clock face with simple dark marks instead of numbers, and a glass door showing a shiny brass pendulum, standing on a polished wooden floor with a soft reflection.",
+    "unique_detail": "a small brass key left in the lock of its glass door",
+    "main_colors": "glossy honey-brown wood with brass trim and a cream face",
+    "background": "Polished light-wood floor and a smooth deep-green back wall with a soft gradient, wall and floor in clearly different tones; no props; bright daylight.",
+    "bg_color": "green",
+    "context_cue": "",
+    "why": "The hall clock tells when the diamond vanished, and every alibi hangs on it; a tall shape among the round props."
+  },
+  "model": "gemini-nano-banana-2.1",
+  "prompt_file": "card_v7.md",
+  "refs": [
+    {
+      "id": "R1",
+      "category": 1,
+      "cell": "r05c07",
+      "name": "Bottle",
+      "sha256": "a62377715927fd8102fc5b7b6dbae97f7205ea6069e71018b9ae3d3b6538c12f"
+    },
+    {
+      "id": "R2",
+      "category": 1,
+      "cell": "r01c01",
+      "name": "Graduation Cap",
+      "sha256": "e1bf421b541698f03a8ace4a91229344f2cfb4b2d5e2485906029975dc89d985"
+    },
+    {
+      "id": "R3",
+      "category": 1,
+      "cell": "r02c07",
+      "name": "Fan Fold",
+      "sha256": "15a5a69bb0344bdaadff3215c5bf5a373c3b43d162d46dd1af9da74b4307ed7c"
+    },
+    {
+      "id": "R4",
+      "category": 2,
+      "cell": "r07c06",
+      "name": "Tea Cup",
+      "sha256": "ddc79a1f7628cbc230a5080e0fb573fc140ebae9e0a4863167886835ca642440"
+    },
+    {
+      "id": "R5",
+      "category": 2,
+      "cell": "r02c04",
+      "name": "Mojito",
+      "sha256": "c0e54a9db82c11e936e4ebdcb9a0b6f1d894324b8eb1ae297b2958ad01ba1e0b"
+    },
+    {
+      "id": "R6",
+      "category": 2,
+      "cell": "r03c07",
+      "name": "Beach Bag",
+      "sha256": "cf50b600e75d5a886fccd7dfd43d19b95472a8ee1c2faf708c866711fe207082"
+    },
+    {
+      "id": "R7",
+      "category": 3,
+      "cell": "r06c02",
+      "name": "Bumpers",
+      "sha256": "c4e3f1e55f350b40b216e8257b746cb6191ebbaf3ea44d505633c85656e360c0"
+    },
+    {
+      "id": "R8",
+      "category": 3,
+      "cell": "r01c06",
+      "name": "Computer",
+      "sha256": "50c4297d7f339fb4066899952d6036e5fd8ce7f7bbb1e93147853934701bbc86"
+    },
+    {
+      "id": "R9",
+      "category": 3,
+      "cell": "r05c10",
+      "name": "Boxing Gloves",
+      "sha256": "b65f58de9ea936e1b95513d41694daf265be7abc24b625f2ef3a9ada6e87a151"
+    },
+    {
+      "id": "R10",
+      "category": 4,
+      "cell": "r14c08",
+      "name": "Lighthouse",
+      "sha256": "b7fa6d20599d73ff4c1c8a62a9d0daba1766560185aa1fc60937e61ab5c66fc5"
+    },
+    {
+      "id": "R11",
+      "category": 4,
+      "cell": "r06c09",
+      "name": "Coaster",
+      "sha256": "c13fc65f5520ad51f1996b0ec3a54ef7f9af6faefb6532a9de84ac2d40aa11f6"
+    },
+    {
+      "id": "R12",
+      "category": 4,
+      "cell": "r08c06",
+      "name": "Tent",
+      "sha256": "64778b96a607743b30fd254f611592f8512be9ab49994693a784e455dfc5f6ca"
+    }
+  ],
+  "text_parts": [
+    "You will create one illustration for a collectible card in a casual mobile game. The next 12 images are existing cards from this game. Use them only to learn the art style; never copy their objects.",
+    "Reference R1 (category 1: floating object, simple background):",
+    "Reference R2 (category 1: floating object, simple background):",
+    "Reference R3 (category 1: floating object, simple background):",
+    "Reference R4 (category 2: object on a plain surface, simple background):",
+    "Reference R5 (category 2: object on a plain surface, simple background):",
+    "Reference R6 (category 2: object on a plain surface, simple background):",
+    "Reference R7 (category 3: object on a realistic surface, simple back wall):",
+    "Reference R8 (category 3: object on a realistic surface, simple back wall):",
+    "Reference R9 (category 3: object on a realistic surface, simple back wall):",
+    "Reference R10 (category 4: object inside a realistic environment, low angle):",
+    "Reference R11 (category 4: object inside a realistic environment, low angle):",
+    "Reference R12 (category 4: object inside a realistic environment, low angle):",
+    "Task: draw a NEW card illustration that looks as if the same artist made it for the same card album, so that a player would not notice any difference next to the reference cards.\n\nCard brief:\n- Card: Hall Clock.\n- Object: A tall grandfather clock of glossy honey-brown wood with a rounded hood, a big round cream clock face with simple dark marks instead of numbers, and a glass door showing a shiny brass pendulum, standing on a polished wooden floor with a soft reflection..\n- Its one charming, distinctive detail: a small brass key left in the lock of its glass door.\n- Main colours of the object: glossy honey-brown wood with brass trim and a cream face.\n- Background: Polished light-wood floor and a smooth deep-green back wall with a soft gradient, wall and floor in clearly different tones; no props; bright daylight..\n- Context cue: none.\n\nRendering, matched exactly to the references:\n- A clean, polished 3D game-asset finish: smooth, chunky, simplified volumes with soft rounded edges and slightly exaggerated proportions, with crisp, clearly defined materials.\n- Materials read at a glance. Metal has bright, sharp reflections and looks like real metal, never like matte plastic. Glass is clear, with crisp highlights. Fabric is thin, with soft natural folds and fine edges, never puffy or moulded. Water is clear and translucent, with white foam and highlights, never solid ribbons. Stone and rock are smooth, chunky planes without noisy texture.\n- Highlights are moderate and even, like on the reference cards: one or two broad, soft highlights per main form, never glare, sparkle or mirror reflections. Every card of a set shares the same finish.\n- Bright, even, cheerful lighting from the upper front, with soft-edged highlight shapes and a satin sheen. Never wet-look, chrome or mirror-like gloss, and never dim, moody, theatrical or photographic lighting. The whole image is bright.\n- If the brief sets the scene at sunset or at night, keep it bright and saturated: a glowing, warm orange-pink sunset sky, or a clear, deep-blue night lit by warm lights. The object itself stays brightly lit. Never murky, grey or dark.\n- No outlines or dark contour lines, no painterly brush strokes, no flat cel shading, no photographic depth of field, no realistic micro-textures.\n\nObject:\n- The most typical, instantly recognizable version of the object, complete with its standard parts and seen from its most familiar angle.\n- A chunky, solid, clear silhouette. Thin or open objects (hoops, tools, keys, rings) are drawn thicker and turned to show their broadest side, so they still fill the frame.\n- Manufactured objects have smooth, clean surfaces and simple flowing lines: no grooves, ridges, panel lines, droplets, grip textures or busy decoration. Instead of generic stripes or bands, give the object the one charming detail from the brief.\n- Decoration stays bold and sparse: a few large decorative shapes, never clusters of many small ones (many little flowers, gems or locks, lattice, lace or filigree).\n- Built structures keep their crafted structural details (bricks or planks, railings, windows), drawn in the same smooth, simplified way.\n- Vehicles use two main colours. Liquids are clearly visible and richly coloured. Steam, if any, is soft, natural, semi-transparent white vapour like the steam over the cup in reference R4; never stylized swirls or ribbons.\n\nColour:\n- A warm, juicy, inviting palette with bright, highly saturated colours. Never pastel, muddy or washed out.\n- The background contrasts clearly with the object, ideally in its complementary colour, so the object never blends into it. No teal, grey, dark or muted backgrounds.\n- Light sources (flames, lamps, glowing magic) glow inside the object only. No halo or light spill onto the background, which stays an even colour.\n\nBackground and context:\n- Follow the background from the brief exactly, including its colour. Any pattern (rays, rings, motifs) is clearly visible and centred behind the object, and never bleak or empty-looking.\n- For categories 1-3: floor or surface and wall are in clearly different tones. At most the one context cue from the brief; never a full scene, props or scenery.\n\nFraming (sizes measured on the reference cards):\n- One main object, centred. Its largest dimension spans about 80-88% of the image, never below about 75% and never above about 90%.\n- Leave clear, empty background around it: at least 5% of the image on every side, and about 12-16% of the image height above it. Nothing touches or crosses an edge (only the ground of a category 4 scene may run to the bottom edge).\n- The card is cropped to a slightly narrower shape (9 wide by 10 tall), so keep the object and its side margins inside the central 90% of the image width.\n- The object sits in the vertical middle of the frame. On a surface (categories 2 and 3) it is not pushed down to the bottom with a big empty wall above it.\n- Keep it readable at small card size: a few big, simple shapes. Leave out any detail smaller than about a twentieth of the image width (tiny rivets, fine textures, thin lines, many small repeated parts). In a category 4 scene, keep the environment to a few large, simple masses too: no fine fence slats, shingles, bricks or leafy clutter.\n\nComposition, category 3: The object stands on, or is set into, a simple realistic surface suited to it, such as a polished wooden tabletop, a glossy floor or a podium. The surface is painted in a smooth, stylized way, not photographically textured, with a soft reflection or contact shadow under the object. Behind it is a vertical wall in one colour, clearly different in tone from the surface: a smooth gradient, optionally with subtle rays or rings centred behind the object. Keep the background free of props, lights and scenery.\n\nOutput requirements:\n- A single full-bleed illustration.\n- No card frame, border, stars, ribbon, label, text, letters, numbers, logos or watermark.\n- No people or characters, and no extra objects beyond the subject and what its category allows.\n- Correction from the art review of the previous attempt: Keep it a tall, slender grandfather clock, but make the green back wall bright and evenly lit like the reference cards, with no dark corners and no spotlight glow behind the clock."
+  ],
+  "fix": "Keep it a tall, slender grandfather clock, but make the green back wall bright and evenly lit like the reference cards, with no dark corners and no spotlight glow behind the clock.",
+  "sent_at": "2026-10-15T01:27:36+00:00"
+}

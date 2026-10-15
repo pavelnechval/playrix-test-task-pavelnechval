@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The pocket watch is immediately recognizable, open, and complete with its chain, winder, hands, and heart markers."
+    },
+    "category": {
+      "pass": true,
+      "why": "It sits on a plain flat surface with a clean gradient wall behind it, both sharing a coherent bright green palette."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, logos, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The watch and its chain are centrally composed with ample negative space around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is vibrant, saturated, and warm, offering strong separation between the golden watch and the bright green background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are chunky and simplified with no distracting micro-textures, scratches, or unnecessary props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering matches the references with smooth rounded volumes, clean satin highlights, and no harsh outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5028,
+    "total_input_tokens": 3838,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 579
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 323,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 867
+  },
+  "est_cost_usd": 0.005489,
+  "elapsed_s": 12.4
+}

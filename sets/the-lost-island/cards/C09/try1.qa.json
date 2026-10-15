@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Contains the requested woven basket, tropical fruits, and hibiscus flower clearly."
+    },
+    "category": {
+      "pass": true,
+      "why": "Features a plain surface and a smooth gradient wall in a shared warm palette."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI elements, frames, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm overall, providing clear separation between subject and background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Uses simplified shapes without excessive micro-textures or noisy elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, chunky volumes and a soft satin finish matching the target look."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4705,
+    "total_input_tokens": 3840,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 581
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 282,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 583
+  },
+  "est_cost_usd": 0.004515,
+  "elapsed_s": 15.3
+}

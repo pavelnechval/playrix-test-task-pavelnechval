@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 21.6,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chd5S25PYXBfSE40UGZ2ZElQLTltdnNBdxIXeUtuT2FwX0hONFBmdmRJUC05bXZzQXc",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16583,
+      "total_input_tokens": 14467,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1027
+        }
+      ],
+      "total_cached_tokens": 7525,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 534
+        },
+        {
+          "modality": "image",
+          "tokens": 6991
+        }
+      ],
+      "total_output_tokens": 1552,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 564
+    },
+    "created": "2026-10-13T21:59:53Z",
+    "updated": "2026-10-13T21:59:53Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<643384 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the collectible card illustration of the Storm Lantern, created in the requested game art style.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2333588 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<679328 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0553005
+}

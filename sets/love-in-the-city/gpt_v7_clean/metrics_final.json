@@ -1,0 +1,46 @@
+{
+ "B02": {
+  "_key": "239539:1792020736",
+  "box": [
+   180,
+   52,
+   816,
+   946
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 14.93,
+  "edge_full": 17.42,
+  "height": 0.636,
+  "highlight": 0.1532,
+  "margin": 0.052,
+  "margin_bottom": 0.184,
+  "margin_top": 0.18,
+  "saturation": 0.489,
+  "small_detail": "low",
+  "why": "The typewriter rests on a polished wooden table against a simple orange graphic background with bold, stylized features.",
+  "width": 0.894
+ },
+ "B03": {
+  "_key": "263741:1792020736",
+  "box": [
+   141,
+   76,
+   900,
+   929
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 14.64,
+  "edge_full": 16.76,
+  "height": 0.759,
+  "highlight": 0.041,
+  "margin": 0.071,
+  "margin_bottom": 0.1,
+  "margin_top": 0.141,
+  "saturation": 0.56,
+  "small_detail": "low",
+  "why": "The stylized scooter is positioned centrally on a cobblestone road against an outdoor landscape of sky and hills.",
+  "width": 0.853
+ }
+}

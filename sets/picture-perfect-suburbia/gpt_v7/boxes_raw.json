@@ -1,0 +1,102 @@
+{
+ "A01": {
+  "box": [
+   75,
+   107,
+   940,
+   897
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A01.png",
+  "mtime": 1792015884
+ },
+ "A02": {
+  "box": [
+   50,
+   114,
+   873,
+   897
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A02.png",
+  "mtime": 1792016154
+ },
+ "A03": {
+  "box": [
+   200,
+   36,
+   764,
+   960
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A03.png",
+  "mtime": 1792016242
+ },
+ "A04": {
+  "box": [
+   146,
+   44,
+   856,
+   957
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A04.png",
+  "mtime": 1792015964
+ },
+ "A05": {
+  "box": [
+   79,
+   258,
+   908,
+   792
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A05.png",
+  "mtime": 1792015928
+ },
+ "A06": {
+  "box": [
+   62,
+   196,
+   990,
+   819
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A06.png",
+  "mtime": 1792016114
+ },
+ "A07": {
+  "box": [
+   68,
+   103,
+   903,
+   895
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A07.png",
+  "mtime": 1792016040
+ },
+ "A08": {
+  "box": [
+   146,
+   70,
+   818,
+   955
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A08.png",
+  "mtime": 1792016073
+ },
+ "A09": {
+  "box": [
+   180,
+   42,
+   842,
+   981
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A09.png",
+  "mtime": 1792015994
+ },
+ "A10": {
+  "box": [
+   214,
+   5,
+   874,
+   986
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A10.png",
+  "mtime": 1792016202
+ }
+}

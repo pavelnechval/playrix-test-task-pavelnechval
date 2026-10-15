@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The golden hourglass is complete, tilted, and instantly recognizable with the requested blue sand and star accents."
+    },
+    "category": {
+      "pass": true,
+      "why": "It floats freely in the air with no floor or table, tilted in three-quarter view, against concentric rings centered on a saturated background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The hourglass is well-centered with ample, balanced breathing room on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant warm red background contrasts sharply with the gold frame and saturated blue sand."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The forms are bold and simple with clean embossed stars and no distracting micro-textures or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D forms with a soft satin sheen that match the game's established style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4641,
+    "total_input_tokens": 3824,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 565
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 320,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 497
+  },
+  "est_cost_usd": 0.004363,
+  "elapsed_s": 9.1
+}

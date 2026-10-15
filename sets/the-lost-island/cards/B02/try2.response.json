@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 29.6,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdaS25PYXQtaE5vT0p2ZElQMWVDbTRRWRIXWktuT2F0LWhOb09KdmRJUDFlQ200UVk",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17369,
+      "total_input_tokens": 14477,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1037
+        }
+      ],
+      "total_cached_tokens": 6987,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 500
+        },
+        {
+          "modality": "image",
+          "tokens": 6487
+        }
+      ],
+      "total_output_tokens": 1771,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1121
+    },
+    "created": "2026-10-13T21:58:21Z",
+    "updated": "2026-10-13T21:58:21Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1017472 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "I have created a new collectible card illustration for the \"Explorer Journal\" that exactly matches the casual mobile game's signature art style. Here is your card art:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2176172 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<576320 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0553155
+}

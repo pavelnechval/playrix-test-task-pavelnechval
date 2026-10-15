@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The subject clearly depicts an open burlap pouch with three glowing green beans spilling out and a soft golden glow."
+    },
+    "category": {
+      "pass": true,
+      "why": "The pouch rests on a plain flat pink surface with a darker magenta vertical gradient wall behind it, meeting the Category 2 requirements."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, frames, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with generous margins on all sides and nothing is cropped."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is warm, bright, and vibrant, with strong separation between the object and background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The pouch is covered in a dense, realistic burlap weave micro-texture, violating the rule against busy surface patterns and micro-detail."
+    },
+    "style": {
+      "pass": false,
+      "why": "The realistic fabric texture looks photographic/bump-mapped rather than having the simplified, smooth chunky volumes and satin sheen shown in the references."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the realistic burlap weave micro-texture and give the pouch smooth, stylized chunky surfaces with a soft satin sheen like the references.",
+  "usage": {
+    "total_tokens": 5318,
+    "total_input_tokens": 3838,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 579
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 363,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1117
+  },
+  "est_cost_usd": 0.006359,
+  "elapsed_s": 15.8
+}

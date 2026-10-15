@@ -1,0 +1,67 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 20.5,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChZZdExQYXR2Vk05eS12ZElQbnUyOE1BEhZZdExQYXR2Vk05eS12ZElQbnUyOE1B",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17153,
+      "total_input_tokens": 14785,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1345
+        }
+      ],
+      "total_cached_tokens": 3738,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 340
+        },
+        {
+          "modality": "image",
+          "tokens": 3398
+        }
+      ],
+      "total_output_tokens": 1446,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 922
+    },
+    "created": "2026-10-14T19:05:22Z",
+    "updated": "2026-10-14T19:05:22Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<3053860 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<887080 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055777499999999994
+}

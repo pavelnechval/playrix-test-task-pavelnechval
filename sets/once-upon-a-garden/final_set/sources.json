@@ -1,0 +1,57 @@
+{
+ "set": "Once Upon a Garden",
+ "variant": "A",
+ "note": "W022: ChatGPT (gpt_v7, reframed), Pavel's blind pick; simplified redraws from cleanup rounds 1-2 where detail lost fell by 2+ points with the same category and no size drift",
+ "cards": {
+  "A04": {
+   "name": "Magic Beans",
+   "stars": 1,
+   "from": "gpt_v7/final"
+  },
+  "A09": {
+   "name": "Pocket Watch",
+   "stars": 1,
+   "from": "gpt_v7/final"
+  },
+  "A05": {
+   "name": "Golden Apple",
+   "stars": 2,
+   "from": "gpt_v7/final"
+  },
+  "A02": {
+   "name": "Fairy Lantern",
+   "stars": 2,
+   "from": "gpt_v7/final"
+  },
+  "A08": {
+   "name": "Crystal Ball",
+   "stars": 3,
+   "from": "gpt_v7/final"
+  },
+  "A07": {
+   "name": "Spinning Wheel",
+   "stars": 3,
+   "from": "gpt_v7/final"
+  },
+  "A10": {
+   "name": "Wishing Well",
+   "stars": 4,
+   "from": "gpt_v7/final"
+  },
+  "A01": {
+   "name": "Magic Wand",
+   "stars": 4,
+   "from": "gpt_v7/final"
+  },
+  "A03": {
+   "name": "Toadstool House",
+   "stars": 5,
+   "from": "gpt_v7/final"
+  },
+  "A06": {
+   "name": "Beanstalk",
+   "stars": 5,
+   "from": "gpt_v7/final"
+  }
+ }
+}

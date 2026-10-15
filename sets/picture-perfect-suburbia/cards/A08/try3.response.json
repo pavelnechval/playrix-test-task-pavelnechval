@@ -1,0 +1,70 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 17.3,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdyOVhPYW9uM0lkSzhuc0VQajRLbnNRcxIXcjlYT2FvbjNJZEs4bnNFUGo0S25zUXM",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17189,
+      "total_input_tokens": 14690,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1250
+        }
+      ],
+      "total_cached_tokens": 0,
+      "total_output_tokens": 1503,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 996
+    },
+    "created": "2026-10-14T01:07:07Z",
+    "updated": "2026-10-14T01:07:07Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<581592 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": " Here is the new hula hoop card illustration, designed to match the art style of the causal game album. Call to the next step.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2270056 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<633832 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055635
+}

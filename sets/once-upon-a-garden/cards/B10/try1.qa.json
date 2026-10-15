@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly shows the gingerbread cottage with icing roof and candy-cane door frame."
+    },
+    "category": {
+      "pass": true,
+      "why": "Features a simple grass strip, blue sky gradient, and soft clouds matching category 4."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered object with adequate margins and no awkward cropping."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, vibrant tones that stand out clearly against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth surfaces without excessive texture, noise, or distracting props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, chunky shapes and a satin finish matching references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4620,
+    "total_input_tokens": 3884,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 625
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 279,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 457
+  },
+  "est_cost_usd": 0.00415,
+  "elapsed_s": 13.2
+}

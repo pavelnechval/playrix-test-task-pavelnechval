@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The pink poodle skirt is immediately recognizable, complete with waist, flared circle shape, and poodle appliqu\u00e9."
+    },
+    "category": {
+      "pass": true,
+      "why": "The skirt floats freely with a dynamic tilt against a saturated background with concentric rings, with no floor or surface."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The skirt is well-centered with comfortable margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant hot pink contrasts cleanly against the bright, saturated blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and bold without distracting micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes with soft lighting and satin sheen, matching the reference cards perfectly."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4496,
+    "total_input_tokens": 3832,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 573
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 221,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 443
+  },
+  "est_cost_usd": 0.003908,
+  "elapsed_s": 10.8
+}

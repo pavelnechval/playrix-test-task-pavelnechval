@@ -1,0 +1,199 @@
+"""Merge human ratings, an external model's ratings and the pipeline's own QA verdicts, card by card.
+
+    python -I pipeline/rating_report.py RATINGS_JSON EXTERNAL_MD OUT_DIR sets/<slug>/plan.json [...]
+
+RATINGS_JSON comes from export_ratings.ps1 (the filled rating workbook). EXTERNAL_MD is the external
+model's answer to rating_request.md: a table "code | score | notice | commentary" plus one line per set,
+"**<set> - Variant X:** ...". Writes OUT_DIR/merged.csv (semicolon-separated, so it opens directly in
+Russian-locale Excel) and OUT_DIR/rating_numbers.md.
+
+A card passes when a player would not notice it next to the real cards: a human rating of 4-5, or
+notice = no from the external model.
+"""
+
+from __future__ import annotations
+
+import csv
+import json
+import re
+import statistics
+import sys
+from pathlib import Path
+
+PASS_AT = 4  # human ratings of 4-5 pass
+REDO_AT_OR_BELOW = 3  # Pavel's rule from the Set picks notes: redo the chosen variant's cards rated 3 and below
+ROW = re.compile(r"^\|\s*([A-Z]{2}-[A-Z]\d{2})\s*\|\s*(\d)\s*\|\s*(yes|no)\s*\|\s*(.*?)\s*\|\s*$", re.I)
+PICK = re.compile(r"\*\*(.+?)\s+[—–-]+\s+Variant\s+([A-Z])\b")
+
+
+def read_external(path: Path) -> tuple[dict, dict]:
+    scores, picks = {}, {}
+    for line in path.read_text(encoding="utf-8").splitlines():
+        if m := ROW.match(line):
+            scores[m[1]] = {"score": int(m[2]), "notice": m[3].lower(), "comment": m[4]}
+        elif m := PICK.search(line):
+            picks[m[1].strip()] = m[2]
+    return scores, picks
+
+
+def ranks(values: list[float]) -> list[float]:
+    order = sorted(range(len(values)), key=lambda i: values[i])
+    out, i = [0.0] * len(values), 0
+    while i < len(order):
+        j = i
+        while j + 1 < len(order) and values[order[j + 1]] == values[order[i]]:
+            j += 1
+        for k in range(i, j + 1):
+            out[order[k]] = (i + j) / 2 + 1  # ties share their average rank
+        i = j + 1
+    return out
+
+
+def kappa(a: list[bool], b: list[bool]) -> float:
+    n = len(a)
+    observed = sum(x == y for x, y in zip(a, b)) / n
+    pa, pb = sum(a) / n, sum(b) / n
+    expected = pa * pb + (1 - pa) * (1 - pb)
+    return (observed - expected) / (1 - expected) if expected < 1 else 1.0
+
+
+def pct(k: int, n: int) -> str:
+    return f"{k}/{n} ({100 * k / n:.0f}%)" if n else "-"
+
+
+def table(headers: list[str], rows: list[list]) -> list[str]:
+    return ["| " + " | ".join(headers) + " |", "|" + "---|" * len(headers)] + \
+           ["| " + " | ".join(str(c) for c in row) + " |" for row in rows] + [""]
+
+
+def group_stats(rows: list[dict]) -> list:
+    n = len(rows)
+    human = [r["pavel"] for r in rows]
+    ext = [r["ext_score"] for r in rows]
+    return [n, f"{statistics.mean(human):.2f}", pct(sum(r["pavel_pass"] for r in rows), n),
+            f"{statistics.mean(ext):.2f}", pct(sum(r["ext_pass"] for r in rows), n),
+            pct(sum(r["pavel_pass"] and r["ext_pass"] for r in rows), n),
+            sum(r["qa_status"] != "passed" for r in rows)]
+
+
+def main(argv: list[str]) -> int:
+    if len(argv) < 4:
+        print(__doc__)
+        return 2
+    ratings = json.loads(Path(argv[0]).read_text(encoding="utf-8-sig"))
+    ext_scores, ext_picks = read_external(Path(argv[1]))
+    out = Path(argv[2])
+    qa = {}
+    for plan_path in map(Path, argv[3:]):
+        plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        summary = json.loads((plan_path.parent / "summary.json").read_text(encoding="utf-8"))
+        qa[plan["set"]] = summary["cards"]
+
+    rows, problems = [], []
+    for r in ratings["ratings"]:
+        e = ext_scores.get(r["code"])
+        if r["rating"] is None or e is None:
+            problems.append(f"{r['code']}: missing {'human rating' if r['rating'] is None else 'external score'}")
+            continue
+        card_qa = qa[r["set"]][r["card"]]
+        rows.append({
+            "code": r["code"], "set": r["set"], "variant": r["variant"], "card": r["card"], "name": r["name"],
+            "category": r["category"], "pavel": int(r["rating"]), "pavel_pass": r["rating"] >= PASS_AT,
+            "pavel_comment": r["comment"], "ext_score": e["score"], "ext_notice": e["notice"],
+            "ext_pass": e["notice"] == "no", "ext_comment": e["comment"],
+            "qa_status": card_qa["status"], "attempts": len(card_qa["attempts"]),
+        })
+    inconsistent = [r["code"] for r in rows if r["ext_pass"] != (r["ext_score"] >= PASS_AT)]
+
+    out.mkdir(parents=True, exist_ok=True)
+    with (out / "merged.csv").open("w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter=";")
+        writer.writeheader()
+        writer.writerows(rows)
+
+    sets = list(dict.fromkeys(r["set"] for r in rows))
+    head = ["Set", "Variant", "Cards", "Pavel avg", "Pavel pass (4-5)", "External avg", "External pass (notice = no)",
+            "Both pass", "QA-flagged"]
+    lines = ["# Rating numbers (generated by pipeline/rating_report.py)", "",
+             f"Sources: {ratings.get('source', argv[0])}, {Path(argv[1]).name}, the sets' summary.json files. "
+             f"Pass = human rating {PASS_AT}-5, or external notice = no.", ""]
+    if problems or inconsistent:
+        lines += [f"Data issues: {problems + [f'{c}: external notice disagrees with its score' for c in inconsistent]}", ""]
+
+    lines += ["## By set and variant", ""]
+    body = []
+    for s in sets:
+        for v in sorted({r["variant"] for r in rows if r["set"] == s}):
+            body.append([s, v] + group_stats([r for r in rows if r["set"] == s and r["variant"] == v]))
+        body.append([f"**{s}**", "all"] + group_stats([r for r in rows if r["set"] == s]))
+    body.append(["**All sets**", "all"] + group_stats(rows))
+    lines += table(head, body)
+
+    lines += ["## By composition category", ""]
+    lines += table(["Category"] + head[2:], [[f"C{c}"] + group_stats([r for r in rows if r["category"] == c])
+                                             for c in sorted({r["category"] for r in rows})])
+
+    human = [r["pavel"] for r in rows]
+    ext = [r["ext_score"] for r in rows]
+    diffs = [e - h for h, e in zip(human, ext)]
+    both = [[sum(r["pavel_pass"] == hp and r["ext_pass"] == ep for r in rows) for ep in (True, False)] for hp in (True, False)]
+    lines += ["## Pavel vs the external model", "",
+              f"- Cards: {len(rows)}. Mean score: Pavel {statistics.mean(human):.2f}, external {statistics.mean(ext):.2f}.",
+              f"- Score correlation: Pearson r = {statistics.correlation(human, ext):.2f}, "
+              f"Spearman rho = {statistics.correlation(ranks(human), ranks(ext)):.2f}.",
+              f"- Same score: {pct(sum(d == 0 for d in diffs), len(rows))}; within 1 point: {pct(sum(abs(d) <= 1 for d in diffs), len(rows))}; "
+              f"2+ points apart: {pct(sum(abs(d) >= 2 for d in diffs), len(rows))}.",
+              f"- Same pass/fail verdict: {pct(sum(r['pavel_pass'] == r['ext_pass'] for r in rows), len(rows))}; "
+              f"Cohen's kappa = {kappa([r['pavel_pass'] for r in rows], [r['ext_pass'] for r in rows]):.2f}.", ""]
+    lines += table(["", "External pass", "External fail"],
+                   [["Pavel pass", both[0][0], both[0][1]], ["Pavel fail", both[1][0], both[1][1]]])
+    lines += ["Cards 2+ points apart:", ""]
+    lines += table(["Code", "Card", "Pavel", "External", "Pavel's comment", "External commentary"],
+                   [[r["code"], r["name"], r["pavel"], r["ext_score"], r["pavel_comment"] or "-", r["ext_comment"]]
+                    for r in rows if abs(r["ext_score"] - r["pavel"]) >= 2])
+
+    lines += ["## The pipeline's QA vs the raters", ""]
+    qa_rows = []
+    for label, test in [("QA passed", lambda r: r["qa_status"] == "passed"),
+                        ("QA accepted with issues", lambda r: r["qa_status"] != "passed"),
+                        ("Accepted on the 1st attempt", lambda r: r["attempts"] == 1),
+                        ("Needed 2-3 attempts", lambda r: r["attempts"] > 1)]:
+        group = [r for r in rows if test(r)]
+        qa_rows.append([label, len(group), f"{statistics.mean(r['pavel'] for r in group):.2f}",
+                        pct(sum(r["pavel_pass"] for r in group), len(group)), pct(sum(r["ext_pass"] for r in group), len(group))])
+    lines += table(["Group", "Cards", "Pavel avg", "Pavel pass", "External pass"], qa_rows)
+
+    lines += ["## Variant picks", ""]
+    pick_rows = []
+    human_picks = {p["set"]: p for p in ratings.get("picks", [])}
+    for s in sets:
+        variants = sorted({r["variant"] for r in rows if r["set"] == s})
+        by = {v: [r for r in rows if r["set"] == s and r["variant"] == v] for v in variants}
+        def best(key):
+            scores = {v: key(by[v]) for v in variants}
+            top = max(scores.values())
+            return "/".join(v for v in variants if scores[v] == top)
+        pick_rows.append([s, human_picks.get(s, {}).get("pick", "-"), ext_picks.get(s, "-"),
+                          best(lambda g: statistics.mean(r["pavel"] for r in g)), best(lambda g: sum(r["pavel_pass"] for r in g)),
+                          best(lambda g: statistics.mean(r["ext_score"] for r in g)), human_picks.get(s, {}).get("notes", "")])
+    lines += table(["Set", "Pavel's pick", "External pick", "Best Pavel avg", "Most Pavel passes", "Best external avg", "Pavel's notes"], pick_rows)
+
+    lines += [f"## Redo list: chosen variant, rated {REDO_AT_OR_BELOW} or lower", ""]
+    redo = [r for r in rows if human_picks.get(r["set"], {}).get("pick") == r["variant"] and r["pavel"] <= REDO_AT_OR_BELOW]
+    lines += table(["Code", "Card", "Cat", "Pavel", "External", "QA", "Pavel's comment", "External commentary"],
+                   [[r["code"], r["name"], f"C{r['category']}", r["pavel"], r["ext_score"], r["qa_status"],
+                     r["pavel_comment"] or "-", r["ext_comment"]] for r in redo])
+
+    lines += ["## All human comments", ""]
+    lines += table(["Code", "Card", "Cat", "Pavel", "External", "Pavel's comment"],
+                   [[r["code"], r["name"], f"C{r['category']}", r["pavel"], r["ext_score"], r["pavel_comment"]]
+                    for r in rows if r["pavel_comment"]])
+
+    (out / "rating_numbers.md").write_text("\n".join(lines), encoding="utf-8")
+    print(f"{len(rows)} cards merged; {len(problems)} missing; {len(inconsistent)} inconsistent external rows; "
+          f"redo list: {', '.join(r['code'] for r in redo) or 'none'} -> {out}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

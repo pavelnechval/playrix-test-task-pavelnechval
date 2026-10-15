@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear sandstone arch with wagon tracks and desert shrubs."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a wide ground plane against an open sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The arch crowds the frame and clips against the left border."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated tones with strong contrast against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky forms without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, stylized volumes consistent with the reference aesthetic."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the arch slightly to leave clear breathing room along the left and right edges.",
+  "usage": {
+    "total_tokens": 5416,
+    "total_input_tokens": 4134,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 875
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 278,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1004
+  },
+  "est_cost_usd": 0.005913,
+  "elapsed_s": 19.9
+}

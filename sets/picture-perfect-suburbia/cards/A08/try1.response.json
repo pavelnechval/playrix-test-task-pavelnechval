@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 24.9,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chc3YVRPYW9qLUQ4X212ZElQN1lqemlBaxIXN2FUT2Fvai1EOF9tdmRJUDdZanppQWs",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16974,
+      "total_input_tokens": 14391,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 951
+        }
+      ],
+      "total_cached_tokens": 7413,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 489
+        },
+        {
+          "modality": "image",
+          "tokens": 6924
+        }
+      ],
+      "total_output_tokens": 1476,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1107
+    },
+    "created": "2026-10-13T21:39:10Z",
+    "updated": "2026-10-13T21:39:10Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<572196 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "I have created the illustration of the Hula Hoop card. It follows the exact rendering, character, and composition style of the existing game assets.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1839572 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<618688 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0551865
+}

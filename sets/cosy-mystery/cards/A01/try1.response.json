@@ -1,0 +1,57 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 15.9,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chc1eWJRYXF2aUg2eXMyOG9QbElETzhBOBIXNXliUWFxdmlINnlzMjhvUGxJRE84QTg",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16566,
+      "total_input_tokens": 15004,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1564
+        }
+      ],
+      "total_cached_tokens": 0,
+      "total_output_tokens": 1562,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 0
+    },
+    "created": "2026-10-15T01:05:52Z",
+    "updated": "2026-10-15T01:05:52Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<2784288 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<602704 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056106
+}

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The green muddy boots and rose petal detail match the brief clearly."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows Category 2 with a flat floor and smooth gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, watermarks, UI, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered pair with balanced negative space on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright purple backdrop provides strong contrast against the green boots."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Mud and shapes remain chunky without noisy micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D volumes and satin finish align with the reference art."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "purple": 0.83,
+        "grey/dark": 0.17
+      },
+      "why": "background is purple (83% of the background); planned purple"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5371,
+    "total_input_tokens": 4062,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 803
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 272,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1037
+  },
+  "est_cost_usd": 0.005958,
+  "elapsed_s": 21.7
+}

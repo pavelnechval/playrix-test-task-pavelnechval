@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The magic wand is immediately recognisable, complete with the requested golden star tip, white handle, pink ribbon, and sparkle trail."
+    },
+    "category": {
+      "pass": false,
+      "why": "There is a detached cast shadow rendered beneath the wand handle, implying an invisible floor plane rather than floating completely free in space."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, watermarks, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The wand is centrally placed with generous margins on all sides and nothing is cropped."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, saturated purple background with good contrast against the white, yellow, and pink object."
+    },
+    "detail": {
+      "pass": true,
+      "why": "No micro-textures or excessive surface details; elements remain clean and stylized."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, chunky 3D volumes and a satin sheen that matches the reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the cast shadow beneath the wand so it floats cleanly in the air.",
+  "usage": {
+    "total_tokens": 5582,
+    "total_input_tokens": 3835,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 576
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 335,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1412
+  },
+  "est_cost_usd": 0.0071585,
+  "elapsed_s": 20.1
+}

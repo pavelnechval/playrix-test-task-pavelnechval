@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The ruby gemstone is immediately recognisable, nicely faceted, and features the requested sparkle on the top facet."
+    },
+    "category": {
+      "pass": true,
+      "why": "The gem floats tilted in the air with no ground plane, set against a vibrant radiating sunburst pattern."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no UI elements, borders, watermarks, text, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The gem is centered with ample, balanced breathing room on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant saturated red gemstone pops cleanly against the warm lime-green background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "No noisy micro-textures, scratches, or unnecessary extra props are present."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes with soft bevels and a clean satin sheen, fully consistent with the reference style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4616,
+    "total_input_tokens": 3822,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 563
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 310,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 484
+  },
+  "est_cost_usd": 0.004293,
+  "elapsed_s": 10.2
+}

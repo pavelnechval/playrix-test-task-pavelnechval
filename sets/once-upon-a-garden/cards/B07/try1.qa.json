@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The harp is clearly recognisable, complete with its golden frame, strings, and the requested swan-neck tip."
+    },
+    "category": {
+      "pass": false,
+      "why": "The surface has realistic, photographic-looking marble veining instead of being painted in a smooth, stylized manner."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermark, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The harp is centered with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright and warm with good contrast between the gold harp, pink gradient wall, and light surface."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The harp itself is free of noisy micro-details, scratches, or unnecessary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "The harp features smooth, chunky 3D volumes and a satin sheen matching the casual game style."
+    }
+  },
+  "pass": false,
+  "fix": "Replace the photorealistic marble tabletop with a smooth, stylized surface such as polished wood or a plain glossy floor.",
+  "usage": {
+    "total_tokens": 4983,
+    "total_input_tokens": 3862,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 603
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 334,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 787
+  },
+  "est_cost_usd": 0.005294,
+  "elapsed_s": 13.0
+}

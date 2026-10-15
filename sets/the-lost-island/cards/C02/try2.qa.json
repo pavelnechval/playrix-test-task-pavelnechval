@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Brass lantern with red glass and flame on a crate matches the brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a stylized surface against a simple gradient background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, watermarks, UI, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Subject is centered with clear margins around the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, saturated palette with strong separation from the background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Stylized forms without distracting micro-textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D rendering with a satin finish matching references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4933,
+    "total_input_tokens": 3866,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 607
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 271,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 796
+  },
+  "est_cost_usd": 0.005134,
+  "elapsed_s": 19.1
+}

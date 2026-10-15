@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear brass storm lantern with flame, glass globe, and red handle details."
+    },
+    "category": {
+      "pass": true,
+      "why": "Appropriate category 3 composition on a stylized tabletop against a clean wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and figures."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered silhouette with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant palette with clear separation between the brass lantern and purple backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean stylized forms without distracting micro-textures or busy elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the soft, chunky 3D render aesthetic of the references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "warn",
+      "measured": {
+        "blue": 0.54,
+        "purple": 0.4,
+        "red": 0.04,
+        "pink": 0.01
+      },
+      "why": "background is blue (54% of the background); planned purple"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4966,
+    "total_input_tokens": 4020,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 761
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 275,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 671
+  },
+  "est_cost_usd": 0.004848,
+  "elapsed_s": 16.3
+}

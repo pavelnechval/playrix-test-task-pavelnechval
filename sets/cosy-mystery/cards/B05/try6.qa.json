@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "qa_error": "HTTP 402 for POST interactions: [{\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOUR",
+  "checks": {
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 0.99,
+        "teal": 0.01
+      },
+      "why": "background is green (99% of the background); planned green"
+    }
+  }
+}

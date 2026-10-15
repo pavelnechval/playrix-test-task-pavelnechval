@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The subject is clearly a pair of roller skates with pink wheels and pom-poms on the laces as requested."
+    },
+    "category": {
+      "pass": true,
+      "why": "The skates float in the air with a slight tilt against a saturated background with radiating light rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, frames, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The skates are centrally framed with adequate margins on all four sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The bright lime-green background and pink-and-white skates create high contrast and a vibrant, saturated look."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The pom-poms feature realistic, fuzzy micro-detail with fine hair fibers instead of clean, simplified geometry."
+    },
+    "style": {
+      "pass": false,
+      "why": "The furry pom-poms break the required smooth chunky volume aesthetic shown in the references."
+    }
+  },
+  "pass": false,
+  "fix": "Simplify the pom-poms into smooth, chunky stylized shapes with a satin sheen rather than rendering realistic fuzzy fur fibers.",
+  "usage": {
+    "total_tokens": 5378,
+    "total_input_tokens": 3829,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 570
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 344,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1205
+  },
+  "est_cost_usd": 0.0065615,
+  "elapsed_s": 16.7
+}

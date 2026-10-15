@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 20.0,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdPNm5PYXVmSUlQR1cyOG9QdTd1U3VRaxIXTzZuT2F1ZklJUEdXMjhvUHU3dVN1UWs",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16619,
+      "total_input_tokens": 14464,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1024
+        }
+      ],
+      "total_cached_tokens": 7516,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 532
+        },
+        {
+          "modality": "image",
+          "tokens": 6984
+        }
+      ],
+      "total_output_tokens": 1455,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 700
+    },
+    "created": "2026-10-13T21:57:31Z",
+    "updated": "2026-10-13T21:57:31Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<582272 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the card illustration for the Seaplane, created in the designated casual mobile game art style:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1852072 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<620516 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055296
+}

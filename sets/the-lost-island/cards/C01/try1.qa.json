@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly recognizable shovel with all standard components intact."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object floats on a warm radiating background with no ground plane."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI elements, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample breathing room on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette with strong contrast against the background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The sand contains noisy, granular micro-texture inconsistent with the style."
+    },
+    "style": {
+      "pass": true,
+      "why": "Renders with smooth volumes and satin sheen matching references."
+    }
+  },
+  "pass": false,
+  "fix": "Simplify the falling sand into solid, chunky shapes and remove the grainy texture.",
+  "usage": {
+    "total_tokens": 5058,
+    "total_input_tokens": 3825,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 566
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 282,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 951
+  },
+  "est_cost_usd": 0.0056115,
+  "elapsed_s": 20.7
+}

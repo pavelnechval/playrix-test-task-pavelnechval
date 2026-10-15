@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The coconut drink is instantly recognisable and includes all requested elements: half-open coconut shell, straw, cocktail umbrella, and lime slice."
+    },
+    "category": {
+      "pass": true,
+      "why": "The drink rests on a flat, solid-coloured surface with a smooth, gradient wall behind it, both sharing a warm orange palette with clear value separation."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no UI, frame, text, watermark, or character present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The coconut drink is centered nicely with generous, balanced margins around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and saturated warm tones; the brown coconut, white rim, and green lime contrast clearly against the orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes with no distracting micro-textures, ridges, or unnecessary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky, smooth 3D forms with a clean satin sheen, perfectly matching the casual game reference aesthetic."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4683,
+    "total_input_tokens": 3837,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 578
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 333,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 513
+  },
+  "est_cost_usd": 0.0044565,
+  "elapsed_s": 9.5
+}

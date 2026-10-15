@@ -1,0 +1,102 @@
+{
+ "A01": {
+  "box": [
+   214,
+   258,
+   836,
+   758
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A01\\try2.jpg",
+  "mtime": 1791928030
+ },
+ "A02": {
+  "box": [
+   91,
+   324,
+   814,
+   676
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A02\\try1.jpg",
+  "mtime": 1791927987
+ },
+ "A03": {
+  "box": [
+   182,
+   147,
+   911,
+   853
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A03\\try2.jpg",
+  "mtime": 1791928033
+ },
+ "A04": {
+  "box": [
+   232,
+   201,
+   870,
+   840
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A04\\try2.jpg",
+  "mtime": 1791928039
+ },
+ "A05": {
+  "box": [
+   171,
+   230,
+   818,
+   768
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A05\\try1.jpg",
+  "mtime": 1791928063
+ },
+ "A06": {
+  "box": [
+   0,
+   126,
+   946,
+   846
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A06\\try1.jpg",
+  "mtime": 1791928078
+ },
+ "A07": {
+  "box": [
+   174,
+   193,
+   888,
+   807
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A07\\try1.jpg",
+  "mtime": 1791928077
+ },
+ "A08": {
+  "box": [
+   168,
+   226,
+   856,
+   774
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A08\\try1.jpg",
+  "mtime": 1791928104
+ },
+ "A09": {
+  "box": [
+   144,
+   118,
+   882,
+   911
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A09\\try1.jpg",
+  "mtime": 1791928116
+ },
+ "A10": {
+  "box": [
+   73,
+   178,
+   908,
+   804
+  ],
+  "file": "sets\\once-upon-a-garden\\cards\\A10\\try2.jpg",
+  "mtime": 1792013855
+ }
+}

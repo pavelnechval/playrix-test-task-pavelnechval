@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The vintage cream suitcase record player is instantly recognisable, complete with its lid open, controls, tonearm, and the requested red heart-shaped vinyl record."
+    },
+    "category": {
+      "pass": true,
+      "why": "The record player rests on a stylized polished wooden surface with a soft shadow, set against a clean, prop-free pink gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The record player is centrally framed with comfortable margins on all sides and no parts cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright, and saturated palette with clear contrast between the cream suitcase, the red record, the wood surface, and the pink background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes and surfaces are clean and stylized without distracting micro-textures, scratches, or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features chunky, rounded 3D volumes with a soft satin sheen, closely matching the established game art style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5495,
+    "total_input_tokens": 3865,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 606
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 346,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1284
+  },
+  "est_cost_usd": 0.0068225,
+  "elapsed_s": 18.6
+}

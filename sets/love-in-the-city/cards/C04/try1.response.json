@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 21.0,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdrS1BPYXBtakR0VHduc0VQak83Y3lRWRIXa0tQT2FwbWpEdFR3bnNFUGpPN2N5UVk",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16731,
+      "total_input_tokens": 14404,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 964
+        }
+      ],
+      "total_cached_tokens": 7477,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 500
+        },
+        {
+          "modality": "image",
+          "tokens": 6977
+        }
+      ],
+      "total_output_tokens": 1504,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 823
+    },
+    "created": "2026-10-13T21:33:20Z",
+    "updated": "2026-10-13T21:33:20Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<419596 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Please review the new \"Red Heel\" card illustration below, which has been designed to exactly match the 3D casual game art style, colors, and camera angle of your collectible cards.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1688368 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<494268 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055206
+}

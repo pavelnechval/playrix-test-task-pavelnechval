@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "It clearly depicts a tied sack with gold coins and a single green gem, fully matching the prompt."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object floats in the air with no floor or ground, shown in a three-quarter tilted view against a vibrant gradient with radiating rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, watermarks, frames, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centered with comfortable margins on all sides and nothing is clipped."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The colors are bright, saturated, and provide strong contrast between the brown/gold object and the green background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The burlap sack has a visible fabric weave/stipple micro-texture across its surface instead of being perfectly smooth."
+    },
+    "style": {
+      "pass": true,
+      "why": "It features chunky 3D volumes, soft shading, and a clean satin finish matching the reference style."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the fabric weave surface texture from the sack so it has a completely smooth, clean finish like the references.",
+  "usage": {
+    "total_tokens": 5633,
+    "total_input_tokens": 3828,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 569
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 352,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1453
+  },
+  "est_cost_usd": 0.007329,
+  "elapsed_s": 16.6
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The bouquet features three red roses wrapped in pink paper with a bow and a small hanging blank heart tag as specified."
+    },
+    "category": {
+      "pass": true,
+      "why": "The bouquet floats at a slight angle with no ground or surface, set against a saturated yellow radiating sunburst background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, border, watermark, or character present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with comfortable, clear margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, juicy, vibrant colours with strong contrast between the bouquet and the yellow-orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are simple and chunky with no micro-textures, noise, or unnecessary secondary elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "The 3D render perfectly matches the reference art style with smooth rounded volumes, soft lighting, and a gentle satin sheen."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4650,
+    "total_input_tokens": 3837,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 578
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 323,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 490
+  },
+  "est_cost_usd": 0.0043575,
+  "elapsed_s": 11.1
+}

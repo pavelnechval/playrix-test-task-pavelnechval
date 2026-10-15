@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Yellow taxi is complete with the requested roof sign, checker pattern, and heart decal."
+    },
+    "category": {
+      "pass": false,
+      "why": "Background includes small houses on the horizon rather than just the street strip and sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or visible characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Taxi is centrally positioned with appropriate margins and a low heroic angle."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm yellow body contrasts well against the saturated blue sky."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Background contains extra architectural scenery elements not permitted by the category."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference style with chunky stylized shapes, soft lighting, and satin finish."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the houses along the horizon so the background consists solely of the road strip, clouds, and sky.",
+  "usage": {
+    "total_tokens": 5067,
+    "total_input_tokens": 3896,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 637
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 305,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 866
+  },
+  "est_cost_usd": 0.005461,
+  "elapsed_s": 18.2
+}

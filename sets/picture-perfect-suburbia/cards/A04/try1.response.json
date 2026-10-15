@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 31.3,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChZqcVRPYW9QNU9yaS1uc0VQM0xMM0lBEhZqcVRPYW9QNU9yaS1uc0VQM0xMM0lB",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16750,
+      "total_input_tokens": 14421,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 981
+        }
+      ],
+      "total_cached_tokens": 7471,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 508
+        },
+        {
+          "modality": "image",
+          "tokens": 6963
+        }
+      ],
+      "total_output_tokens": 1438,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 891
+    },
+    "created": "2026-10-13T21:37:42Z",
+    "updated": "2026-10-13T21:37:42Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<517836 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the new card illustration for the Jelly Mould.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2205412 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<561068 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0552315
+}

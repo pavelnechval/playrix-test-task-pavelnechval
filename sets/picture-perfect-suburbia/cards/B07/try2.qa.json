@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "It is clearly a classic red gumball machine complete with its glass globe, colorful gumballs, dispenser chute, and shiny chrome coin mechanism."
+    },
+    "category": {
+      "pass": true,
+      "why": "The machine rests on a stylized counter surface with a soft contact shadow, set against a smooth gradient wall free of extraneous scenery."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermarks, frames, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The gumball machine is centered with comfortable margins on the top and sides, and no part of the object is cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is vibrant, warm, and saturated, with clear contrast between the red machine, colourful gumballs, and warm orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The volumes are bold and clean without noisy micro-textures, scratches, or unnecessary props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering matches the references with soft satin sheens, chunky 3D forms, and clean highlights without outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4834,
+    "total_input_tokens": 3866,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 607
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 349,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 619
+  },
+  "est_cost_usd": 0.004837,
+  "elapsed_s": 13.0
+}

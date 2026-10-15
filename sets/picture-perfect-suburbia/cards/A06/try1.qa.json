@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear mailbox with red body, white door, post, and raised flag."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view with grass baseline, picket fence, and cloudy sky background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI elements, characters, or watermarks."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins around the main subject."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated red, crisp white, and bright blue sky provide strong separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simple volumes without micro-textures or extraneous visual noise."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D shapes with soft satin lighting consistent with references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5759,
+    "total_input_tokens": 3891,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 632
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 282,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1586
+  },
+  "est_cost_usd": 0.0075495,
+  "elapsed_s": 37.0
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Depicts the requested stone wishing well with roof, bucket, and flowers."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 4 with a grass strip base and clean sky gradient."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered with good negative space and margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Rich, saturated colors with good subject separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Volumes are clean and chunky without micro-texture clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth satin finish matching reference assets."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4820,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 626
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 266,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 669
+  },
+  "est_cost_usd": 0.0047475,
+  "elapsed_s": 15.1
+}

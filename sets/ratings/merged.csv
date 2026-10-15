@@ -1,0 +1,121 @@
+﻿code;set;variant;card;name;category;pavel;pavel_pass;pavel_comment;ext_score;ext_notice;ext_pass;ext_comment;qa_status;attempts
+LC-A01;Love in the City;A;A01;Rose Bouquet;1;5;True;;4;no;True;The petals are slightly softer, but saturated colours and a strong silhouette fit well.;passed;1
+LC-A02;Love in the City;A;A02;Rotary Phone;3;5;True;;4;no;True;Rounded modelling and warm tabletop framing match, despite slightly softer highlights.;passed;2
+LC-A03;Love in the City;A;A03;City Taxi;4;5;True;;4;no;True;Chunky forms, bright reflections and a close camera angle suit the references.;passed;2
+LC-A04;Love in the City;A;A04;Heart Cupcake;2;3;False;;4;no;True;The frosting is slightly airbrushed, but the scale and warm contrast fit.;passed;1
+LC-A05;Love in the City;A;A05;Heart Chocolates;1;5;True;;4;no;True;Clear overlapping shapes and saturated colours compensate for slightly waxy materials.;passed;1
+LC-A06;Love in the City;A;A06;Park Bench;4;3;False;Overall good but it seems like it is floating in the air instead of terrain;3;yes;False;The densely clustered, softly shaded blossoms overwhelm the bench’s simpler silhouette.;accepted_with_issues;3
+LC-A07;Love in the City;A;A07;Record Player;3;4;True;Maybe less details on object would be nice, everything else is perfect (colors, idea, etc);4;no;True;The angled presentation and warm wooden surface closely follow the reference computer card.;passed;1
+LC-A08;Love in the City;A;A08;Love Letter;1;5;True;;5;no;True;Crisp folds, controlled highlights and bold background contrast blend into the reference style.;passed;1
+LC-A09;Love in the City;A;A09;Perfume;2;4;True;;3;yes;False;Blurred glass reflections give the bottle a softer, jelly-like finish than the reference glass.;passed;2
+LC-A10;Love in the City;A;A10;Flower Kiosk;4;5;True;;4;no;True;The cart remains readable through large colour blocks despite its extra floral detail.;passed;1
+LC-B01;Love in the City;B;B01;Red Umbrella;1;5;True;;4;no;True;The canopy has slightly softer shading, but its diagonal framing and saturation fit.;passed;1
+LC-B02;Love in the City;B;B02;Typewriter;3;4;True;Too many details;3;yes;False;Muted colours and tightly packed mechanical details look more naturalistic than the references.;passed;1
+LC-B03;Love in the City;B;B03;Vintage Scooter;4;5;True;;4;no;True;Rounded panels and warm highlights fit, with only slightly excessive ground detail.;passed;1
+LC-B04;Love in the City;B;B04;Heart Balloon;1;3;False;;4;no;True;Broad glossy highlights and a simple silhouette fit, although the shading is softer.;passed;2
+LC-B05;Love in the City;B;B05;Matching Mugs;2;4;True;Steam is far from ref (should be more realistic);3;yes;False;Dull surfaces and heavy, diffuse shading lack the references’ crisp material definition.;passed;1
+LC-B06;Love in the City;B;B06;Cafe Table;4;4;True;;3;yes;False;Small, thin furniture occupies too little of the frame beneath the canopy.;passed;3
+LC-B07;Love in the City;B;B07;Engagement Ring;1;5;True;;4;no;True;Exaggerated proportions and saturated contrast fit, with slightly softer metal shading.;passed;1
+LC-B08;Love in the City;B;B08;Tulip Bucket;3;4;True;;3;yes;False;Dense petals and tiny gingham checks create more visual texture than the references.;passed;2
+LC-B09;Love in the City;B;B09;Heart Glasses;2;4;True;Color blending a bit;5;no;True;Clean bevels, selective reflections and close framing match the reference rendering.;passed;1
+LC-B10;Love in the City;B;B10;Love Locks;4;5;True;;3;yes;False;Numerous small locks divide attention instead of producing a clear dominant object.;accepted_with_issues;3
+LC-C01;Love in the City;C;C01;Wedding Rings;1;3;False;Idea is great but rings looks like plastic more than like a metal;4;no;True;Simple rounded bands and bold contrast fit, though the gold looks slightly waxy.;passed;1
+LC-C02;Love in the City;C;C02;Wedding Cake;3;4;True;Too many details, maybe roses should be more simplistic;3;yes;False;Fine decorative piping and low-contrast white tiers give it a delicate, miniature-render appearance.;passed;1
+LC-C03;Love in the City;C;C03;Wedding Car;4;4;True;;4;no;True;The rounded car and clear road perspective fit despite the softer pastel palette.;passed;1
+LC-C04;Love in the City;C;C04;Red Heel;2;5;True;;4;no;True;The strong silhouette and restrained reflections fit, with slightly more naturalistic shading.;passed;1
+LC-C05;Love in the City;C;C05;Bridal Bouquet;1;2;False;Too detailed, background like this is not in any ref;3;yes;False;Repeated rose spirals create a dense ornamental texture unlike the references’ broader shapes.;passed;1
+LC-C06;Love in the City;C;C06;Garden Gazebo;4;3;False;Too detailed;3;yes;False;Fine latticework and scattered flowers make the structure too intricate at card size.;passed;1
+LC-C07;Love in the City;C;C07;Tiara;1;4;True;;4;no;True;Bold framing keeps the metallic loops readable despite slightly stronger chrome reflections.;passed;1
+LC-C08;Love in the City;C;C08;Gift Box;3;4;True;;5;no;True;Crisp box planes, sculpted ribbon highlights and warm contrast match the reference style.;passed;1
+LC-C09;Love in the City;C;C09;Heart Candles;2;4;True;;4;no;True;Rounded forms and saturated contrast fit, although the wax shading is slightly diffuse.;passed;1
+LC-C10;Love in the City;C;C10;Chapel Bell;4;5;True;;4;no;True;Clear architectural masses and sky contrast fit, with somewhat softer edge modelling.;passed;1
+PP-A01;Picture-Perfect Suburbia;A;A01;Pop-up Toaster;1;4;True;;4;no;True;Bold framing and warm colour accents fit, though the metal reflections are slightly soft.;passed;1
+PP-A02;Picture-Perfect Suburbia;A;A02;Retro TV;3;5;True;;4;no;True;Its simple silhouette and warm tabletop staging match despite a more matte finish.;passed;2
+PP-A03;Picture-Perfect Suburbia;A;A03;Dream House;4;5;True;;4;no;True;Clear architectural shapes fit, although the pastel walls have slightly weaker contrast.;passed;2
+PP-A04;Picture-Perfect Suburbia;A;A04;Jelly Mould;2;5;True;;3;yes;False;Wet translucency and irregular internal detail look more realistic than the reference materials.;passed;1
+PP-A05;Picture-Perfect Suburbia;A;A05;Milk Bottle;1;3;False;;4;no;True;Clean framing and strong background separation fit despite softly modelled glass.;passed;1
+PP-A06;Picture-Perfect Suburbia;A;A06;Mailbox;4;5;True;;5;no;True;Crisp edges, controlled shading and a readable outdoor composition match the references.;passed;1
+PP-A07;Picture-Perfect Suburbia;A;A07;Stand Mixer;3;4;True;;3;yes;False;Broad, blurred reflections give the mixer an overly soft plastic finish.;passed;1
+PP-A08;Picture-Perfect Suburbia;A;A08;Hula Hoop;1;2;False;;5;no;True;Sharp colour bands and a bold diagonal silhouette match the simpler reference cards.;passed;2
+PP-A09;Picture-Perfect Suburbia;A;A09;TV Dinner;2;3;False;;4;no;True;The elevated angle and clear compartments fit, with slightly softer food rendering.;passed;1
+PP-A10;Picture-Perfect Suburbia;A;A10;Station Wagon;4;5;True;;4;no;True;Chunky proportions and a strong three-quarter view fit despite slightly softer surfaces.;passed;2
+PP-B01;Picture-Perfect Suburbia;B;B01;Poodle Skirt;1;3;False;Texture does not look like cloth;3;yes;False;Thick, inflated folds make the fabric read as moulded rubber.;passed;1
+PP-B02;Picture-Perfect Suburbia;B;B02;Jukebox;3;4;True;;4;no;True;Saturated colour bands and a strong outer silhouette keep its extra detail readable.;passed;2
+PP-B03;Picture-Perfect Suburbia;B;B03;Drive-In;4;5;True;;3;yes;False;Thin poles, cropped scenery and dispersed objects lack a clear, substantial focal shape.;accepted_with_issues;3
+PP-B04;Picture-Perfect Suburbia;B;B04;Milkshake;2;4;True;;4;no;True;Simple framing and warm colours fit, although the glass highlights are more diffuse.;passed;1
+PP-B05;Picture-Perfect Suburbia;B;B05;Roller Skates;1;4;True;;4;no;True;Rounded forms and selective highlights fit despite slightly inflated material thickness.;passed;2
+PP-B06;Picture-Perfect Suburbia;B;B06;Lawn Flamingos;4;4;True;;3;yes;False;The slender subjects sit too small against a large expanse of sky.;passed;2
+PP-B07;Picture-Perfect Suburbia;B;B07;Gumball Machine;3;4;True;;5;no;True;Bright material separation, crisp highlights and substantial framing match the reference cards.;passed;2
+PP-B08;Picture-Perfect Suburbia;B;B08;Pocket Radio;1;4;True;;5;no;True;Clear bevels, simplified controls and strong colour separation blend into the references.;passed;1
+PP-B09;Picture-Perfect Suburbia;B;B09;Saddle Shoes;2;5;True;;4;no;True;Large readable shapes and controlled highlights fit despite slightly rubbery surfaces.;passed;1
+PP-B10;Picture-Perfect Suburbia;B;B10;Backyard Grill;4;5;True;;4;no;True;The simple outdoor composition and warm metal highlights fit the reference treatment.;passed;1
+PP-C01;Picture-Perfect Suburbia;C;C01;Feather Duster;1;2;False;;3;yes;False;Bulbous, smooth feather clusters read as plastic rather than stylised soft fibres.;passed;1
+PP-C02;Picture-Perfect Suburbia;C;C02;Washing Machine;3;4;True;;4;no;True;Strong colour blocks and simplified construction fit, though the reflections are slightly softer.;passed;1
+PP-C03;Picture-Perfect Suburbia;C;C03;Sprinkler;4;2;False;Water does not look like water;3;yes;False;Thick, solid-looking water ribbons give the scene a sculpted-plastic appearance.;passed;2
+PP-C04;Picture-Perfect Suburbia;C;C04;Casserole;2;3;False;Not enough details, not obvious it is Casserole;4;no;True;Clear rounded forms and warm colour fit, with slightly subdued material highlights.;passed;1
+PP-C05;Picture-Perfect Suburbia;C;C05;Alarm Clock;1;3;False;;4;no;True;Strong framing and readable metal accents fit despite slightly softer face details.;passed;2
+PP-C06;Picture-Perfect Suburbia;C;C06;Paperboy Bike;4;3;False;Terrain is missing;3;yes;False;Fine spokes and overlapping narrow parts create a more intricate, naturalistic image.;accepted_with_issues;3
+PP-C07;Picture-Perfect Suburbia;C;C07;Vacuum Cleaner;3;3;False;;4;no;True;The large metal body and warm floor match, despite a somewhat busier silhouette.;accepted_with_issues;3
+PP-C08;Picture-Perfect Suburbia;C;C08;Polka-Dot Apron;1;3;False;Background could be different color so image would be happier;3;yes;False;Thick edges and inflated folds make the apron look moulded rather than fabric.;passed;1
+PP-C09;Picture-Perfect Suburbia;C;C09;Ice Cream Sundae;2;4;True;;4;no;True;Warm contrast and a clear silhouette fit despite slightly more realistic glass shading.;passed;1
+PP-C10;Picture-Perfect Suburbia;C;C10;Lemonade Stand;4;4;True;;4;no;True;Broad structural shapes and a clean sky background fit, with slightly softer wood rendering.;passed;2
+OG-A01;Once Upon a Garden;A;A01;Magic Wand;1;4;True;;5;no;True;The clean diagonal silhouette, selective shine and saturated background match the references.;passed;2
+OG-A02;Once Upon a Garden;A;A02;Fairy Lantern;3;4;True;;4;no;True;Clear lighting and substantial framing fit, although the brass is slightly subdued.;accepted_with_issues;3
+OG-A03;Once Upon a Garden;A;A03;Toadstool House;4;5;True;;4;no;True;Broad architectural shapes and bright sky contrast fit despite softer surface modelling.;passed;2
+OG-A04;Once Upon a Garden;A;A04;Magic Beans;2;5;True;;4;no;True;Chunky forms and clear colour separation fit, though the sack looks slightly rubbery.;passed;2
+OG-A05;Once Upon a Garden;A;A05;Golden Apple;1;4;True;;4;no;True;A bold silhouette and saturated contrast fit despite softly blended metallic shading.;passed;1
+OG-A06;Once Upon a Garden;A;A06;Beanstalk;4;5;True;;3;yes;False;Swirling clouds and overlapping leaves compete with the main form, reducing visual separation.;accepted_with_issues;3
+OG-A07;Once Upon a Garden;A;A07;Spinning Wheel;3;4;True;;4;no;True;Warm wooden modelling and tabletop staging fit, with slightly thinner structural details.;passed;1
+OG-A08;Once Upon a Garden;A;A08;Crystal Ball;1;4;True;;4;no;True;Simple framing and saturated colour fit, though the glass effects are more diffuse.;passed;1
+OG-A09;Once Upon a Garden;A;A09;Pocket Watch;2;5;True;;4;no;True;The large readable face and simplified gold casing fit despite softer reflections.;passed;1
+OG-A10;Once Upon a Garden;A;A10;Wishing Well;4;4;True;;4;no;True;Clear roof and stone masses fit, with slightly more small floral detail.;passed;1
+OG-B01;Once Upon a Garden;B;B01;Golden Crown;1;3;False;;4;no;True;Bold gold shapes and saturated contrast fit despite somewhat denser ornamental detail.;passed;1
+OG-B02;Once Upon a Garden;B;B02;Magic Mirror;3;5;True;;4;no;True;The clear oval silhouette and controlled reflections fit, with slightly softer gold shading.;passed;2
+OG-B03;Once Upon a Garden;B;B03;Tower Braid;4;3;False;Hair is weird;5;no;True;Strong vertical framing, simplified masonry and bright sky separation closely match the lighthouse.;passed;2
+OG-B04;Once Upon a Garden;B;B04;Enchanted Apple;2;4;True;Background color could be better;3;yes;False;Diffuse, muted shading makes the apple look airbrushed beside the crisper reference objects.;passed;1
+OG-B05;Once Upon a Garden;B;B05;Golden Key;1;3;False;;5;no;True;Clean bevels, bold proportions and sharp background separation match the reference style.;passed;1
+OG-B06;Once Upon a Garden;B;B06;Pumpkin Coach;4;3;False;Overdetailed;3;yes;False;Dense gold curls and overlapping trim produce a much busier silhouette.;passed;1
+OG-B07;Once Upon a Garden;B;B07;Golden Harp;3;4;True;;4;no;True;Clear framing and simplified gold surfaces fit despite slightly subdued highlights.;passed;2
+OG-B08;Once Upon a Garden;B;B08;Potion Bottle;1;5;True;;4;no;True;Strong colour separation and broad glass highlights fit, though the bottle is slightly bulbous.;passed;1
+OG-B09;Once Upon a Garden;B;B09;Golden Egg;2;5;True;;3;yes;False;Naturalistic egg shading and tightly woven nest detail exceed the references’ material complexity.;passed;1
+OG-B10;Once Upon a Garden;B;B10;Gingerbread House;4;5;True;;4;no;True;Broad colour blocks preserve readability despite slightly inflated icing and roof shapes.;passed;1
+OG-C01;Once Upon a Garden;C;C01;Top Hat;1;5;True;;4;no;True;The strong tilted silhouette and saturated colours fit, with slightly softer shading.;passed;1
+OG-C02;Once Upon a Garden;C;C02;Flower Teapot;3;5;True;;4;no;True;Rounded ceramic modelling and floral decoration fit, although the highlights are more diffuse.;passed;2
+OG-C03;Once Upon a Garden;C;C03;Hedge Maze;4;4;True;;3;yes;False;Repeated foliage and tiny rose details create a dense texture at card size.;passed;2
+OG-C04;Once Upon a Garden;C;C04;Croquet Set;2;4;True;;4;no;True;Simple forms and clear staging fit, with slightly muted wood and ball highlights.;passed;1
+OG-C05;Once Upon a Garden;C;C05;Rabbit Watch;1;4;True;Color blending a bit;4;no;True;The large face and bold gold silhouette fit despite extra chain detail.;passed;1
+OG-C06;Once Upon a Garden;C;C06;Tea Party Table;4;3;False;Some detail missing that it is more like Wonderland;3;yes;False;Tiny tableware and a dominant surrounding tree make the focal objects too small.;passed;1
+OG-C07;Once Upon a Garden;C;C07;Tiny Door;3;3;False;Door could be smaller;3;yes;False;The oversized, textured trunk overwhelms the small door and weakens the focal hierarchy.;passed;1
+OG-C08;Once Upon a Garden;C;C08;Paint the Roses;1;5;True;Nice idea;4;no;True;Clear diagonal staging and strong colour contrast fit despite slightly softer petals.;passed;1
+OG-C09;Once Upon a Garden;C;C09;Jam Tarts;2;3;False;;4;no;True;Close framing and distinct colour blocks fit, with slightly more pastry texture.;passed;2
+OG-C10;Once Upon a Garden;C;C10;Teapot House;4;5;True;;4;no;True;Large readable forms and bright sky contrast fit despite softer, puffier modelling.;passed;1
+LI-A01;The Lost Island;A;A01;Brass Compass;1;5;True;;4;no;True;The clear angled silhouette and warm metal accents fit despite softer reflections.;passed;1
+LI-A02;The Lost Island;A;A02;Coconut Cups;3;5;True;;4;no;True;Chunky forms and saturated staging fit, though the coconut surfaces are slightly matte.;accepted_with_issues;3
+LI-A03;The Lost Island;A;A03;Hot Air Balloon;4;4;True;;4;no;True;Bold colour panels and a clean sky fit despite the slightly small basket.;passed;2
+LI-A04;The Lost Island;A;A04;Pineapple;2;3;False;;4;no;True;Simplified fruit segments and warm contrast fit, with slightly softer highlights.;passed;2
+LI-A05;The Lost Island;A;A05;Conch Shell;1;2;False;;5;no;True;Broad sculpted planes, controlled gloss and strong colour separation match the references.;passed;1
+LI-A06;The Lost Island;A;A06;Rope Bridge;4;3;False;;3;yes;False;Receding planks and ropes spread attention across the frame without a dominant object.;accepted_with_issues;3
+LI-A07;The Lost Island;A;A07;Explorer Hat;3;4;True;;4;no;True;Broad hat shapes and warm staging fit, although the crate adds extra texture.;passed;1
+LI-A08;The Lost Island;A;A08;Ruby Gem;1;4;True;;5;no;True;Crisp facets, selective highlights and bold saturation blend into the reference style.;passed;1
+LI-A09;The Lost Island;A;A09;Pearl Oyster;2;5;True;;3;yes;False;Blurred pearlescent shading and swollen shell edges look softer than the reference materials.;passed;2
+LI-A10;The Lost Island;A;A10;Treehouse;4;3;False;;3;yes;False;Fine bamboo and thatch textures make the structure more intricate than the reference architecture.;passed;1
+LI-B01;The Lost Island;B;B01;Gold Coin;1;2;False;From first glance at it do not see connection to set;5;no;True;Clean relief shapes, controlled metal highlights and bold framing match the reference cards.;passed;1
+LI-B02;The Lost Island;B;B02;Explorer Journal;3;5;True;;4;no;True;Broad page shapes and warm tabletop framing fit despite a slightly muted palette.;passed;2
+LI-B03;The Lost Island;B;B03;Seaplane;4;4;True;;4;no;True;Chunky geometry and bright colour separation fit, with slightly softer aircraft surfaces.;passed;1
+LI-B04;The Lost Island;B;B04;Coconut Drink;2;3;False;;4;no;True;Simple framing and clear material boundaries fit despite more diffuse coconut shading.;passed;1
+LI-B05;The Lost Island;B;B05;Hourglass;1;3;False;Colors could be different for sand, background and object;4;no;True;A strong diagonal silhouette and saturated accents fit despite softened glass reflections.;passed;1
+LI-B06;The Lost Island;B;B06;Volcano Island;4;3;False;Mountain texture is weird;4;no;True;Simplified landscape masses and clear sky separation fit, though the shading is softer.;passed;1
+LI-B07;The Lost Island;B;B07;Treasure Pot;3;4;True;;3;yes;False;The pot’s diffuse matte shading and tiny treasure details weaken material definition.;passed;1
+LI-B08;The Lost Island;B;B08;Banana Bunch;1;5;True;;5;no;True;Clean curved planes, bright highlights and saturated contrast match the reference rendering.;passed;1
+LI-B09;The Lost Island;B;B09;Seashell Jar;2;4;True;Objects in jar could be more pronounced;3;yes;False;Overlapping shells and hazy glass reflections make the contents visually muddy.;passed;1
+LI-B10;The Lost Island;B;B10;Jungle Temple;4;4;True;Good styling but it does not always have to be blue sky? Check all given references on Miro for this category;4;no;True;Large stone blocks and a clear central opening fit despite slightly softer edges.;passed;1
+LI-C01;The Lost Island;C;C01;Shovel;1;3;False;;5;no;True;Crisp material changes, controlled highlights and a strong diagonal silhouette match the references.;passed;2
+LI-C02;The Lost Island;C;C02;Storm Lantern;3;3;False;Background color blending with light;4;no;True;Warm metal accents and substantial framing fit, though the supporting crate is busier.;passed;2
+LI-C03;The Lost Island;C;C03;X Marks the Spot;4;5;True;Idea and execution are great here;3;yes;False;Separated props and the large ground marking divide attention across the scene.;accepted_with_issues;3
+LI-C04;The Lost Island;C;C04;Ruby Necklace;2;5;True;;3;yes;False;Numerous small chain reflections create finer metallic texture than the reference objects.;passed;1
+LI-C05;The Lost Island;C;C05;Island Torch;1;4;True;;4;no;True;Bold framing and saturated flame shapes fit despite slightly softer wood rendering.;passed;1
+LI-C06;The Lost Island;C;C06;Waterfall Cave;4;4;True;Could be waterfall in mountain, does not have to be sky?;3;yes;False;Diffuse rock shading and misty water effects give the scene an overly soft finish.;passed;2
+LI-C07;The Lost Island;C;C07;Jewel Goblet;3;4;True;;4;no;True;Large readable forms and strong background contrast fit despite slightly dull gold shading.;passed;1
+LI-C08;The Lost Island;C;C08;Bag of Gold;1;4;True;;4;no;True;The simple silhouette and clear colour separation fit, with somewhat softer cloth modelling.;passed;2
+LI-C09;The Lost Island;C;C09;Fruit Basket;2;4;True;;4;no;True;Chunky weaving and broad fruit shapes fit despite slightly more crowded framing.;passed;1
+LI-C10;The Lost Island;C;C10;Palm Hammock;4;4;True;;3;yes;False;The palms dominate the frame while the thin hammock remains comparatively small.;passed;3

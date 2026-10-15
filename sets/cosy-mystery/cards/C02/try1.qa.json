@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The basket, yarn, needles, scarf, and magnifying glass are all clearly recognizable."
+    },
+    "category": {
+      "pass": true,
+      "why": "Meets category 2 criteria with a plain ground plane and smooth gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, characters, or borders present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Central placement with solid silhouette and sufficient breathing room."
+    },
+    "colour": {
+      "pass": false,
+      "why": "The light blue yarn ball blends into the blue background, reducing separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Appropriately chunky forms without excessive micro-textures or busy elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes and satin finish align well with reference assets."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 1.0
+      },
+      "why": "background is blue (100% of the background); planned blue"
+    }
+  },
+  "pass": false,
+  "fix": "Change the blue ball of yarn to a warm contrasting colour so it separates clearly from the background.",
+  "usage": {
+    "total_tokens": 5807,
+    "total_input_tokens": 4060,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 801
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 301,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1446
+  },
+  "est_cost_usd": 0.007271,
+  "elapsed_s": 19.4
+}

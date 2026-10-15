@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The vintage car and strapped suitcase are clearly depicted and recognizable."
+    },
+    "category": {
+      "pass": true,
+      "why": "The car rests on grounded terrain with a suitable garden backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered composition with adequate breathing room around the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated palette with clear separation between car and background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The gravel driveway and hedge foliage feature dense, repetitive pebble and leaf micro-textures."
+    },
+    "style": {
+      "pass": false,
+      "why": "The environment relies on granular surface noise rather than the smooth, simplified forms of the references."
+    }
+  },
+  "pass": false,
+  "fix": "Simplify the driveway and hedge textures into smooth, chunky stylized planes consistent with the reference cards.",
+  "usage": {
+    "total_tokens": 5637,
+    "total_input_tokens": 4168,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 909
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 297,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1172
+  },
+  "est_cost_usd": 0.006491,
+  "elapsed_s": 20.2
+}

@@ -1,0 +1,67 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Contains the card, fingerprint, dusting brush, and powder tin as requested."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 2 setup with a lighter flat surface and a darker gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Clear of text, UI, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Subject is centrally composed with ample margin around the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Matches the requested saturated purple palette and separates well from the subject."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Avoids unnecessary clutter and keeps the silhouette readable."
+    },
+    "style": {
+      "pass": false,
+      "why": "Brush bristles are rendered with fine realistic strands instead of smooth, chunky game volumes."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "purple": 0.96,
+        "grey/dark": 0.02,
+        "blue": 0.01,
+        "pink": 0.0,
+        "red": 0.0,
+        "orange": 0.0
+      },
+      "why": "background is purple (96% of the background); planned purple"
+    }
+  },
+  "pass": false,
+  "fix": "Simplify the brush bristles into chunkier, smooth stylized geometry to match the reference style.",
+  "usage": {
+    "total_tokens": 5141,
+    "total_input_tokens": 4085,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 826
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 296,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 760
+  },
+  "est_cost_usd": 0.0052105,
+  "elapsed_s": 21.6
+}

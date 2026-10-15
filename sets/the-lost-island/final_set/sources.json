@@ -1,0 +1,57 @@
+{
+ "set": "The Lost Island",
+ "variant": "C",
+ "note": "W022: ChatGPT (gpt_v7, reframed), Pavel's blind pick; simplified redraws from cleanup rounds 1-2 where detail lost fell by 2+ points with the same category and no size drift",
+ "cards": {
+  "C09": {
+   "name": "Fruit Basket",
+   "stars": 1,
+   "from": "gpt_v7/final"
+  },
+  "C01": {
+   "name": "Shovel",
+   "stars": 1,
+   "from": "gpt_v7/final"
+  },
+  "C02": {
+   "name": "Storm Lantern",
+   "stars": 2,
+   "from": "gpt_v7_clean2/final"
+  },
+  "C05": {
+   "name": "Island Torch",
+   "stars": 2,
+   "from": "gpt_v7/final"
+  },
+  "C10": {
+   "name": "Palm Hammock",
+   "stars": 3,
+   "from": "gpt_v7_clean2/final"
+  },
+  "C06": {
+   "name": "Waterfall Cave",
+   "stars": 3,
+   "from": "gpt_v7_clean/final"
+  },
+  "C03": {
+   "name": "X Marks the Spot",
+   "stars": 4,
+   "from": "gpt_v7/final"
+  },
+  "C08": {
+   "name": "Bag of Gold",
+   "stars": 4,
+   "from": "gpt_v7_clean/final"
+  },
+  "C07": {
+   "name": "Jewel Goblet",
+   "stars": 5,
+   "from": "gpt_v7_clean/final"
+  },
+  "C04": {
+   "name": "Ruby Necklace",
+   "stars": 5,
+   "from": "gpt_v7/final"
+  }
+ }
+}

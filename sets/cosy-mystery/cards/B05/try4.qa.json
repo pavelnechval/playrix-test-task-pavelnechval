@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The grandfather clock matches all brief elements including the brass key and pendulum."
+    },
+    "category": {
+      "pass": true,
+      "why": "The clock stands solidly on a ground plane with a gradient back wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, interface elements, or extraneous characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The clock is well-centered with ample, balanced margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Features warm wood tones set against the planned deep green gradient."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain simplified without excessive micro-textures or busy clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendering exhibits smooth, chunky forms and soft specular highlights consistent with the references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 0.67,
+        "grey/dark": 0.33,
+        "orange": 0.0,
+        "yellow": 0.0
+      },
+      "why": "background is green (67% of the background); planned green"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4952,
+    "total_input_tokens": 4082,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 823
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 194,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 676
+  },
+  "est_cost_usd": 0.004651,
+  "elapsed_s": 16.3
+}

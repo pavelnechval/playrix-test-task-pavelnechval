@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The apron is instantly recognisable, complete with straps, frilly trim, polka dots, and the requested heart-shaped pocket."
+    },
+    "category": {
+      "pass": true,
+      "why": "The apron floats in three-quarter view with no ground surface against an orange gradient background with radiating sunburst rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermark, card frame, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The apron is well-centered with comfortable margins on all sides and no parts cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright, warm, and saturated, with the red and white apron clearly readable against the orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The polka dots and frills are chunky and stylized with no micro-textures, noise, or unnecessary extra props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The illustration matches the reference style with soft satin highlights, smooth 3D volumes, and no outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4677,
+    "total_input_tokens": 3833,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 574
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 334,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 510
+  },
+  "est_cost_usd": 0.0044485,
+  "elapsed_s": 11.4
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Park bench with requested cherry tree and petals is clearly recognizable."
+    },
+    "category": {
+      "pass": false,
+      "why": "Dense tree canopy fills the upper background instead of maintaining an open sky gradient."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, interface elements, or characters visible."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The tree canopy is cropped along the top and side edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Colors are saturated, bright, and contrast well with the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain simplified and chunky without unnecessary micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references, featuring smooth satin 3D volumes."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the composition so the entire cherry tree fits comfortably with visible sky above it.",
+  "usage": {
+    "total_tokens": 5549,
+    "total_input_tokens": 3889,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 630
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 287,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1373
+  },
+  "est_cost_usd": 0.0069245,
+  "elapsed_s": 24.2
+}

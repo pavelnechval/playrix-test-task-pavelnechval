@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The open cherry-red notebook, yellow pencil, footprint sketch, and ribbon bookmark are all clearly depicted and instantly readable."
+    },
+    "category": {
+      "pass": true,
+      "why": "It follows category 3 with a stylized wooden tabletop and a clean, prop-free violet-purple gradient wall behind it."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, numbers, UI, card frames, or characters; the simple footprint sketch adheres to the brief."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The notebook is centrally framed with ample margins on all four sides and a chunky, readable silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright and saturated with excellent contrast between the warm desk, violet wall, and vibrant red/yellow notebook elements."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Detail levels are well controlled with smooth surfaces, stylized wood grain, and no micro-clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "The 3D render perfectly matches the reference cards with smooth, chunky shapes, soft highlights, and a clean satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "purple": 0.9,
+        "orange": 0.09,
+        "pink": 0.01
+      },
+      "why": "background is purple (90% of the background); planned purple"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4930,
+    "total_input_tokens": 4083,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 824
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 347,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 500
+  },
+  "est_cost_usd": 0.0045825,
+  "elapsed_s": 9.9
+}

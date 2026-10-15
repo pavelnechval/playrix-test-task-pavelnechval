@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The drive-in speaker post is clearly recognizable with both hanging speakers, cords, top red light, and the screen in the background."
+    },
+    "category": {
+      "pass": false,
+      "why": "The foreground strip contains scattered pebbles and rocks, violating the rule against busy terrain and scattered scenery."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The central speaker post is well-framed with ample breathing room on top and sides."
+    },
+    "colour": {
+      "pass": false,
+      "why": "The palette is overwhelmingly cool, desaturated grey and white rather than the bright, warm, and juicy look of the references."
+    },
+    "detail": {
+      "pass": false,
+      "why": "There is realistic micro-texture/mottling on the metal surfaces and realistic scattered gravel across the ground."
+    },
+    "style": {
+      "pass": false,
+      "why": "The rendering leans too photographic with realistic surface weathering and depth-of-field blur on the gravel, missing the clean, smooth, toy-like satin finish seen in the references."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the scattered pebbles and surface grime, clean up the metal into smooth stylized shapes with a satin sheen, and inject warmer, more saturated lighting.",
+  "usage": {
+    "total_tokens": 5663,
+    "total_input_tokens": 3897,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 638
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 373,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1393
+  },
+  "est_cost_usd": 0.0072465,
+  "elapsed_s": 20.2
+}

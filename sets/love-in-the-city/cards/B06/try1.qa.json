@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The table, curly white chairs, vase with a rose, and striped awning are all present and clearly recognizable."
+    },
+    "category": {
+      "pass": false,
+      "why": "The camera angle is flat and eye-level rather than a low camera angle that makes the object look heroic; additionally, the awning floats unnaturally in mid-air instead of being grounded in a cohesive, plausible setting."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The disconnected awning floating high above the table splits the scene into two separate objects with an awkward void between them, rather than presenting one unified central focal object."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Colors are vibrant, saturated, and provide strong contrast against the bright blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and chunky with no noisy textures or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style well with smooth 3D volumes and a clean satin finish."
+    }
+  },
+  "pass": false,
+  "fix": "Lower the camera angle for a more heroic perspective and connect the awning naturally over the table (such as via posts or a subtle cafe facade) so the scene reads as one unified central object rather than a floating awning separated from the furniture.",
+  "usage": {
+    "total_tokens": 5147,
+    "total_input_tokens": 3896,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 637
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 389,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 862
+  },
+  "est_cost_usd": 0.005701,
+  "elapsed_s": 15.8
+}

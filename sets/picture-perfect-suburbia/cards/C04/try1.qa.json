@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear orange casserole dish with lifted lid and rising steam wisps."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 2 setup with a plain surface and gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and saturated, offering good contrast between orange and green."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth surfaces without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent chunky 3D forms and satin finish matching references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4746,
+    "total_input_tokens": 3840,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 581
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 263,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 643
+  },
+  "est_cost_usd": 0.004638,
+  "elapsed_s": 17.2
+}

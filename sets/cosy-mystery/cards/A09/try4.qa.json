@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately depicts the specified London townhouse, bay window, red door, and muddy footprints."
+    },
+    "category": {
+      "pass": true,
+      "why": "Ground band, low heroic perspective, and stylized sky meet Category 4 rules."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, watermarks, and characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "Neighbouring houses occupy too much frame width and eliminate required side margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm palette with clear contrast against the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain simplified and chunky without excessive micro-detail."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth volumes and satin sheen matching the references."
+    }
+  },
+  "pass": false,
+  "fix": "Pull the camera back slightly and trim the adjacent buildings so they only peek in, restoring clear side margins.",
+  "usage": {
+    "total_tokens": 6845,
+    "total_input_tokens": 4208,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 949
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 302,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2335
+  },
+  "est_cost_usd": 0.010015,
+  "elapsed_s": 27.3
+}

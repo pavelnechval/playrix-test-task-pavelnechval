@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Features the wooden stand, striped awning, lemon ornament, pitcher, and cups."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle hero view with a simple ground strip and clear sky background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, characters, or watermarks present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample breathing room on the sides and top."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette that contrasts cleanly against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean stylized surfaces without noisy textures or unnecessary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference rendering with chunky 3D volumes and soft satin materials."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4635,
+    "total_input_tokens": 3900,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 641
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 280,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 455
+  },
+  "est_cost_usd": 0.004155,
+  "elapsed_s": 17.9
+}

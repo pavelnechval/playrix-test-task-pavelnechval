@@ -1,0 +1,56 @@
+{
+ "C06": {
+  "colour_shift": [
+   -2,
+   2,
+   2
+  ],
+  "cost": 0.0354,
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C06.png",
+  "model": "C06.try1.model.png",
+  "mtime": 1792020470,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 2.22,
+  "tries": 1
+ },
+ "C07": {
+  "colour_shift": [
+   2,
+   4,
+   4
+  ],
+  "cost": 0.0354,
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C07.png",
+  "model": "C07.try1.model.png",
+  "mtime": 1792020552,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.35,
+  "tries": 1
+ },
+ "C08": {
+  "colour_shift": [
+   -3,
+   1,
+   4
+  ],
+  "cost": 0.0354,
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C08.png",
+  "model": "C08.try1.model.png",
+  "mtime": 1792020512,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.7,
+  "tries": 1
+ }
+}

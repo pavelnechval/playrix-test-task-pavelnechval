@@ -1,0 +1,202 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 16.9,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdTM25OYXRIR0djal92ZElQNWI3SmdBURIXUzNuTmF0SEdHY2pfdmRJUDViN0pnQVE",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 11655,
+      "total_input_tokens": 9410,
+      "input_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 450
+        },
+        {
+          "modality": "image",
+          "tokens": 8960
+        }
+      ],
+      "total_cached_tokens": 3554,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 170
+        },
+        {
+          "modality": "image",
+          "tokens": 3384
+        }
+      ],
+      "total_output_tokens": 1485,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 760,
+      "raw_prompt_token": 10026,
+      "model_invocation_token_counts": [
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1066
+            },
+            {
+              "modality": "image",
+              "tokens": 8960
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 317
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 760
+            }
+          ]
+        },
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 2167
+            },
+            {
+              "modality": "image",
+              "tokens": 9769
+            }
+          ],
+          "cache_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1488
+            },
+            {
+              "modality": "image",
+              "tokens": 6704
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 60
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 130
+            }
+          ]
+        }
+      ],
+      "non_grounding_model_invocation_token_counts": [
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1066
+            },
+            {
+              "modality": "image",
+              "tokens": 8960
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 317
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 760
+            }
+          ]
+        },
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 2167
+            },
+            {
+              "modality": "image",
+              "tokens": 9769
+            }
+          ],
+          "cache_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1488
+            },
+            {
+              "modality": "image",
+              "tokens": 6704
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 60
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 130
+            }
+          ]
+        }
+      ]
+    },
+    "created": "2026-10-13T00:20:40Z",
+    "updated": "2026-10-13T00:20:40Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<687764 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the new collectible card illustration of a lighthouse, designed to fit seamlessly into the same mobile game with its characteristic stylized, colorful, and chunky art style.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2374208 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<715728 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_output_cost_usd": 0.0336,
+  "received_at": "2026-10-13T00:20:37+00:00"
+}

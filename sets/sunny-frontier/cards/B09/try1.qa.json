@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Campfire, stones, hanging pot, tripod, and rolled bedroll are all clearly present."
+    },
+    "category": {
+      "pass": true,
+      "why": "Firmly grounded on a wide grassy field with rolling hills and low camera angle."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Clean render with no text, UI, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered composition with comfortable margins and clear silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Rich, saturated night palette with warm glowing fire and high contrast."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes and satin sheen matching references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4953,
+    "total_input_tokens": 4171,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 912
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 196,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 586
+  },
+  "est_cost_usd": 0.0044315,
+  "elapsed_s": 13.6
+}

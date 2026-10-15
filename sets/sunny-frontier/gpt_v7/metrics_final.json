@@ -1,0 +1,222 @@
+{
+ "A01": {
+  "_key": "264062:1792012758",
+  "box": [
+   174,
+   25,
+   807,
+   1000
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 6.08,
+  "edge_full": 8.12,
+  "height": 0.633,
+  "highlight": 0.0011,
+  "margin": 0.0,
+  "margin_bottom": 0.193,
+  "margin_top": 0.174,
+  "saturation": 0.836,
+  "small_detail": "low",
+  "why": "The cowboy hat floats centrally against a graphic blue background patterned with concentric rings and horseshoes.",
+  "width": 0.975
+ },
+ "A02": {
+  "_key": "237171:1792012758",
+  "box": [
+   76,
+   158,
+   946,
+   856
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 7.51,
+  "edge_full": 9.3,
+  "height": 0.87,
+  "highlight": 0.0076,
+  "margin": 0.054,
+  "margin_bottom": 0.054,
+  "margin_top": 0.076,
+  "saturation": 0.798,
+  "small_detail": "low",
+  "why": "The stylized potted cactus rests on a flat, plain orange surface against a matching simple orange background.",
+  "width": 0.698
+ },
+ "A03": {
+  "_key": "264306:1792012759",
+  "box": [
+   38,
+   108,
+   938,
+   936
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 11.3,
+  "edge_full": 13.49,
+  "height": 0.9,
+  "highlight": 0.0002,
+  "margin": 0.038,
+  "margin_bottom": 0.062,
+  "margin_top": 0.038,
+  "saturation": 0.748,
+  "small_detail": "low",
+  "why": "The metal triangle dinner bell floats isolated against an abstract sunburst pattern background.",
+  "width": 0.828
+ },
+ "A04": {
+  "_key": "241656:1792012759",
+  "box": [
+   53,
+   174,
+   893,
+   899
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 10.47,
+  "edge_full": 12.47,
+  "height": 0.84,
+  "highlight": 0.0287,
+  "margin": 0.053,
+  "margin_bottom": 0.107,
+  "margin_top": 0.053,
+  "saturation": 0.76,
+  "small_detail": "low",
+  "why": "The kettle rests on a wooden plank surface against a simple stylized gradient background with bold, smooth shapes.",
+  "width": 0.725
+ },
+ "A05": {
+  "_key": "259619:1792012759",
+  "box": [
+   97,
+   62,
+   908,
+   1000
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 7.76,
+  "edge_full": 9.91,
+  "height": 0.811,
+  "highlight": 0.002,
+  "margin": 0.0,
+  "margin_bottom": 0.092,
+  "margin_top": 0.097,
+  "saturation": 0.79,
+  "small_detail": "low",
+  "why": "The lasso has thick, smooth, stylized rope coils floating against a radial burst background with no ground surface.",
+  "width": 0.938
+ },
+ "A06": {
+  "_key": "267439:1792012759",
+  "box": [
+   69,
+   50,
+   915,
+   933
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 12.33,
+  "edge_full": 14.11,
+  "height": 0.846,
+  "highlight": 0.0001,
+  "margin": 0.05,
+  "margin_bottom": 0.085,
+  "margin_top": 0.069,
+  "saturation": 0.715,
+  "small_detail": "medium",
+  "why": "The boots rest on a flat solid-green ground in front of a plain green background, and their fine stitched patterns will blur at small sizes.",
+  "width": 0.883
+ },
+ "A07": {
+  "_key": "288596:1792012759",
+  "box": [
+   61,
+   84,
+   874,
+   951
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 15.94,
+  "edge_full": 17.98,
+  "height": 0.813,
+  "highlight": 0.0025,
+  "margin": 0.049,
+  "margin_bottom": 0.126,
+  "margin_top": 0.061,
+  "saturation": 0.734,
+  "small_detail": "low",
+  "why": "The saddle stand rests on a polished wooden floor against a simple radial background.",
+  "width": 0.867
+ },
+ "A08": {
+  "_key": "286312:1792012759",
+  "box": [
+   31,
+   210,
+   936,
+   907
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 14.74,
+  "edge_full": 16.8,
+  "height": 0.905,
+  "highlight": 0.0366,
+  "margin": 0.031,
+  "margin_bottom": 0.064,
+  "margin_top": 0.031,
+  "saturation": 0.605,
+  "small_detail": "medium",
+  "why": "The farm windmill structure stands centrally within a landscape of wheat fields and distant mesas.",
+  "width": 0.697
+ },
+ "A09": {
+  "_key": "286863:1792012760",
+  "box": [
+   22,
+   0,
+   843,
+   1000
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 17.84,
+  "edge_full": 20.99,
+  "height": 0.821,
+  "highlight": 0.0879,
+  "margin": 0.0,
+  "margin_bottom": 0.157,
+  "margin_top": 0.022,
+  "saturation": 0.604,
+  "small_detail": "medium",
+  "why": "The barn is situated within a full landscape featuring rolling hills, sky, and a dirt ground.",
+  "width": 1.0
+ },
+ "A10": {
+  "_key": "287542:1792012760",
+  "box": [
+   73,
+   0,
+   856,
+   985
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 11.95,
+  "edge_full": 13.91,
+  "height": 0.783,
+  "highlight": 0.0036,
+  "margin": 0.0,
+  "margin_bottom": 0.144,
+  "margin_top": 0.073,
+  "saturation": 0.61,
+  "small_detail": "low",
+  "why": "The wooden ranch gate is set into a full Western landscape environment with bold, clear shapes.",
+  "width": 0.985
+ }
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the thatched cottage with all requested elements."
+    },
+    "category": {
+      "pass": true,
+      "why": "Grounded on a wide lawn with a low camera angle and clear sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred with clear margins and a solid silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm with clean separation from the background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Contains a cluster of dozens of small, repeated rose blooms around the door."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent chunky 3D volumes with appropriate satin finish."
+    }
+  },
+  "pass": false,
+  "fix": "Simplify the rose arch by replacing the numerous small flowers with fewer, chunkier stylized blooms.",
+  "usage": {
+    "total_tokens": 5303,
+    "total_input_tokens": 4156,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 897
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 285,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 862
+  },
+  "est_cost_usd": 0.005519,
+  "elapsed_s": 15.9
+}

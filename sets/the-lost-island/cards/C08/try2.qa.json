@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The subject is clearly an overflowing sack of gold coins tied with rope, complete with the green gem requested in the brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "The bag floats cleanly in the air with no ground or surface, shown in three-quarter view against a vibrant background with radiating rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The bag is centrally positioned with comfortable margins on all four sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is saturated and bright, and the warm golds and tans pop clearly off the vibrant lime green background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The volumes are kept smooth and chunky with no noisy burlap textures, scratches, or micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style seamlessly with soft lighting, smooth satin clay surfaces, and no outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5292,
+    "total_input_tokens": 3828,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 569
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 324,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1140
+  },
+  "est_cost_usd": 0.006306,
+  "elapsed_s": 15.6
+}

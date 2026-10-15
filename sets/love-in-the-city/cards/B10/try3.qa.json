@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The arched railing with colourful heart locks and a central golden heart padlock is immediately recognisable and complete."
+    },
+    "category": {
+      "pass": false,
+      "why": "The base environment features rocky, grassy riverbanks on either side instead of a single clear strip at the bottom, violating the rule against rocks and terrain."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, frames, or characters are present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The bridge spans almost the entire width of the frame, crowding the left and right edges without sufficient margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Colours are bright, saturated, and warm, and the dark railing and colourful locks separate cleanly from the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are chunky and simplified without unwanted micro-textures or busy patterns."
+    },
+    "style": {
+      "pass": true,
+      "why": "The render matches the reference cards with smooth 3D volumes, soft satin sheen, and no outlines."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the bridge so it has clear margins on the left and right, and replace the rocky grassy banks with a simple, continuous strip of water across the bottom.",
+  "usage": {
+    "total_tokens": 6908,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 626
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 362,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2661
+  },
+  "est_cost_usd": 0.0110115,
+  "elapsed_s": 28.4
+}

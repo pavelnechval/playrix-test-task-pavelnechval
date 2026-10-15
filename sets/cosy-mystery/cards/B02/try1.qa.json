@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear, complete teapot with all requested features including the painted rose and steam."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a smooth wooden tabletop against a plain gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, watermarks, UI, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins around the teapot."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm honey tabletop complements the sky-blue gradient wall cleanly."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Includes an unrequested extra prop: the plate with scones."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the chunky, soft-shaded 3D look of the reference cards."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.98,
+        "grey/dark": 0.02,
+        "orange": 0.0,
+        "teal": 0.0
+      },
+      "why": "background is blue (98% of the background); planned blue"
+    }
+  },
+  "pass": false,
+  "fix": "Remove the plate with scones so the teapot stands alone on the table.",
+  "usage": {
+    "total_tokens": 4903,
+    "total_input_tokens": 4075,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 816
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 290,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 538
+  },
+  "est_cost_usd": 0.0045215,
+  "elapsed_s": 15.0
+}

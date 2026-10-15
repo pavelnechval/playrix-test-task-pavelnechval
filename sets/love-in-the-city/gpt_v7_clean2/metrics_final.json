@@ -1,0 +1,90 @@
+{
+ "B02": {
+  "_key": "236986:1792024791",
+  "box": [
+   168,
+   54,
+   831,
+   946
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 13.17,
+  "edge_full": 15.69,
+  "height": 0.663,
+  "highlight": 0.1894,
+  "margin": 0.054,
+  "margin_bottom": 0.169,
+  "margin_top": 0.168,
+  "saturation": 0.431,
+  "small_detail": "low",
+  "why": "The typewriter rests on a wooden table in front of a stylized orange concentric gradient background.",
+  "width": 0.892
+ },
+ "B03": {
+  "_key": "267210:1792024791",
+  "box": [
+   143,
+   76,
+   836,
+   924
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 13.75,
+  "edge_full": 15.85,
+  "height": 0.693,
+  "highlight": 0.0529,
+  "margin": 0.076,
+  "margin_bottom": 0.164,
+  "margin_top": 0.143,
+  "saturation": 0.551,
+  "small_detail": "low",
+  "why": "The red scooter sits on a paved stone street with a blue sky and clouds in the background.",
+  "width": 0.848
+ },
+ "B06": {
+  "_key": "270323:1792024791",
+  "box": [
+   0,
+   75,
+   844,
+   927
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 12.29,
+  "edge_full": 14.63,
+  "height": 0.844,
+  "highlight": 0.1136,
+  "margin": 0.0,
+  "margin_bottom": 0.156,
+  "margin_top": 0.0,
+  "saturation": 0.47,
+  "small_detail": "medium",
+  "why": "The cafe seating setup with its awning is situated outdoors on a paved terrace against a cloudy sky background.",
+  "width": 0.852
+ },
+ "B10": {
+  "_key": "279337:1792024791",
+  "box": [
+   327,
+   0,
+   882,
+   999
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 21.41,
+  "edge_full": 24.71,
+  "height": 0.555,
+  "highlight": 0.0315,
+  "margin": 0.0,
+  "margin_bottom": 0.118,
+  "margin_top": 0.327,
+  "saturation": 0.454,
+  "small_detail": "medium",
+  "why": "The bridge spans across realistic water under an open sky with clouds, fitting category 4.",
+  "width": 0.999
+ }
+}

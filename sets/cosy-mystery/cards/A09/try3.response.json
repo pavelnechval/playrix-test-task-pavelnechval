@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 36.4,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdkQ2ZRYXJhSUotel92ZElQOUpLSm1BRRIXZENmUWFyYUlKLXpfdmRJUDlKS0ptQUU",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 18728,
+      "total_input_tokens": 15147,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1707
+        }
+      ],
+      "total_cached_tokens": 9176,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 1034
+        },
+        {
+          "modality": "image",
+          "tokens": 8142
+        }
+      ],
+      "total_output_tokens": 2024,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1557
+    },
+    "created": "2026-10-15T01:08:36Z",
+    "updated": "2026-10-15T01:08:36Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1417980 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the completed collectible card illustration for your mobile game. It showcases the \"Townhouse\" as a tall, narrow London residence made of cream stucco and red brick, seen from a low perspective. It is placed on a sunlit pavement that spans the bottom edge and features the specific detail of muddy footprints going up the steps to the red door. No borders or overlays have been included, maintaining a clean 3D game-asset finish that matches the style of the reference collection.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2829300 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<752844 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056320499999999996
+}

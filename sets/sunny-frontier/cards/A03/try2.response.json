@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 27.0,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdDTkxQYXFub000RGN4czBQdDZUeC1BOBIXQ05MUGFxbm9NNERjeHMwUHQ2VHgtQTg",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17591,
+      "total_input_tokens": 14802,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1362
+        }
+      ],
+      "total_cached_tokens": 7390,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 680
+        },
+        {
+          "modality": "image",
+          "tokens": 6710
+        }
+      ],
+      "total_output_tokens": 1497,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1292
+    },
+    "created": "2026-10-14T19:03:59Z",
+    "updated": "2026-10-14T19:03:59Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<619156 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "An illustration for the mobile game's \"Chow Time!\" collectible card, featuring a rustic ranch dinner triangle made of thick, hand-forged dark iron. Below is the full-bleed illustration:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1043928 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<651324 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055803
+}

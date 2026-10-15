@@ -1,0 +1,1227 @@
+{
+    "source":  "card_ratings_v1.xlsx",
+    "ratings":  [
+                    {
+                        "code":  "LC-A01",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A01",
+                        "name":  "Rose Bouquet",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-A02",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A02",
+                        "name":  "Rotary Phone",
+                        "category":  3,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-A03",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A03",
+                        "name":  "City Taxi",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-A04",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A04",
+                        "name":  "Heart Cupcake",
+                        "category":  2,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-A05",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A05",
+                        "name":  "Heart Chocolates",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-A06",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A06",
+                        "name":  "Park Bench",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  "Overall good but it seems like it is floating in the air instead of terrain"
+                    },
+                    {
+                        "code":  "LC-A07",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A07",
+                        "name":  "Record Player",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  "Maybe less details on object would be nice, everything else is perfect (colors, idea, etc)"
+                    },
+                    {
+                        "code":  "LC-A08",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A08",
+                        "name":  "Love Letter",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-A09",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A09",
+                        "name":  "Perfume",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-A10",
+                        "set":  "Love in the City",
+                        "variant":  "A",
+                        "card":  "A10",
+                        "name":  "Flower Kiosk",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-B01",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B01",
+                        "name":  "Red Umbrella",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-B02",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B02",
+                        "name":  "Typewriter",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  "Too many details"
+                    },
+                    {
+                        "code":  "LC-B03",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B03",
+                        "name":  "Vintage Scooter",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-B04",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B04",
+                        "name":  "Heart Balloon",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-B05",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B05",
+                        "name":  "Matching Mugs",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  "Steam is far from ref (should be more realistic)"
+                    },
+                    {
+                        "code":  "LC-B06",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B06",
+                        "name":  "Cafe Table",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-B07",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B07",
+                        "name":  "Engagement Ring",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-B08",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B08",
+                        "name":  "Tulip Bucket",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-B09",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B09",
+                        "name":  "Heart Glasses",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  "Color blending a bit"
+                    },
+                    {
+                        "code":  "LC-B10",
+                        "set":  "Love in the City",
+                        "variant":  "B",
+                        "card":  "B10",
+                        "name":  "Love Locks",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-C01",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C01",
+                        "name":  "Wedding Rings",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  "Idea is great but rings looks like plastic more than like a metal"
+                    },
+                    {
+                        "code":  "LC-C02",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C02",
+                        "name":  "Wedding Cake",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  "Too many details, maybe roses should be more simplistic"
+                    },
+                    {
+                        "code":  "LC-C03",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C03",
+                        "name":  "Wedding Car",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-C04",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C04",
+                        "name":  "Red Heel",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-C05",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C05",
+                        "name":  "Bridal Bouquet",
+                        "category":  1,
+                        "rating":  2,
+                        "comment":  "Too detailed, background like this is not in any ref"
+                    },
+                    {
+                        "code":  "LC-C06",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C06",
+                        "name":  "Garden Gazebo",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  "Too detailed"
+                    },
+                    {
+                        "code":  "LC-C07",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C07",
+                        "name":  "Tiara",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-C08",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C08",
+                        "name":  "Gift Box",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-C09",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C09",
+                        "name":  "Heart Candles",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LC-C10",
+                        "set":  "Love in the City",
+                        "variant":  "C",
+                        "card":  "C10",
+                        "name":  "Chapel Bell",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A01",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A01",
+                        "name":  "Pop-up Toaster",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A02",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A02",
+                        "name":  "Retro TV",
+                        "category":  3,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A03",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A03",
+                        "name":  "Dream House",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A04",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A04",
+                        "name":  "Jelly Mould",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A05",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A05",
+                        "name":  "Milk Bottle",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A06",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A06",
+                        "name":  "Mailbox",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A07",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A07",
+                        "name":  "Stand Mixer",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A08",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A08",
+                        "name":  "Hula Hoop",
+                        "category":  1,
+                        "rating":  2,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A09",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A09",
+                        "name":  "TV Dinner",
+                        "category":  2,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-A10",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "A",
+                        "card":  "A10",
+                        "name":  "Station Wagon",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B01",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B01",
+                        "name":  "Poodle Skirt",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  "Texture does not look like cloth"
+                    },
+                    {
+                        "code":  "PP-B02",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B02",
+                        "name":  "Jukebox",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B03",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B03",
+                        "name":  "Drive-In",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B04",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B04",
+                        "name":  "Milkshake",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B05",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B05",
+                        "name":  "Roller Skates",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B06",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B06",
+                        "name":  "Lawn Flamingos",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B07",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B07",
+                        "name":  "Gumball Machine",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B08",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B08",
+                        "name":  "Pocket Radio",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B09",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B09",
+                        "name":  "Saddle Shoes",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-B10",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "B",
+                        "card":  "B10",
+                        "name":  "Backyard Grill",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-C01",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C01",
+                        "name":  "Feather Duster",
+                        "category":  1,
+                        "rating":  2,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-C02",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C02",
+                        "name":  "Washing Machine",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-C03",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C03",
+                        "name":  "Sprinkler",
+                        "category":  4,
+                        "rating":  2,
+                        "comment":  "Water does not look like water"
+                    },
+                    {
+                        "code":  "PP-C04",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C04",
+                        "name":  "Casserole",
+                        "category":  2,
+                        "rating":  3,
+                        "comment":  "Not enough details, not obvious it is Casserole"
+                    },
+                    {
+                        "code":  "PP-C05",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C05",
+                        "name":  "Alarm Clock",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-C06",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C06",
+                        "name":  "Paperboy Bike",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  "Terrain is missing"
+                    },
+                    {
+                        "code":  "PP-C07",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C07",
+                        "name":  "Vacuum Cleaner",
+                        "category":  3,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-C08",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C08",
+                        "name":  "Polka-Dot Apron",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  "Background could be different color so image would be happier"
+                    },
+                    {
+                        "code":  "PP-C09",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C09",
+                        "name":  "Ice Cream Sundae",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "PP-C10",
+                        "set":  "Picture-Perfect Suburbia",
+                        "variant":  "C",
+                        "card":  "C10",
+                        "name":  "Lemonade Stand",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A01",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A01",
+                        "name":  "Magic Wand",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A02",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A02",
+                        "name":  "Fairy Lantern",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A03",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A03",
+                        "name":  "Toadstool House",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A04",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A04",
+                        "name":  "Magic Beans",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A05",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A05",
+                        "name":  "Golden Apple",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A06",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A06",
+                        "name":  "Beanstalk",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A07",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A07",
+                        "name":  "Spinning Wheel",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A08",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A08",
+                        "name":  "Crystal Ball",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A09",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A09",
+                        "name":  "Pocket Watch",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-A10",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "A",
+                        "card":  "A10",
+                        "name":  "Wishing Well",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-B01",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B01",
+                        "name":  "Golden Crown",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-B02",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B02",
+                        "name":  "Magic Mirror",
+                        "category":  3,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-B03",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B03",
+                        "name":  "Tower Braid",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  "Hair is weird"
+                    },
+                    {
+                        "code":  "OG-B04",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B04",
+                        "name":  "Enchanted Apple",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  "Background color could be better"
+                    },
+                    {
+                        "code":  "OG-B05",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B05",
+                        "name":  "Golden Key",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-B06",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B06",
+                        "name":  "Pumpkin Coach",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  "Overdetailed"
+                    },
+                    {
+                        "code":  "OG-B07",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B07",
+                        "name":  "Golden Harp",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-B08",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B08",
+                        "name":  "Potion Bottle",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-B09",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B09",
+                        "name":  "Golden Egg",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-B10",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "B",
+                        "card":  "B10",
+                        "name":  "Gingerbread House",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-C01",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C01",
+                        "name":  "Top Hat",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-C02",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C02",
+                        "name":  "Flower Teapot",
+                        "category":  3,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-C03",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C03",
+                        "name":  "Hedge Maze",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-C04",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C04",
+                        "name":  "Croquet Set",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-C05",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C05",
+                        "name":  "Rabbit Watch",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  "Color blending a bit"
+                    },
+                    {
+                        "code":  "OG-C06",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C06",
+                        "name":  "Tea Party Table",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  "Some detail missing that it is more like Wonderland"
+                    },
+                    {
+                        "code":  "OG-C07",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C07",
+                        "name":  "Tiny Door",
+                        "category":  3,
+                        "rating":  3,
+                        "comment":  "Door could be smaller"
+                    },
+                    {
+                        "code":  "OG-C08",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C08",
+                        "name":  "Paint the Roses",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  "Nice idea"
+                    },
+                    {
+                        "code":  "OG-C09",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C09",
+                        "name":  "Jam Tarts",
+                        "category":  2,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "OG-C10",
+                        "set":  "Once Upon a Garden",
+                        "variant":  "C",
+                        "card":  "C10",
+                        "name":  "Teapot House",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A01",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A01",
+                        "name":  "Brass Compass",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A02",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A02",
+                        "name":  "Coconut Cups",
+                        "category":  3,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A03",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A03",
+                        "name":  "Hot Air Balloon",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A04",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A04",
+                        "name":  "Pineapple",
+                        "category":  2,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A05",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A05",
+                        "name":  "Conch Shell",
+                        "category":  1,
+                        "rating":  2,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A06",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A06",
+                        "name":  "Rope Bridge",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A07",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A07",
+                        "name":  "Explorer Hat",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A08",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A08",
+                        "name":  "Ruby Gem",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A09",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A09",
+                        "name":  "Pearl Oyster",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-A10",
+                        "set":  "The Lost Island",
+                        "variant":  "A",
+                        "card":  "A10",
+                        "name":  "Treehouse",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-B01",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B01",
+                        "name":  "Gold Coin",
+                        "category":  1,
+                        "rating":  2,
+                        "comment":  "From first glance at it do not see connection to set"
+                    },
+                    {
+                        "code":  "LI-B02",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B02",
+                        "name":  "Explorer Journal",
+                        "category":  3,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-B03",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B03",
+                        "name":  "Seaplane",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-B04",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B04",
+                        "name":  "Coconut Drink",
+                        "category":  2,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-B05",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B05",
+                        "name":  "Hourglass",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  "Colors could be different for sand, background and object"
+                    },
+                    {
+                        "code":  "LI-B06",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B06",
+                        "name":  "Volcano Island",
+                        "category":  4,
+                        "rating":  3,
+                        "comment":  "Mountain texture is weird"
+                    },
+                    {
+                        "code":  "LI-B07",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B07",
+                        "name":  "Treasure Pot",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-B08",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B08",
+                        "name":  "Banana Bunch",
+                        "category":  1,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-B09",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B09",
+                        "name":  "Seashell Jar",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  "Objects in jar could be more pronounced"
+                    },
+                    {
+                        "code":  "LI-B10",
+                        "set":  "The Lost Island",
+                        "variant":  "B",
+                        "card":  "B10",
+                        "name":  "Jungle Temple",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  "Good styling but it does not always have to be blue sky? Check all given references on Miro for this category"
+                    },
+                    {
+                        "code":  "LI-C01",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C01",
+                        "name":  "Shovel",
+                        "category":  1,
+                        "rating":  3,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-C02",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C02",
+                        "name":  "Storm Lantern",
+                        "category":  3,
+                        "rating":  3,
+                        "comment":  "Background color blending with light"
+                    },
+                    {
+                        "code":  "LI-C03",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C03",
+                        "name":  "X Marks the Spot",
+                        "category":  4,
+                        "rating":  5,
+                        "comment":  "Idea and execution are great here"
+                    },
+                    {
+                        "code":  "LI-C04",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C04",
+                        "name":  "Ruby Necklace",
+                        "category":  2,
+                        "rating":  5,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-C05",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C05",
+                        "name":  "Island Torch",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-C06",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C06",
+                        "name":  "Waterfall Cave",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  "Could be waterfall in mountain, does not have to be sky?"
+                    },
+                    {
+                        "code":  "LI-C07",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C07",
+                        "name":  "Jewel Goblet",
+                        "category":  3,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-C08",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C08",
+                        "name":  "Bag of Gold",
+                        "category":  1,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-C09",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C09",
+                        "name":  "Fruit Basket",
+                        "category":  2,
+                        "rating":  4,
+                        "comment":  ""
+                    },
+                    {
+                        "code":  "LI-C10",
+                        "set":  "The Lost Island",
+                        "variant":  "C",
+                        "card":  "C10",
+                        "name":  "Palm Hammock",
+                        "category":  4,
+                        "rating":  4,
+                        "comment":  ""
+                    }
+                ],
+    "picks":  [
+                  {
+                      "set":  "Love in the City",
+                      "pick":  "B",
+                      "notes":  "3 and below"
+                  },
+                  {
+                      "set":  "Picture-Perfect Suburbia",
+                      "pick":  "A",
+                      "notes":  "3 and below, set A is overall more consistent even though cards in set B might be better individually"
+                  },
+                  {
+                      "set":  "Once Upon a Garden",
+                      "pick":  "A",
+                      "notes":  "3 and below"
+                  },
+                  {
+                      "set":  "The Lost Island",
+                      "pick":  "C",
+                      "notes":  "3 and below"
+                  }
+              ]
+}

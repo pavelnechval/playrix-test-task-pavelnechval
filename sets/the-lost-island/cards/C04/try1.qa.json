@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "It clearly depicts a gold necklace featuring a prominent heart-shaped ruby pendant with small pearls set between the chain links."
+    },
+    "category": {
+      "pass": true,
+      "why": "The necklace rests on a plain flat green surface viewed from slightly above, set against a smooth gradient green wall of a contrasting tone."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, borders, frames, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The necklace is centrally framed with clear margins around all sides without cropping or crowding the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The colours are bright, saturated, and juicy, with the gold and ruby pendant contrasting cleanly against the vibrant green backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and chunky with no noisy micro-textures, scratches, or unnecessary background props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering features smooth chunky volumes, satin sheens, soft shadows, and clean edges matching the game's 3D casual art style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 6229,
+    "total_input_tokens": 3837,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 578
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 341,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2051
+  },
+  "est_cost_usd": 0.0090945,
+  "elapsed_s": 20.1
+}

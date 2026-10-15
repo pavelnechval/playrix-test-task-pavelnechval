@@ -1,0 +1,22 @@
+{
+  "_about": "W022: second simplification round on the final sets. These are the 11 cards still flagged for 'detail lost at 66 px' in final_set/. Cards already tried once get a more concrete description of a simpler object. Output goes to gpt_v7_clean2/; a new version replaces the final_set card only if detail lost drops by 2+ points, with the same category and no size drift.",
+  "picture-perfect-suburbia": {
+    "A10": "Draw it as a chunky, toy-like station wagon made of a few big, smooth, rounded shapes: two-colour body with one broad plain wood-panel stripe (no grain or lines), round headlights, a plain chrome bumper, one suitcase on the roof. The road is one smooth grey band and the lawn one smooth green band; no fence, flowers or small parts.",
+    "A09": "Draw a simple, chunky TV-dinner tray with only three big compartments: one large smooth slice of turkey with a glossy gravy pool, one smooth mound of mashed potato with a butter pat, and a small pile of large round peas. No dessert, no crumbs or fine textures; a plain smooth foil tray.",
+    "A05": "A simple, chunky glass milk bottle with smooth clear glass, smooth white milk and a plain red cap with one red gingham bow; no labels, droplets, fine reflections or small details.",
+    "A03": "A simple, chunky toy-like pink house: smooth plain walls, a smooth red roof without shingles, a round attic window, a door and two windows, a short white picket fence with a few wide slats, a smooth lawn; no bushes, flowers or fine details."
+  },
+  "the-lost-island": {
+    "C02": "Draw a simple, chunky camping lantern instead of an ornate one: a smooth brass base, a rounded clear glass globe with a bright yellow flame, a smooth red cap and one thick loop handle. No wires, cage bars, rivets or engraved details; a plain wooden tabletop; the purple wall stays even.",
+    "C10": "A simple scene: two chunky palm trees with five or six big smooth leaves each, a plain red-and-white striped hammock made of one smooth piece of fabric between them, a smooth sandy beach and a smooth turquoise strip of sea; no small shells, grass tufts, coconuts or net patterns."
+  },
+  "love-in-the-city": {
+    "B02": "Draw a chunky, toy-like retro typewriter: a smooth mint-green body with rounded edges, only two rows of six large round keys, a plain roller, and one sheet of paper with a small red heart. No small screws, levers or fine parts; a plain wooden tabletop.",
+    "B06": "A simple café scene: one small round white table with two simple white chairs, a plain red-and-white striped awning above, a small vase with one red rose on the table, a smooth sunny pavement; no ornate metalwork, small plants or background details.",
+    "B10": "Simplify the bridge: a short, chunky arched footbridge with a smooth railing and about ten large heart-shaped padlocks in a few bright colours (not dozens of small ones), smooth blue water below, a clear sky; no fine metalwork or small details.",
+    "B03": "Draw a chunky, toy-like vintage scooter made of a few big smooth shapes: red body panels, a cream seat, round headlight, a small basket with three big flowers; the ground is a smooth plain pavement instead of many cobblestones; no fine trim or spokes."
+  },
+  "once-upon-a-garden": {
+    "A02": "Simplify the fairy lantern: a chunky, smooth brass lantern with a rounded glass body and a warm glowing light inside, one simple leaf-and-flower accent at the top, standing on a smooth mossy stone; no thin filigree, vines or many small leaves."
+  }
+}

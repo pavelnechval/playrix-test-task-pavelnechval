@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The illustration clearly depicts a tall green top hat with an orange ribbon band and a small blank card tucked inside, exactly as briefed."
+    },
+    "category": {
+      "pass": true,
+      "why": "The top hat floats tilted in the air with no floor or surface beneath, set against a saturated gradient background with radiating sunburst rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text elements, UI, borders, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with comfortable margins on all sides without crowding or clipping the frame edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The colours are bright, saturated, and warm, offering high contrast between the green hat and the golden-orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are clean and minimal with no noisy textures, scratches, or micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering features smooth chunky 3D volumes, a soft satin sheen, and clean edges consistent with the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4486,
+    "total_input_tokens": 3828,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 569
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 258,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 400
+  },
+  "est_cost_usd": 0.003888,
+  "elapsed_s": 9.5
+}

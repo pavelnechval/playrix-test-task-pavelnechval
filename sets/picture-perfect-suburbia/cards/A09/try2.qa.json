@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested TV dinner tray with all required food compartments."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a flat yellow plane against a smooth gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI elements, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette with clear separation between tray and background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Contains a busy cluster of small peas and fine crimping ridges on the rim."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky rendering with soft highlights matching the reference style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.85,
+        "orange": 0.1,
+        "grey/dark": 0.05,
+        "blue": 0.0
+      },
+      "why": "background is yellow (85% of the background); planned yellow"
+    }
+  },
+  "pass": false,
+  "fix": "Simplify the peas into fewer, larger shapes and smooth out the crimping along the foil tray rim.",
+  "usage": {
+    "total_tokens": 5365,
+    "total_input_tokens": 3988,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 729
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 296,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1081
+  },
+  "est_cost_usd": 0.006125,
+  "elapsed_s": 17.2
+}

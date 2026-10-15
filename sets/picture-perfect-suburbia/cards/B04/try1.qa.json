@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly shows a strawberry milkshake with whipped cream, cherry, and straw."
+    },
+    "category": {
+      "pass": true,
+      "why": "Flat surface and gradient wall share a warm palette with proper contrast."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, watermarks, UI, or borders."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Subject is centered with clear margins around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated tones with strong separation between object and background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth, chunky surfaces without distracting micro-details or noise."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference rendering with soft volumes and satin sheen."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4867,
+    "total_input_tokens": 3842,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 583
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 268,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 757
+  },
+  "est_cost_usd": 0.004996,
+  "elapsed_s": 16.1
+}

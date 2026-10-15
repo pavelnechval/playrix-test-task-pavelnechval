@@ -1,0 +1,24 @@
+{
+ "A02": {
+  "_key": "274274:1792024822",
+  "box": [
+   138,
+   209,
+   951,
+   789
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 15.24,
+  "edge_full": 17.42,
+  "height": 0.813,
+  "highlight": 0.0136,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.138,
+  "saturation": 0.786,
+  "small_detail": "low",
+  "why": "The lantern rests on a mossy stone surface against a stylized concentric gradient background, featuring bold stylized forms that remain recognizable at small sizes.",
+  "width": 0.58
+ }
+}

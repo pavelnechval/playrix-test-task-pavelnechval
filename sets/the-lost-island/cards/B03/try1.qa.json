@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested seaplane with floats, porthole, and striped tail."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle hero view with a clean water strip below and cloud-accented sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Contains no UI, text, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred subject with ample negative space around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant warm tones that separate clearly from the bright blue backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean stylized forms without noisy micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, chunky 3D look and soft sheen of the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4511,
+    "total_input_tokens": 3888,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 629
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 284,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 339
+  },
+  "est_cost_usd": 0.003813,
+  "elapsed_s": 13.4
+}

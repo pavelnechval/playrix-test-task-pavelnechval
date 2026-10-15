@@ -1,0 +1,843 @@
+{
+  "set": "The Lost Island",
+  "updated": "2026-10-14T21:38:39+00:00",
+  "images_generated": 49,
+  "qa_reviews": 49,
+  "first_try_pass": 18,
+  "est_cost_usd": 2.99,
+  "status_counts": {
+    "passed": 27,
+    "accepted_with_issues": 3,
+    "unchecked": 0,
+    "failed": 0,
+    "not_started": 0
+  },
+  "cards": {
+    "A01": {
+      "id": "A01",
+      "name": "Brass Compass",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055191,
+          "gen_s": 24.0,
+          "qa_pass": true,
+          "qa_cost": 0.006242,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A02": {
+      "id": "A02",
+      "name": "Coconut Cups",
+      "status": "accepted_with_issues",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055254,
+          "gen_s": 26.4,
+          "qa_pass": false,
+          "qa_cost": 0.0049315,
+          "fix": "Replace the vertical stripes on the background wall with a smooth gradient or subtle concentric rings.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0552975,
+          "gen_s": 19.3,
+          "qa_pass": false,
+          "qa_cost": 0.0050035,
+          "fix": "Scale down the cups slightly to improve margins and remove the fine fibrous grooves from the shells.",
+          "failed": [
+            "framing",
+            "detail"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055299,
+          "gen_s": 24.6,
+          "qa_pass": false,
+          "qa_cost": 0.0048925,
+          "fix": "Replace the vertical wall paneling with a plain, smooth gradient background.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        }
+      ]
+    },
+    "A03": {
+      "id": "A03",
+      "name": "Hot Air Balloon",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553095,
+          "gen_s": 26.5,
+          "qa_pass": false,
+          "qa_cost": 0.005891,
+          "fix": "Scale down the hot air balloon slightly to create a comfortable margin and headroom beneath the top edge.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055356,
+          "gen_s": 21.4,
+          "qa_pass": true,
+          "qa_cost": 0.004826,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A04": {
+      "id": "A04",
+      "name": "Pineapple",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552135,
+          "gen_s": 24.1,
+          "qa_pass": false,
+          "qa_cost": 0.005588,
+          "fix": "Change the green background wall and surface to a contrasting warm colour family, such as coral or pink, so the green crown cleanly separates from the background.",
+          "failed": [
+            "category",
+            "colour"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0552765,
+          "gen_s": 19.9,
+          "qa_pass": true,
+          "qa_cost": 0.004922,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A05": {
+      "id": "A05",
+      "name": "Conch Shell",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055188,
+          "gen_s": 21.9,
+          "qa_pass": true,
+          "qa_cost": 0.004364,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A06": {
+      "id": "A06",
+      "name": "Rope Bridge",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055292999999999995,
+          "gen_s": 21.2,
+          "qa_pass": false,
+          "qa_cost": 0.0055715,
+          "fix": "Reduce the right-hand cliff scenery to keep the background mostly open sky, and scale the bridge down so its posts do not clip the side edges.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055356,
+          "gen_s": 24.8,
+          "qa_pass": false,
+          "qa_cost": 0.0067205,
+          "fix": "Lower the camera angle to view the bridge heroically from below against the sky, and ground the scene with a clear horizontal strip of terrain at the bottom instead of floating islands.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055363499999999996,
+          "gen_s": 34.9,
+          "qa_pass": false,
+          "qa_cost": 0.0040445,
+          "fix": "Reduce the right-side cliff and foliage to a simple bottom strip, and pull the camera back so the bridge posts are not cropped at the edges.",
+          "failed": [
+            "category",
+            "framing",
+            "detail"
+          ],
+          "checks_passed": 4
+        }
+      ]
+    },
+    "A07": {
+      "id": "A07",
+      "name": "Explorer Hat",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552555,
+          "gen_s": 24.4,
+          "qa_pass": true,
+          "qa_cost": 0.0090325,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A08": {
+      "id": "A08",
+      "name": "Ruby Gem",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0551775,
+          "gen_s": 23.5,
+          "qa_pass": true,
+          "qa_cost": 0.004293,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A09": {
+      "id": "A09",
+      "name": "Pearl Oyster",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552135,
+          "gen_s": 21.0,
+          "qa_pass": false,
+          "qa_cost": 0.0057395,
+          "fix": "Shift the oyster and background to warmer, brighter tones to make the asset feel more vibrant and juicy.",
+          "failed": [
+            "colour"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0552615,
+          "gen_s": 22.3,
+          "qa_pass": true,
+          "qa_cost": 0.0068465,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A10": {
+      "id": "A10",
+      "name": "Treehouse",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553035,
+          "gen_s": 24.1,
+          "qa_pass": true,
+          "qa_cost": 0.004138,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B01": {
+      "id": "B01",
+      "name": "Gold Coin",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0551895,
+          "gen_s": 16.4,
+          "qa_pass": true,
+          "qa_cost": 0.0032915,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B02": {
+      "id": "B02",
+      "name": "Explorer Journal",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055272,
+          "gen_s": 20.7,
+          "qa_pass": false,
+          "qa_cost": 0.006759,
+          "fix": "Replace the wooden crate with a simple flat tabletop that provides clear contrast against the journal.",
+          "failed": [
+            "category",
+            "colour",
+            "detail"
+          ],
+          "checks_passed": 4
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553155,
+          "gen_s": 29.6,
+          "qa_pass": true,
+          "qa_cost": 0.004617,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B03": {
+      "id": "B03",
+      "name": "Seaplane",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055296,
+          "gen_s": 20.0,
+          "qa_pass": true,
+          "qa_cost": 0.003813,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B04": {
+      "id": "B04",
+      "name": "Coconut Drink",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055215,
+          "gen_s": 21.9,
+          "qa_pass": true,
+          "qa_cost": 0.0044565,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B05": {
+      "id": "B05",
+      "name": "Hourglass",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055188,
+          "gen_s": 22.1,
+          "qa_pass": true,
+          "qa_cost": 0.004363,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B06": {
+      "id": "B06",
+      "name": "Volcano Island",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055299,
+          "gen_s": 24.7,
+          "qa_pass": true,
+          "qa_cost": 0.0052445,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B07": {
+      "id": "B07",
+      "name": "Treasure Pot",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055252499999999996,
+          "gen_s": 24.2,
+          "qa_pass": true,
+          "qa_cost": 0.005037,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B08": {
+      "id": "B08",
+      "name": "Banana Bunch",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05518049999999999,
+          "gen_s": 20.2,
+          "qa_pass": true,
+          "qa_cost": 0.0050225,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B09": {
+      "id": "B09",
+      "name": "Seashell Jar",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552195,
+          "gen_s": 17.5,
+          "qa_pass": true,
+          "qa_cost": 0.005549,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B10": {
+      "id": "B10",
+      "name": "Jungle Temple",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055296,
+          "gen_s": 23.5,
+          "qa_pass": true,
+          "qa_cost": 0.0053715,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C09": {
+      "id": "C09",
+      "name": "Fruit Basket",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552255,
+          "gen_s": 21.7,
+          "qa_pass": true,
+          "qa_cost": 0.004515,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C01": {
+      "id": "C01",
+      "name": "Shovel",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055185,
+          "gen_s": 21.4,
+          "qa_pass": false,
+          "qa_cost": 0.0056115,
+          "fix": "Simplify the falling sand into solid, chunky shapes and remove the grainy texture.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0552255,
+          "gen_s": 17.4,
+          "qa_pass": true,
+          "qa_cost": 0.0046125,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0556215,
+          "gen_s": 21.7,
+          "qa_pass": true,
+          "qa_cost": 0.0049525,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "Storm Lantern",
+      "status": "passed",
+      "chosen": "try4.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552585,
+          "gen_s": 21.1,
+          "qa_pass": false,
+          "qa_cost": 0.00499,
+          "fix": "Replace the vertical paneling on the purple background with a seamless, smooth gradient.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553005,
+          "gen_s": 21.6,
+          "qa_pass": true,
+          "qa_cost": 0.005134,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055696499999999996,
+          "gen_s": 17.6,
+          "qa_pass": true,
+          "qa_cost": 0.004848,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 4,
+          "file": "try4.jpg",
+          "gen_cost": 0.056142,
+          "gen_s": 21.8,
+          "qa_pass": true,
+          "qa_cost": 0.004507,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C05": {
+      "id": "C05",
+      "name": "Island Torch",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05519399999999999,
+          "gen_s": 23.7,
+          "qa_pass": true,
+          "qa_cost": 0.004295,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C10": {
+      "id": "C10",
+      "name": "Palm Hammock",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05530499999999999,
+          "gen_s": 18.8,
+          "qa_pass": false,
+          "qa_cost": 0.015873,
+          "fix": "Remove the ocean layer, pebbles, and shells so there is only a single clean strip of sand beneath the sky gradient, and tilt the camera lower to give the palm hammock a more heroic perspective.",
+          "failed": [
+            "category",
+            "detail"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553815,
+          "gen_s": 21.3,
+          "qa_pass": false,
+          "qa_cost": 0.006612,
+          "fix": "Replace the circular pedestal with a continuous flat strip of beach sand spanning the bottom.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.05534699999999999,
+          "gen_s": 17.4,
+          "qa_pass": true,
+          "qa_cost": 0.004947,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C06": {
+      "id": "C06",
+      "name": "Waterfall Cave",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552975,
+          "gen_s": 25.3,
+          "qa_pass": false,
+          "qa_cost": 0.0049845,
+          "fix": "Scale down the cave structure so it does not touch or get cut off by the left and right edges of the frame.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553515,
+          "gen_s": 22.5,
+          "qa_pass": true,
+          "qa_cost": 0.0068085,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "X Marks the Spot",
+      "status": "accepted_with_issues",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055311,
+          "gen_s": 34.9,
+          "qa_pass": false,
+          "qa_cost": 0.006387,
+          "fix": "Plant the shovel directly into the center of the red X instead of behind it.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055353,
+          "gen_s": 28.1,
+          "qa_pass": false,
+          "qa_cost": 0.006063,
+          "fix": "Remove the surface wear and splotches from the metal shovel to keep it completely clean and smooth.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055359,
+          "gen_s": 23.5,
+          "qa_pass": false,
+          "qa_cost": 0.006045,
+          "fix": "Scale down the composition slightly to provide breathing room along the top and left edges, and flatten the ground into a simpler bottom strip.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        }
+      ]
+    },
+    "C08": {
+      "id": "C08",
+      "name": "Bag of Gold",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055188,
+          "gen_s": 24.5,
+          "qa_pass": false,
+          "qa_cost": 0.007329,
+          "fix": "Remove the fabric weave surface texture from the sack so it has a completely smooth, clean finish like the references.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055238999999999996,
+          "gen_s": 23.8,
+          "qa_pass": true,
+          "qa_cost": 0.006306,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C07": {
+      "id": "C07",
+      "name": "Jewel Goblet",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055250999999999995,
+          "gen_s": 22.8,
+          "qa_pass": true,
+          "qa_cost": 0.008502,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "Ruby Necklace",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552135,
+          "gen_s": 18.7,
+          "qa_pass": true,
+          "qa_cost": 0.0090945,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    }
+  }
+}

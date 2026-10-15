@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The bowler hat is instantly recognisable, complete with its rounded crown, brim, band, and the requested red carnation."
+    },
+    "category": {
+      "pass": true,
+      "why": "The composition correctly features a plain flat yellow surface and a smooth yellow wall gradient behind it, matching Category 2 requirements."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The hat is nicely centered with ample margins around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm with high contrast between the black hat, red carnation, and sunny yellow background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "There is an extra prop (a magnifying glass) placed in front of the hat, which violates the single-object focus and the rule against extra unrequested props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, chunky volumes, clean satin sheen, and no outlines, matching the game's art style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.99,
+        "orange": 0.01
+      },
+      "why": "background is yellow (99% of the background); planned yellow"
+    }
+  },
+  "pass": false,
+  "fix": "Remove the magnifying glass so the bowler hat and its carnation are the sole focus.",
+  "usage": {
+    "total_tokens": 5225,
+    "total_input_tokens": 4041,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 782
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 352,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 832
+  },
+  "est_cost_usd": 0.0055725,
+  "elapsed_s": 11.1
+}

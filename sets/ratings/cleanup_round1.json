@@ -1,0 +1,19 @@
+{
+  "_about": "W021: simplification notes for the 10 winning ChatGPT cards with the largest 'detail lost at 66 px' excess over the reference upper quartile of their category (card_metrics.py). Output goes to gpt_v7_clean/; the picked versions in gpt_v7/ stay as they are.",
+  "picture-perfect-suburbia": {
+    "A10": "Simplify the car into a few big, smooth shapes: plain wood-panel sides without grain lines, simple round headlights and a plain bumper, at most two suitcases on the roof, a simple road and lawn; no small trim, rivets or fine textures.",
+    "A03": "Simplify the house into a few big shapes: plain walls with no siding lines or shingle texture, three or four simple windows, a short white picket fence with wide slats, a smooth lawn; no small flowers, bushes or fine textures.",
+    "A09": "Simplify the food into a few big, smooth, glossy shapes: two or three broad turkey slices with a smooth pool of gravy, the peas as a few large round blobs, a smooth mound of mashed potato with one butter pat, a simple red cherry dessert; no fine textures or crumbs."
+  },
+  "the-lost-island": {
+    "C02": "Simplify the lantern into a few big, smooth shapes: no thin wires or rivets, simple clear glass panels, a bright yellow flame and a red cap; a plain wooden tabletop without grain lines; the purple wall stays even, with no halo.",
+    "C06": "Simplify the scene: a cave entrance made of a few big, smooth rock masses (no cracks or rock texture), one broad, smooth waterfall, a simple pool; no small plants, pebbles or spray details.",
+    "C07": "Simplify the goblet: a smooth golden cup with three or four large jewels, no rows of small pearls or engraved patterns; a plain stone pedestal.",
+    "C10": "Simplify the scene: two palms with a few big, smooth leaves each, a plain hammock in one solid colour (no net pattern), a smooth sandy beach and a strip of sea; no small shells or grass details.",
+    "C08": "Simplify the sack: plump and smooth, with a few large gold coins at the top (not dozens of small ones) and a simple rope tie; no fine fabric texture."
+  },
+  "love-in-the-city": {
+    "B03": "Simplify the scooter into a few big, smooth shapes: plain body panels, a simple seat, a small basket with a few big flowers; the cobblestones as a few large rounded stones; no fine trim, spokes or small parts.",
+    "B02": "Simplify the typewriter into a few big, smooth shapes: about a dozen large round keys instead of many small ones, a plain body, one sheet of paper with a small heart; no small screws or fine parts."
+  }
+}

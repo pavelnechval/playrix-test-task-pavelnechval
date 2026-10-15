@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Hammock, palm trees, and coconut correctly depicted per brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view with simple ground strip and horizon clouds."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered subject with safe margins around the silhouettes."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette with clean separation from the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Broad forms without excessive micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D rendering matching reference lighting and materials."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4889,
+    "total_input_tokens": 3888,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 629
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 269,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 732
+  },
+  "est_cost_usd": 0.004947,
+  "elapsed_s": 16.3
+}

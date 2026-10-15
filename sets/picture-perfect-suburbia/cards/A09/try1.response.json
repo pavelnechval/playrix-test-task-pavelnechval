@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 21.7,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chc3YVRPYXZIdEg1V3hrZFVQN0xhRnFBZxIXN2FUT2F2SHRINVd4a2RVUDdMYUZxQWc",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17018,
+      "total_input_tokens": 14423,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 983
+        }
+      ],
+      "total_cached_tokens": 7407,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 504
+        },
+        {
+          "modality": "image",
+          "tokens": 6903
+        }
+      ],
+      "total_output_tokens": 1477,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1118
+    },
+    "created": "2026-10-13T21:39:09Z",
+    "updated": "2026-10-13T21:39:09Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<531664 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Please inspect the new collectible card illustration:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1798776 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<586828 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0552345
+}

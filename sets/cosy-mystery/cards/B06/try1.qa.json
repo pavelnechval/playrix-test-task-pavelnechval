@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts an open chunky safe with a blue cushion inside."
+    },
+    "category": {
+      "pass": false,
+      "why": "The division line between the surface and wall is slanted rather than horizontal."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, watermarks, and characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The object is oversized, crowding the top and right borders."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant red and gold contrast well against the bright blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simple, clean shapes without excessive micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent smooth 3D shading with a soft satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.99,
+        "grey/dark": 0.0,
+        "orange": 0.0,
+        "yellow": 0.0
+      },
+      "why": "background is blue (99% of the background); planned blue"
+    }
+  },
+  "pass": false,
+  "fix": "Reduce the safe's size to leave ample margins and align the background horizon horizontally.",
+  "usage": {
+    "total_tokens": 5054,
+    "total_input_tokens": 4074,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 815
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 206,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 774
+  },
+  "est_cost_usd": 0.004977,
+  "elapsed_s": 18.9
+}

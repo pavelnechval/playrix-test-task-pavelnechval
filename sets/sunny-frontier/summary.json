@@ -1,0 +1,697 @@
+{
+  "set": "Sunny Frontier",
+  "updated": "2026-10-14T19:06:45+00:00",
+  "images_generated": 39,
+  "qa_reviews": 39,
+  "first_try_pass": 26,
+  "est_cost_usd": 2.37,
+  "status_counts": {
+    "passed": 30,
+    "accepted_with_issues": 0,
+    "unchecked": 0,
+    "failed": 0,
+    "not_started": 0
+  },
+  "cards": {
+    "A01": {
+      "id": "A01",
+      "name": "Cowboy Hat",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05569349999999999,
+          "gen_s": 26.9,
+          "qa_pass": true,
+          "qa_cost": 0.004591,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A02": {
+      "id": "A02",
+      "name": "Prickly Pal",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0557055,
+          "gen_s": 31.1,
+          "qa_pass": true,
+          "qa_cost": 0.004283,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A03": {
+      "id": "A03",
+      "name": "Chow Time!",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0556695,
+          "gen_s": 36.0,
+          "qa_pass": true,
+          "qa_cost": 0.0047615,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055803,
+          "gen_s": 27.0,
+          "qa_pass": true,
+          "qa_cost": 0.003976,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A04": {
+      "id": "A04",
+      "name": "Coffee Pot",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05574,
+          "gen_s": 30.5,
+          "qa_pass": true,
+          "qa_cost": 0.005295,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0558795,
+          "gen_s": 28.3,
+          "qa_pass": true,
+          "qa_cost": 0.0038925,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A05": {
+      "id": "A05",
+      "name": "Lasso",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0556635,
+          "gen_s": 27.7,
+          "qa_pass": true,
+          "qa_cost": 0.0052715,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A06": {
+      "id": "A06",
+      "name": "Cowboy Boots",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0556785,
+          "gen_s": 17.2,
+          "qa_pass": true,
+          "qa_cost": 0.0044885,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A07": {
+      "id": "A07",
+      "name": "Saddle",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05573549999999999,
+          "gen_s": 23.4,
+          "qa_pass": true,
+          "qa_cost": 0.004315,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A08": {
+      "id": "A08",
+      "name": "Windmill",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055874999999999994,
+          "gen_s": 32.2,
+          "qa_pass": true,
+          "qa_cost": 0.003908,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A09": {
+      "id": "A09",
+      "name": "Horse Barn",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055861499999999994,
+          "gen_s": 23.3,
+          "qa_pass": true,
+          "qa_cost": 0.003692,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A10": {
+      "id": "A10",
+      "name": "Ranch Gate",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0558825,
+          "gen_s": 32.4,
+          "qa_pass": false,
+          "qa_cost": 0.00504,
+          "fix": "Scale the gate down slightly to restore side margins and remove the fence segments bleeding off-screen.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055929,
+          "gen_s": 19.2,
+          "qa_pass": false,
+          "qa_cost": 0.00576,
+          "fix": "Scale down the gate slightly to provide comfortable margins on the left and right sides.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0559245,
+          "gen_s": 34.7,
+          "qa_pass": true,
+          "qa_cost": 0.005226,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B01": {
+      "id": "B01",
+      "name": "Sunbonnet",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055696499999999996,
+          "gen_s": 18.8,
+          "qa_pass": true,
+          "qa_cost": 0.0035925,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055777499999999994,
+          "gen_s": 20.5,
+          "qa_pass": true,
+          "qa_cost": 0.005959,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B02": {
+      "id": "B02",
+      "name": "Flapjacks",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055694999999999995,
+          "gen_s": 21.4,
+          "qa_pass": true,
+          "qa_cost": 0.004363,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B03": {
+      "id": "B03",
+      "name": "Canteen",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055667999999999995,
+          "gen_s": 19.2,
+          "qa_pass": false,
+          "qa_cost": 0.0101125,
+          "fix": "Smooth out the lumpy wrinkles and remove the fuzzy micro-texture on the red cover to match the clean, chunky volumes and satin finish of the references.",
+          "failed": [
+            "detail",
+            "style"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0557325,
+          "gen_s": 24.0,
+          "qa_pass": true,
+          "qa_cost": 0.0038455,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B04": {
+      "id": "B04",
+      "name": "Sunflower",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05565,
+          "gen_s": 20.6,
+          "qa_pass": true,
+          "qa_cost": 0.006099,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B05": {
+      "id": "B05",
+      "name": "Patchwork Quilt",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05569349999999999,
+          "gen_s": 20.6,
+          "qa_pass": true,
+          "qa_cost": 0.0055325,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B06": {
+      "id": "B06",
+      "name": "Travel Trunk",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0557295,
+          "gen_s": 20.5,
+          "qa_pass": true,
+          "qa_cost": 0.004338,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055866,
+          "gen_s": 21.3,
+          "qa_pass": true,
+          "qa_cost": 0.0038675,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B07": {
+      "id": "B07",
+      "name": "Trail Guitar",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05573549999999999,
+          "gen_s": 19.5,
+          "qa_pass": true,
+          "qa_cost": 0.007961,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B08": {
+      "id": "B08",
+      "name": "Rock Arch",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055818,
+          "gen_s": 17.1,
+          "qa_pass": false,
+          "qa_cost": 0.005913,
+          "fix": "Scale down the arch slightly to leave clear breathing room along the left and right edges.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055861499999999994,
+          "gen_s": 21.8,
+          "qa_pass": true,
+          "qa_cost": 0.004575,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B09": {
+      "id": "B09",
+      "name": "Starry Camp",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0558825,
+          "gen_s": 17.5,
+          "qa_pass": true,
+          "qa_cost": 0.0044315,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B10": {
+      "id": "B10",
+      "name": "Covered Wagon",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0558735,
+          "gen_s": 23.5,
+          "qa_pass": true,
+          "qa_cost": 0.004114,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C01": {
+      "id": "C01",
+      "name": "Mail Pouch",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055701,
+          "gen_s": 16.3,
+          "qa_pass": true,
+          "qa_cost": 0.0044185,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "Prize Pie",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0557145,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.005496,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "Pickle Barrel",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055708499999999994,
+          "gen_s": 19.2,
+          "qa_pass": true,
+          "qa_cost": 0.004403,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "Lucky Horseshoe",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055686,
+          "gen_s": 22.6,
+          "qa_pass": true,
+          "qa_cost": 0.004432,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C05": {
+      "id": "C05",
+      "name": "Hoedown",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055661999999999996,
+          "gen_s": 26.3,
+          "qa_pass": true,
+          "qa_cost": 0.004472,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C06": {
+      "id": "C06",
+      "name": "Anvil",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055767,
+          "gen_s": 22.7,
+          "qa_pass": true,
+          "qa_cost": 0.0044995,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C07": {
+      "id": "C07",
+      "name": "Cash Register",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05577,
+          "gen_s": 22.4,
+          "qa_pass": true,
+          "qa_cost": 0.0043995,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C08": {
+      "id": "C08",
+      "name": "General Store",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055876499999999996,
+          "gen_s": 27.7,
+          "qa_pass": true,
+          "qa_cost": 0.0037385,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C09": {
+      "id": "C09",
+      "name": "Schoolhouse",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055884,
+          "gen_s": 33.0,
+          "qa_pass": true,
+          "qa_cost": 0.0046095,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C10": {
+      "id": "C10",
+      "name": "Steam Train",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055884,
+          "gen_s": 20.9,
+          "qa_pass": false,
+          "qa_cost": 0.0055555,
+          "fix": "Scale down the train slightly and center it to restore comfortable margins on the left and right sides.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055930499999999994,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.0046315,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    }
+  }
+}

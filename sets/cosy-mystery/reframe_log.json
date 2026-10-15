@@ -1,0 +1,386 @@
+{
+ "A01": {
+  "extent": 0.82,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.085
+ },
+ "A02": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   13,
+   0,
+   52
+  ],
+  "room_above": 0.175,
+  "seam": 1.0,
+  "zoom": 0.94
+ },
+ "A03": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   31,
+   0,
+   62
+  ],
+  "room_above": 0.199,
+  "seam": 0.91,
+  "zoom": 0.917
+ },
+ "A04": {
+  "extent": 0.89,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   107
+  ],
+  "room_above": 0.21,
+  "seam": 1.25,
+  "zoom": 0.988
+ },
+ "A05": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   21,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.11,
+  "zoom": 1.034
+ },
+ "A06": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   4,
+   15,
+   13,
+   123
+  ],
+  "room_above": 0.248,
+  "seam": 0.87,
+  "zoom": 0.881
+ },
+ "A07": {
+  "extent": 0.888,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.13
+ },
+ "A08": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   13,
+   67,
+   27,
+   96
+  ],
+  "room_above": 0.21,
+  "seam": 1.61,
+  "zoom": 0.862
+ },
+ "A09": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "override": "W023 review: both outpaint attempts failed the seam check (14.8, 13.4: fine window frames make a small misalignment score high), but attempt 4 shows no visible seam at full size, while stretching smears the clouds into streaks.",
+  "pad": [
+   0,
+   73,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 13.35,
+  "zoom": 0.96
+ },
+ "A10": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   110,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.6,
+  "zoom": 0.972
+ },
+ "B01": {
+  "extent": 0.81,
+  "fill": "stretch",
+  "pad": [
+   0,
+   5,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.07
+ },
+ "B02": {
+  "extent": 0.89,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   68
+  ],
+  "room_above": 0.204,
+  "seam": 1.35,
+  "zoom": 0.986
+ },
+ "B03": {
+  "extent": 0.81,
+  "fill": "stretch",
+  "pad": [
+   0,
+   3,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.083
+ },
+ "B04": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   54
+  ],
+  "room_above": 0.21,
+  "seam": 0.59,
+  "zoom": 0.96
+ },
+ "B05": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   19,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.39,
+  "zoom": 1.001
+ },
+ "B06": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   13
+  ],
+  "room_above": 0.161,
+  "seam": 0.72,
+  "zoom": 1.009
+ },
+ "B07": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   110
+  ],
+  "room_above": 0.196,
+  "seam": 0.95,
+  "zoom": 0.922
+ },
+ "B08": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   34,
+   74,
+   36,
+   123
+  ],
+  "room_above": 0.367,
+  "seam": 1.49,
+  "zoom": 0.839
+ },
+ "B09": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   43,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.27,
+  "zoom": 1.079
+ },
+ "B10": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   8,
+   85,
+   0,
+   29
+  ],
+  "room_above": 0.155,
+  "seam": 1.39,
+  "zoom": 0.9
+ },
+ "C01": {
+  "extent": 0.82,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.183
+ },
+ "C02": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   51
+  ],
+  "room_above": 0.172,
+  "seam": 0.84,
+  "zoom": 0.997
+ },
+ "C03": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   25,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.43,
+  "zoom": 1.067
+ },
+ "C04": {
+  "extent": 0.81,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.231
+ },
+ "C05": {
+  "extent": 0.89,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.044
+ },
+ "C06": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   18,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.04,
+  "zoom": 1.037
+ },
+ "C07": {
+  "extent": 0.89,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   36,
+   0,
+   65
+  ],
+  "room_above": 0.171,
+  "seam": 1.09,
+  "zoom": 0.91
+ },
+ "C08": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   70,
+   0,
+   0
+  ],
+  "room_above": 0.158,
+  "seam": 1.99,
+  "zoom": 0.984
+ },
+ "C09": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   54,
+   112,
+   50,
+   123
+  ],
+  "room_above": 0.23,
+  "seam": 2.16,
+  "zoom": 0.814
+ },
+ "C10": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   23,
+   0,
+   38
+  ],
+  "room_above": 0.201,
+  "seam": 2.22,
+  "zoom": 0.944
+ }
+}

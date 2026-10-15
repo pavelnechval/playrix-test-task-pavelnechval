@@ -1,0 +1,36 @@
+{
+  "title": "Redo round 1: chosen variants, cards Pavel rated 3 or lower (before = v4, after = v5 + note)",
+  "source": "Pavel's set picks (LC B, PP A, OG A, LI C) with his note '3 and below'; Once Upon a Garden A had none. Notes are the assistant's reading of each card, since Pavel left comments on one of the six.",
+  "cards": [
+    {
+      "code": "LC-B04", "plan": "sets/love-in-the-city/plan.json", "card": "B04",
+      "reason": "Pavel 3, external 4, no comment. Assistant's reading: puffy seamed pillow look and a spring-like coil string.",
+      "fix": "The previous balloon looked like a puffy, seamed pillow with a spring-like coil string. Make a smooth, taut, glossy red foil heart with crisp bright highlights, large in the frame (about 70% of its height), with a short white ribbon that hangs down with one soft curl and a small pink bow at the knot."
+    },
+    {
+      "code": "PP-A05", "plan": "sets/picture-perfect-suburbia/plan.json", "card": "A05",
+      "reason": "Pavel 3, external 4, no comment. Assistant's reading: foggy, pale glass; the card reads mostly white and purple.",
+      "fix": "The previous bottle looked foggy and pale. Make crisp, clear glass with bright highlights and a visible thick rim, filled with bright creamy-white milk; a chunky bottle, slightly tilted, about 70% of the frame height; a bold glossy red cap and a perky red gingham bow on the neck; keep the purple background with clearly visible concentric rings."
+    },
+    {
+      "code": "PP-A08", "plan": "sets/picture-perfect-suburbia/plan.json", "card": "A08",
+      "reason": "Pavel 2, external 5, no comment. The background came out teal although the plan asked for orange (QA missed it; the new pixel check fails it), and the thin hoop leaves the card mostly background. Plan updated: blue-and-white stripes so the hoop stands out on orange.",
+      "fix": "The previous hoop was a thin ring on a teal background. Use a warm orange background with clearly visible rays (never teal or cyan) and a thick, chunky hoop tube that reads as a bold oval filling about 75% of the frame."
+    },
+    {
+      "code": "PP-A09", "plan": "sets/picture-perfect-suburbia/plan.json", "card": "A09",
+      "reason": "Pavel 3, external 4, no comment. Assistant's reading: flat, dull tray on a mustard background; the food looks realistic rather than juicy.",
+      "fix": "The previous tray looked flat and dull on a mustard background. Tilt the tray toward the viewer in a three-quarter view so every compartment is clearly visible; make the food bright, glossy and appetizing in the smooth stylized game style (golden turkey slices with shiny gravy, bright green peas, fluffy mashed potato with a melting butter pat, a red cherry dessert); use a bright, saturated sunny-yellow surface and wall, never mustard or beige."
+    },
+    {
+      "code": "LI-C01", "plan": "sets/the-lost-island/plan.json", "card": "C01",
+      "reason": "Pavel 3, external 5, no comment. Assistant's reading: thin object with loose clumps of sand; generic without a treasure cue (compare Pavel's LI-B01 comment). Plan updated: neat sand heap with a gold coin.",
+      "fix": "The previous shovel was thin, with loose clumps of sand flying off. Make it chunky and large, filling about 75% of the frame diagonally, with the sand as a neat heap on the blade and nothing flying off."
+    },
+    {
+      "code": "LI-C02", "plan": "sets/the-lost-island/plan.json", "card": "C02",
+      "reason": "Pavel 3: 'Background color blending with light'. External 4: the crate is busy. Plan updated: clear glass with a yellow flame, red cap, simple tabletop instead of the crate.",
+      "fix": "In the previous card the lantern's red glow blended into the purple wall. Keep the wall an even, clean purple with no halo or light spill; the flame is bright yellow inside clear glass; stand the lantern on a simple polished wooden tabletop instead of a crate."
+    }
+  ]
+}

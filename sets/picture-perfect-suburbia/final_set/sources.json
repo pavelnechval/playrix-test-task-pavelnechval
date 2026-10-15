@@ -1,0 +1,57 @@
+{
+ "set": "Picture-Perfect Suburbia",
+ "variant": "A",
+ "note": "W022: ChatGPT (gpt_v7, reframed), Pavel's blind pick; simplified redraws from cleanup rounds 1-2 where detail lost fell by 2+ points with the same category and no size drift",
+ "cards": {
+  "A01": {
+   "name": "Pop-up Toaster",
+   "stars": 1,
+   "from": "gpt_v7/final"
+  },
+  "A05": {
+   "name": "Milk Bottle",
+   "stars": 1,
+   "from": "gpt_v7_clean2/final"
+  },
+  "A04": {
+   "name": "Jelly Mould",
+   "stars": 2,
+   "from": "gpt_v7/final"
+  },
+  "A09": {
+   "name": "TV Dinner",
+   "stars": 2,
+   "from": "gpt_v7_clean2/final"
+  },
+  "A07": {
+   "name": "Stand Mixer",
+   "stars": 3,
+   "from": "gpt_v7/final"
+  },
+  "A08": {
+   "name": "Hula Hoop",
+   "stars": 3,
+   "from": "gpt_v7/final"
+  },
+  "A06": {
+   "name": "Mailbox",
+   "stars": 4,
+   "from": "gpt_v7/final"
+  },
+  "A02": {
+   "name": "Retro TV",
+   "stars": 4,
+   "from": "gpt_v7/final"
+  },
+  "A10": {
+   "name": "Station Wagon",
+   "stars": 5,
+   "from": "gpt_v7_clean/final"
+  },
+  "A03": {
+   "name": "Dream House",
+   "stars": 5,
+   "from": "gpt_v7_clean/final"
+  }
+ }
+}

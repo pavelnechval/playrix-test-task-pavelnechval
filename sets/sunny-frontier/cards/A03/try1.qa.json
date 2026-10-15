@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested ranch triangle with striker and bow."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floating object on a sunburst background matches Category 1."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated yellow rays provide strong contrast for the metal."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes with no noisy micro-textures or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes with matching satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.9,
+        "orange": 0.1
+      },
+      "why": "background is yellow (90% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4948,
+    "total_input_tokens": 4033,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 774
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 262,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 653
+  },
+  "est_cost_usd": 0.0047615,
+  "elapsed_s": 22.6
+}

@@ -1,0 +1,110 @@
+{
+ "A01": {
+  "colour_shift": [
+   -2,
+   -1,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A01.png",
+  "model": "A01.try1.model.png",
+  "mtime": 1792015884,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.86,
+  "tries": 1
+ },
+ "A02": {
+  "colour_shift": [
+   2,
+   4,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A02.png",
+  "model": "A02.try1.model.png",
+  "mtime": 1792016154,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.26,
+  "tries": 1
+ },
+ "A04": {
+  "colour_shift": [
+   3,
+   2,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A04.png",
+  "model": "A04.try1.model.png",
+  "mtime": 1792015964,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 0.89,
+  "tries": 1
+ },
+ "A06": {
+  "colour_shift": [
+   -1,
+   2,
+   0
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A06.png",
+  "model": "A06.try1.model.png",
+  "mtime": 1792016114,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 2.41,
+  "tries": 1
+ },
+ "A07": {
+  "colour_shift": [
+   2,
+   6,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A07.png",
+  "model": "A07.try1.model.png",
+  "mtime": 1792016040,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.53,
+  "tries": 1
+ },
+ "A08": {
+  "colour_shift": [
+   1,
+   3,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7\\raw\\A08.png",
+  "model": "A08.try1.model.png",
+  "mtime": 1792016073,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.22,
+  "tries": 1
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "set": "Love in the City",
+ "variant": "B",
+ "note": "W022: ChatGPT (gpt_v7, reframed), Pavel's blind pick; simplified redraws from cleanup rounds 1-2 where detail lost fell by 2+ points with the same category and no size drift",
+ "cards": {
+  "B05": {
+   "name": "Matching Mugs",
+   "stars": 1,
+   "from": "gpt_v7/final"
+  },
+  "B09": {
+   "name": "Heart Glasses",
+   "stars": 1,
+   "from": "gpt_v7/final"
+  },
+  "B08": {
+   "name": "Tulip Bucket",
+   "stars": 2,
+   "from": "gpt_v7/final"
+  },
+  "B02": {
+   "name": "Typewriter",
+   "stars": 2,
+   "from": "gpt_v7_clean2/final"
+  },
+  "B01": {
+   "name": "Red Umbrella",
+   "stars": 3,
+   "from": "gpt_v7/final"
+  },
+  "B04": {
+   "name": "Heart Balloon",
+   "stars": 3,
+   "from": "gpt_v7/final"
+  },
+  "B06": {
+   "name": "Cafe Table",
+   "stars": 4,
+   "from": "gpt_v7_clean2/final"
+  },
+  "B03": {
+   "name": "Vintage Scooter",
+   "stars": 4,
+   "from": "gpt_v7_clean/final"
+  },
+  "B10": {
+   "name": "Love Locks",
+   "stars": 5,
+   "from": "gpt_v7/final"
+  },
+  "B07": {
+   "name": "Engagement Ring",
+   "stars": 5,
+   "from": "gpt_v7/final"
+  }
+ }
+}

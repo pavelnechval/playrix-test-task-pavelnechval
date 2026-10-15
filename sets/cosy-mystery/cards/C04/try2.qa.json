@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "subject": {
+      "pass": false,
+      "why": "The trail consists of bare human footprints with toes rather than boot prints."
+    },
+    "category": {
+      "pass": true,
+      "why": "The scene features a plain surface and single-tone gradient wall matching the requirements."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, frames, or visible characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The boots are nicely framed with ample margins and a clear silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated purple backdrop contrasts well with the green boots."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The scattered toe prints create busy micro-detail across the ground plane."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky forms and satin surfaces align with the reference art."
+    },
+    "bg_colour": {
+      "pass": false,
+      "level": "fail",
+      "measured": {
+        "grey/dark": 0.52,
+        "purple": 0.47,
+        "orange": 0.0
+      },
+      "why": "background is grey/dark (52% of the background); the plan asks for purple"
+    }
+  },
+  "pass": false,
+  "fix": "Make the background purple: Plain soft lilac-purple flat surface and a smooth purple wall gradient behind it, the surface lighter than the wall; no stripes; bright daylight.. Replace the bare footprints with simplified boot tread marks to reduce floor clutter and match the footwear.",
+  "usage": {
+    "total_tokens": 5368,
+    "total_input_tokens": 4062,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 803
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 297,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1009
+  },
+  "est_cost_usd": 0.005949,
+  "elapsed_s": 16.1
+}

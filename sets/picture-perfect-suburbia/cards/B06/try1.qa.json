@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Two pink lawn flamingos with metal legs are clearly depicted, complete with the requested blue bow on one of them."
+    },
+    "category": {
+      "pass": false,
+      "why": "The camera angle is shot straight-on at eye level rather than from a low, heroic angle, and the tall hedge fills the midground instead of keeping the setting to a simple strip at the bottom."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, watermarks, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The flamingo pair is centered with comfortable margins on all sides and nothing important is cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm pinks and saturated greens stand out cleanly against the bright blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky, stylized shapes without excessive micro-textures or busy clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft satin sheen, smooth 3D volumes, and no visible outlines."
+    }
+  },
+  "pass": false,
+  "fix": "Lower the camera angle to make the flamingos look big and heroic against the blue sky, reducing the lawn and hedge to a low strip at the bottom.",
+  "usage": {
+    "total_tokens": 6168,
+    "total_input_tokens": 3889,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 630
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 365,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1914
+  },
+  "est_cost_usd": 0.0087815,
+  "elapsed_s": 22.2
+}

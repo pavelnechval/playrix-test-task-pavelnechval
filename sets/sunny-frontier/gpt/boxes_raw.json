@@ -1,0 +1,302 @@
+{
+ "A01": {
+  "box": [
+   185,
+   102,
+   735,
+   933
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A01.png",
+  "mtime": 1792004162
+ },
+ "A02": {
+  "box": [
+   80,
+   210,
+   924,
+   796
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A02.png",
+  "mtime": 1792004214
+ },
+ "A03": {
+  "box": [
+   53,
+   155,
+   930,
+   911
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A03.png",
+  "mtime": 1792005865
+ },
+ "A04": {
+  "box": [
+   71,
+   214,
+   908,
+   885
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A04.png",
+  "mtime": 1792005918
+ },
+ "A05": {
+  "box": [
+   97,
+   108,
+   880,
+   874
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A05.png",
+  "mtime": 1792004365
+ },
+ "A06": {
+  "box": [
+   75,
+   99,
+   908,
+   880
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A06.png",
+  "mtime": 1792004416
+ },
+ "A07": {
+  "box": [
+   79,
+   126,
+   875,
+   889
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A07.png",
+  "mtime": 1792004463
+ },
+ "A08": {
+  "box": [
+   29,
+   222,
+   937,
+   831
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A08.png",
+  "mtime": 1792004518
+ },
+ "A09": {
+  "box": [
+   38,
+   56,
+   885,
+   942
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A09.png",
+  "mtime": 1792004562
+ },
+ "A10": {
+  "box": [
+   95,
+   93,
+   836,
+   915
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\A10.png",
+  "mtime": 1792004610
+ },
+ "B01": {
+  "box": [
+   130,
+   191,
+   959,
+   870
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B01.png",
+  "mtime": 1792004745
+ },
+ "B02": {
+  "box": [
+   26,
+   84,
+   870,
+   916
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B02.png",
+  "mtime": 1792004802
+ },
+ "B03": {
+  "box": [
+   65,
+   200,
+   878,
+   864
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B03.png",
+  "mtime": 1792004844
+ },
+ "B04": {
+  "box": [
+   81,
+   102,
+   933,
+   915
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B04.png",
+  "mtime": 1792004891
+ },
+ "B05": {
+  "box": [
+   164,
+   38,
+   882,
+   957
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B05.png",
+  "mtime": 1792004941
+ },
+ "B06": {
+  "box": [
+   191,
+   65,
+   843,
+   946
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B06.png",
+  "mtime": 1792004994
+ },
+ "B07": {
+  "box": [
+   19,
+   268,
+   916,
+   734
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B07.png",
+  "mtime": 1792005038
+ },
+ "B08": {
+  "box": [
+   85,
+   0,
+   816,
+   986
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B08.png",
+  "mtime": 1792005081
+ },
+ "B09": {
+  "box": [
+   62,
+   53,
+   897,
+   769
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B09.png",
+  "mtime": 1792005135
+ },
+ "B10": {
+  "box": [
+   88,
+   115,
+   878,
+   880
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\B10.png",
+  "mtime": 1792005185
+ },
+ "C01": {
+  "box": [
+   147,
+   156,
+   846,
+   974
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C01.png",
+  "mtime": 1792005307
+ },
+ "C02": {
+  "box": [
+   294,
+   71,
+   889,
+   957
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C02.png",
+  "mtime": 1792005360
+ },
+ "C03": {
+  "box": [
+   76,
+   88,
+   902,
+   868
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C03.png",
+  "mtime": 1792005401
+ },
+ "C04": {
+  "box": [
+   159,
+   186,
+   873,
+   829
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C04.png",
+  "mtime": 1792005446
+ },
+ "C05": {
+  "box": [
+   66,
+   156,
+   908,
+   908
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C05.png",
+  "mtime": 1792005506
+ },
+ "C06": {
+  "box": [
+   124,
+   137,
+   646,
+   956
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C06.png",
+  "mtime": 1792005547
+ },
+ "C07": {
+  "box": [
+   112,
+   88,
+   859,
+   977
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C07.png",
+  "mtime": 1792005589
+ },
+ "C08": {
+  "box": [
+   58,
+   43,
+   915,
+   954
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C08.png",
+  "mtime": 1792005638
+ },
+ "C09": {
+  "box": [
+   15,
+   95,
+   881,
+   843
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C09.png",
+  "mtime": 1792005686
+ },
+ "C10": {
+  "box": [
+   110,
+   73,
+   884,
+   905
+  ],
+  "file": "sets\\sunny-frontier\\gpt\\raw\\C10.png",
+  "mtime": 1792005738
+ }
+}

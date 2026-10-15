@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly shows the requested striped balloon, basket, and flag details."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle perspective with a simple beach strip and clean horizon clouds."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI elements, text, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered placement with balanced margins along the top and sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated red and yellow balloon contrasts clearly with the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky stylized forms without noisy micro-textures or cluttered scenery."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft shading and satin 3D volumes."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4852,
+    "total_input_tokens": 3892,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 633
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 1946,
+    "cached_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 316
+      },
+      {
+        "modality": "image",
+        "tokens": 1630
+      }
+    ],
+    "total_output_tokens": 275,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 685
+  },
+  "est_cost_usd": 0.004826,
+  "elapsed_s": 20.7
+}

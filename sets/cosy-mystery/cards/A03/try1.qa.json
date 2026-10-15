@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The envelope is immediately recognisable, puffy and sealed with the requested red wax seal stamped with a footprint."
+    },
+    "category": {
+      "pass": true,
+      "why": "The envelope floats in the air with a slight tilt against a sky-blue background with centred radiating light rays and no ground or extra props."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with generous margins on all sides and a clear silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The sky-blue background is bright and saturated with clear rays, and the warm cream envelope and red wax seal contrast distinctly against it."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and chunky with no noisy micro-textures or extraneous elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "The 3D render features soft puffy volumes, smooth satin finishes, a glossy wax seal, and no outlines, matching the reference style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.87,
+        "teal": 0.13,
+        "grey/dark": 0.0,
+        "orange": 0.0
+      },
+      "why": "background is blue (87% of the background); planned blue"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4979,
+    "total_input_tokens": 4037,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 778
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 249,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 693
+  },
+  "est_cost_usd": 0.0048445,
+  "elapsed_s": 11.1
+}

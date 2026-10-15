@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Depicts a rustic ranch dinner triangle with striker, horseshoe hook, and open corner."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floating object in three-quarter view over a saturated radiating background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered chunky silhouette with balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm yellow background matches the prompt and contrasts clearly with the dark iron."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simplified shapes without noisy micro-details or unnecessary extra props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference style with smooth chunky volumes, satin sheen, and no outlines."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.59,
+        "orange": 0.41
+      },
+      "why": "background is yellow (59% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4712,
+    "total_input_tokens": 4064,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 805
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 280,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 368
+  },
+  "est_cost_usd": 0.003976,
+  "elapsed_s": 18.0
+}

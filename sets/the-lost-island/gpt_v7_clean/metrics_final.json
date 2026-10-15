@@ -1,0 +1,112 @@
+{
+ "C02": {
+  "_key": "234134:1792020586",
+  "box": [
+   122,
+   241,
+   933,
+   759
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 20.48,
+  "edge_full": 22.71,
+  "height": 0.811,
+  "highlight": 0.0139,
+  "margin": 0.067,
+  "margin_bottom": 0.067,
+  "margin_top": 0.122,
+  "saturation": 0.754,
+  "small_detail": "low",
+  "why": "The lantern stands on a wooden surface in front of a plain purple background, featuring smooth stylized shapes that remain clear at tiny sizes.",
+  "width": 0.518
+ },
+ "C06": {
+  "_key": "243220:1792020587",
+  "box": [
+   167,
+   0,
+   760,
+   1000
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 11.89,
+  "edge_full": 14.54,
+  "height": 0.593,
+  "highlight": 0.117,
+  "margin": 0.0,
+  "margin_bottom": 0.24,
+  "margin_top": 0.167,
+  "saturation": 0.449,
+  "small_detail": "low",
+  "why": "The rock cave with the waterfall is set naturally within a tropical water landscape under an open sky.",
+  "width": 1.0
+ },
+ "C07": {
+  "_key": "257061:1792020587",
+  "box": [
+   136,
+   127,
+   951,
+   873
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 13.91,
+  "edge_full": 15.87,
+  "height": 0.815,
+  "highlight": 0.0389,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.136,
+  "saturation": 0.728,
+  "small_detail": "medium",
+  "why": "The golden chalice stands on a podium against a simple red backdrop, with noticeable gem facets and pearl highlights that blur at thumbnail size.",
+  "width": 0.746
+ },
+ "C08": {
+  "_key": "271032:1792020587",
+  "box": [
+   136,
+   88,
+   922,
+   912
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 9.02,
+  "edge_full": 10.73,
+  "height": 0.786,
+  "highlight": 0.0025,
+  "margin": 0.078,
+  "margin_bottom": 0.078,
+  "margin_top": 0.136,
+  "saturation": 0.763,
+  "small_detail": "low",
+  "why": "The coin-filled sack floats centered against a simple radial green sunburst background without any ground or floor.",
+  "width": 0.824
+ },
+ "C10": {
+  "_key": "277163:1792020586",
+  "box": [
+   363,
+   136,
+   750,
+   867
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 13.93,
+  "edge_full": 16.22,
+  "height": 0.387,
+  "highlight": 0.1062,
+  "margin": 0.133,
+  "margin_bottom": 0.25,
+  "margin_top": 0.363,
+  "saturation": 0.585,
+  "small_detail": "low",
+  "why": "The hammock is centrally featured within a full tropical beach landscape.",
+  "width": 0.731
+ }
+}

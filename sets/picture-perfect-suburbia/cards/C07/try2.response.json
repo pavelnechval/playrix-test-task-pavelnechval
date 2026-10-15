@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 24.1,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdMS2JPYXFLV0JiN2J4czBQenZUWHVBcxIXTEtiT2FxS1dCYjdieHMwUHp2VFh1QXM",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17240,
+      "total_input_tokens": 14477,
+      "input_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 1037
+        },
+        {
+          "modality": "image",
+          "tokens": 13440
+        }
+      ],
+      "total_cached_tokens": 7378,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 528
+        },
+        {
+          "modality": "image",
+          "tokens": 6850
+        }
+      ],
+      "total_output_tokens": 1473,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1290
+    },
+    "created": "2026-10-13T21:44:30Z",
+    "updated": "2026-10-13T21:44:30Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<617764 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the new card illustration for the \"Vacuum Cleaner\", designed to match the style and quality of your game's collection. Let me know if you would like any adjustments!",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1883584 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<658320 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0553155
+}

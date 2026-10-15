@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The basket, yarn, needles, scarf, and magnifying glass match the brief clearly."
+    },
+    "category": {
+      "pass": true,
+      "why": "Meets category 2 with a plain surface, smooth wall gradient, and contrasting backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, borders, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The central object is well-placed with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated, bright daylight palette matching the requested sky-blue environment."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features chunky, simplified forms without busy micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": false,
+      "why": "The knitted scarf and yarn resemble molded rubber rather than soft fabric fibers."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.95,
+        "teal": 0.05,
+        "grey/dark": 0.0
+      },
+      "why": "background is blue (95% of the background); planned blue"
+    }
+  },
+  "pass": false,
+  "fix": "Soften the yarn and scarf rendering so the material reads as wool rather than molded rubber.",
+  "usage": {
+    "total_tokens": 5623,
+    "total_input_tokens": 4060,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 801
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 225,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1338
+  },
+  "est_cost_usd": 0.006719,
+  "elapsed_s": 22.9
+}

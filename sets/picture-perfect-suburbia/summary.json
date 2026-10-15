@@ -1,0 +1,897 @@
+{
+  "set": "Picture-Perfect Suburbia",
+  "updated": "2026-10-14T21:37:10+00:00",
+  "images_generated": 53,
+  "qa_reviews": 53,
+  "first_try_pass": 16,
+  "est_cost_usd": 3.24,
+  "status_counts": {
+    "passed": 27,
+    "accepted_with_issues": 3,
+    "unchecked": 0,
+    "failed": 0,
+    "not_started": 0
+  },
+  "cards": {
+    "A01": {
+      "id": "A01",
+      "name": "Pop-up Toaster",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055206,
+          "gen_s": 24.2,
+          "qa_pass": true,
+          "qa_cost": 0.0085455,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 0
+        }
+      ]
+    },
+    "A05": {
+      "id": "A05",
+      "name": "Milk Bottle",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552015,
+          "gen_s": 17.6,
+          "qa_pass": true,
+          "qa_cost": 0.005705,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055639499999999995,
+          "gen_s": 19.9,
+          "qa_pass": true,
+          "qa_cost": 0.004848,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A04": {
+      "id": "A04",
+      "name": "Jelly Mould",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552315,
+          "gen_s": 31.3,
+          "qa_pass": true,
+          "qa_cost": 0.0067425,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A09": {
+      "id": "A09",
+      "name": "TV Dinner",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552345,
+          "gen_s": 21.7,
+          "qa_pass": true,
+          "qa_cost": 0.005345,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055694999999999995,
+          "gen_s": 12.6,
+          "qa_pass": false,
+          "qa_cost": 0.006125,
+          "fix": "Simplify the peas into fewer, larger shapes and smooth out the crimping along the foil tray rim.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055725,
+          "gen_s": 21.6,
+          "qa_pass": true,
+          "qa_cost": 0.004463,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A07": {
+      "id": "A07",
+      "name": "Stand Mixer",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055264499999999994,
+          "gen_s": 28.4,
+          "qa_pass": true,
+          "qa_cost": 0.0070495,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561165,
+          "gen_s": 20.5,
+          "qa_pass": true,
+          "qa_cost": 0.004881,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A08": {
+      "id": "A08",
+      "name": "Hula Hoop",
+      "status": "passed",
+      "chosen": "try4.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0551865,
+          "gen_s": 24.9,
+          "qa_pass": false,
+          "qa_cost": 0.0083845,
+          "fix": "Make the hoop tube significantly thinner so it reads distinctly as a hula hoop, and change the background to a contrasting cool color like cyan or purple to make the yellow and red pop.",
+          "failed": [
+            "subject",
+            "colour"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.05526,
+          "gen_s": 20.0,
+          "qa_pass": true,
+          "qa_cost": 0.0059245,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055635,
+          "gen_s": 17.3,
+          "qa_pass": false,
+          "qa_cost": 0.0073255,
+          "fix": "Smooth out the dented crease along the lower-left tube and ensure the candy stripes wrap continuously without chevroning or glitching.",
+          "failed": [
+            "style"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 4,
+          "file": "try4.jpg",
+          "gen_cost": 0.055674,
+          "gen_s": 18.3,
+          "qa_pass": true,
+          "qa_cost": 0.0044035,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A06": {
+      "id": "A06",
+      "name": "Mailbox",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553005,
+          "gen_s": 39.1,
+          "qa_pass": true,
+          "qa_cost": 0.0075495,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A02": {
+      "id": "A02",
+      "name": "Retro TV",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552825,
+          "gen_s": 35.2,
+          "qa_pass": false,
+          "qa_cost": 0.0061065,
+          "fix": "Scale down the television to increase margins and remove the baseboard trim from the background.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055326,
+          "gen_s": 25.7,
+          "qa_pass": true,
+          "qa_cost": 0.0052005,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A10": {
+      "id": "A10",
+      "name": "Station Wagon",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553125,
+          "gen_s": 24.0,
+          "qa_pass": false,
+          "qa_cost": 0.0050625,
+          "fix": "Smooth out the wicker texture on the picnic basket into simple, chunky shapes.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055353,
+          "gen_s": 20.9,
+          "qa_pass": true,
+          "qa_cost": 0.0048255,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A03": {
+      "id": "A03",
+      "name": "Dream House",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055307999999999996,
+          "gen_s": 21.4,
+          "qa_pass": false,
+          "qa_cost": 0.005485,
+          "fix": "Scale down the composition slightly so the fence does not touch or get cut off by the side edges.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055356,
+          "gen_s": 20.3,
+          "qa_pass": true,
+          "qa_cost": 0.010459,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B01": {
+      "id": "B01",
+      "name": "Poodle Skirt",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552015,
+          "gen_s": 19.2,
+          "qa_pass": true,
+          "qa_cost": 0.003908,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B02": {
+      "id": "B02",
+      "name": "Jukebox",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055269,
+          "gen_s": 28.4,
+          "qa_pass": false,
+          "qa_cost": 0.0077505,
+          "fix": "Change the background to a bright, warm gradient to match the game's palette.",
+          "failed": [
+            "colour"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553125,
+          "gen_s": 21.7,
+          "qa_pass": true,
+          "qa_cost": 0.0052485,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B03": {
+      "id": "B03",
+      "name": "Drive-In",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055321499999999996,
+          "gen_s": 20.7,
+          "qa_pass": false,
+          "qa_cost": 0.0072465,
+          "fix": "Remove the scattered pebbles and surface grime, clean up the metal into smooth stylized shapes with a satin sheen, and inject warmer, more saturated lighting.",
+          "failed": [
+            "category",
+            "colour",
+            "detail",
+            "style"
+          ],
+          "checks_passed": 3
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055383,
+          "gen_s": 22.2,
+          "qa_pass": false,
+          "qa_cost": 0.0055335,
+          "fix": "Smooth out the gravel texture into a clean stylized ground strip and pull the background screen fully into frame.",
+          "failed": [
+            "framing",
+            "detail"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0553695,
+          "gen_s": 18.7,
+          "qa_pass": false,
+          "qa_cost": 0.0059085,
+          "fix": "Warm up the overall color palette, flatten the ground into a simple strip, and adopt a lower camera angle centered on the speaker post.",
+          "failed": [
+            "category",
+            "framing",
+            "colour"
+          ],
+          "checks_passed": 4
+        }
+      ]
+    },
+    "B04": {
+      "id": "B04",
+      "name": "Milkshake",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055227,
+          "gen_s": 27.1,
+          "qa_pass": true,
+          "qa_cost": 0.004996,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B05": {
+      "id": "B05",
+      "name": "Roller Skates",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0551895,
+          "gen_s": 19.0,
+          "qa_pass": false,
+          "qa_cost": 0.0065615,
+          "fix": "Simplify the pom-poms into smooth, chunky stylized shapes with a satin sheen rather than rendering realistic fuzzy fur fibers.",
+          "failed": [
+            "detail",
+            "style"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0552435,
+          "gen_s": 26.2,
+          "qa_pass": true,
+          "qa_cost": 0.0047585,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B06": {
+      "id": "B06",
+      "name": "Lawn Flamingos",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553005,
+          "gen_s": 20.4,
+          "qa_pass": false,
+          "qa_cost": 0.0087815,
+          "fix": "Lower the camera angle to make the flamingos look big and heroic against the blue sky, reducing the lawn and hedge to a low strip at the bottom.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055365,
+          "gen_s": 26.1,
+          "qa_pass": true,
+          "qa_cost": 0.0063395,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B07": {
+      "id": "B07",
+      "name": "Gumball Machine",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05526,
+          "gen_s": 21.7,
+          "qa_pass": false,
+          "qa_cost": 0.006286,
+          "fix": "Replace the vertical wall panel lines in the background with a smooth, seamless gradient.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.055302,
+          "gen_s": 22.8,
+          "qa_pass": true,
+          "qa_cost": 0.004837,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B08": {
+      "id": "B08",
+      "name": "Pocket Radio",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552015,
+          "gen_s": 25.3,
+          "qa_pass": true,
+          "qa_cost": 0.004326,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B09": {
+      "id": "B09",
+      "name": "Saddle Shoes",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055215,
+          "gen_s": 22.7,
+          "qa_pass": true,
+          "qa_cost": 0.0046725,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B10": {
+      "id": "B10",
+      "name": "Backyard Grill",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05530499999999999,
+          "gen_s": 28.0,
+          "qa_pass": true,
+          "qa_cost": 0.004167,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C01": {
+      "id": "C01",
+      "name": "Feather Duster",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0551895,
+          "gen_s": 19.2,
+          "qa_pass": true,
+          "qa_cost": 0.0043175,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "Washing Machine",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552675,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.005508,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "Sprinkler",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05529149999999999,
+          "gen_s": 22.9,
+          "qa_pass": false,
+          "qa_cost": 0.0059665,
+          "fix": "Simplify the water mist into solid chunky shapes, removing speckled spray texture.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553305,
+          "gen_s": 22.4,
+          "qa_pass": true,
+          "qa_cost": 0.0055405,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "Casserole",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055215,
+          "gen_s": 19.6,
+          "qa_pass": true,
+          "qa_cost": 0.004638,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C05": {
+      "id": "C05",
+      "name": "Alarm Clock",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055191,
+          "gen_s": 25.4,
+          "qa_pass": false,
+          "qa_cost": 0.005588,
+          "fix": "Remove the numbers from the clock face to keep it clean and minimal.",
+          "failed": [
+            "clean"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.05523,
+          "gen_s": 21.1,
+          "qa_pass": true,
+          "qa_cost": 0.006818,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C06": {
+      "id": "C06",
+      "name": "Paperboy Bike",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553005,
+          "gen_s": 26.7,
+          "qa_pass": false,
+          "qa_cost": 0.0064555,
+          "fix": "Scale down the bicycle to add side margins and reduce the fence to a small prop so it does not block the sky.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553545,
+          "gen_s": 18.5,
+          "qa_pass": false,
+          "qa_cost": 0.0058585,
+          "fix": "Extend the ground strip continuously across the bottom of the frame instead of placing the object on a floating platform.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055349999999999996,
+          "gen_s": 17.0,
+          "qa_pass": false,
+          "qa_cost": 0.0080275,
+          "fix": "Lower or reduce the fence so only a ground strip remains, opening up the sky and horizon.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        }
+      ]
+    },
+    "C07": {
+      "id": "C07",
+      "name": "Vacuum Cleaner",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055257,
+          "gen_s": 22.7,
+          "qa_pass": false,
+          "qa_cost": 0.0051275,
+          "fix": "Replace the realistic, fuzzy carpet with a smooth, stylized surface such as a glossy floor or polished wood tabletop with a soft contact shadow.",
+          "failed": [
+            "category",
+            "detail",
+            "style"
+          ],
+          "checks_passed": 4
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553155,
+          "gen_s": 24.1,
+          "qa_pass": false,
+          "qa_cost": 0.0051815,
+          "fix": "Replace the slatted wood wall panelling with a clean, smooth gradient background.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.055299,
+          "gen_s": 22.9,
+          "qa_pass": false,
+          "qa_cost": 0.0053285,
+          "fix": "Replace the fuzzy carpet with a smooth, stylized solid floor featuring a soft contact shadow.",
+          "failed": [
+            "category",
+            "detail"
+          ],
+          "checks_passed": 5
+        }
+      ]
+    },
+    "C08": {
+      "id": "C08",
+      "name": "Polka-Dot Apron",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.055195499999999995,
+          "gen_s": 16.9,
+          "qa_pass": true,
+          "qa_cost": 0.0044485,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C09": {
+      "id": "C09",
+      "name": "Ice Cream Sundae",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0552345,
+          "gen_s": 20.4,
+          "qa_pass": true,
+          "qa_cost": 0.0051035,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C10": {
+      "id": "C10",
+      "name": "Lemonade Stand",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0553185,
+          "gen_s": 20.4,
+          "qa_pass": false,
+          "qa_cost": 0.008517,
+          "fix": "Remove the extra crate of lemons and simplify the spiky grass into a smooth, stylized ground strip.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0553665,
+          "gen_s": 25.2,
+          "qa_pass": true,
+          "qa_cost": 0.004155,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    }
+  }
+}

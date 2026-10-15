@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The golden key is instantly recognizable, complete with shaft, bit, and ornate swirly bow featuring the requested heart cutout."
+    },
+    "category": {
+      "pass": true,
+      "why": "The key floats at a dynamic tilt with no surface underneath, set against a saturated gradient background with concentric rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The key is centered with generous, even margins on all sides and no parts cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The warm golden yellow contrasts vividly against the rich, saturated purple background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The forms are bold and stylized with no micro-textures, scratches, or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, chunky 3D volumes, a soft satin sheen, and no outlines, perfectly matching the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4591,
+    "total_input_tokens": 3825,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 566
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 324,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 442
+  },
+  "est_cost_usd": 0.0042105,
+  "elapsed_s": 10.9
+}

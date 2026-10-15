@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Golden gem-studded goblet with pearl rim on a pedestal matches the brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "Features a stylized podium surface and a clean gradient background wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, logos, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Central composition with clear margins around the goblet."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated palette with good contrast against the red backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Volumes are chunky with no distracting micro-textures or busy patterns."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth shading and satin finish."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 6054,
+    "total_input_tokens": 3864,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 605
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 186,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2004
+  },
+  "est_cost_usd": 0.008502,
+  "elapsed_s": 27.9
+}

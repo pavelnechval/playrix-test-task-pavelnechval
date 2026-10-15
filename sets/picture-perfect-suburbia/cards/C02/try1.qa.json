@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The retro pastel-yellow washing machine is instantly recognizable and features the requested round glass door and soap bubbles."
+    },
+    "category": {
+      "pass": true,
+      "why": "The washing machine sits on a stylized tiled floor with a smooth concentric orange gradient wall behind it, strictly following category 3."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, characters, or borders."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object and floating bubbles are well-centered with ample, comfortable margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright and warm, with the yellow machine popping distinctly against the orange wall and blue/white floor."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Details are kept chunky and stylized without noisy micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, rounded volumes and soft satin lighting that matches the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5061,
+    "total_input_tokens": 3870,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 611
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 320,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 871
+  },
+  "est_cost_usd": 0.005508,
+  "elapsed_s": 13.9
+}

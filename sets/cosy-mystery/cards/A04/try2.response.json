@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 28.6,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdFQ2ZRYXZyekJNdUt2ZElQbDZhVHNBNBIXRUNmUWF2cnpCTXVLdmRJUGw2YVRzQTQ",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 18157,
+      "total_input_tokens": 15058,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1618
+        }
+      ],
+      "total_cached_tokens": 6980,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 750
+        },
+        {
+          "modality": "image",
+          "tokens": 6230
+        }
+      ],
+      "total_output_tokens": 1834,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1265
+    },
+    "created": "2026-10-15T01:06:48Z",
+    "updated": "2026-10-15T01:06:48Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1088016 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the new card illustration for the casual mobile game, \"Case Notes\":",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1392512 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<600616 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056187
+}

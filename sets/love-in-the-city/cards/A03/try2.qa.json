@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear yellow taxi with requested sign, checker stripe, and heart decal."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle hero view with a simple road strip and cloud-lined blue sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, characters, or watermarks."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered subject with adequate margins on top and sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant yellow vehicle contrasting against a clean blue gradient sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean, smooth surfaces without excessive micro-textures or busy clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D forms and satin shading matching the reference style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4691,
+    "total_input_tokens": 3896,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 637
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 277,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 518
+  },
+  "est_cost_usd": 0.004333,
+  "elapsed_s": 17.1
+}

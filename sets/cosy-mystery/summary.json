@@ -1,0 +1,947 @@
+{
+  "set": "Cosy Mystery",
+  "updated": "2026-10-15T01:54:40+00:00",
+  "images_generated": 57,
+  "qa_reviews": 57,
+  "first_try_pass": 19,
+  "est_cost_usd": 3.5,
+  "status_counts": {
+    "passed": 25,
+    "accepted_with_issues": 5,
+    "unchecked": 0,
+    "failed": 0,
+    "not_started": 0
+  },
+  "cards": {
+    "A01": {
+      "id": "A01",
+      "name": "Magnifying Glass",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056106,
+          "gen_s": 15.9,
+          "qa_pass": true,
+          "qa_cost": 0.004225,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A02": {
+      "id": "A02",
+      "name": "Deerstalker",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561,
+          "gen_s": 24.7,
+          "qa_pass": true,
+          "qa_cost": 0.0048765,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A03": {
+      "id": "A03",
+      "name": "Secret Letter",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056064,
+          "gen_s": 21.7,
+          "qa_pass": true,
+          "qa_cost": 0.0048445,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A04": {
+      "id": "A04",
+      "name": "Case Notes",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056138999999999994,
+          "gen_s": 25.3,
+          "qa_pass": false,
+          "qa_cost": 0.0058245,
+          "fix": "Level the tabletop into a stable horizontal surface so the purple wall sits entirely behind it rather than underneath.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056187,
+          "gen_s": 28.6,
+          "qa_pass": true,
+          "qa_cost": 0.0045825,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A05": {
+      "id": "A05",
+      "name": "Urgent Call",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560655,
+          "gen_s": 24.0,
+          "qa_pass": false,
+          "qa_cost": 0.008006,
+          "fix": "Remove the floating yellow sound wave arcs around the telephone to keep the object clean and isolated.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056110499999999994,
+          "gen_s": 25.1,
+          "qa_pass": true,
+          "qa_cost": 0.003701,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A06": {
+      "id": "A06",
+      "name": "Fingerprint Kit",
+      "status": "accepted_with_issues",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056121,
+          "gen_s": 16.1,
+          "qa_pass": true,
+          "qa_cost": 0.005289,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0562155,
+          "gen_s": 20.7,
+          "qa_pass": false,
+          "qa_cost": 0.0053365,
+          "fix": "Make the background purple: Plain soft violet-purple flat surface and a smooth purple wall gradient behind it, the surface lighter than the wall; no stripes; bright daylight.. Group the tin closely against the card into a single solid silhouette and boost overall color saturation.",
+          "failed": [
+            "framing",
+            "colour",
+            "bg_colour"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056293499999999996,
+          "gen_s": 28.3,
+          "qa_pass": false,
+          "qa_cost": 0.0052105,
+          "fix": "Simplify the brush bristles into chunkier, smooth stylized geometry to match the reference style.",
+          "failed": [
+            "style"
+          ],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A07": {
+      "id": "A07",
+      "name": "Thinking Chair",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056126999999999996,
+          "gen_s": 20.5,
+          "qa_pass": true,
+          "qa_cost": 0.004235,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A08": {
+      "id": "A08",
+      "name": "London Cab",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05624849999999999,
+          "gen_s": 20.2,
+          "qa_pass": true,
+          "qa_cost": 0.004446,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A09": {
+      "id": "A09",
+      "name": "Townhouse",
+      "status": "accepted_with_issues",
+      "chosen": "try4.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056271,
+          "gen_s": 14.8,
+          "qa_pass": false,
+          "qa_cost": 0.0063015,
+          "fix": "Simplify the brick texture into larger, chunkier blocks and remove the potted plants.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056313,
+          "gen_s": 13.0,
+          "qa_pass": false,
+          "qa_cost": 0.0060855,
+          "fix": "Zoom out to fit the full roofline within the frame and extend the pavement fully across the bottom edge.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056320499999999996,
+          "gen_s": 36.4,
+          "qa_pass": true,
+          "qa_cost": 0.0051105,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 4,
+          "file": "try4.jpg",
+          "gen_cost": 0.0563925,
+          "gen_s": 24.8,
+          "qa_pass": false,
+          "qa_cost": 0.010015,
+          "fix": "Pull the camera back slightly and trim the adjacent buildings so they only peek in, restoring clear side margins.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 5,
+          "file": "try5.jpg",
+          "gen_cost": 0.056424,
+          "gen_s": 36.4,
+          "qa_pass": false,
+          "qa_cost": 0.007915,
+          "fix": "Scale down or push back the flanking buildings to establish clear margins on both sides of the central townhouse.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        }
+      ]
+    },
+    "A10": {
+      "id": "A10",
+      "name": "Clock Tower",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0562875,
+          "gen_s": 32.0,
+          "qa_pass": true,
+          "qa_cost": 0.0046865,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B01": {
+      "id": "B01",
+      "name": "Manor Key",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560775,
+          "gen_s": 18.1,
+          "qa_pass": true,
+          "qa_cost": 0.004217,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B02": {
+      "id": "B02",
+      "name": "Tea Time",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561435,
+          "gen_s": 12.3,
+          "qa_pass": false,
+          "qa_cost": 0.0045215,
+          "fix": "Remove the plate with scones so the teapot stands alone on the table.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056182499999999996,
+          "gen_s": 18.8,
+          "qa_pass": true,
+          "qa_cost": 0.0041915,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B03": {
+      "id": "B03",
+      "name": "Butler's Bell",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05608199999999999,
+          "gen_s": 20.2,
+          "qa_pass": true,
+          "qa_cost": 0.0049175,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B04": {
+      "id": "B04",
+      "name": "Bowler Hat",
+      "status": "accepted_with_issues",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560805,
+          "gen_s": 11.9,
+          "qa_pass": false,
+          "qa_cost": 0.0043725,
+          "fix": "Remove the magnifying glass so only the hat and flower remain.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561165,
+          "gen_s": 17.3,
+          "qa_pass": true,
+          "qa_cost": 0.0033195,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.05613,
+          "gen_s": 20.7,
+          "qa_pass": false,
+          "qa_cost": 0.0051705,
+          "fix": "Remove the magnifying glass prop so only the bowler hat and carnation remain.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 4,
+          "file": "try4.jpg",
+          "gen_cost": 0.056152499999999994,
+          "gen_s": 23.5,
+          "qa_pass": false,
+          "qa_cost": 0.0055725,
+          "fix": "Remove the magnifying glass so the bowler hat and its carnation are the sole focus.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B05": {
+      "id": "B05",
+      "name": "Hall Clock",
+      "status": "passed",
+      "chosen": "try6.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056136,
+          "gen_s": 14.0,
+          "qa_pass": false,
+          "qa_cost": 0.0043,
+          "fix": "Make the background green: Polished light-wood floor and a smooth deep-green back wall with a soft gradient, wall and floor in clearly different tones; no props; bright daylight..",
+          "failed": [
+            "bg_colour"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056211,
+          "gen_s": 15.7,
+          "qa_pass": false,
+          "qa_cost": 0.007171,
+          "fix": "Brighten and saturate the green wall background to eliminate the dark, muted tone.",
+          "failed": [
+            "colour"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056178,
+          "gen_s": 13.4,
+          "qa_pass": true,
+          "qa_cost": 0.004669,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 4,
+          "file": "try4.jpg",
+          "gen_cost": 0.056199,
+          "gen_s": 29.9,
+          "qa_pass": true,
+          "qa_cost": 0.004651,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 5,
+          "error": "HTTP 402 for POST interactions: [{\n  \"error\": {\n    \"code\": 402,\n    \"message\": \"Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay. \",\n    \"status\": \"RESOUR"
+        },
+        {
+          "try": 6,
+          "file": "try6.jpg",
+          "gen_cost": 0.056207999999999994,
+          "gen_s": 21.0,
+          "qa_pass": true,
+          "qa_cost": 0,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 1
+        }
+      ]
+    },
+    "B06": {
+      "id": "B06",
+      "name": "Empty Safe",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056125499999999995,
+          "gen_s": 28.0,
+          "qa_pass": false,
+          "qa_cost": 0.004977,
+          "fix": "Reduce the safe's size to leave ample margins and align the background horizon horizontally.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056169,
+          "gen_s": 12.8,
+          "qa_pass": false,
+          "qa_cost": 0.00585,
+          "fix": "Add a brass handle to the safe door as specified in the brief.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0561645,
+          "gen_s": 24.3,
+          "qa_pass": false,
+          "qa_cost": 0.006198,
+          "fix": "Level the background seam between the floor and the wall so it forms a straight horizontal line.",
+          "failed": [
+            "category"
+          ],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B07": {
+      "id": "B07",
+      "name": "Blue Diamond",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056088,
+          "gen_s": 18.4,
+          "qa_pass": true,
+          "qa_cost": 0.0041905,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B08": {
+      "id": "B08",
+      "name": "Vintage Car",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056264999999999996,
+          "gen_s": 30.6,
+          "qa_pass": false,
+          "qa_cost": 0.006491,
+          "fix": "Simplify the driveway and hedge textures into smooth, chunky stylized planes consistent with the reference cards.",
+          "failed": [
+            "detail",
+            "style"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.05631,
+          "gen_s": 20.9,
+          "qa_pass": true,
+          "qa_cost": 0.004856,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B09": {
+      "id": "B09",
+      "name": "Secret Passage",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056274,
+          "gen_s": 12.3,
+          "qa_pass": true,
+          "qa_cost": 0.0055815,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B10": {
+      "id": "B10",
+      "name": "Manor House",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056264999999999996,
+          "gen_s": 12.6,
+          "qa_pass": true,
+          "qa_cost": 0.004691,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C01": {
+      "id": "C01",
+      "name": "Bobby Helmet",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560955,
+          "gen_s": 26.1,
+          "qa_pass": true,
+          "qa_cost": 0.0042335,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "Knitting Basket",
+      "status": "accepted_with_issues",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056103,
+          "gen_s": 12.6,
+          "qa_pass": false,
+          "qa_cost": 0.007271,
+          "fix": "Change the blue ball of yarn to a warm contrasting colour so it separates clearly from the background.",
+          "failed": [
+            "colour"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561495,
+          "gen_s": 18.5,
+          "qa_pass": false,
+          "qa_cost": 0.007388,
+          "fix": "Remove the extra knitting needle so only two needles pass through the scarf.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056142,
+          "gen_s": 21.9,
+          "qa_pass": false,
+          "qa_cost": 0.006719,
+          "fix": "Soften the yarn and scarf rendering so the material reads as wool rather than molded rubber.",
+          "failed": [
+            "style"
+          ],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "Strawberry Jam",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056088,
+          "gen_s": 16.9,
+          "qa_pass": true,
+          "qa_cost": 0.0071915,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "Muddy Wellies",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056103,
+          "gen_s": 29.1,
+          "qa_pass": false,
+          "qa_cost": 0.005853,
+          "fix": "Reframe or shorten the trail of footprints so they do not clip against the right edge of the image.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056152499999999994,
+          "gen_s": 12.4,
+          "qa_pass": false,
+          "qa_cost": 0.005949,
+          "fix": "Make the background purple: Plain soft lilac-purple flat surface and a smooth purple wall gradient behind it, the surface lighter than the wall; no stripes; bright daylight.. Replace the bare footprints with simplified boot tread marks to reduce floor clutter and match the footwear.",
+          "failed": [
+            "subject",
+            "detail",
+            "bg_colour"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056199,
+          "gen_s": 14.0,
+          "qa_pass": true,
+          "qa_cost": 0.005958,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C05": {
+      "id": "C05",
+      "name": "Missing Slice",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056153999999999996,
+          "gen_s": 18.2,
+          "qa_pass": true,
+          "qa_cost": 0.0054185,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C06": {
+      "id": "C06",
+      "name": "Prize Rose",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056049,
+          "gen_s": 17.0,
+          "qa_pass": true,
+          "qa_cost": 0.003926,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C07": {
+      "id": "C07",
+      "name": "Constable's Bike",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056178,
+          "gen_s": 19.4,
+          "qa_pass": true,
+          "qa_cost": 0.003961,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C08": {
+      "id": "C08",
+      "name": "Watermill",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056258999999999997,
+          "gen_s": 22.1,
+          "qa_pass": true,
+          "qa_cost": 0.0053645,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C09": {
+      "id": "C09",
+      "name": "Village F\u00eate",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0562305,
+          "gen_s": 21.9,
+          "qa_pass": true,
+          "qa_cost": 0.004978,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0563685,
+          "gen_s": 22.8,
+          "qa_pass": false,
+          "qa_cost": 0.008976,
+          "fix": "Reduce the crumb trail to a few larger, stylized crumbs to eliminate foreground clutter.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0563925,
+          "gen_s": 20.8,
+          "qa_pass": true,
+          "qa_cost": 0,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 0
+        }
+      ]
+    },
+    "C10": {
+      "id": "C10",
+      "name": "Thatched Cottage",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05624849999999999,
+          "gen_s": 16.3,
+          "qa_pass": false,
+          "qa_cost": 0.005519,
+          "fix": "Simplify the rose arch by replacing the numerous small flowers with fewer, chunkier stylized blooms.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056293499999999996,
+          "gen_s": 33.7,
+          "qa_pass": false,
+          "qa_cost": 0.005012,
+          "fix": "Scale down the cottage slightly to ensure comfortable margins on the top and sides.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056289,
+          "gen_s": 30.3,
+          "qa_pass": true,
+          "qa_cost": 0.004208,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    }
+  }
+}

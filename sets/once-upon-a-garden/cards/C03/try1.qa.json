@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The heart-shaped hedge archway entrance with red roses is clearly depicted and recognisable."
+    },
+    "category": {
+      "pass": false,
+      "why": "The setting is not limited to a simple strip at the bottom; continuous hedge walls fill the sides and interior view, replacing the open sky gradient and horizon."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters are present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The hedges bleed off both the left and right edges with no side margins, crowding the frame."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Colours are bright, saturated, and juicy with good contrast between the red roses, green foliage, and blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The leaves and roses are rendered as smooth, chunky volumes without noisy micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft volumetric shapes, clean lighting, and a satin sheen."
+    }
+  },
+  "pass": false,
+  "fix": "Pull the camera back to give the hedge arch clear margins on the left and right, and remove the flanking side walls so only a clean strip of ground sits at the bottom beneath an open sky.",
+  "usage": {
+    "total_tokens": 5966,
+    "total_input_tokens": 3888,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 629
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 362,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1716
+  },
+  "est_cost_usd": 0.008178,
+  "elapsed_s": 19.8
+}

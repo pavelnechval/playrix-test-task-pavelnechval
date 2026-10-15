@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested sunbonnet with deep brim and red bow."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floating object on a gradient background with centered motif pattern."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette with clear contrast against the yellow background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Maintains clean, simplified shapes without excessive micro-detail."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes with appropriate satin finish matching references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.99,
+        "orange": 0.01
+      },
+      "why": "background is yellow (99% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4565,
+    "total_input_tokens": 4041,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 782
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 271,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 253
+  },
+  "est_cost_usd": 0.0035925,
+  "elapsed_s": 15.9
+}

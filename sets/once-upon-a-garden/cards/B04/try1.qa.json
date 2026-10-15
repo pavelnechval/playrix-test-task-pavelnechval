@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "It is clearly a shiny red apple complete with stem, leaf, and the requested magical sparkle above the stem."
+    },
+    "category": {
+      "pass": true,
+      "why": "The apple rests on a flat, solid-colour surface viewed from slightly above, set against a smooth gradient wall in the same colour family without stripes or wood grain."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, frames, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The apple is centrally placed with generous, balanced margins on all sides and nothing is cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, saturated colours with strong complementary contrast between the red apple and the bright green background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The surface is clean and smooth with no micro-textures, scratches, or extra clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features chunky, rounded 3D forms with a smooth satin sheen, soft highlights, and no harsh outlines, matching the reference style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5976,
+    "total_input_tokens": 3834,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 575
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 341,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1801
+  },
+  "est_cost_usd": 0.008343,
+  "elapsed_s": 21.5
+}

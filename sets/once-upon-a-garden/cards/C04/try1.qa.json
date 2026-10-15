@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Mallet and ball with heart are clearly identifiable."
+    },
+    "category": {
+      "pass": true,
+      "why": "Plain floor and gradient wall meet category 2 rules."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, or extra elements."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered with balanced negative space."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant contrast between pink, wood, and green backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volume matching reference quality."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4623,
+    "total_input_tokens": 3841,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 582
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 250,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 532
+  },
+  "est_cost_usd": 0.0042665,
+  "elapsed_s": 16.7
+}

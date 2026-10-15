@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Secrets: API keys live only in environment variables, never in files
+.env
+*.key
+
+# Bulky intermediate images, kept locally (their JSON logs are in the repo)
+sets/**/raw/
+sets/**/outpaint/
+sets/**/final_prev/
+sets/**/cards/*/try*.png
+sets/**/cards/*/try*.jpg
+
+# The brief itself (a Playrix document the reviewers already have)
+*.pdf
+
+# Office lock files
+~$*

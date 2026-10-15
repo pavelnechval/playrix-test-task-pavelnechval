@@ -1,0 +1,82 @@
+{
+  "run": "miro_v1_nb21_T1",
+  "experiment": "BENCH-01",
+  "reference_set": "miro_v1",
+  "prompt_file": "prompt_v1.md",
+  "target": {
+    "id": "T1",
+    "name": "Bottle",
+    "category": 1,
+    "cell": "r05c07",
+    "subject": "a sports water bottle"
+  },
+  "model": "gemini-nano-banana-2.1",
+  "aspect_ratio": "1:1",
+  "image_size": "1K",
+  "thinking_level": "model default",
+  "content": [
+    {
+      "text": "You will create one illustration for a collectible card in a casual mobile game. The next 8 images are existing cards from this game. Use them only to learn the art style. Some may be small or low-resolution: match their style, not their blur or pixelation."
+    },
+    {
+      "text": "Reference R1 (category 1: floating object, simple background):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R1_r02c07.png",
+      "sha256": "15a5a69bb0344bdaadff3215c5bf5a373c3b43d162d46dd1af9da74b4307ed7c"
+    },
+    {
+      "text": "Reference R2 (category 1: floating object, simple background):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R2_r02c09.png",
+      "sha256": "313e4d600cd843310fa53fc413cab8639a106069873caf0884c2b9be0637f682"
+    },
+    {
+      "text": "Reference R3 (category 2: object on a surface, simple background):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R3_r02c04.png",
+      "sha256": "c0e54a9db82c11e936e4ebdcb9a0b6f1d894324b8eb1ae297b2958ad01ba1e0b"
+    },
+    {
+      "text": "Reference R4 (category 2: object on a surface, simple background):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R4_r03c07.png",
+      "sha256": "cf50b600e75d5a886fccd7dfd43d19b95472a8ee1c2faf708c866711fe207082"
+    },
+    {
+      "text": "Reference R5 (category 3: object on a realistic surface, simple back wall):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R5_r02c06.png",
+      "sha256": "d136fb4f76b3b29f8cb40a6e37d8ee39f263be23da859915d069c95e5e1d5a72"
+    },
+    {
+      "text": "Reference R6 (category 3: object on a realistic surface, simple back wall):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R6_r01c06.png",
+      "sha256": "50c4297d7f339fb4066899952d6036e5fd8ce7f7bbb1e93147853934701bbc86"
+    },
+    {
+      "text": "Reference R7 (category 4: object inside a realistic environment):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R7_r05c03.png",
+      "sha256": "3715235c199d7dea8f7e7c87430248c4b5cf137610ce41f0d0447af75c26a88b"
+    },
+    {
+      "text": "Reference R8 (category 4: object inside a realistic environment):"
+    },
+    {
+      "image": "experiments/BENCH-01/refs/miro_v1/R8_r06c09.png",
+      "sha256": "c13fc65f5520ad51f1996b0ec3a54ef7f9af6faefb6532a9de84ac2d40aa11f6"
+    },
+    {
+      "text": "Task: draw a NEW card illustration of a sports water bottle. It must look as if the same artist made it for the same card album, so that a player would not notice any difference next to the reference cards.\n\nArt style, matched to the references:\n- Stylized, chunky, simplified forms with soft rounded edges and slightly exaggerated proportions; not photorealistic.\n- Bright, saturated colours; smooth, soft shading with gentle glossy highlights; minimal surface texture and no fine ornament.\n- A clean, instantly readable silhouette with strong contrast against the background, so the object is recognizable at thumbnail size (about 64 pixels tall).\n- One main object, centred, filling most of the frame while keeping clear margins on all sides.\n\nComposition, category 1: The object has no small details and floats in the air, with no table, floor or ground under it. The background is a single colour with a gradient, or a simple pattern such as stripes, small repeated motifs, a flat colour or radiating light rays.\n\nOutput requirements:\n- A single square, full-bleed illustration.\n- No card frame, border, stars, ribbon, label, text, letters, numbers, logos or watermark.\n- No characters, people or animals, and no extra objects beyond the subject and what its category allows.\n- Do not reproduce any reference object; draw only the requested subject."
+    }
+  ],
+  "sent_at": "2026-10-13T00:19:22+00:00"
+}

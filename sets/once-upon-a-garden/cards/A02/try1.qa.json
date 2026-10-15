@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly recognizable brass lantern with the vine detail and glowing interior."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a stylized surface with a clean gradient background behind it."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins around the lantern."
+    },
+    "colour": {
+      "pass": false,
+      "why": "Warm brass and yellow glow blend into the orange background, lacking clear color separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky stylized shapes with smooth surfaces and no micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft shading, satin finish, and 3D volume."
+    }
+  },
+  "pass": false,
+  "fix": "Change the background to a contrasting cool color to separate the warm lantern.",
+  "usage": {
+    "total_tokens": 5550,
+    "total_input_tokens": 3872,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 613
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 213,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1465
+  },
+  "est_cost_usd": 0.00697,
+  "elapsed_s": 26.4
+}

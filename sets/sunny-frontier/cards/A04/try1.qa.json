@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts an enamel coffee pot with lid, handle, spout, daisy motif, and steam."
+    },
+    "category": {
+      "pass": true,
+      "why": "Stands on a wooden surface against a smooth gradient wall with no extra props."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Object is centered with balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant blue pot contrasts well against the warm orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Forms remain clean and stylized without excessive micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D volumes and satin finish align with the reference cards."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "orange": 1.0
+      },
+      "why": "background is orange (100% of the background); planned orange"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5160,
+    "total_input_tokens": 4074,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 815
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 279,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 807
+  },
+  "est_cost_usd": 0.005295,
+  "elapsed_s": 17.6
+}

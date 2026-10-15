@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The pineapple is instantly recognisable, complete with its golden body, green crown, and the requested cocktail umbrella."
+    },
+    "category": {
+      "pass": false,
+      "why": "The background colour does not contrast with the whole object; having a green wall behind the spiky green crown violates the requirement for contrasting colour."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, frames, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins on all sides and no cut-off elements."
+    },
+    "colour": {
+      "pass": false,
+      "why": "The green crown blends directly into the green background wall, failing the clear separation requirement."
+    },
+    "detail": {
+      "pass": true,
+      "why": "No noisy micro-textures or busy patterns; shapes are simplified and clean."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the 3D toy-like look with chunky volumes, soft lighting, and satin sheen."
+    }
+  },
+  "pass": false,
+  "fix": "Change the green background wall and surface to a contrasting warm colour family, such as coral or pink, so the green crown cleanly separates from the background.",
+  "usage": {
+    "total_tokens": 5061,
+    "total_input_tokens": 3838,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 579
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 347,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 876
+  },
+  "est_cost_usd": 0.005588,
+  "elapsed_s": 13.6
+}

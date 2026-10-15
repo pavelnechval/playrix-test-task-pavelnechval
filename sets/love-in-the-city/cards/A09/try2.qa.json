@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Fully depicts the pink faceted bottle with gold bulb and tassel."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows composition requirements with a two-tone contrasting plane and wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI, text, and extra elements."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered object with balanced margins around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated with strong contrast against the bright background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Maintains chunky, simplified shapes without excessive micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references in lighting, sheen, and clean volumetric rendering."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5299,
+    "total_input_tokens": 3840,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 581
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 267,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1192
+  },
+  "est_cost_usd": 0.006297,
+  "elapsed_s": 19.2
+}

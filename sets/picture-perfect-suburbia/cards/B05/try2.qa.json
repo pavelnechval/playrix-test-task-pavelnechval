@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The roller skates are immediately recognizable, complete with wheels, trucks, stoppers, and the requested pink pom-poms on the laces."
+    },
+    "category": {
+      "pass": true,
+      "why": "The skates float in the air with a slight tilt against a vibrant green background featuring radiating rays, fully adhering to category 1."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The pair of skates is nicely centered with generous margins on all sides and nothing cropped."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The color scheme is bright and saturated, with the white and pink skates popping distinctly against the lime green background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The asset maintains clean, chunky forms without micro-textures, fussy lace details, or unnecessary extra props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering features smooth 3D volumes, a soft satin sheen, clean lighting, and no outlines, matching the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4777,
+    "total_input_tokens": 3829,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 570
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 341,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 607
+  },
+  "est_cost_usd": 0.0047585,
+  "elapsed_s": 11.5
+}

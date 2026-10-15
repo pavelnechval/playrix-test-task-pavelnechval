@@ -1,0 +1,164 @@
+{
+ "A01": {
+  "colour_shift": [
+   0,
+   3,
+   1
+  ],
+  "cost": 0.0708,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A01.png",
+  "model": "A01.try2.model.png",
+  "mtime": 1792016661,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.27,
+  "tries": 2
+ },
+ "A02": {
+  "colour_shift": [
+   3,
+   2,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A02.png",
+  "model": "A02.try1.model.png",
+  "mtime": 1792016452,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 3.1,
+  "tries": 1
+ },
+ "A03": {
+  "colour_shift": [
+   -1,
+   2,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A03.png",
+  "model": "A03.try1.model.png",
+  "mtime": 1792016701,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.98,
+  "tries": 1
+ },
+ "A04": {
+  "colour_shift": [
+   0,
+   7,
+   4
+  ],
+  "cost": 0.0708,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A04.png",
+  "model": "A04.try1.model.png",
+  "mtime": 1792016338,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.05,
+  "tries": 2
+ },
+ "A06": {
+  "colour_shift": [
+   0,
+   2,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A06.png",
+  "model": "A06.try1.model.png",
+  "mtime": 1792016746,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 2.05,
+  "tries": 1
+ },
+ "A07": {
+  "colour_shift": [
+   2,
+   5,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A07.png",
+  "model": "A07.try1.model.png",
+  "mtime": 1792016586,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.39,
+  "tries": 1
+ },
+ "A08": {
+  "colour_shift": [
+   0,
+   1,
+   8
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A08.png",
+  "model": "A08.try1.model.png",
+  "mtime": 1792016545,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.34,
+  "tries": 1
+ },
+ "A09": {
+  "colour_shift": [
+   1,
+   2,
+   4
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A09.png",
+  "model": "A09.try1.model.png",
+  "mtime": 1792016382,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.05,
+  "tries": 1
+ },
+ "A10": {
+  "colour_shift": [
+   0,
+   2,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A10.png",
+  "model": "A10.try1.model.png",
+  "mtime": 1792016623,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.77,
+  "tries": 1
+ }
+}

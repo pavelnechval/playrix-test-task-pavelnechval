@@ -1,0 +1,68 @@
+{
+ "A03": {
+  "_key": "240825:1792020305",
+  "box": [
+   207,
+   76,
+   786,
+   922
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 14.76,
+  "edge_full": 17.19,
+  "height": 0.579,
+  "highlight": 0.1583,
+  "margin": 0.076,
+  "margin_bottom": 0.214,
+  "margin_top": 0.207,
+  "saturation": 0.468,
+  "small_detail": "low",
+  "why": "The house is set within a complete outdoor environment with lawn, fence, sidewalk, bushes, and sky.",
+  "width": 0.846
+ },
+ "A09": {
+  "_key": "216907:1792020304",
+  "box": [
+   260,
+   74,
+   769,
+   929
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 19.26,
+  "edge_full": 21.47,
+  "height": 0.509,
+  "highlight": 0.06,
+  "margin": 0.071,
+  "margin_bottom": 0.231,
+  "margin_top": 0.26,
+  "saturation": 0.65,
+  "small_detail": "low",
+  "why": "The TV dinner tray rests on a plain flat surface with a distinct horizon against a solid yellow background, featuring bold stylized shapes with minimal fine texture.",
+  "width": 0.855
+ },
+ "A10": {
+  "_key": "231725:1792020304",
+  "box": [
+   247,
+   57,
+   804,
+   941
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 20.98,
+  "edge_full": 23.46,
+  "height": 0.557,
+  "highlight": 0.0823,
+  "margin": 0.057,
+  "margin_bottom": 0.196,
+  "margin_top": 0.247,
+  "saturation": 0.474,
+  "small_detail": "medium",
+  "why": "The vintage station wagon is centered on a paved road within an outdoor landscape under a cloudy sky.",
+  "width": 0.884
+ }
+}

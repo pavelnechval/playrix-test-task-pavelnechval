@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately depicts the requested bike, basket with papers, bell, and fence."
+    },
+    "category": {
+      "pass": false,
+      "why": "The ground is an isolated floating slab rather than a continuous strip across the bottom edge."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered hero object with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, saturated palette with strong contrast against the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Appropriate level of simplified, chunky details without noisy textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, stylized 3D rendered look with soft satin sheen."
+    }
+  },
+  "pass": false,
+  "fix": "Extend the ground strip continuously across the bottom of the frame instead of placing the object on a floating platform.",
+  "usage": {
+    "total_tokens": 5197,
+    "total_input_tokens": 3893,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 634
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 303,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1001
+  },
+  "est_cost_usd": 0.0058585,
+  "elapsed_s": 22.5
+}

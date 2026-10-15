@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested 1950s wood-panelled station wagon with roof basket."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view with a simple ground strip and clear sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, frames, or characters visible."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins on sides and top."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and warm palette with good separation against the blue sky."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The picnic basket has busy wicker weave grooves that violate the micro-detail rule."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes with soft satin highlights matching references."
+    }
+  },
+  "pass": false,
+  "fix": "Smooth out the wicker texture on the picnic basket into simple, chunky shapes.",
+  "usage": {
+    "total_tokens": 4935,
+    "total_input_tokens": 3897,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 638
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 300,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 738
+  },
+  "est_cost_usd": 0.0050625,
+  "elapsed_s": 19.8
+}

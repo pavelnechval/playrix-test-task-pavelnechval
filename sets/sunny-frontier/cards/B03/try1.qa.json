@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The canteen is instantly recognisable with its round wool-covered body, screw cap, leather strap, and sunflower patch."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object floats in the air at a slight angle with no ground beneath it, against a saturated background with centered radiating rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, logos, UI, frames, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally framed with generous margins on all sides and a bold silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Rich, warm, saturated palette that clearly separates from the sunny yellow ray background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The red fabric cover features visible fuzzy micro-texture and organic wrinkling/creases, violating the rule against micro-detail."
+    },
+    "style": {
+      "pass": false,
+      "why": "Instead of the smooth, chunky volumes and clean satin sheen seen in the references, the canteen body has realistic rumples and a noisy surface texture."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.82,
+        "orange": 0.18
+      },
+      "why": "background is yellow (82% of the background); planned yellow"
+    }
+  },
+  "pass": false,
+  "fix": "Smooth out the lumpy wrinkles and remove the fuzzy micro-texture on the red cover to match the clean, chunky volumes and satin finish of the references.",
+  "usage": {
+    "total_tokens": 6725,
+    "total_input_tokens": 4025,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 766
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 365,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2335
+  },
+  "est_cost_usd": 0.0101125,
+  "elapsed_s": 27.4
+}

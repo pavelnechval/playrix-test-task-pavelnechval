@@ -1,0 +1,17 @@
+{
+ "gpt_v7_clean2/C10": {
+  "box": [
+   0,
+   0,
+   940,
+   1000
+  ],
+  "mtime": 1792021850,
+  "why": "W022 review: the subject is the hammock together with the two palm trees that hold it; the vision box covered only the hammock, so the framing cut off the palm tops and added sand below."
+ },
+ "gpt_v7/C05": {
+  "fill": "C05.try2.model.png",
+  "mtime": 1792016958,
+  "why": "W022 review: both outpaint attempts scored just above the seam limit (5.9 and 5.6 of 5.0), but attempt 2 shows no visible seam at full size, while stretching smears the ring backdrop into vertical streaks."
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "A03": {
+  "box": [
+   138,
+   64,
+   802,
+   935
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A03.png",
+  "mtime": 1792021701
+ },
+ "A05": {
+  "box": [
+   78,
+   241,
+   915,
+   782
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A05.png",
+  "mtime": 1792021582
+ },
+ "A09": {
+  "box": [
+   223,
+   30,
+   864,
+   963
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A09.png",
+  "mtime": 1792021617
+ },
+ "A10": {
+  "box": [
+   208,
+   6,
+   861,
+   977
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A10.png",
+  "mtime": 1792021655
+ }
+}

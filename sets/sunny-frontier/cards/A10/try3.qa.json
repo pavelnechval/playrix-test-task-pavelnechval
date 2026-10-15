@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested ranch gate with the horseshoe detail and road."
+    },
+    "category": {
+      "pass": true,
+      "why": "Features a grounded object on a clear terrain band with an appropriate heroic perspective."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, watermarks, UI elements, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The gate is well-centered with ample margins around the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, vibrant palette with strong separation between subject and sunset backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain simplified and bold without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, semi-gloss 3D aesthetic of the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5217,
+    "total_input_tokens": 4170,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 911
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 197,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 850
+  },
+  "est_cost_usd": 0.005226,
+  "elapsed_s": 21.2
+}

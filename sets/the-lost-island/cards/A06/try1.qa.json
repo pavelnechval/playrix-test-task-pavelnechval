@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The rope bridge and lantern are clearly depicted and recognizable."
+    },
+    "category": {
+      "pass": false,
+      "why": "The cliff and foliage crowd the background instead of leaving an open sky above a bottom strip."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI, text, watermarks, and characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The bridge posts and ropes are cut off on the left and right borders."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, saturated palette with clear contrast against the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Stylized forms without excessive micro-textures or busy surface noise."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference lighting, soft sheen, and smooth chunky volumes."
+    }
+  },
+  "pass": false,
+  "fix": "Reduce the right-hand cliff scenery to keep the background mostly open sky, and scale the bridge down so its posts do not clip the side edges.",
+  "usage": {
+    "total_tokens": 5093,
+    "total_input_tokens": 3883,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 624
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 308,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 902
+  },
+  "est_cost_usd": 0.0055715,
+  "elapsed_s": 19.3
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The white gift box is clearly depicted with its slightly lifted lid, chunky red satin bow, and blank golden heart tag exactly as briefed."
+    },
+    "category": {
+      "pass": true,
+      "why": "The gift box rests on a stylized polished wooden tabletop with a smooth, prop-free warm gradient wall behind it."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, frames, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The gift box is centrally framed with comfortable breathing room on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is warm, bright, and vibrant, with the white and red gift box popping cleanly off the golden-orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Surfaces are kept clean and smooth without photographic textures, noisy patterns, or micro-scratches."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering features smooth, chunky 3D volumes with soft satin highlights consistent with the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4929,
+    "total_input_tokens": 3868,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 609
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 332,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 729
+  },
+  "est_cost_usd": 0.005117,
+  "elapsed_s": 13.8
+}

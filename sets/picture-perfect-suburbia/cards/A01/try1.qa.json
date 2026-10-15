@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "qa_error": "unparseable QA answer",
+  "raw": "```json\n{\"checks\": {\"subject\": {\"pass\": true, \"why\": \"The retro red-and-chrome pop-up toaster with two slices of toast and a toasted heart detail is instantly recognisable and complete.\"}, \"category\": {\"pass\": true, \"why\": \"The toaster floats in the air in a three-quarter view without ground or a table, against a saturated blue background with radiating rays.\"}, \"clean\": {\"pass\": true, \"why\": \"There is no text, UI, borders, logos, watermarks, or characters.\"}, \"framing\": {\"pass\": true, \"why\": \"The toaster is centrally positioned with comfortable margins on all sides and nothing cropped.\"}, \"colour\": {\"pass\": true, \"why\": \"The cherry red and golden toast pop vibrantly against the saturated blue background with strong contrast and juicy tones.\"}, \"detail\": {\"pass\": false, \"why\": \"There are extra floating yellow action/spark lines around the toast, and the bread surface features granular micro-texture rather than a clean, stylized surface.\"}, \"style\": {\"pass\": true, \"why\": \"The 3D rendering matches the chunky, bevelled volumes and satin sheen of the references with no outlines.\"}, \"pass\": false, \"fix\": \"Remove the floating yellow spark lines around the toast and smooth out the grainy crumb texture on the bread to match the clean satin finish of the references.\"}\n```",
+  "usage": {
+    "total_tokens": 6046,
+    "total_input_tokens": 3837,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 578
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 291,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1918
+  },
+  "est_cost_usd": 0.0085455,
+  "elapsed_s": 22.8
+}

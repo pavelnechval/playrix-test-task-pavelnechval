@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 19.0,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdXS1hPYXRlb01KeTBrZFVQdzVQZ3dBWRIXV0tYT2F0ZW9NSnkwa2RVUHc1UGd3QVk",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16613,
+      "total_input_tokens": 14393,
+      "input_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 953
+        },
+        {
+          "modality": "image",
+          "tokens": 13440
+        }
+      ],
+      "total_cached_tokens": 7503,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 496
+        },
+        {
+          "modality": "image",
+          "tokens": 7007
+        }
+      ],
+      "total_output_tokens": 1493,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 727
+    },
+    "created": "2026-10-13T21:40:56Z",
+    "updated": "2026-10-13T21:40:56Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<617996 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the new card illustration for the \"Roller Skates\" based on the artistic style of the casual mobile game, depicting a pair of tilted white boots with pink wheels and pom-poms floating on a green radiating background.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1466664 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<667104 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0551895
+}

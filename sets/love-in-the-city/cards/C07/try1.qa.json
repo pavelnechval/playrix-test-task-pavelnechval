@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The tiara is immediately recognisable with its curved silver frame, teardrop and round pink accents, and central heart-shaped pink gem."
+    },
+    "category": {
+      "pass": true,
+      "why": "The tiara floats at a three-quarter angle in mid-air against a saturated red-orange gradient background with centred radiating sunburst rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, borders, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The tiara is well-centred with ample breathing room and margins along all four edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is warm, bright, and vibrant, providing strong contrast between the cool silver/pink tiara and the vivid red-orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The object is rendered with clean, chunky forms and avoids busy micro-textures, scratches, or excessive decorative clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "It features smooth 3D volumes, soft highlights, a gentle satin finish, and clean edge definition consistent with the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4717,
+    "total_input_tokens": 3825,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 566
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 354,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 538
+  },
+  "est_cost_usd": 0.0045885,
+  "elapsed_s": 10.4
+}

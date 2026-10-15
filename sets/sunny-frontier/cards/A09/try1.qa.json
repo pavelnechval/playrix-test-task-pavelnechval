@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The barn is instantly recognizable with gambrel roof, hayloft, double doors, and horse weathervane."
+    },
+    "category": {
+      "pass": true,
+      "why": "Ground plane is solid across the base with low camera angle and simplified scenic backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, characters, or watermarks present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Heroic, centered composition with comfortable margins around the upper structure."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and warm palette with clear separation between red barn and green/blue backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean, stylized forms without noisy micro-textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references, showing soft satin 3D volumes and smooth shading."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4699,
+    "total_input_tokens": 4162,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 903
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 213,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 324
+  },
+  "est_cost_usd": 0.003692,
+  "elapsed_s": 14.6
+}

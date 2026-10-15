@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The stand mixer is immediately recognisable and includes all key features from the brief, including the chrome bowl, whipped cream, and cherry."
+    },
+    "category": {
+      "pass": true,
+      "why": "The mixer rests on a smooth, stylized countertop with soft contact reflections, set against a clean, warm vertical wall gradient with no props or scenery."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, logos, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally framed with comfortable margins on all sides and nothing cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The warm pink background contrasts beautifully with the mint-green mixer, providing great separation and a bright, appealing palette."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Details are kept simple, bold, and stylized with no noisy textures or unnecessary micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth chunky volumes, soft satin lighting, and clean 3D rendering."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5574,
+    "total_input_tokens": 3869,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 610
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 333,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1372
+  },
+  "est_cost_usd": 0.0070495,
+  "elapsed_s": 15.1
+}

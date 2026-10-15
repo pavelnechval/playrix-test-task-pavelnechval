@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The pink feather duster with a wooden handle and red ribbon is instantly recognizable and fully depicted."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object floats at an angle with no ground beneath it, set against a saturated blue background with radiating rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "The image is completely free of text, UI, borders, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The feather duster is nicely centered with ample, balanced breathing room on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The bright pink, red, and warm wood tones contrast vividly with the rich blue sunburst background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The feathers are simplified into clean, chunky shapes without any busy textures or micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style perfectly with smooth 3D volumes, soft satin sheen, and clean rendering without outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4630,
+    "total_input_tokens": 3829,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 570
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 321,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 480
+  },
+  "est_cost_usd": 0.0043175,
+  "elapsed_s": 10.7
+}

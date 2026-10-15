@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The cowboy hat is clearly recognisable with its pinched crown, curved brim, and red band."
+    },
+    "category": {
+      "pass": true,
+      "why": "The hat floats centrally in three-quarter view over a gradient background with a themed motif ring."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, watermarks, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is well-centered with ample margins and a chunky silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant warm brown and red contrast cleanly against the sky-blue gradient."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The model features clean, smooth surfaces without micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft satin shading, chunky volumes, and no outlines."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.94,
+        "yellow": 0.03,
+        "grey/dark": 0.01,
+        "orange": 0.01,
+        "teal": 0.0
+      },
+      "why": "background is blue (94% of the background); planned blue"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4902,
+    "total_input_tokens": 4046,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 787
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 297,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 559
+  },
+  "est_cost_usd": 0.004591,
+  "elapsed_s": 18.7
+}

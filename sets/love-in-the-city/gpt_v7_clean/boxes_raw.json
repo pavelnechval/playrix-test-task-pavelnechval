@@ -1,0 +1,22 @@
+{
+ "B02": {
+  "box": [
+   161,
+   79,
+   866,
+   958
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7_clean\\raw\\B02.png",
+  "mtime": 1792020659
+ },
+ "B03": {
+  "box": [
+   76,
+   98,
+   933,
+   958
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7_clean\\raw\\B03.png",
+  "mtime": 1792020701
+ }
+}

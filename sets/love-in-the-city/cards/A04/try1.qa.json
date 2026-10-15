@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The cupcake is complete and instantly recognizable, featuring swirled pink frosting, a red-and-white striped case, and a glossy red heart candy topper as specified."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object rests on a flat, solid-colour surface against a smooth gradient wall from the same warm orange color family, cleanly split at a clear horizon line."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The cupcake is centered with generous, balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm, and saturated palette where the pink and red cupcake separates cleanly from the warm orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "There is no micro-detail, noisy texture, or unnecessary clutter; shapes remain clean and bold."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features chunky 3D volumes, smooth satin sheen, soft shadows, and clean edges without outlines, matching the reference art style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4844,
+    "total_input_tokens": 3846,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 587
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 347,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 651
+  },
+  "est_cost_usd": 0.004917,
+  "elapsed_s": 12.1
+}

@@ -1,0 +1,222 @@
+{
+ "A01": {
+  "_key": "261671:1792013615",
+  "box": [
+   141,
+   122,
+   951,
+   881
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 8.1,
+  "edge_full": 9.71,
+  "height": 0.81,
+  "highlight": 0.02,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.141,
+  "saturation": 0.661,
+  "small_detail": "low",
+  "why": "The toaster with toast floats against a simple sunburst pattern background with no surface beneath it.",
+  "width": 0.759
+ },
+ "A02": {
+  "_key": "210483:1792013616",
+  "box": [
+   139,
+   127,
+   952,
+   871
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 8.44,
+  "edge_full": 9.9,
+  "height": 0.813,
+  "highlight": 0.0746,
+  "margin": 0.048,
+  "margin_bottom": 0.048,
+  "margin_top": 0.139,
+  "saturation": 0.62,
+  "small_detail": "low",
+  "why": "The retro TV set rests on a realistic wooden surface in front of a simple yellow wall background, with chunky cartoonish features that remain legible at small scales.",
+  "width": 0.744
+ },
+ "A03": {
+  "_key": "234551:1792013616",
+  "box": [
+   159,
+   74,
+   843,
+   922
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 8.09,
+  "edge_full": 9.9,
+  "height": 0.684,
+  "highlight": 0.096,
+  "margin": 0.074,
+  "margin_bottom": 0.157,
+  "margin_top": 0.159,
+  "saturation": 0.47,
+  "small_detail": "low",
+  "why": "The pink toy-like house is situated within a yard environment featuring a fence, lawn, street, and sky with clouds.",
+  "width": 0.848
+ },
+ "A04": {
+  "_key": "216137:1792013615",
+  "box": [
+   210,
+   72,
+   743,
+   928
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 7.18,
+  "edge_full": 9.02,
+  "height": 0.533,
+  "highlight": 0.0123,
+  "margin": 0.072,
+  "margin_bottom": 0.257,
+  "margin_top": 0.21,
+  "saturation": 0.513,
+  "small_detail": "medium",
+  "why": "The plate of jelly rests on a plain flat green surface against a simple gradient green background.",
+  "width": 0.856
+ },
+ "A05": {
+  "_key": "249749:1792013615",
+  "box": [
+   138,
+   222,
+   951,
+   782
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 10.17,
+  "edge_full": 11.84,
+  "height": 0.813,
+  "highlight": 0.2411,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.138,
+  "saturation": 0.41,
+  "small_detail": "medium",
+  "why": "The milk bottle floats diagonally against a simple circular gradient background, and the fine gingham pattern on the bow will blur at very low resolutions.",
+  "width": 0.56
+ },
+ "A06": {
+  "_key": "229142:1792013616",
+  "box": [
+   141,
+   196,
+   953,
+   799
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 7.29,
+  "edge_full": 8.91,
+  "height": 0.812,
+  "highlight": 0.2668,
+  "margin": 0.047,
+  "margin_bottom": 0.047,
+  "margin_top": 0.141,
+  "saturation": 0.376,
+  "small_detail": "low",
+  "why": "The stylized mailbox is placed outdoors on a grassy lawn with a picket fence and cloudy sky in the background.",
+  "width": 0.603
+ },
+ "A07": {
+  "_key": "244551:1792013928",
+  "box": [
+   141,
+   145,
+   949,
+   853
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 7.83,
+  "edge_full": 9.47,
+  "height": 0.808,
+  "highlight": 0.0379,
+  "margin": 0.051,
+  "margin_bottom": 0.051,
+  "margin_top": 0.141,
+  "saturation": 0.406,
+  "small_detail": "low",
+  "why": "The stand mixer sits on a realistic wooden tabletop against a simple pink wall background with bold, smooth shapes that remain easily readable.",
+  "width": 0.708
+ },
+ "A08": {
+  "_key": "228598:1792013616",
+  "box": [
+   157,
+   89,
+   843,
+   908
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 6.36,
+  "edge_full": 8.06,
+  "height": 0.686,
+  "highlight": 0.074,
+  "margin": 0.089,
+  "margin_bottom": 0.157,
+  "margin_top": 0.157,
+  "saturation": 0.652,
+  "small_detail": "low",
+  "why": "The striped ring floats against a simple sunburst background with no ground beneath it.",
+  "width": 0.819
+ },
+ "A09": {
+  "_key": "222267:1792013615",
+  "box": [
+   232,
+   73,
+   765,
+   926
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 14.42,
+  "edge_full": 16.4,
+  "height": 0.533,
+  "highlight": 0.03,
+  "margin": 0.073,
+  "margin_bottom": 0.235,
+  "margin_top": 0.232,
+  "saturation": 0.545,
+  "small_detail": "low",
+  "why": "The TV dinner tray rests on a flat, solid yellow surface against a simple yellow background with bold, distinct food sections.",
+  "width": 0.853
+ },
+ "A10": {
+  "_key": "228056:1792013616",
+  "box": [
+   213,
+   76,
+   817,
+   925
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 15.28,
+  "edge_full": 17.55,
+  "height": 0.604,
+  "highlight": 0.0854,
+  "margin": 0.075,
+  "margin_bottom": 0.183,
+  "margin_top": 0.213,
+  "saturation": 0.454,
+  "small_detail": "low",
+  "why": "The car with a luggage basket sits centrally on a paved road within a stylized landscape of grass and cloudy sky.",
+  "width": 0.849
+ }
+}

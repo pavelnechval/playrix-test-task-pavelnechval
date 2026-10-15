@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The pink envelope, wax seal with heart detail, and tucked flower are all clearly depicted and recognisable at a glance."
+    },
+    "category": {
+      "pass": true,
+      "why": "The envelope floats in mid-air at a slight tilt over a vibrant gradient background with subtle repeated heart motifs."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no letters, text, UI elements, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with generous margins on all sides and nothing is cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The bright warm yellow background provides excellent contrast and saturation against the pink envelope and red seal."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The geometry is clean and chunky with no noisy micro-textures, scratches, or unnecessary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style perfectly with soft rounded bevels, smooth satin materials, and clean 3D rendering."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4943,
+    "total_input_tokens": 3834,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 575
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 240,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 869
+  },
+  "est_cost_usd": 0.005244,
+  "elapsed_s": 14.4
+}

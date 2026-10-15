@@ -1,0 +1,90 @@
+{
+ "A03": {
+  "_key": "237272:1792021740",
+  "box": [
+   211,
+   74,
+   792,
+   926
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 12.82,
+  "edge_full": 15.2,
+  "height": 0.581,
+  "highlight": 0.141,
+  "margin": 0.074,
+  "margin_bottom": 0.208,
+  "margin_top": 0.211,
+  "saturation": 0.477,
+  "small_detail": "low",
+  "why": "The house is centrally situated in a complete outdoor environment with a lawn, fence, trees, and sky.",
+  "width": 0.852
+ },
+ "A05": {
+  "_key": "209703:1792021739",
+  "box": [
+   138,
+   209,
+   953,
+   792
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 8.43,
+  "edge_full": 10.19,
+  "height": 0.815,
+  "highlight": 0.2354,
+  "margin": 0.047,
+  "margin_bottom": 0.047,
+  "margin_top": 0.138,
+  "saturation": 0.461,
+  "small_detail": "medium",
+  "why": "The milk bottle floats isolated against a purple concentric circle background, and the checkered ribbon pattern has fine details that may blur at tiny sizes.",
+  "width": 0.583
+ },
+ "A09": {
+  "_key": "228483:1792021739",
+  "box": [
+   267,
+   75,
+   792,
+   925
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 17.59,
+  "edge_full": 19.62,
+  "height": 0.525,
+  "highlight": 0.0388,
+  "margin": 0.075,
+  "margin_bottom": 0.208,
+  "margin_top": 0.267,
+  "saturation": 0.634,
+  "small_detail": "medium",
+  "why": "The meal tray rests on a flat, plain yellow surface against a simple gradient yellow backdrop.",
+  "width": 0.85
+ },
+ "A10": {
+  "_key": "226125:1792021739",
+  "box": [
+   260,
+   64,
+   792,
+   940
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 23.91,
+  "edge_full": 26.29,
+  "height": 0.532,
+  "highlight": 0.0768,
+  "margin": 0.06,
+  "margin_bottom": 0.208,
+  "margin_top": 0.26,
+  "saturation": 0.48,
+  "small_detail": "medium",
+  "why": "The vintage station wagon is set on a road within a landscape environment of grass and cloudy sky.",
+  "width": 0.876
+ }
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The heart foil balloon is instantly recognisable and complete with the curly ribbon and pink bow detail."
+    },
+    "category": {
+      "pass": true,
+      "why": "The balloon floats freely in the air without any surface below, tilted in three-quarter view against a saturated background with concentric rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, characters, or watermarks are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The balloon is well-centred with comfortable margins on all sides and no cutoffs."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The bright red balloon contrasts cleanly against the warm, juicy yellow background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "No noisy textures or excessive micro-details; features are simplified and chunky."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft satin highlights, chunky forms, and no outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4343,
+    "total_input_tokens": 3832,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 573
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 306,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 205
+  },
+  "est_cost_usd": 0.003449,
+  "elapsed_s": 12.0
+}

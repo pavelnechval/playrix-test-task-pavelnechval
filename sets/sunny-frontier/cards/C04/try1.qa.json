@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The horseshoe is instantly recognisable, thick and chunky with nail holes, and has the requested sky-blue ribbon bow."
+    },
+    "category": {
+      "pass": true,
+      "why": "The horseshoe floats cleanly in mid-air with a three-quarter tilt against a radial background with no ground or props."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, watermarks, frames, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally framed with comfortable, even margins on all sides and a readable silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant warm red background with clear contrast against the polished silver steel and sky-blue ribbon."
+    },
+    "detail": {
+      "pass": true,
+      "why": "No busy micro-textures or excessive surface noise; details are bold, stylized, and clean."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D rendering with soft satin highlights and no outlines, matching the reference cards perfectly."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "red": 0.99,
+        "orange": 0.01,
+        "yellow": 0.0,
+        "grey/dark": 0.0
+      },
+      "why": "background is red (99% of the background); planned red"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4844,
+    "total_input_tokens": 4040,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 781
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 325,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 479
+  },
+  "est_cost_usd": 0.004432,
+  "elapsed_s": 10.9
+}

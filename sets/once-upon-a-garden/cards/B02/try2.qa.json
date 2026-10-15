@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly matches the brief with the ornate frame, rose crest, and glowing glass."
+    },
+    "category": {
+      "pass": true,
+      "why": "Stands on a stylized tabletop against a clean, concentric gradient background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centrally placed with clear margins and no cutoff edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Rich, saturated tones with strong separation between object and background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky forms without noisy textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references, featuring soft satin rendering and clean volumes."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4614,
+    "total_input_tokens": 3871,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 612
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 273,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 470
+  },
+  "est_cost_usd": 0.0041645,
+  "elapsed_s": 18.3
+}

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": false,
+      "why": "Shows three knitting needles instead of the requested two."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 2 with a plain surface and matching gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered chunky silhouette with adequate margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated palette that contrasts cleanly with the blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Forms are chunky and stylized without noisy micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference style with smooth volumes and satin sheen."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.99,
+        "teal": 0.01
+      },
+      "why": "background is blue (99% of the background); planned blue"
+    }
+  },
+  "pass": false,
+  "fix": "Remove the extra knitting needle so only two needles pass through the scarf.",
+  "usage": {
+    "total_tokens": 5846,
+    "total_input_tokens": 4060,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 801
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 277,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1509
+  },
+  "est_cost_usd": 0.007388,
+  "elapsed_s": 24.1
+}

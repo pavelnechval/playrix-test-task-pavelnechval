@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Hammock, palms, and coconut match the prompt accurately."
+    },
+    "category": {
+      "pass": false,
+      "why": "The ground appears as a studio plinth rather than a natural landscape strip."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Object is centered with sufficient margin on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated, readable palette with clear subject separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth forms without unnecessary micro-textures or props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the chunky, satin 3D look of the references."
+    }
+  },
+  "pass": false,
+  "fix": "Replace the circular pedestal with a continuous flat strip of beach sand spanning the bottom.",
+  "usage": {
+    "total_tokens": 5444,
+    "total_input_tokens": 3888,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 629
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 283,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1273
+  },
+  "est_cost_usd": 0.006612,
+  "elapsed_s": 18.0
+}

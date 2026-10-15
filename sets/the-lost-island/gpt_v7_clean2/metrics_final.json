@@ -1,0 +1,46 @@
+{
+ "C02": {
+  "_key": "217430:1792021880",
+  "box": [
+   127,
+   241,
+   936,
+   759
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 13.76,
+  "edge_full": 15.7,
+  "height": 0.809,
+  "highlight": 0.0119,
+  "margin": 0.064,
+  "margin_bottom": 0.064,
+  "margin_top": 0.127,
+  "saturation": 0.75,
+  "small_detail": "low",
+  "why": "The lantern stands on a wooden tabletop surface against a simple purple background.",
+  "width": 0.518
+ },
+ "C10": {
+  "_key": "269797:1792021880",
+  "box": [
+   278,
+   86,
+   684,
+   918
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 13.07,
+  "edge_full": 15.25,
+  "height": 0.406,
+  "highlight": 0.1226,
+  "margin": 0.082,
+  "margin_bottom": 0.316,
+  "margin_top": 0.278,
+  "saturation": 0.531,
+  "small_detail": "low",
+  "why": "The hammock is centrally positioned in a vibrant beach landscape between two palm trees.",
+  "width": 0.832
+ }
+}

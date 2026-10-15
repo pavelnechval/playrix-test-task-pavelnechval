@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The open journal is immediately clear and includes the requested compass rose and palm tree sketches, red ribbon bookmark, and feather quill."
+    },
+    "category": {
+      "pass": true,
+      "why": "The journal rests on a clean, stylized tabletop with soft contact shadows in front of a smooth gradient background with subtle concentric rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermarks, frames, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The composition is nicely centered with generous margins on all sides and nothing cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, warm, and inviting palette with warm yellows, creams, and reds providing good contrast and separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Details are kept clean, stylized, and chunky without noisy textures or micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth chunky 3D volumes, soft bevels, and a clean satin sheen."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4769,
+    "total_input_tokens": 3876,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 617
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 327,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 566
+  },
+  "est_cost_usd": 0.004617,
+  "elapsed_s": 11.0
+}

@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 23.5,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdLaXZRYXEzLUo2MjFrZFVQeElYdHdRcxIXS2l2UWFxMy1KNjIxa2RVUHhJWHR3UXM",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17963,
+      "total_input_tokens": 15035,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1595
+        }
+      ],
+      "total_cached_tokens": 7374,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 782
+        },
+        {
+          "modality": "image",
+          "tokens": 6592
+        }
+      ],
+      "total_output_tokens": 1531,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1397
+    },
+    "created": "2026-10-15T01:24:13Z",
+    "updated": "2026-10-15T01:24:13Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<432300 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "An exquisite 3D casual game illustration of the Bowler Hat has been generated, accurately capturing the art style of the references. This features the classic black bowler hat with its characteristic red carnation tuck, alongside the lean magnifying glass context cue, all situated upon a warm yellow background.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1697124 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<500440 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056152499999999994
+}

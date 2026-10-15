@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear toadstool cottage with requested cap, door, window, and lantern elements."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view with a simple grass base and cloudy sky horizon."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI elements, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Object is centered with balanced margins and adequate breathing room."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated palette with strong contrast against the blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures, noise, or unnecessary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes matching the satin reference aesthetic."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4593,
+    "total_input_tokens": 3896,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 637
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 278,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 419
+  },
+  "est_cost_usd": 0.004039,
+  "elapsed_s": 15.8
+}

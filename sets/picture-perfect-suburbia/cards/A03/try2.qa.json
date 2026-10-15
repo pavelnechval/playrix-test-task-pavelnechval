@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The illustration clearly depicts a pastel pink single-storey suburban house with the required white picket fence, front lawn, and the round porthole window above the front door."
+    },
+    "category": {
+      "pass": true,
+      "why": "It follows Category 4 accurately: low camera angle making the house look heroic, a clean ground strip at the bottom, volumetric cumulus clouds along the horizon, and a smooth saturated blue sky gradient with no clutter."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermarks, frames, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The house is well-centered with generous margins at the top and sides, grounding neatly at the bottom edge without feeling cramped."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated palette with warm pinks, rich greens, and bright blues that clearly separate the house from the background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The details are stylized and chunky with no noisy micro-textures, grooves, or unnecessary props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering features smooth, rounded volumes, a clean satin sheen, and no outlines, perfectly matching the established reference style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 6728,
+    "total_input_tokens": 3890,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 631
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 371,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2467
+  },
+  "est_cost_usd": 0.010459,
+  "elapsed_s": 27.6
+}

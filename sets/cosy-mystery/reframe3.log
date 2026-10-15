@@ -1,0 +1,10 @@
+B04: box failed (HTTP 402 for POST interactions: [{
+B05: box failed (HTTP 402 for POST interactions: [{
+A06: box failed (HTTP 402 for POST interactions: [{
+A09: box failed (HTTP 402 for POST interactions: [{
+C09: box failed (HTTP 402 for POST interactions: [{
+A06 Fingerprint Kit: zoom 0.88, extent 0.85, room above 0.246, pad [3, 16, 15, 123] (stretch)
+A09 Townhouse: zoom 0.947, extent 0.81, room above 0.14, pad [0, 77, 0, 0] (stretch)
+B04 Bowler Hat: zoom 0.951, extent 0.85, room above 0.21, pad [0, 0, 0, 61] (stretch)
+B05 Hall Clock: zoom 0.999, extent 0.81, room above 0.14, pad [0, 24, 0, 0] (stretch)
+C09 Village F?te: zoom 0.848, extent 0.85, room above 0.21, pad [26, 78, 32, 105] (stretch)

@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 32.2,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdCZERQYXJpMENvZmtrZFVQXzhpTzRBWRIXQmREUGFyaTBDb2Zra2RVUF84aU80QVk",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17977,
+      "total_input_tokens": 14850,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1410
+        }
+      ],
+      "total_cached_tokens": 9282,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 881
+        },
+        {
+          "modality": "image",
+          "tokens": 8401
+        }
+      ],
+      "total_output_tokens": 1938,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1189
+    },
+    "created": "2026-10-14T18:55:27Z",
+    "updated": "2026-10-14T18:55:27Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1343452 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is a brand new card illustration of a classic ranch water windmill, designed in the exact art style of your casual mobile game. It showcases the wooden windmill with its distinctive bright red tail vane and its water tank, capturing a tall, heroic vibe under the midday sky on the golden-green prairie.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1542628 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<728272 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055874999999999994
+}

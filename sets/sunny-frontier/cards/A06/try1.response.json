@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 17.2,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChYtc19QYXRTNk5zajd4TjhQcWV6WldREhYtc19QYXRTNk5zajd4TjhQcWV6WldR",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17047,
+      "total_input_tokens": 14719,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1279
+        }
+      ],
+      "total_cached_tokens": 7484,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 650
+        },
+        {
+          "modality": "image",
+          "tokens": 6834
+        }
+      ],
+      "total_output_tokens": 1375,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 953
+    },
+    "created": "2026-10-14T18:55:02Z",
+    "updated": "2026-10-14T18:55:02Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<554268 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Please view the illustration below, featuring the cowboy boots.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<981612 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<615804 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0556785
+}

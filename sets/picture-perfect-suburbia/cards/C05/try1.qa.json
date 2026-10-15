@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The subject is clearly a red twin-bell alarm clock with bells, hammer, legs, and ringing effect marks."
+    },
+    "category": {
+      "pass": true,
+      "why": "The clock floats at a three-quarter tilted angle without ground or surface, set against concentric purple rings."
+    },
+    "clean": {
+      "pass": false,
+      "why": "The clock face contains clock numbers (1\u201312), violating the strict rule against numbers and text."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The clock is centered with sufficient margins on all sides and nothing is cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The red clock contrasts clearly against the vivid purple background, and the palette is bright and saturated."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The volumes are chunky and simplified without micro-textures, scratches, or unnecessary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth volumes, clean satin materials, and soft lighting matching the reference style."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the numbers from the clock face to keep it clean and minimal.",
+  "usage": {
+    "total_tokens": 5051,
+    "total_input_tokens": 3826,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 567
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 334,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 891
+  },
+  "est_cost_usd": 0.005588,
+  "elapsed_s": 12.7
+}

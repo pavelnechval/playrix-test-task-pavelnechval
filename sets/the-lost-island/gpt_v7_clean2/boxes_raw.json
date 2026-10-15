@@ -1,0 +1,22 @@
+{
+ "C02": {
+  "box": [
+   23,
+   241,
+   929,
+   762
+  ],
+  "file": "sets\\the-lost-island\\gpt_v7_clean2\\raw\\C02.png",
+  "mtime": 1792021806
+ },
+ "C10": {
+  "box": [
+   376,
+   142,
+   815,
+   881
+  ],
+  "file": "sets\\the-lost-island\\gpt_v7_clean2\\raw\\C10.png",
+  "mtime": 1792021850
+ }
+}

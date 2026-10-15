@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 23.3,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdGOURQYXUzQU1jMzVuc0VQbWZXbzBRdxIXRjlEUGF1M0FNYzM1bnNFUG1mV28wUXc",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17334,
+      "total_input_tokens": 14841,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1401
+        }
+      ],
+      "total_cached_tokens": 7454,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 703
+        },
+        {
+          "modality": "image",
+          "tokens": 6751
+        }
+      ],
+      "total_output_tokens": 1537,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 956
+    },
+    "created": "2026-10-14T18:55:37Z",
+    "updated": "2026-10-14T18:55:37Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<730092 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the new Horse Barn card illustration, designed to match the art style of the casual mobile game exactly:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1997980 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<753064 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055861499999999994
+}

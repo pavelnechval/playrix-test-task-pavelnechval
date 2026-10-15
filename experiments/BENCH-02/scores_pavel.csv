@@ -1,0 +1,9 @@
+image,target,style_1to5,players_would_notice_yes_no,notes
+v2-a,T1 Bottle,3,yes,"too many details on bottle itself, should be smooth lines like in ref"
+v2-b,T1 Bottle,4,yes,"too many details on bottle top but body of bottle is better now, background is really close to ref in terms of coloring and lighting"
+v2-a,T2 Tea Cup,4,no,"good choice overall but not perfect match, contrast is good but steam is still in different style,tea may be darker because currently it is barely visible. background matches description but could be simpler without stripes"
+v2-b,T2 Tea Cup,3,yes,"good overall looking cup but smoke style and color of background is off, Playrix uses warm and juicy colors this one does not seem like a good fit for object"
+v2-a,T3 Bumpers,4,yes,"let's preserve original angle and add one stripe like in ref so it is visible that it's in special place for carting. floor and background are good, colors of cart are good"
+v2-b,T3 Bumpers,3,yes,"background too complex, should be in one color variation.also needs one stripe on floor"
+v2-a,T4 Lighthouse,4,no,"good overall, red should be more warm,juicy and inviting like in ref. clouds should match more relistic style as in ref. object and terrain look good"
+v2-b,T4 Lighthouse,4,no,"good overall, red should be more warm, juicy and inviting like in ref. cloulds should match more relistic style as in ref. object and terrain look good, sky color could be more smooth and bright on top.sea is barely visible"

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The retro canister vacuum cleaner is fully identifiable with its hose and rocket fins."
+    },
+    "category": {
+      "pass": false,
+      "why": "The background has vertical wall panelling rather than a simple smooth gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The composition is well-centered with sufficient border margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "High-contrast, vibrant palette separates the blue vacuum clearly from the background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain bold and chunky without noisy surface textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, satin-rendered 3D volumes align well with the reference art style."
+    }
+  },
+  "pass": false,
+  "fix": "Replace the slatted wood wall panelling with a clean, smooth gradient background.",
+  "usage": {
+    "total_tokens": 4948,
+    "total_input_tokens": 3865,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 606
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 297,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 786
+  },
+  "est_cost_usd": 0.0051815,
+  "elapsed_s": 17.8
+}

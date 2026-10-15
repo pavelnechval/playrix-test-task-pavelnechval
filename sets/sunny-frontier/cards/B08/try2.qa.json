@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly shows the requested sandstone arch with wheel tracks and shrubs."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests firmly on a wide ground plane with an open sky backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Heroic, centered composition with clear margins around the silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated warm tones that contrast cleanly with the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Stylized forms without noisy micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the references with smooth, chunky shapes and a soft satin sheen."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4970,
+    "total_input_tokens": 4134,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 875
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 275,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 561
+  },
+  "est_cost_usd": 0.004575,
+  "elapsed_s": 14.9
+}

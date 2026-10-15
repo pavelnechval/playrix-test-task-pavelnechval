@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 24.1,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdGYW5PYW9IQ084NkcyOG9QcmNQSi1RMBIXRmFuT2FvSENPODZHMjhvUHJjUEotUTA",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16890,
+      "total_input_tokens": 14469,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1029
+        }
+      ],
+      "total_cached_tokens": 7458,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 530
+        },
+        {
+          "modality": "image",
+          "tokens": 6928
+        }
+      ],
+      "total_output_tokens": 1499,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 922
+    },
+    "created": "2026-10-13T21:56:57Z",
+    "updated": "2026-10-13T21:56:57Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<681372 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the finished illustration for the Treehouse card, designed to fit the exact art style, category 4 low-angle format, and specific color and detail guidelines of your game's card album:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2369228 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<711132 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0553035
+}

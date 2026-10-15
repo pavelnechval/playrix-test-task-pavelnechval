@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts an old-fashioned candlestick telephone with all core components."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object floats in three-quarter view over a centered radiating sunburst background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, numbers, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered placement with balanced margins and solid silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm saturated pink background provides strong contrast against the object."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Floating ringing sound waves act as extraneous visual elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth chunky 3D volumes and satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 0.83,
+        "red": 0.17
+      },
+      "why": "background is pink (83% of the background); planned pink"
+    }
+  },
+  "pass": false,
+  "fix": "Remove the floating yellow sound wave arcs around the telephone to keep the object clean and isolated.",
+  "usage": {
+    "total_tokens": 6037,
+    "total_input_tokens": 4042,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 783
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 289,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1706
+  },
+  "est_cost_usd": 0.008006,
+  "elapsed_s": 24.6
+}

@@ -1,0 +1,17 @@
+code,target,style_1to5,players_would_notice_yes_no,notes
+H5,T1,3,yes,"object itself is good but too large vs frame, background is perfect"
+L5,T1,3,yes,"object itself is good but too large vs frame, background is perfect"
+S5,T1,3,yes,"object is better than in previous such iterations but still too complex,shapes are better though. background is ok color but H5, L5, U7 are all better"
+U7,T1,4,yes,"object is good and overall good composition, what it is lacking is more pronounced background as in ref so it looks bleaker compared. also top part of bottle blends with background"
+D8,T2,3,yes,"good composition and cup details but missing plate underneath cup. bottom of cup also blends a bit. also cup could have more unique detail to it like in ref (flowers)"
+H8,T2,4,no,"good choice, only steam is a miss, but cup could have more unique detail to it"
+J2,T2,4,no,"good choice, maybe best overall, but cup could have more unique detail to it"
+T8,T2,4,no,"good choice, but cup could have more unique detail to it"
+A8,T3,3,yes,"too many details on background, car is good",
+B2,T3,4,no,"good choice overall, probably kart should have two main colors"
+F9,T3,4,no,"good choice overall, floor blends with background a bit"
+S8,T3,5,no,"best currently in set, but connecting thing (vertical) is missing"
+P2,T4,5,no,"best choice in set"
+P7,T4,3,yes,"weird angle, everything else is great"
+Q9,T4,4,no,"great sky but overall image could be brighter. but good vibe"
+Y2,T4,3,yes,"weird angle and size of the object compared to frame, sky and object details are good though"

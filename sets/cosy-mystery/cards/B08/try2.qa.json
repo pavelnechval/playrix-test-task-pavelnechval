@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately depicts the requested 1930s vintage touring car with strapped luggage."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows Category 4 rules with a grounded stance on gravel and simple hedge scenery."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, watermarks, UI, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, warm palette with strong contrast between vehicle and background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, broad surfaces without excessive micro-textures or visual noise."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft 3D volumes and smooth satin finishes."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5092,
+    "total_input_tokens": 4168,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 909
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 285,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 639
+  },
+  "est_cost_usd": 0.004856,
+  "elapsed_s": 14.5
+}

@@ -1,0 +1,102 @@
+{
+ "B01": {
+  "box": [
+   211,
+   172,
+   880,
+   818
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B01\\try1.jpg",
+  "mtime": 1791926983
+ },
+ "B02": {
+  "box": [
+   161,
+   98,
+   833,
+   882
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B02\\try1.jpg",
+  "mtime": 1791927004
+ },
+ "B03": {
+  "box": [
+   230,
+   169,
+   903,
+   891
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B03\\try1.jpg",
+  "mtime": 1791927019
+ },
+ "B04": {
+  "box": [
+   158,
+   259,
+   889,
+   749
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B04\\try3.jpg",
+  "mtime": 1791939949
+ },
+ "B05": {
+  "box": [
+   419,
+   131,
+   821,
+   870
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B05\\try1.jpg",
+  "mtime": 1791927043
+ },
+ "B06": {
+  "box": [
+   197,
+   131,
+   917,
+   868
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B06\\try3.jpg",
+  "mtime": 1791927149
+ },
+ "B07": {
+  "box": [
+   184,
+   266,
+   807,
+   746
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B07\\try1.jpg",
+  "mtime": 1791927051
+ },
+ "B08": {
+  "box": [
+   166,
+   189,
+   878,
+   796
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B08\\try2.jpg",
+  "mtime": 1791927132
+ },
+ "B09": {
+  "box": [
+   333,
+   84,
+   760,
+   931
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B09\\try1.jpg",
+  "mtime": 1791927090
+ },
+ "B10": {
+  "box": [
+   352,
+   0,
+   1000,
+   1000
+  ],
+  "file": "sets\\love-in-the-city\\cards\\B10\\try1.jpg",
+  "mtime": 1791927107
+ }
+}

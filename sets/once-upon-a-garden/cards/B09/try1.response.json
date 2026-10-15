@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 27.0,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdtYWZPYW9YSkRwX2t4TjhQd3VhNXVBaxIXbWFmT2FvWEpEcF9reE44UHd1YTV1QWs",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16513,
+      "total_input_tokens": 14410,
+      "input_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 970
+        },
+        {
+          "modality": "image",
+          "tokens": 13440
+        }
+      ],
+      "total_cached_tokens": 7214,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 485
+        },
+        {
+          "modality": "image",
+          "tokens": 6729
+        }
+      ],
+      "total_output_tokens": 1850,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 253
+    },
+    "created": "2026-10-13T21:50:39Z",
+    "updated": "2026-10-13T21:50:39Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1196000 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the new collectible card illustration for \"Golden Egg,\" designed exactly to match the art style of your game's existing cards. Let me know if it meets your expectations!",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2714784 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<643100 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055215
+}

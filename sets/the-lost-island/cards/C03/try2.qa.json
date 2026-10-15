@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Contains the red X, shovel, palm tree, and gold coin as specified."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 4 with ground sand below and sky with clouds above."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI elements, text, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Adequately centered composition with comfortable margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated palette with clear contrast against the sky."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The metal shovel blade displays mottled texture and surface wear."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, chunky 3D aesthetic of the references."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the surface wear and splotches from the metal shovel to keep it completely clean and smooth.",
+  "usage": {
+    "total_tokens": 5266,
+    "total_input_tokens": 3894,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 635
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 292,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1080
+  },
+  "est_cost_usd": 0.006063,
+  "elapsed_s": 18.1
+}

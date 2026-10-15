@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The steam locomotive is instantly identifiable with all requested vintage components."
+    },
+    "category": {
+      "pass": true,
+      "why": "The train rests firmly on grounded desert tracks with an appropriate sunny backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "The illustration is completely free of text, interface elements, and characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The train is oversized, crowding the side boundaries and clipping the rear tender at the left edge."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Palette is vibrant, warm, and separates well from the desert sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain readable and chunky without excessive micro-textures or busy clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Render quality features the required smooth volumes and satin finish matching the references."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the train slightly and center it to restore comfortable margins on the left and right sides.",
+  "usage": {
+    "total_tokens": 5331,
+    "total_input_tokens": 4175,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 916
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 305,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 851
+  },
+  "est_cost_usd": 0.0055555,
+  "elapsed_s": 20.8
+}

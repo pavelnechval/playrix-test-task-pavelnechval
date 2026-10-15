@@ -1,0 +1,222 @@
+{
+ "B01": {
+  "_key": "211134:1792015893",
+  "box": [
+   168,
+   88,
+   829,
+   912
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 7.23,
+  "edge_full": 8.96,
+  "height": 0.661,
+  "highlight": 0.0025,
+  "margin": 0.088,
+  "margin_bottom": 0.171,
+  "margin_top": 0.168,
+  "saturation": 0.787,
+  "small_detail": "low",
+  "why": "The red umbrella floats centrally against an abstract blue sunburst pattern with no ground plane, featuring clean surfaces and bold shapes.",
+  "width": 0.824
+ },
+ "B02": {
+  "_key": "243520:1792015893",
+  "box": [
+   181,
+   54,
+   818,
+   946
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 16.64,
+  "edge_full": 19.26,
+  "height": 0.637,
+  "highlight": 0.1441,
+  "margin": 0.054,
+  "margin_bottom": 0.182,
+  "margin_top": 0.181,
+  "saturation": 0.495,
+  "small_detail": "medium",
+  "why": "The typewriter rests on a realistic polished wooden tabletop against a graphic orange background.",
+  "width": 0.892
+ },
+ "B03": {
+  "_key": "273090:1792015894",
+  "box": [
+   138,
+   76,
+   856,
+   915
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 17.36,
+  "edge_full": 19.58,
+  "height": 0.718,
+  "highlight": 0.0333,
+  "margin": 0.076,
+  "margin_bottom": 0.144,
+  "margin_top": 0.138,
+  "saturation": 0.559,
+  "small_detail": "medium",
+  "why": "The scooter is set into a full seaside promenade landscape with cobblestones, water, and a cloudy sky.",
+  "width": 0.839
+ },
+ "B04": {
+  "_key": "212932:1792015894",
+  "box": [
+   141,
+   161,
+   951,
+   837
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 7.2,
+  "edge_full": 8.84,
+  "height": 0.81,
+  "highlight": 0.0201,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.141,
+  "saturation": 0.865,
+  "small_detail": "low",
+  "why": "The heart-shaped foil balloon floats against a simple graphic patterned background without any floor or surface.",
+  "width": 0.676
+ },
+ "B05": {
+  "_key": "191904:1792015893",
+  "box": [
+   96,
+   73,
+   692,
+   926
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 5.47,
+  "edge_full": 7.13,
+  "height": 0.596,
+  "highlight": 0.0885,
+  "margin": 0.073,
+  "margin_bottom": 0.308,
+  "margin_top": 0.096,
+  "saturation": 0.584,
+  "small_detail": "low",
+  "why": "The joined coffee cups stand on a plain, flat green surface against a simple green gradient backdrop.",
+  "width": 0.853
+ },
+ "B06": {
+  "_key": "248526:1792015894",
+  "box": [
+   343,
+   75,
+   843,
+   923
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 15.22,
+  "edge_full": 17.43,
+  "height": 0.5,
+  "highlight": 0.1195,
+  "margin": 0.075,
+  "margin_bottom": 0.157,
+  "margin_top": 0.343,
+  "saturation": 0.387,
+  "small_detail": "medium",
+  "why": "The cafe table and chairs are set in a full outdoor environment with a terrace floor, building wall, awning, and cloudy sky.",
+  "width": 0.848
+ },
+ "B07": {
+  "_key": "245079:1792015894",
+  "box": [
+   136,
+   126,
+   951,
+   871
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 8.97,
+  "edge_full": 10.81,
+  "height": 0.815,
+  "highlight": 0.0774,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.136,
+  "saturation": 0.699,
+  "small_detail": "low",
+  "why": "The diamond ring floats freely against a purple concentric-pattern background with no ground or surface beneath it.",
+  "width": 0.745
+ },
+ "B08": {
+  "_key": "258637:1792015893",
+  "box": [
+   141,
+   56,
+   946,
+   946
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 13.39,
+  "edge_full": 15.46,
+  "height": 0.805,
+  "highlight": 0.0213,
+  "margin": 0.054,
+  "margin_bottom": 0.054,
+  "margin_top": 0.141,
+  "saturation": 0.678,
+  "small_detail": "low",
+  "why": "The bucket of tulips rests on a wooden surface against a simple gradient background, featuring bold stylized shapes.",
+  "width": 0.89
+ },
+ "B09": {
+  "_key": "180879:1792015893",
+  "box": [
+   317,
+   73,
+   680,
+   925
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 10.09,
+  "edge_full": 11.93,
+  "height": 0.363,
+  "highlight": 0.0038,
+  "margin": 0.073,
+  "margin_bottom": 0.32,
+  "margin_top": 0.317,
+  "saturation": 0.741,
+  "small_detail": "low",
+  "why": "The sunglasses rest on a plain, flat orange studio surface against a smooth gradient background with bold, simple shapes.",
+  "width": 0.852
+ },
+ "B10": {
+  "_key": "238797:1792015894",
+  "box": [
+   281,
+   0,
+   1000,
+   996
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 14.82,
+  "edge_full": 17.85,
+  "height": 0.719,
+  "highlight": 0.0363,
+  "margin": 0.0,
+  "margin_bottom": 0.0,
+  "margin_top": 0.281,
+  "saturation": 0.484,
+  "small_detail": "medium",
+  "why": "The love-lock bridge is set within an outdoor environment over water under a blue sky.",
+  "width": 0.996
+ }
+}

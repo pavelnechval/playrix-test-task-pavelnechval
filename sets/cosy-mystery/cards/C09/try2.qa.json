@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested village f\u00eate marquee with cake stall and bunting."
+    },
+    "category": {
+      "pass": true,
+      "why": "Grounded firmly on a wide lawn with a simple, fitting tree backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, interfaces, frames, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Heroic, central placement with balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, saturated palette with distinct separation between tent and background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The trail contains dozens of tiny scattered crumb pieces, creating visual clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent smooth volumes and satin sheen matching the casual 3D style."
+    }
+  },
+  "pass": false,
+  "fix": "Reduce the crumb trail to a few larger, stylized crumbs to eliminate foreground clutter.",
+  "usage": {
+    "total_tokens": 6492,
+    "total_input_tokens": 4200,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 941
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 212,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2080
+  },
+  "est_cost_usd": 0.008976,
+  "elapsed_s": 27.6
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the two coconut cups with straws and the hibiscus flower."
+    },
+    "category": {
+      "pass": false,
+      "why": "Background features vertical stripes instead of a smooth gradient or centered rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Subject is centered with clear margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated palette with strong contrast against the backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean, smooth surfaces without unnecessary micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes and satin finish align with reference art."
+    }
+  },
+  "pass": false,
+  "fix": "Replace the vertical stripes on the background wall with a smooth gradient or subtle concentric rings.",
+  "usage": {
+    "total_tokens": 4863,
+    "total_input_tokens": 3863,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 604
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 284,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 716
+  },
+  "est_cost_usd": 0.0049315,
+  "elapsed_s": 18.4
+}

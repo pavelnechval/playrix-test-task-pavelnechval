@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The waterfall cave is instantly recognizable, featuring the cascading water over the entrance, the golden glow inside the cavern, and the rainbow in the splash spray."
+    },
+    "category": {
+      "pass": true,
+      "why": "It perfectly adheres to Category 4 with a clear water strip at the bottom, a bright blue sky gradient with soft volumetric cumulus clouds, and no distracting background clutter."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no UI elements, borders, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The cave is centrally framed with comfortable breathing room on the top and sides while naturally anchoring toward the bottom edge."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is saturated and bright, featuring a warm golden glow that contrasts effectively with the cool blue sky and grey rock volumes."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Details are kept minimal and stylized, using chunky stylized shapes for rocks, foliage, and water without noisy micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style seamlessly with soft lighting, smooth satin sheen, chunky 3D forms, and no outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5507,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 626
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 360,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1262
+  },
+  "est_cost_usd": 0.0068085,
+  "elapsed_s": 18.0
+}

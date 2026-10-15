@@ -1,0 +1,222 @@
+{
+ "C01": {
+  "_key": "249268:1792023765",
+  "box": [
+   137,
+   100,
+   948,
+   897
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 7.81,
+  "edge_full": 9.45,
+  "height": 0.811,
+  "highlight": 0.0221,
+  "margin": 0.052,
+  "margin_bottom": 0.052,
+  "margin_top": 0.137,
+  "saturation": 0.761,
+  "small_detail": "low",
+  "why": "The shovel with sand and a coin floats against an abstract sunburst pattern background with no surface underneath.",
+  "width": 0.797
+ },
+ "C02": {
+  "_key": "232470:1792023765",
+  "box": [
+   128,
+   237,
+   937,
+   759
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 13.66,
+  "edge_full": 15.59,
+  "height": 0.809,
+  "highlight": 0.0118,
+  "margin": 0.063,
+  "margin_bottom": 0.063,
+  "margin_top": 0.128,
+  "saturation": 0.75,
+  "small_detail": "low",
+  "why": "The lantern stands on a realistic wooden tabletop against a solid purple studio background, featuring bold stylized shapes with minimal fine texture.",
+  "width": 0.522
+ },
+ "C03": {
+  "_key": "262803:1792023765",
+  "box": [
+   139,
+   175,
+   946,
+   814
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 6.61,
+  "edge_full": 8.23,
+  "height": 0.807,
+  "highlight": 0.0417,
+  "margin": 0.054,
+  "margin_bottom": 0.054,
+  "margin_top": 0.139,
+  "saturation": 0.595,
+  "small_detail": "low",
+  "why": "The shovel is a simple, bold object set centrally into a full beach landscape environment.",
+  "width": 0.639
+ },
+ "C04": {
+  "_key": "244914:1792023765",
+  "box": [
+   162,
+   74,
+   835,
+   930
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 10.62,
+  "edge_full": 12.56,
+  "height": 0.673,
+  "highlight": 0.0193,
+  "margin": 0.07,
+  "margin_bottom": 0.165,
+  "margin_top": 0.162,
+  "saturation": 0.687,
+  "small_detail": "medium",
+  "why": "The necklace rests on a plain green surface in front of a simple background, with its gemstone facets and fine chain links susceptible to blurring at small sizes.",
+  "width": 0.856
+ },
+ "C05": {
+  "_key": "235437:1792023765",
+  "box": [
+   138,
+   223,
+   951,
+   781
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 7.37,
+  "edge_full": 9.13,
+  "height": 0.813,
+  "highlight": 0.0,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.138,
+  "saturation": 0.817,
+  "small_detail": "low",
+  "why": "The burning torch floats centrally against a concentric gradient purple background with no ground beneath it.",
+  "width": 0.558
+ },
+ "C06": {
+  "_key": "291085:1792023765",
+  "box": [
+   169,
+   0,
+   764,
+   1000
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 12.97,
+  "edge_full": 15.62,
+  "height": 0.595,
+  "highlight": 0.1147,
+  "margin": 0.0,
+  "margin_bottom": 0.236,
+  "margin_top": 0.169,
+  "saturation": 0.45,
+  "small_detail": "low",
+  "why": "The rocky waterfall cave structure is set in a realistic tropical lagoon landscape with water and sky.",
+  "width": 1.0
+ },
+ "C07": {
+  "_key": "260339:1792023765",
+  "box": [
+   139,
+   129,
+   948,
+   871
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 13.96,
+  "edge_full": 15.94,
+  "height": 0.809,
+  "highlight": 0.0392,
+  "margin": 0.052,
+  "margin_bottom": 0.052,
+  "margin_top": 0.139,
+  "saturation": 0.728,
+  "small_detail": "medium",
+  "why": "The jeweled chalice rests on a realistic circular stone podium in front of a graphic red background.",
+  "width": 0.742
+ },
+ "C08": {
+  "_key": "275301:1792023765",
+  "box": [
+   136,
+   89,
+   921,
+   912
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 9.02,
+  "edge_full": 10.72,
+  "height": 0.785,
+  "highlight": 0.0025,
+  "margin": 0.079,
+  "margin_bottom": 0.079,
+  "margin_top": 0.136,
+  "saturation": 0.762,
+  "small_detail": "low",
+  "why": "The bag of gold coins and gem floats centrally in the air against a simple sunburst gradient background with bold, chunky shapes.",
+  "width": 0.823
+ },
+ "C09": {
+  "_key": "252031:1792023765",
+  "box": [
+   186,
+   75,
+   817,
+   928
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 11.97,
+  "edge_full": 13.89,
+  "height": 0.631,
+  "highlight": 0.0003,
+  "margin": 0.072,
+  "margin_bottom": 0.183,
+  "margin_top": 0.186,
+  "saturation": 0.829,
+  "small_detail": "medium",
+  "why": "The fruit basket rests on a flat, plain orange surface against a simple gradient background.",
+  "width": 0.853
+ },
+ "C10": {
+  "_key": "288903:1792023765",
+  "box": [
+   63,
+   0,
+   786,
+   1000
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 10.81,
+  "edge_full": 13.51,
+  "height": 0.723,
+  "highlight": 0.0614,
+  "margin": 0.0,
+  "margin_bottom": 0.214,
+  "margin_top": 0.063,
+  "saturation": 0.674,
+  "small_detail": "low",
+  "why": "The palm trees and hammock form the central beach structure set against an ocean and beach environment, rendered in a bold, clean style with minimal fine details.",
+  "width": 1.0
+ }
+}

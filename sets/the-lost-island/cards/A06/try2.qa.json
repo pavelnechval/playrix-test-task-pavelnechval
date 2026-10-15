@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The rope bridge is instantly recognizable, complete with wooden planks, support posts, ropes, and the requested lantern detail."
+    },
+    "category": {
+      "pass": false,
+      "why": "The camera angle is looking down onto the bridge walkway from above rather than looking up from a low, heroic angle, and the floating sky islands violate the requirement for a simple grounding strip at the bottom."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, characters, or frames are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The bridge spans the frame nicely with adequate breathing room in the sky above."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Rich, saturated colors with warm wood tones, vibrant greens, and a clean blue sky gradient."
+    },
+    "detail": {
+      "pass": true,
+      "why": "No noisy micro-textures; forms are chunky, soft, and well-simplified."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth volumetric 3D shapes and a satin finish."
+    }
+  },
+  "pass": false,
+  "fix": "Lower the camera angle to view the bridge heroically from below against the sky, and ground the scene with a clear horizontal strip of terrain at the bottom instead of floating islands.",
+  "usage": {
+    "total_tokens": 5476,
+    "total_input_tokens": 3883,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 624
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 365,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1228
+  },
+  "est_cost_usd": 0.0067205,
+  "elapsed_s": 15.0
+}

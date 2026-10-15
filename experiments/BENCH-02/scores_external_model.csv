@@ -1,0 +1,9 @@
+image,target,style_1to5,players_would_notice_yes_no,notes
+v2-a,T1 Bottle,3,yes,"Better palette and simpler materials, but the deep grip grooves still feel overly engineered."
+v2-b,T1 Bottle,4,no,"Smoother silhouette and shading are much closer. Slightly more decorative than the reference."
+v2-a,T2 Tea Cup,4,no,"Improved volume, restrained highlights and convincing contact shadow. Good fit despite different decoration."
+v2-b,T2 Tea Cup,3,yes,"Broad shading and thick forms feel more graphic; steam and background pattern reinforce that difference."
+v2-a,T3 Bumpers,4,no,"Strong material and shape match. Floor texture is more realistic than the reference needs."
+v2-b,T3 Bumpers,4,no,"Good rounded forms and readable details. Lighting remains slightly too theatrical."
+v2-a,T4 Lighthouse,3,yes,"Cleaner than v1, but the smooth tower and simplified terrain lose the reference's crafted architectural detail."
+v2-b,T4 Lighthouse,3,yes,"Similar issue: convincing volume, but broad empty surfaces and stronger shading make it feel like a simpler 3D asset."

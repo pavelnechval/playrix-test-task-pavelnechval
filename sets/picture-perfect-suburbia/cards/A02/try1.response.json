@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 35.2,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdqNlRPYXJIeUFfSDVuc0VQbUtfWXdBdxIXajZUT2FySHlBX0g1bnNFUG1LX1l3QXc",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17782,
+      "total_input_tokens": 14455,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1015
+        }
+      ],
+      "total_cached_tokens": 9157,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 643
+        },
+        {
+          "modality": "image",
+          "tokens": 8514
+        }
+      ],
+      "total_output_tokens": 1972,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1355
+    },
+    "created": "2026-10-13T21:37:46Z",
+    "updated": "2026-10-13T21:37:46Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1171048 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "The illustration for the \"Retro TV\" card has been created in the exact 3D game art style requested, featuring a chunky wooden-cabinet television with splayed legs and large cream knobs, resting on a polished floor.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2278636 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<624128 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0552825
+}

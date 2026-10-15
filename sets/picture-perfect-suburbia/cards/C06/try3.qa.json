@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Matches the requested paperboy bike, basket, bell, and fence."
+    },
+    "category": {
+      "pass": false,
+      "why": "The fence spans the midground instead of keeping the setting to a simple bottom strip."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Bike is centered with clear margins and rests properly on the bottom edge."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette with good separation from the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Forms are chunky and simplified without excessive micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent 3D rendered look with soft shading and satin sheen."
+    }
+  },
+  "pass": false,
+  "fix": "Lower or reduce the fence so only a ground strip remains, opening up the sky and horizon.",
+  "usage": {
+    "total_tokens": 5920,
+    "total_input_tokens": 3893,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 634
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 216,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1811
+  },
+  "est_cost_usd": 0.0080275,
+  "elapsed_s": 30.5
+}

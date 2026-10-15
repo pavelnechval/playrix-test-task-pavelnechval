@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Heart-shaped sunglasses with gold heart accents are clearly depicted and complete."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a flat surface before a smooth gradient wall in a cohesive colour family."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered placement with balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated palette with adequate contrast against the background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Surfaces are clean and chunky without micro-textures or extraneous elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D volumes with satin sheen aligning with the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5134,
+    "total_input_tokens": 3835,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 576
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 276,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1023
+  },
+  "est_cost_usd": 0.0058145,
+  "elapsed_s": 22.7
+}

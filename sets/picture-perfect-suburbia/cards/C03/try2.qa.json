@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a complete garden sprinkler with water arcs and rainbow."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle hero view with a grass baseline and horizon clouds."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, interfaces, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered subject with adequate margins on all outer edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated palette with strong contrast against the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simple stylized shapes with no micro-textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes with smooth shading consistent with the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5081,
+    "total_input_tokens": 3881,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 622
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 268,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 932
+  },
+  "est_cost_usd": 0.0055405,
+  "elapsed_s": 17.5
+}

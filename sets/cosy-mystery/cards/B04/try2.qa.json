@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested bowler hat with ribbon and carnation."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 2 with a plain horizontal surface and gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and watermarks."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered with solid silhouette and adequate margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright yellow background offers good contrast against the dark object."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent smooth 3D shading with appropriate satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.79,
+        "orange": 0.21
+      },
+      "why": "background is yellow (79% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4474,
+    "total_input_tokens": 4041,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 782
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 265,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 168
+  },
+  "est_cost_usd": 0.0033195,
+  "elapsed_s": 11.0
+}

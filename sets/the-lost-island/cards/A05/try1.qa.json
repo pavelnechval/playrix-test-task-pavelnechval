@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The object is clearly a stylized conch shell with its signature spiral spire and glossy pink opening."
+    },
+    "category": {
+      "pass": true,
+      "why": "It floats freely in the air with a slight tilt on a saturated yellow background featuring centered concentric rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, frames, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The shell is centrally framed with comfortable margins on all sides and nothing is cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, warm, saturated yellow background that provides strong contrast with the cream and pink shell."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The surface is clean and smooth with no micro-textures, ridges, or distracting props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style perfectly with chunky 3D volumes, soft satin sheen, and no outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4643,
+    "total_input_tokens": 3826,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 567
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 314,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 503
+  },
+  "est_cost_usd": 0.004364,
+  "elapsed_s": 11.9
+}

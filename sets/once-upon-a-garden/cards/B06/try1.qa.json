@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Fully matches the brief with the pumpkin shape, gold trim, wheels, and heart-shaped window."
+    },
+    "category": {
+      "pass": true,
+      "why": "Heroic low angle with a clean pathway strip at the bottom and stylized sky with clouds."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of characters, text, UI elements, and watermarks."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered with appropriate margins along the sides and top."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant warm oranges and golds contrasting clearly against the bright blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean volumes without micro-textures, visual noise, or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth chunky 3D forms and satin finish matching the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4719,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 626
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 289,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 545
+  },
+  "est_cost_usd": 0.0044445,
+  "elapsed_s": 21.8
+}

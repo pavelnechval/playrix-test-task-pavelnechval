@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": false,
+      "why": "The shovel is planted behind the red X rather than stuck directly into it as briefed."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low camera angle with a base ground strip, clouds, and open sky background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI, characters, watermarks, or unwanted text overlays."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Elements are centrally composed with sufficient breathing room around the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated palette with clear contrast against the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures or excessive secondary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference aesthetic with chunky volumes and soft satin shading."
+    }
+  },
+  "pass": false,
+  "fix": "Plant the shovel directly into the center of the red X instead of behind it.",
+  "usage": {
+    "total_tokens": 5374,
+    "total_input_tokens": 3894,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 635
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 294,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1186
+  },
+  "est_cost_usd": 0.006387,
+  "elapsed_s": 20.7
+}

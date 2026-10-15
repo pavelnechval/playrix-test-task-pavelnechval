@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested retro stand mixer complete with bowl, cream, and cherry."
+    },
+    "category": {
+      "pass": true,
+      "why": "Correctly places the object on a simple surface before a solid gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Contains no text, interface elements, logos, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Object is centered with balanced margins and no cropped elements."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm with clean contrast between the mint mixer and pink wall."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth surfaces free of noisy micro-details or extra clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes and satin finish align with reference cards."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 1.0
+      },
+      "why": "background is pink (100% of the background); planned pink"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4982,
+    "total_input_tokens": 4026,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 767
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 279,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 677
+  },
+  "est_cost_usd": 0.004881,
+  "elapsed_s": 20.7
+}

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Guitar is clearly readable with sound hole, stand, and bandana intact."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a stylized reflective floor with a clean vertical wall behind."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered placement with balanced margins and complete silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and saturated; red guitar and blue bandana separate well from the yellow setting."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Stylized chunky forms without noisy micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth volumes and satin finish align with reference art."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.99,
+        "orange": 0.01
+      },
+      "why": "background is yellow (99% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 6042,
+    "total_input_tokens": 4066,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 807
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 273,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1703
+  },
+  "est_cost_usd": 0.007961,
+  "elapsed_s": 27.6
+}

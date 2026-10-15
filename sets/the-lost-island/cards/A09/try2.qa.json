@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The object is instantly recognisable as an open oyster shell with a large pearl resting inside, complete with the requested pink shimmer."
+    },
+    "category": {
+      "pass": true,
+      "why": "The shell rests on a flat, plain surface seen slightly from above with a vertical gradient wall behind it, sharing a cohesive purple colour family with strong surface-to-wall contrast."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, border, watermark, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally placed with generous and balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The vibrant purple background provides strong contrast against the pearlescent and silvery-blue tones of the shell and pearl."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are clean and stylized without micro-textures, grooves, or distracting surface noise."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, chunky 3D volumes and a soft satin sheen that matches the game's art style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5478,
+    "total_input_tokens": 3835,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 576
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 339,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1304
+  },
+  "est_cost_usd": 0.0068465,
+  "elapsed_s": 16.3
+}

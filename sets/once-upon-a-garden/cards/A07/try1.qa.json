@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The spinning wheel is fully identifiable with all core components intact."
+    },
+    "category": {
+      "pass": true,
+      "why": "Stands on a stylized surface with a contrasting vertical gradient backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI elements, text, borders, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample clearance along all borders."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, vibrant palette with strong contrast against the purple wall."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky silhouette without noisy micro-textures or excessive props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with reference art, showing smooth 3D forms and satin finishes."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4968,
+    "total_input_tokens": 3861,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 602
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 275,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 832
+  },
+  "est_cost_usd": 0.0052515,
+  "elapsed_s": 21.0
+}

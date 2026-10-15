@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Matches the London townhouse brief accurately with all specified elements present."
+    },
+    "category": {
+      "pass": true,
+      "why": "Ground plane is solid pavement beneath a low-angle heroic building and simple sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred composition with clear margins around the sides and roofline."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm palette with clear separation between building and sky."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Brickwork has too many thin, busy grooves, and extra potted plants add clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D forms and satin surfaces align well with the reference style."
+    }
+  },
+  "pass": false,
+  "fix": "Simplify the brick texture into larger, chunkier blocks and remove the potted plants.",
+  "usage": {
+    "total_tokens": 5578,
+    "total_input_tokens": 4173,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 914
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 216,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1189
+  },
+  "est_cost_usd": 0.0063015,
+  "elapsed_s": 17.7
+}

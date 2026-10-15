@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately depicts the requested ranch gate with the horseshoe and road."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object is grounded on a wide ground plane with an appropriate landscape backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "Lacks side margins; fence attachments crowd and bleed off the horizontal edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, warm golden-hour lighting with good contrast against the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes with no distracting micro-textures or clustered props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent chunky 3D volumes and smooth shading matching the references."
+    }
+  },
+  "pass": false,
+  "fix": "Scale the gate down slightly to restore side margins and remove the fence segments bleeding off-screen.",
+  "usage": {
+    "total_tokens": 5155,
+    "total_input_tokens": 4170,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 911
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 298,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 687
+  },
+  "est_cost_usd": 0.00504,
+  "elapsed_s": 24.2
+}

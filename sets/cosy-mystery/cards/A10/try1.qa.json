@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested Gothic clock tower with the magnifying glass weathervane."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view grounded firmly on a riverside lawn with a simple backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Clean image free of text, numbers, UI elements, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred subject with ample breathing room on top and sides, correctly anchored at the base."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, juicy sunset palette with bright lighting and clear subject separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Appropriately stylized chunky shapes with no distracting micro-textures or busy clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth volumes, soft bevels, and satin sheen."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5048,
+    "total_input_tokens": 4183,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 924
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 293,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 572
+  },
+  "est_cost_usd": 0.0046865,
+  "elapsed_s": 15.5
+}

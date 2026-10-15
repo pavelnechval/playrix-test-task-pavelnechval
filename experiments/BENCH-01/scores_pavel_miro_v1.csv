@@ -1,0 +1,9 @@
+code,target,style_1to5,category_1to5,readability_1to5,clean_1to5,scale_1to5,players_would_notice_yes_no,notes
+"K7,T1,3,yes,""too many unnecessary details - droplets,bottle overdetailed,background of same color,weak contrast"""
+"U5,T1,3,yes,""less details is good,but too glossy,background of same color,back,holder does not look like holder making bottle not like a bottle but some other objects"""
+"V5,T2,4,yes,""steam is not in same style as ref, background reads as category 3,background good gradient but orange part of cup blends with table and background"""
+"Y3,T2,3,yes,""too little details on cup, contrast is good"""
+"K2,T3,4,yes,""striped background should probably be more like a reference round like to fit shape of the object better, also floor should be closer to reference image with mirroring object image"""
+"R2,T3,4,yes,""overall good but background has too many details"""
+"C6,T4,4,yes,""good details on object but terrain is too detailed compared to reference, most of the objects in category are shown from low angle to make them appear and feel big. Terrain in ref is not shown for a reason"""
+"L3,T4,4,yes,""object is too small in frame and terrain is too detailed, however style of the object itself is close match, but background style is way too far from ref (sky)"""

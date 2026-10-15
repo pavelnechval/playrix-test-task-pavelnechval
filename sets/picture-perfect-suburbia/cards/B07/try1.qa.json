@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a complete classic gumball machine with required details."
+    },
+    "category": {
+      "pass": false,
+      "why": "The background contains vertical panel seams instead of a smooth gradient."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred object with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated palette with clear subject separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean surfaces without unnecessary micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, chunky, 3D casual render style."
+    }
+  },
+  "pass": false,
+  "fix": "Replace the vertical wall panel lines in the background with a smooth, seamless gradient.",
+  "usage": {
+    "total_tokens": 5317,
+    "total_input_tokens": 3866,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 607
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 276,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1175
+  },
+  "est_cost_usd": 0.006286,
+  "elapsed_s": 24.1
+}

@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 23.5,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdqcW5PYXNycUlKVGduc0VQaHJHWjBRbxIXanFuT2FzcnFJSlRnbnNFUGhyR1owUW8",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17201,
+      "total_input_tokens": 14464,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1024
+        }
+      ],
+      "total_cached_tokens": 7381,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 522
+        },
+        {
+          "modality": "image",
+          "tokens": 6859
+        }
+      ],
+      "total_output_tokens": 1511,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1226
+    },
+    "created": "2026-10-13T21:58:55Z",
+    "updated": "2026-10-13T21:58:55Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<751812 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the custom card illustration for the Jungle Temple, created in the playful, polished 3D art style of the game:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2017980 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<759740 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055296
+}

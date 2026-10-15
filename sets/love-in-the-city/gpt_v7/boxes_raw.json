@@ -1,0 +1,102 @@
+{
+ "B01": {
+  "box": [
+   97,
+   82,
+   859,
+   930
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B01.png",
+  "mtime": 1792015543
+ },
+ "B02": {
+  "box": [
+   159,
+   56,
+   881,
+   960
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B02.png",
+  "mtime": 1792015503
+ },
+ "B03": {
+  "box": [
+   117,
+   108,
+   928,
+   966
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B03.png",
+  "mtime": 1792015671
+ },
+ "B04": {
+  "box": [
+   80,
+   181,
+   960,
+   842
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B04.png",
+  "mtime": 1792015576
+ },
+ "B05": {
+  "box": [
+   330,
+   68,
+   770,
+   933
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B05.png",
+  "mtime": 1792015378
+ },
+ "B06": {
+  "box": [
+   331,
+   46,
+   928,
+   957
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B06.png",
+  "mtime": 1792015630
+ },
+ "B07": {
+  "box": [
+   135,
+   197,
+   843,
+   780
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B07.png",
+  "mtime": 1792015781
+ },
+ "B08": {
+  "box": [
+   42,
+   69,
+   898,
+   924
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B08.png",
+  "mtime": 1792015462
+ },
+ "B09": {
+  "box": [
+   305,
+   49,
+   737,
+   958
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B09.png",
+  "mtime": 1792015423
+ },
+ "B10": {
+  "box": [
+   230,
+   0,
+   1000,
+   1000
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7\\raw\\B10.png",
+  "mtime": 1792015713
+ }
+}

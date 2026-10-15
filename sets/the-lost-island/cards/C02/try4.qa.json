@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a brass storm lantern with red cap and lit flame."
+    },
+    "category": {
+      "pass": true,
+      "why": "Rests on a stylized tabletop against a simple vertical wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and extra figures."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered placement with adequate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant palette with clear contrast against the purple wall."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Maintains broad stylized shapes without micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D forms matching the reference quality."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "purple": 0.95,
+        "red": 0.04,
+        "pink": 0.01
+      },
+      "why": "background is purple (95% of the background); planned purple"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4869,
+    "total_input_tokens": 4040,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 781
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 264,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 565
+  },
+  "est_cost_usd": 0.004507,
+  "elapsed_s": 15.4
+}

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a bowler hat with a carnation."
+    },
+    "category": {
+      "pass": true,
+      "why": "Correct category 2 setup with flat surface and smooth gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Clean of UI, text, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright yellow background contrasting effectively with the black hat."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Includes an unrequested extra prop (magnifying glass)."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D forms matching the reference aesthetic."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 1.0,
+        "orange": 0.0
+      },
+      "why": "background is yellow (100% of the background); planned yellow"
+    }
+  },
+  "pass": false,
+  "fix": "Remove the magnifying glass so only the hat and flower remain.",
+  "usage": {
+    "total_tokens": 4825,
+    "total_input_tokens": 4041,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 782
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 278,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 506
+  },
+  "est_cost_usd": 0.0043725,
+  "elapsed_s": 13.9
+}

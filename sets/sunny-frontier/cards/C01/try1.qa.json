@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The mail pouch is immediately recognisable, complete with its flap, buckle, shoulder strap, peeking envelope, and knotted blue bandana."
+    },
+    "category": {
+      "pass": true,
+      "why": "The pouch floats freely in three-quarter view with no ground or surface beneath it, framed by a smooth gradient background and a centred ring of theme motifs."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no letters, numbers, watermarks, UI elements, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The pouch is well-centred with ample breathing room on all sides and a bold, chunky silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The rosy-pink background and warm leather tones are bright, saturated, and provide crisp contrast and separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are kept simple and clean without micro-textures, scratches, or visual clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features the exact soft 3D casual game look with chunky rounded bevels, smooth shading, and a gentle satin sheen consistent with the references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 0.96,
+        "green": 0.03,
+        "orange": 0.01,
+        "yellow": 0.0
+      },
+      "why": "background is pink (96% of the background); planned pink"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4847,
+    "total_input_tokens": 4049,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 790
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 348,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 450
+  },
+  "est_cost_usd": 0.0044185,
+  "elapsed_s": 10.4
+}

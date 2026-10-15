@@ -1,0 +1,9 @@
+code,target,style_1to5,category_1to5,readability_1to5,clean_1to5,scale_1to5,players_would_notice_yes_no,notes
+K7,T1,3,4,3,5,4,yes,"Busy: mesh grip, droplets and bands are small details; blue object on a blue background, weak contrast"
+U5,T1,3,4,4,5,4,maybe,"Simple shape, but a dark outline the references don't have; blue on a blue background"
+V5,T2,4,3,4,4,4,maybe,"Saturated and chunky, close to the references; the wooden table reads as category 3; tea-bag tag adds detail"
+Y3,T2,3,5,3,5,4,yes,"Correct category 2 but pastel and low in saturation; pale background"
+K2,T3,4,5,5,5,4,no,"Chunky toy-like car; wooden floor plus striped wall is textbook category 3"
+R2,T3,4,3,4,5,4,maybe,"Polished, but string lights and a barrier push the background toward category 4; flame decals"
+C6,T4,4,5,4,5,3,no,"Clean and on-style; lighthouse smaller in frame than in the reference"
+L3,T4,4,5,3,5,3,maybe,"Busier environment (cliff, crashing waves); object small in frame"

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The illustration clearly depicts a complete glossy red high-heel shoe complete with a small bow on the toe."
+    },
+    "category": {
+      "pass": true,
+      "why": "The shoe rests on a plain flat yellow surface against a plain gradient wall in the same warm colour family, seen from slightly above."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The shoe is centrally framed with comfortable margins on all sides and nothing is cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm, and saturated palette with the red shoe clearly standing out against the bright yellow backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean, smooth surfaces without unnecessary micro-textures, scratches, or extra props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features chunky, smooth volumes and a subtle glossy sheen matching the casual game card art style of the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4589,
+    "total_input_tokens": 3834,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 575
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 240,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 515
+  },
+  "est_cost_usd": 0.004182,
+  "elapsed_s": 11.7
+}

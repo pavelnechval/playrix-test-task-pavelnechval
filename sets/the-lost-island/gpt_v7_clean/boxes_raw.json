@@ -1,0 +1,52 @@
+{
+ "C02": {
+  "box": [
+   19,
+   233,
+   940,
+   760
+  ],
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C02.png",
+  "mtime": 1792020388
+ },
+ "C06": {
+  "box": [
+   89,
+   0,
+   834,
+   1000
+  ],
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C06.png",
+  "mtime": 1792020470
+ },
+ "C07": {
+  "box": [
+   105,
+   192,
+   852,
+   805
+  ],
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C07.png",
+  "mtime": 1792020552
+ },
+ "C08": {
+  "box": [
+   116,
+   156,
+   911,
+   903
+  ],
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C08.png",
+  "mtime": 1792020512
+ },
+ "C10": {
+  "box": [
+   404,
+   82,
+   837,
+   943
+  ],
+  "file": "sets\\the-lost-island\\gpt_v7_clean\\raw\\C10.png",
+  "mtime": 1792020429
+ }
+}

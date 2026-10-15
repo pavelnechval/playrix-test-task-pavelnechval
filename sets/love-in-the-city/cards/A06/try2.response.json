@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 20.9,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdtS0xPYXZ5c0NyMlEyOG9QeHBQOGdBaxIXbUtMT2F2eXNDcjJRMjhvUHhwUDhnQWs",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16752,
+      "total_input_tokens": 14500,
+      "input_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 1060
+        },
+        {
+          "modality": "image",
+          "tokens": 13440
+        }
+      ],
+      "total_cached_tokens": 7506,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 548
+        },
+        {
+          "modality": "image",
+          "tokens": 6958
+        }
+      ],
+      "total_output_tokens": 1569,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 683
+    },
+    "created": "2026-10-13T21:29:12Z",
+    "updated": "2026-10-13T21:29:12Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<656056 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the completed Park Bench illustration, drawn exactly in the game's chunky 3D toy art style. It highlights the curved wooden bench with wrought-iron arms under the fully visible blossoming cherry tree, with pink petals scattered on the seat and falling through the air. All details fit comfortably with a bright blue sky and grassy bottom.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1925232 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<686912 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055349999999999996
+}

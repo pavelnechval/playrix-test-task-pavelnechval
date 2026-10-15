@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clay pot with gold coins, gems, and pearl necklace accurately matches the brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests on a stylized surface against a clean gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, frames, or extraneous elements present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centrally framed with appropriate margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm tones that separate clearly from the purple background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth, chunky forms without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Soft 3D volume, satin finish, and clean shading align with references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4899,
+    "total_input_tokens": 3864,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 605
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 274,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 761
+  },
+  "est_cost_usd": 0.005037,
+  "elapsed_s": 13.5
+}

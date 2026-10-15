@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Complete sundae dish with three scoops, sauce, whipped cream, cherry, and wafer."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 2 with plain split-tone warm background and flat surface."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Clean render free of text, borders, UI, or extra characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Central placement with balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated palette with good contrast against the backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simple volumes without distracting surface noise or micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D forms and satin finish matching the target art style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4907,
+    "total_input_tokens": 3847,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 588
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 278,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 782
+  },
+  "est_cost_usd": 0.0051035,
+  "elapsed_s": 19.9
+}

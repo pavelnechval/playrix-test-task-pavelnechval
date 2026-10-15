@@ -1,0 +1,222 @@
+{
+ "A01": {
+  "_key": "240780:1792016322",
+  "box": [
+   138,
+   92,
+   947,
+   911
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 10.19,
+  "edge_full": 12.08,
+  "height": 0.809,
+  "highlight": 0.0295,
+  "margin": 0.053,
+  "margin_bottom": 0.053,
+  "margin_top": 0.138,
+  "saturation": 0.715,
+  "small_detail": "low",
+  "why": "The toaster floats centrally against a simple radiant blue burst background with no ground beneath it.",
+  "width": 0.819
+ },
+ "A02": {
+  "_key": "217413:1792016324",
+  "box": [
+   139,
+   69,
+   951,
+   929
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 12.58,
+  "edge_full": 14.48,
+  "height": 0.812,
+  "highlight": 0.0102,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.139,
+  "saturation": 0.616,
+  "small_detail": "low",
+  "why": "The retro television stands on a wooden floor in front of a stylized patterned wall, with bold, chunky features that remain legible at small scales.",
+  "width": 0.86
+ },
+ "A03": {
+  "_key": "232318:1792016324",
+  "box": [
+   239,
+   78,
+   712,
+   929
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 19.21,
+  "edge_full": 21.76,
+  "height": 0.473,
+  "highlight": 0.1791,
+  "margin": 0.071,
+  "margin_bottom": 0.288,
+  "margin_top": 0.239,
+  "saturation": 0.48,
+  "small_detail": "low",
+  "why": "The pink suburban house is set within a complete environment featuring a lawn, fence, trees, and sky.",
+  "width": 0.851
+ },
+ "A04": {
+  "_key": "212203:1792016323",
+  "box": [
+   204,
+   75,
+   793,
+   924
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 11.03,
+  "edge_full": 13.06,
+  "height": 0.589,
+  "highlight": 0.066,
+  "margin": 0.075,
+  "margin_bottom": 0.207,
+  "margin_top": 0.204,
+  "saturation": 0.696,
+  "small_detail": "low",
+  "why": "The jelly dessert on a plate rests on a plain flat green surface against a smooth green gradient background, with bold shapes that remain clear at small sizes.",
+  "width": 0.849
+ },
+ "A05": {
+  "_key": "211484:1792016323",
+  "box": [
+   141,
+   206,
+   951,
+   792
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 11.76,
+  "edge_full": 13.56,
+  "height": 0.81,
+  "highlight": 0.2602,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.141,
+  "saturation": 0.452,
+  "small_detail": "low",
+  "why": "The milk bottle floats freely on a purple concentric-circle background with no supporting surface.",
+  "width": 0.586
+ },
+ "A06": {
+  "_key": "225761:1792016323",
+  "box": [
+   137,
+   194,
+   955,
+   803
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 10.25,
+  "edge_full": 12.26,
+  "height": 0.818,
+  "highlight": 0.0973,
+  "margin": 0.045,
+  "margin_bottom": 0.045,
+  "margin_top": 0.137,
+  "saturation": 0.592,
+  "small_detail": "low",
+  "why": "The mailbox is placed in a suburban outdoor environment featuring a grassy lawn, a picket fence, and a sky background.",
+  "width": 0.609
+ },
+ "A07": {
+  "_key": "234257:1792016323",
+  "box": [
+   139,
+   69,
+   946,
+   926
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 10.37,
+  "edge_full": 12.24,
+  "height": 0.807,
+  "highlight": 0.064,
+  "margin": 0.054,
+  "margin_bottom": 0.054,
+  "margin_top": 0.139,
+  "saturation": 0.464,
+  "small_detail": "low",
+  "why": "The stand mixer sits on a polished wooden surface in front of a stylized pink concentric-circle background.",
+  "width": 0.857
+ },
+ "A08": {
+  "_key": "194749:1792016323",
+  "box": [
+   209,
+   90,
+   766,
+   910
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 6.76,
+  "edge_full": 8.64,
+  "height": 0.557,
+  "highlight": 0.0684,
+  "margin": 0.09,
+  "margin_bottom": 0.234,
+  "margin_top": 0.209,
+  "saturation": 0.747,
+  "small_detail": "low",
+  "why": "The striped ring with a bow floats in the air against a simple sunburst background.",
+  "width": 0.82
+ },
+ "A09": {
+  "_key": "226945:1792016323",
+  "box": [
+   238,
+   74,
+   775,
+   926
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 20.6,
+  "edge_full": 22.81,
+  "height": 0.537,
+  "highlight": 0.047,
+  "margin": 0.074,
+  "margin_bottom": 0.225,
+  "margin_top": 0.238,
+  "saturation": 0.619,
+  "small_detail": "medium",
+  "why": "The TV dinner tray rests on a flat yellow surface against a simple yellow backdrop, with individual peas and food textures that would blur at small size.",
+  "width": 0.852
+ },
+ "A10": {
+  "_key": "231803:1792016324",
+  "box": [
+   268,
+   61,
+   804,
+   940
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 24.9,
+  "edge_full": 27.5,
+  "height": 0.536,
+  "highlight": 0.1127,
+  "margin": 0.06,
+  "margin_bottom": 0.196,
+  "margin_top": 0.268,
+  "saturation": 0.456,
+  "small_detail": "medium",
+  "why": "The vintage station wagon sits centered on an outdoor road surrounded by hedges, grass, and a cloudy sky.",
+  "width": 0.879
+ }
+}

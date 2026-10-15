@@ -1,0 +1,32 @@
+{
+ "A03": {
+  "box": [
+   145,
+   83,
+   804,
+   960
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean\\raw\\A03.png",
+  "mtime": 1792020267
+ },
+ "A09": {
+  "box": [
+   208,
+   30,
+   836,
+   969
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean\\raw\\A09.png",
+  "mtime": 1792020173
+ },
+ "A10": {
+  "box": [
+   186,
+   7,
+   874,
+   990
+  ],
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean\\raw\\A10.png",
+  "mtime": 1792020219
+ }
+}

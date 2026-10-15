@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The arched footbridge railing with colourful heart-shaped padlocks and the large central golden padlock is clearly recognisable and complete."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object is placed in a suitable outdoor setting with a clean water strip at the bottom and a simple gradient sky with soft cumulus clouds above."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, frame, watermark, or characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The bridge cuts off abruptly on the left and right sides, and the railing scrolls crowd the lateral edges instead of having clear margins on both sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright, juicy, and saturated, with the colourful locks popping clearly against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Forms are chunky and stylized with no micro-textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "The smooth volumes, satin sheen, and clean rendering match the reference art style perfectly."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the footbridge slightly so the ends are fully visible and clear side margins are preserved instead of cutting off at the left and right edges.",
+  "usage": {
+    "total_tokens": 6548,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 626
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 362,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2301
+  },
+  "est_cost_usd": 0.0099315,
+  "elapsed_s": 26.9
+}

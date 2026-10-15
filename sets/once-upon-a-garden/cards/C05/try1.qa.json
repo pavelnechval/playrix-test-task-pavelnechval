@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The golden pocket watch is immediately recognisable, featuring a swinging chain and adorable bunny ears on top."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object floats in the air with a slight tilt on a saturated radial ray background without any ground or props."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, numbers, UI, borders, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The watch and its chain are centrally positioned with ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, warm, and saturated red background provides excellent contrast against the golden watch."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, smooth surfaces and simplified chunky hour markers without micro-textures or visual noise."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, chunky 3D style and soft satin sheen seen in the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4603,
+    "total_input_tokens": 3831,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 572
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 308,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 464
+  },
+  "est_cost_usd": 0.0042315,
+  "elapsed_s": 10.7
+}

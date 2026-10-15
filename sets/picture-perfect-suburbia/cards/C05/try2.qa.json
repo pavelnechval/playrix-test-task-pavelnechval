@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "It is clearly a twin-bell alarm clock, complete with bells, hammer, handle, legs, and clock face."
+    },
+    "category": {
+      "pass": true,
+      "why": "The clock floats tilted in mid-air with no floor or surface, set against a saturated background with concentric rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, numbers, logos, UI, or frames; clock face smartly uses simple ticks instead of numeral digits."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The clock is well-centered with comfortable margins on all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The saturated red body contrasts clearly and vibrantly against the rich purple background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "No surface noise or micro-details; includes only the requested shake marks."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes with a soft sheen, matching the casual mobile game aesthetic of the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5461,
+    "total_input_tokens": 3826,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 567
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 320,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1315
+  },
+  "est_cost_usd": 0.006818,
+  "elapsed_s": 15.0
+}

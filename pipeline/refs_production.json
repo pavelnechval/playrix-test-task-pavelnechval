@@ -1,0 +1,18 @@
+{
+  "name": "production pack v2",
+  "note": "12 Miro originals (references/miro_v1/cards), 3 per category. The BENCH targets are included, since Pavel's scores validated them as exemplars: bottle, tea cup, bumper car, lighthouse. v2 (W016): R12 is the Tent with a forest backdrop instead of the Ferris Wheel, so the category-4 references are no longer all blue sky.",
+  "refs": [
+    {"id": "R1", "category": 1, "cell": "r05c07", "name": "Bottle"},
+    {"id": "R2", "category": 1, "cell": "r01c01", "name": "Graduation Cap"},
+    {"id": "R3", "category": 1, "cell": "r02c07", "name": "Fan Fold"},
+    {"id": "R4", "category": 2, "cell": "r07c06", "name": "Tea Cup"},
+    {"id": "R5", "category": 2, "cell": "r02c04", "name": "Mojito"},
+    {"id": "R6", "category": 2, "cell": "r03c07", "name": "Beach Bag"},
+    {"id": "R7", "category": 3, "cell": "r06c02", "name": "Bumpers"},
+    {"id": "R8", "category": 3, "cell": "r01c06", "name": "Computer"},
+    {"id": "R9", "category": 3, "cell": "r05c10", "name": "Boxing Gloves"},
+    {"id": "R10", "category": 4, "cell": "r14c08", "name": "Lighthouse"},
+    {"id": "R11", "category": 4, "cell": "r06c09", "name": "Coaster"},
+    {"id": "R12", "category": 4, "cell": "r08c06", "name": "Tent"}
+  ]
+}

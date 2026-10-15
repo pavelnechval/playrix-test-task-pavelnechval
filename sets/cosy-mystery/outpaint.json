@@ -1,0 +1,493 @@
+{
+ "A02": {
+  "colour_shift": [
+   3,
+   2,
+   4
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\A02\\try1.jpg",
+  "model": "A02.try1.model.png",
+  "models": [
+   "A02.try1.model.png"
+  ],
+  "mtime": 1792026363,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.0,
+  "tries": 1
+ },
+ "A03": {
+  "colour_shift": [
+   -4,
+   1,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\A03\\try1.jpg",
+  "model": "A03.try1.model.png",
+  "models": [
+   "A03.try1.model.png"
+  ],
+  "mtime": 1792026360,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 0.91,
+  "tries": 1
+ },
+ "A04": {
+  "colour_shift": [
+   2,
+   5,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\A04\\try2.jpg",
+  "model": "A04.try1.model.png",
+  "models": [
+   "A04.try1.model.png"
+  ],
+  "mtime": 1792026410,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.25,
+  "tries": 1
+ },
+ "A05": {
+  "colour_shift": [
+   1,
+   7,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\A05\\try2.jpg",
+  "model": "A05.try1.model.png",
+  "models": [
+   "A05.try1.model.png"
+  ],
+  "mtime": 1792026445,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.11,
+  "tries": 1
+ },
+ "A06": {
+  "colour_shift": [
+   3,
+   5,
+   2
+  ],
+  "cost": 0.0354,
+  "file": "D:\\JOB2026HUNT\\PLAYRIX_TEST1\\sets\\cosy-mystery\\cards\\A06\\try3.jpg",
+  "model": "A06.try2.model.png",
+  "models": [
+   "A06.try2.model.png"
+  ],
+  "mtime": 1792027256,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 0.87,
+  "spent": 0.0354,
+  "tries": 1
+ },
+ "A08": {
+  "colour_shift": [
+   1,
+   3,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\A08\\try1.jpg",
+  "model": "A08.try1.model.png",
+  "models": [
+   "A08.try1.model.png"
+  ],
+  "mtime": 1792026423,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.61,
+  "tries": 1
+ },
+ "A09": {
+  "colour_shift": [
+   10,
+   14,
+   16
+  ],
+  "cost": 0.0708,
+  "file": "D:\\JOB2026HUNT\\PLAYRIX_TEST1\\sets\\cosy-mystery\\cards\\A09\\try4.jpg",
+  "model": "A09.try4.model.png",
+  "models": [
+   "A09.try3.model.png",
+   "A09.try4.model.png"
+  ],
+  "mtime": 1792027306,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": false,
+  "seam": 13.35,
+  "spent": 0.0708,
+  "tries": 2
+ },
+ "A10": {
+  "colour_shift": [
+   0,
+   4,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\A10\\try1.jpg",
+  "model": "A10.try1.model.png",
+  "models": [
+   "A10.try1.model.png"
+  ],
+  "mtime": 1792026452,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.6,
+  "tries": 1
+ },
+ "B02": {
+  "colour_shift": [
+   1,
+   2,
+   2
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\B02\\try2.jpg",
+  "model": "B02.try1.model.png",
+  "models": [
+   "B02.try1.model.png"
+  ],
+  "mtime": 1792026500,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.35,
+  "tries": 1
+ },
+ "B04": {
+  "colour_shift": [
+   -1,
+   2,
+   7
+  ],
+  "cost": 0.0354,
+  "file": "D:\\JOB2026HUNT\\PLAYRIX_TEST1\\sets\\cosy-mystery\\cards\\B04\\try3.jpg",
+  "model": "B04.try2.model.png",
+  "models": [
+   "B04.try2.model.png"
+  ],
+  "mtime": 1792027416,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 0.59,
+  "spent": 0.0354,
+  "tries": 1
+ },
+ "B05": {
+  "colour_shift": [
+   0,
+   2,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "D:\\JOB2026HUNT\\PLAYRIX_TEST1\\sets\\cosy-mystery\\cards\\B05\\try6.jpg",
+  "model": "B05.try2.model.png",
+  "models": [
+   "B05.try2.model.png"
+  ],
+  "mtime": 1792027679,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.39,
+  "spent": 0.0354,
+  "tries": 1
+ },
+ "B06": {
+  "colour_shift": [
+   0,
+   1,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\B06\\try2.jpg",
+  "model": "B06.try1.model.png",
+  "models": [
+   "B06.try1.model.png"
+  ],
+  "mtime": 1792026574,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 0.72,
+  "tries": 1
+ },
+ "B07": {
+  "colour_shift": [
+   0,
+   3,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\B07\\try1.jpg",
+  "model": "B07.try1.model.png",
+  "models": [
+   "B07.try1.model.png"
+  ],
+  "mtime": 1792026541,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 0.95,
+  "tries": 1
+ },
+ "B08": {
+  "colour_shift": [
+   1,
+   2,
+   2
+  ],
+  "cost": 0.0708,
+  "file": "sets\\cosy-mystery\\cards\\B08\\try2.jpg",
+  "model": "B08.try2.model.png",
+  "models": [
+   "B08.try1.model.png",
+   "B08.try2.model.png"
+  ],
+  "mtime": 1792026606,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.49,
+  "tries": 2
+ },
+ "B09": {
+  "colour_shift": [
+   2,
+   2,
+   2
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\B09\\try1.jpg",
+  "model": "B09.try1.model.png",
+  "models": [
+   "B09.try1.model.png"
+  ],
+  "mtime": 1792026562,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.27,
+  "tries": 1
+ },
+ "B10": {
+  "colour_shift": [
+   0,
+   2,
+   2
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\B10\\try1.jpg",
+  "model": "B10.try1.model.png",
+  "models": [
+   "B10.try1.model.png"
+  ],
+  "mtime": 1792026589,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.39,
+  "tries": 1
+ },
+ "C02": {
+  "colour_shift": [
+   0,
+   1,
+   0
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\C02\\try1.jpg",
+  "model": "C02.try1.model.png",
+  "models": [
+   "C02.try1.model.png"
+  ],
+  "mtime": 1792026617,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 0.84,
+  "tries": 1
+ },
+ "C03": {
+  "colour_shift": [
+   0,
+   5,
+   12
+  ],
+  "cost": 0.0708,
+  "file": "sets\\cosy-mystery\\cards\\C03\\try1.jpg",
+  "model": "C03.try2.model.png",
+  "models": [
+   "C03.try1.model.png",
+   "C03.try2.model.png"
+  ],
+  "mtime": 1792026637,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.43,
+  "tries": 2
+ },
+ "C06": {
+  "colour_shift": [
+   0,
+   2,
+   7
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\C06\\try1.jpg",
+  "model": "C06.try1.model.png",
+  "models": [
+   "C06.try1.model.png"
+  ],
+  "mtime": 1792026670,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.04,
+  "tries": 1
+ },
+ "C07": {
+  "colour_shift": [
+   0,
+   4,
+   5
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\C07\\try1.jpg",
+  "model": "C07.try1.model.png",
+  "models": [
+   "C07.try1.model.png"
+  ],
+  "mtime": 1792026693,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.09,
+  "tries": 1
+ },
+ "C08": {
+  "colour_shift": [
+   -1,
+   1,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\C08\\try1.jpg",
+  "model": "C08.try1.model.png",
+  "models": [
+   "C08.try1.model.png"
+  ],
+  "mtime": 1792026706,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 1.99,
+  "tries": 1
+ },
+ "C09": {
+  "colour_shift": [
+   -2,
+   1,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "D:\\JOB2026HUNT\\PLAYRIX_TEST1\\sets\\cosy-mystery\\cards\\C09\\try3.jpg",
+  "model": "C09.try2.model.png",
+  "models": [
+   "C09.try2.model.png"
+  ],
+  "mtime": 1792027591,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 2.16,
+  "spent": 0.0354,
+  "tries": 1
+ },
+ "C10": {
+  "colour_shift": [
+   1,
+   3,
+   1
+  ],
+  "cost": 0.0354,
+  "file": "sets\\cosy-mystery\\cards\\C10\\try3.jpg",
+  "model": "C10.try1.model.png",
+  "models": [
+   "C10.try1.model.png"
+  ],
+  "mtime": 1792026834,
+  "offset": [
+   123,
+   123
+  ],
+  "ok": true,
+  "seam": 2.22,
+  "tries": 1
+ }
+}

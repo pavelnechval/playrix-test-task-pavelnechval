@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The golden mirror, stand, blue glass, and rose detail match the brief."
+    },
+    "category": {
+      "pass": false,
+      "why": "Stone paving is ill-suited to a vanity mirror; a tabletop is required."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI elements, characters, and frames."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred with ample margins on all sides."
+    },
+    "colour": {
+      "pass": false,
+      "why": "The purple background is too dark and cool rather than bright and warm."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes with no busy textures or micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth, chunky volumes and a satin sheen matching the style."
+    }
+  },
+  "pass": false,
+  "fix": "Place the mirror on a smooth wooden tabletop and brighten the background to a warm, saturated hue.",
+  "usage": {
+    "total_tokens": 5196,
+    "total_input_tokens": 3871,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 612
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 297,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1028
+  },
+  "est_cost_usd": 0.0059105,
+  "elapsed_s": 18.7
+}

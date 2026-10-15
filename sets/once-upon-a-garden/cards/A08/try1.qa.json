@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a crystal ball on a small golden stand with a soft pink swirl and a tiny star inside, exactly matching the brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object floats in the air with no floor or table, viewed from a slight three-quarter angle against a vibrant yellow gradient with radiating rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of any text, numbers, UI, frames, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The crystal ball is well-centered with ample, balanced breathing room on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright, and saturated palette with strong contrast between the cool bluish/pink ball and the warm yellow background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth, chunky shapes with no noisy micro-textures, scratches, or unnecessary props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features the same soft satin sheen, chunky volumes, and clean 3D casual game look as the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 6002,
+    "total_input_tokens": 3833,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 574
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 336,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1833
+  },
+  "est_cost_usd": 0.0084235,
+  "elapsed_s": 20.6
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The pineapple is clearly recognisable with its golden body, green crown, and the requested cocktail umbrella charming detail."
+    },
+    "category": {
+      "pass": true,
+      "why": "It rests on a plain, solid surface viewed from slightly above, set against a smooth gradient wall from the same warm coral colour family."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, frame, watermark, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The pineapple is centrally placed with generous margins around all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is saturated, warm, and juicy, providing strong separation between the yellow/green pineapple and the coral background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The segments are simplified into smooth, chunky cushions with no realistic micro-textures, scratches, or stray props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features clean 3D volumes, a soft satin sheen, and no harsh outlines, matching the reference game art perfectly."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4839,
+    "total_input_tokens": 3838,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 579
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 330,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 671
+  },
+  "est_cost_usd": 0.004922,
+  "elapsed_s": 12.8
+}

@@ -1,0 +1,42 @@
+{
+ "B02": {
+  "box": [
+   143,
+   68,
+   870,
+   946
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B02.png",
+  "mtime": 1792024511
+ },
+ "B03": {
+  "box": [
+   79,
+   73,
+   917,
+   969
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B03.png",
+  "mtime": 1792024612
+ },
+ "B06": {
+  "box": [
+   0,
+   27,
+   928,
+   971
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B06.png",
+  "mtime": 1792024562
+ },
+ "B10": {
+  "box": [
+   287,
+   0,
+   952,
+   1000
+  ],
+  "file": "sets\\love-in-the-city\\gpt_v7_clean2\\raw\\B10.png",
+  "mtime": 1792024660
+ }
+}

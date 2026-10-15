@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The illustration matches the brief completely, featuring a white wand with a golden star tip, a small trail of sparkles, and a pink ribbon tied below the star."
+    },
+    "category": {
+      "pass": true,
+      "why": "The wand floats freely in the air at an angle against a vibrant background featuring concentric rings, fully matching Category 1 rules."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text elements, borders, watermarks, UI elements, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The wand is centrally placed with comfortable, clear margins around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is saturated and vivid, providing crisp contrast between the purple concentric background and the yellow, white, and pink wand."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The forms are clean and stylized without distracting micro-textures or unnecessary elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering features smooth, chunky 3D volumes with soft satin sheen and no outlines, matching the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4770,
+    "total_input_tokens": 3835,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 576
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 336,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 599
+  },
+  "est_cost_usd": 0.0047225,
+  "elapsed_s": 11.1
+}

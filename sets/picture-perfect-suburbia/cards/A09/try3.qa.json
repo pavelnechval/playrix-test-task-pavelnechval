@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The foil TV-dinner tray is instantly recognisable, complete with compartments for turkey slices, peas, mashed potatoes with a melting pat of butter, and a berry dessert."
+    },
+    "category": {
+      "pass": true,
+      "why": "The tray rests on a plain, flat yellow surface in front of a smooth yellow gradient wall, perfectly adhering to category 2 composition."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no text, UI elements, watermarks, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The object is centrally framed with generous margins on all sides and a readable, chunky silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is warm, bright, and juicy, with the yellow background contrasting nicely with the silver tray and rich food colours."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are chunky and stylized without noisy micro-details, excessive clusters, or extra props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The rendering matches the references with soft satin sheens, clean volumes, and smooth digital 3D finish without harsh outlines."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.95,
+        "grey/dark": 0.05,
+        "orange": 0.0
+      },
+      "why": "background is yellow (95% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4811,
+    "total_input_tokens": 3988,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 729
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 265,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 558
+  },
+  "est_cost_usd": 0.004463,
+  "elapsed_s": 10.6
+}

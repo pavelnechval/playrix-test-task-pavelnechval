@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Depicts the requested watermill with all specified elements including the wheel, stream, and blue door."
+    },
+    "category": {
+      "pass": true,
+      "why": "Rests securely on ground with stream and grassy bank in a low-angle heroic view."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, interfaces, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered, solid silhouette with sufficient margins around the structure."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, juicy, and saturated palette with clean separation from the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simplified, chunky elements with no busy textures or micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent satin 3D render matching the smooth, soft aesthetic of the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5254,
+    "total_input_tokens": 4159,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 900
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 292,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 803
+  },
+  "est_cost_usd": 0.0053645,
+  "elapsed_s": 16.5
+}

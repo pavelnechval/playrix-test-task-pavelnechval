@@ -1,0 +1,38 @@
+{
+ "A05": {
+  "colour_shift": [
+   6,
+   3,
+   7
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A05.png",
+  "model": "A05.try1.model.png",
+  "mtime": 1792021582,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 3.73,
+  "tries": 1
+ },
+ "A09": {
+  "colour_shift": [
+   0,
+   2,
+   8
+  ],
+  "cost": 0.0354,
+  "file": "sets\\picture-perfect-suburbia\\gpt_v7_clean2\\raw\\A09.png",
+  "model": "A09.try1.model.png",
+  "mtime": 1792021617,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 0.95,
+  "tries": 1
+ }
+}

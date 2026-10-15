@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The round cafe table, two curly white chairs, red-and-white striped awning, and the vase with a single red rose are all clearly depicted and recognisable."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 4 with a clear tiled ground strip at the bottom, a bright blue gradient sky, and soft volumetric clouds near the horizon without any clutter."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermarks, frames, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The setup is well-centered with comfortable margins along the top and sides, and cleanly grounded at the bottom."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated, and warm palette with excellent contrast against the rich blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth, uncluttered surfaces without noisy micro-details, keeping the focus entirely on the main subject."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes, soft satin sheen, and clean stylized rendering that closely match the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 6326,
+    "total_input_tokens": 3896,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 637
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 346,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2084
+  },
+  "est_cost_usd": 0.009238,
+  "elapsed_s": 24.8
+}

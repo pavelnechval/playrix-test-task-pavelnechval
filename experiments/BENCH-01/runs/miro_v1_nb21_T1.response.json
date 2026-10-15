@@ -1,0 +1,159 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 15.9,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdFM25OYXJ6NUNkbUp4TjhQNTZpS3lBURIXRTNuTmFyejVDZG1KeE44UDU2aUt5QVE",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 11222,
+      "total_input_tokens": 9427,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 8960
+        },
+        {
+          "modality": "text",
+          "tokens": 467
+        }
+      ],
+      "total_cached_tokens": 0,
+      "total_output_tokens": 1397,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 398,
+      "raw_prompt_token": 10043,
+      "model_invocation_token_counts": [
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1083
+            },
+            {
+              "modality": "image",
+              "tokens": 8960
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 261
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 398
+            }
+          ]
+        },
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1765
+            },
+            {
+              "modality": "image",
+              "tokens": 9769
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 28
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 40
+            }
+          ]
+        }
+      ],
+      "non_grounding_model_invocation_token_counts": [
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1083
+            },
+            {
+              "modality": "image",
+              "tokens": 8960
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 261
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 398
+            }
+          ]
+        },
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1765
+            },
+            {
+              "modality": "image",
+              "tokens": 9769
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 28
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 40
+            }
+          ]
+        }
+      ]
+    },
+    "created": "2026-10-13T00:19:42Z",
+    "updated": "2026-10-13T00:19:42Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<2493312 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<652052 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_output_cost_usd": 0.0336,
+  "received_at": "2026-10-13T00:19:39+00:00"
+}

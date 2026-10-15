@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Bamboo treehouse with thatched roof, palm tree, ladder, and flag are all present."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view with a clear ground strip and simple cloud horizon."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, frames, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins around the silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, vibrant palette that contrasts clearly against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without distracting micro-textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky, smooth 3D forms with a soft satin finish matching the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4621,
+    "total_input_tokens": 3890,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 631
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 283,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 448
+  },
+  "est_cost_usd": 0.004138,
+  "elapsed_s": 13.8
+}

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a chunky, candy-striped hula hoop with a red bow as requested."
+    },
+    "category": {
+      "pass": true,
+      "why": "The hoop floats in three-quarter view with no ground or surface beneath, set against an orange radiating ray background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, numbers, UI, card frames, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The hoop is well-centered with ample margins on all sides and a bold silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated palette with the blue and white hoop contrasting sharply against the warm orange background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean chunky forms without noisy micro-details or cluttered extra props."
+    },
+    "style": {
+      "pass": false,
+      "why": "The volume has an unnatural pinch and dent along the bottom-left curve, and the stripe texture glitches into awkward chevrons rather than wrapping smoothly around the tube."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "orange": 0.99,
+        "red": 0.01
+      },
+      "why": "background is orange (99% of the background); planned orange"
+    }
+  },
+  "pass": false,
+  "fix": "Smooth out the dented crease along the lower-left tube and ensure the candy stripes wrap continuously without chevroning or glitching.",
+  "usage": {
+    "total_tokens": 5761,
+    "total_input_tokens": 3983,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 724
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 348,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1430
+  },
+  "est_cost_usd": 0.0073255,
+  "elapsed_s": 18.9
+}

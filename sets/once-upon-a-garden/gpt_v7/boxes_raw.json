@@ -1,0 +1,102 @@
+{
+ "A01": {
+  "box": [
+   77,
+   256,
+   917,
+   858
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A01.png",
+  "mtime": 1792016661
+ },
+ "A02": {
+  "box": [
+   52,
+   240,
+   844,
+   824
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A02.png",
+  "mtime": 1792016452
+ },
+ "A03": {
+  "box": [
+   87,
+   98,
+   902,
+   907
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A03.png",
+  "mtime": 1792016701
+ },
+ "A04": {
+  "box": [
+   191,
+   79,
+   816,
+   936
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A04.png",
+  "mtime": 1792016338
+ },
+ "A05": {
+  "box": [
+   138,
+   184,
+   850,
+   849
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A05.png",
+  "mtime": 1792016417
+ },
+ "A06": {
+  "box": [
+   0,
+   169,
+   972,
+   824
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A06.png",
+  "mtime": 1792016746
+ },
+ "A07": {
+  "box": [
+   65,
+   117,
+   903,
+   913
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A07.png",
+  "mtime": 1792016586
+ },
+ "A08": {
+  "box": [
+   114,
+   180,
+   870,
+   804
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A08.png",
+  "mtime": 1792016545
+ },
+ "A09": {
+  "box": [
+   61,
+   88,
+   856,
+   955
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A09.png",
+  "mtime": 1792016382
+ },
+ "A10": {
+  "box": [
+   52,
+   151,
+   930,
+   861
+  ],
+  "file": "sets\\once-upon-a-garden\\gpt_v7\\raw\\A10.png",
+  "mtime": 1792016623
+ }
+}

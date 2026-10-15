@@ -1,0 +1,19 @@
+{
+  "_about": "W020: art-direction notes carried over to the ChatGPT redraw of the 4 chosen sets, from redo round 1 (redo_round1.json) and the W019 final pass. Rephrased as directions, because ChatGPT draws these cards fresh.",
+  "love-in-the-city": {
+    "B04": "A smooth, taut, glossy red foil heart with crisp bright highlights (not a puffy, seamed pillow), with a short white ribbon that hangs down with one soft curl and a small pink bow at the knot."
+  },
+  "picture-perfect-suburbia": {
+    "A05": "Crisp, clear glass with bright highlights and a visible thick rim, filled with bright creamy-white milk; a bold glossy red cap and a perky red gingham bow on the neck.",
+    "A07": "Stand the mixer on a clearly realistic polished wooden kitchen countertop with a soft reflection, in front of the plain pink wall.",
+    "A08": "A warm orange background with clearly visible rays (never teal or cyan) and a thick, chunky hoop tube that reads as a bold oval.",
+    "A09": "Tilt the tray toward the viewer in a three-quarter view so every compartment is clearly visible; bright, glossy, appetizing stylized food; a bright, saturated sunny-yellow surface and wall, never mustard or beige."
+  },
+  "once-upon-a-garden": {
+    "A10": "Keep it simple enough to read at small card size: big smooth stones, a simple roof with a few broad tiles, no small flowers or thin vines."
+  },
+  "the-lost-island": {
+    "C01": "Chunky and large, with the sand as a neat heap on the blade and nothing flying off.",
+    "C02": "A lantern made of a few big, smooth shapes: no thin wires or rivets, simple clear glass panels, a bright yellow flame and a red cap; the purple wall stays even, with no halo or light spill."
+  }
+}

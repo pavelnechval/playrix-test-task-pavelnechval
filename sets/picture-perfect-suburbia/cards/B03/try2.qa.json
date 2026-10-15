@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Features the speaker post, twin speakers, red top light, and distant screen."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows the low heroic angle with sky and a bottom ground strip."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The movie screen is cut off along the right frame edge."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Clear separation from the blue sky, though overall palette leans slightly grey."
+    },
+    "detail": {
+      "pass": false,
+      "why": "Ground features noisy, photographic gravel texture rather than smooth stylized shapes."
+    },
+    "style": {
+      "pass": true,
+      "why": "Main object matches the chunky volumes and smooth satin sheen of references."
+    }
+  },
+  "pass": false,
+  "fix": "Smooth out the gravel texture into a clean stylized ground strip and pull the background screen fully into frame.",
+  "usage": {
+    "total_tokens": 5092,
+    "total_input_tokens": 3897,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 638
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 299,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 896
+  },
+  "est_cost_usd": 0.0055335,
+  "elapsed_s": 21.9
+}

@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The lemonade stand is instantly recognizable with all required parts: wooden counter, yellow-and-white striped awning, lemon decoration, pitcher, and cups."
+    },
+    "category": {
+      "pass": true,
+      "why": "The stand is framed from a low heroic angle with a ground strip at the bottom and a bright blue sky with volumetric clouds along the horizon."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, logos, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The stand is centered with good breathing room at the top and sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, warm, saturated palette with strong separation between the yellow stand and the blue sky."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The crate of lemons on the right is an extra prop not allowed by the brief, and the individual modeled grass blades create busy micro-detail."
+    },
+    "style": {
+      "pass": true,
+      "why": "Renders with smooth, chunky stylized volumes and a soft satin sheen matching the reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the extra crate of lemons and simplify the spiky grass into a smooth, stylized ground strip.",
+  "usage": {
+    "total_tokens": 6089,
+    "total_input_tokens": 3900,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 641
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 358,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1831
+  },
+  "est_cost_usd": 0.008517,
+  "elapsed_s": 21.5
+}

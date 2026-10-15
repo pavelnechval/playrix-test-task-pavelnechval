@@ -1,0 +1,102 @@
+{
+ "A01": {
+  "box": [
+   149,
+   192,
+   888,
+   807
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A01\\try1.jpg",
+  "mtime": 1791927451
+ },
+ "A02": {
+  "box": [
+   92,
+   177,
+   881,
+   826
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A02\\try2.jpg",
+  "mtime": 1791927505
+ },
+ "A03": {
+  "box": [
+   189,
+   135,
+   856,
+   882
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A03\\try2.jpg",
+  "mtime": 1791927495
+ },
+ "A04": {
+  "box": [
+   265,
+   107,
+   816,
+   893
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A04\\try1.jpg",
+  "mtime": 1791927458
+ },
+ "A05": {
+  "box": [
+   133,
+   278,
+   875,
+   736
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A05\\try2.jpg",
+  "mtime": 1791939984
+ },
+ "A06": {
+  "box": [
+   168,
+   241,
+   942,
+   762
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A06\\try1.jpg",
+  "mtime": 1791927520
+ },
+ "A07": {
+  "box": [
+   143,
+   237,
+   873,
+   811
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A07\\try2.jpg",
+  "mtime": 1792013809
+ },
+ "A08": {
+  "box": [
+   150,
+   131,
+   868,
+   908
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A08\\try4.jpg",
+  "mtime": 1791940061
+ },
+ "A09": {
+  "box": [
+   215,
+   52,
+   842,
+   951
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A09\\try3.jpg",
+  "mtime": 1791940134
+ },
+ "A10": {
+  "box": [
+   215,
+   66,
+   911,
+   943
+  ],
+  "file": "sets\\picture-perfect-suburbia\\cards\\A10\\try2.jpg",
+  "mtime": 1791927616
+ }
+}

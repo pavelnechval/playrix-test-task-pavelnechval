@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 21.4,
+  "attempts": 2,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chd0S2pPYXZtc0dJT3duc0VQajVhUXNBbxIXdEtqT2F2bXNHSU93bnNFUGo1YVFzQW8",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16903,
+      "total_input_tokens": 14504,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1064
+        }
+      ],
+      "total_cached_tokens": 7468,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 547
+        },
+        {
+          "modality": "image",
+          "tokens": 6921
+        }
+      ],
+      "total_output_tokens": 1549,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 850
+    },
+    "created": "2026-10-13T21:55:17Z",
+    "updated": "2026-10-13T21:55:17Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<590736 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Please inspect the hot air balloon illustration. It has been rendered to match the exact requirements of the 3D-asset art style, complete with the requested \"landing over a sandy beach\" perspective and distinctive flag banner on the basket. Let me know if you would like any changes!",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1859492 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<625072 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.055356
+}

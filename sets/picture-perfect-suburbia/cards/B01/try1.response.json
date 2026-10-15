@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 19.2,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChZENlhPYXNoTzR2ckd6UV9KbkozZ0JnEhZENlhPYXNoTzR2ckd6UV9KbkozZ0Jn",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16525,
+      "total_input_tokens": 14401,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 961
+        }
+      ],
+      "total_cached_tokens": 7527,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 502
+        },
+        {
+          "modality": "image",
+          "tokens": 7025
+        }
+      ],
+      "total_output_tokens": 1580,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 544
+    },
+    "created": "2026-10-13T21:39:41Z",
+    "updated": "2026-10-13T21:39:41Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<550252 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "The new card illustration for the Poodle Skirt has been created, capturing the signature 3D casual game art style with its vibrant pink circle skirt, white poodle appliqu\u00e9, and sparkly leash against a bright blue concentric-ring background.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<1820664 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<593996 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0552015
+}

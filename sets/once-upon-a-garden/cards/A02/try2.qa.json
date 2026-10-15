@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The subject is clearly a brass fairy lantern with glowing light and a flowering vine, resting on a mossy stone as briefed."
+    },
+    "category": {
+      "pass": false,
+      "why": "The background includes floating glowing light particles, violating the requirement to keep the background completely free of props, lights, and scenery."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, frames, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The lantern is nicely centered with ample margins around the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and rich color palette with great separation between the golden brass lantern and the purple background."
+    },
+    "detail": {
+      "pass": false,
+      "why": "The moss features hyper-detailed, fuzzy micro-strands instead of being rendered with smooth, chunky stylized volumes."
+    },
+    "style": {
+      "pass": true,
+      "why": "The lantern itself matches the smooth, chunky 3D satin sheen of the reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Remove the floating glow particles from the background and simplify the moss into smooth, chunky stylized patches without fibrous micro-texture.",
+  "usage": {
+    "total_tokens": 5671,
+    "total_input_tokens": 3872,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 613
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 347,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1452
+  },
+  "est_cost_usd": 0.007333,
+  "elapsed_s": 18.8
+}

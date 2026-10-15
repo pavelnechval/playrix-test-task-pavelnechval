@@ -1,0 +1,23 @@
+{
+ "A02": {
+  "colour_shift": [
+   1,
+   3,
+   3
+  ],
+  "cost": 0.0354,
+  "file": "sets\\once-upon-a-garden\\gpt_v7_clean2\\raw\\A02.png",
+  "model": "A02.try1.model.png",
+  "models": [
+   "A02.try1.model.png"
+  ],
+  "mtime": 1792024756,
+  "offset": [
+   150,
+   150
+  ],
+  "ok": true,
+  "seam": 1.76,
+  "tries": 1
+ }
+}

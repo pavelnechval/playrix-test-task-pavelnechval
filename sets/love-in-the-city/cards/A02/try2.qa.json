@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "It is clearly a vintage red rotary telephone with the handset, coiled cord, and the requested heart detail in the dial center."
+    },
+    "category": {
+      "pass": true,
+      "why": "The telephone rests on a stylized wooden tabletop with a clean, smooth purple gradient wall behind it, strictly adhering to category 3."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, numbers on the dial, UI, frames, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The phone is well-centered with comfortable margins around the edges and nothing cut off."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright, saturated, and warm, with the coral-red telephone popping strongly against the purple background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and chunky without unwanted micro-textures, noise, or superfluous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "The 3D rendering features smooth volumes and a soft satin sheen that matches the reference style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5326,
+    "total_input_tokens": 3869,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 610
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 332,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1125
+  },
+  "est_cost_usd": 0.0063055,
+  "elapsed_s": 17.3
+}

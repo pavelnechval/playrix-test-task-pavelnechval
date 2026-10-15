@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear flower cart with awning, flower buckets, and heart-shaped wreath."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view grounded on a paved strip under a clear sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI, text, watermarks, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample margins around the cart."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, saturated palette contrasting clearly against the bright blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky forms without distracting micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, rounded 3D volumes with satin sheen matching the reference aesthetic."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4818,
+    "total_input_tokens": 3895,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 636
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 278,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 645
+  },
+  "est_cost_usd": 0.0047165,
+  "elapsed_s": 19.1
+}

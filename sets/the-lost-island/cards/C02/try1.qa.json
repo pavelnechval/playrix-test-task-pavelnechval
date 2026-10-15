@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Brass storm lantern with glowing flame and red glass is clearly depicted on a crate."
+    },
+    "category": {
+      "pass": false,
+      "why": "The background features vertical wall slats instead of a plain, smooth gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The lantern is well-centered with ample breathing room on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm lantern tones contrast nicely against the rich purple backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, simplified forms without noisy micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference cards with smooth, chunky 3D volumes and satin finishes."
+    }
+  },
+  "pass": false,
+  "fix": "Replace the vertical paneling on the purple background with a seamless, smooth gradient.",
+  "usage": {
+    "total_tokens": 4885,
+    "total_input_tokens": 3866,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 607
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 302,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 717
+  },
+  "est_cost_usd": 0.00499,
+  "elapsed_s": 17.0
+}

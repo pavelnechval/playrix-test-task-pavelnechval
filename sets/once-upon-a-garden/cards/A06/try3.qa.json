@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The beanstalk is immediately recognisable with its twisting vine, leaves, and golden bean pods."
+    },
+    "category": {
+      "pass": false,
+      "why": "Category 4 requires visible sky above the object, but the top of the beanstalk extends completely out of the frame; additionally, clouds surround the beanstalk on all sides rather than staying near the horizon."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, logos, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The beanstalk is cut off at the top edge of the image rather than maintaining a clear margin and sky above it."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is vibrant, saturated, and the green plant and golden beans stand out well against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean, smooth surfaces without micro-textures, grooves, or distracting clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Renders with chunky volumes, a soft satin sheen, and no outlines, matching the reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the beanstalk and lower its top tip so that it stays fully within the frame with clear sky above it, and keep the clouds concentrated near the horizon.",
+  "usage": {
+    "total_tokens": 5212,
+    "total_input_tokens": 3888,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 629
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 371,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 953
+  },
+  "est_cost_usd": 0.005916,
+  "elapsed_s": 15.5
+}

@@ -1,0 +1,222 @@
+{
+ "A01": {
+  "_key": "217766:1792016809",
+  "box": [
+   141,
+   176,
+   948,
+   823
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 6.19,
+  "edge_full": 7.98,
+  "height": 0.807,
+  "highlight": 0.0319,
+  "margin": 0.052,
+  "margin_bottom": 0.052,
+  "margin_top": 0.141,
+  "saturation": 0.742,
+  "small_detail": "low",
+  "why": "The star wand floats centrally on an abstract purple circular pattern background with no surface beneath it.",
+  "width": 0.647
+ },
+ "A02": {
+  "_key": "255360:1792016808",
+  "box": [
+   138,
+   169,
+   949,
+   838
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 16.01,
+  "edge_full": 18.1,
+  "height": 0.811,
+  "highlight": 0.0095,
+  "margin": 0.051,
+  "margin_bottom": 0.051,
+  "margin_top": 0.138,
+  "saturation": 0.792,
+  "small_detail": "low",
+  "why": "The stylized golden lantern rests on a mossy stone surface against a stylized concentric gradient background.",
+  "width": 0.669
+ },
+ "A03": {
+  "_key": "256881:1792016809",
+  "box": [
+   136,
+   73,
+   907,
+   928
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 9.98,
+  "edge_full": 11.97,
+  "height": 0.771,
+  "highlight": 0.0446,
+  "margin": 0.072,
+  "margin_bottom": 0.093,
+  "margin_top": 0.136,
+  "saturation": 0.614,
+  "small_detail": "low",
+  "why": "The mushroom house has large, bold cartoon features and smooth surfaces that remain distinct at small sizes within its grassy meadow environment.",
+  "width": 0.855
+ },
+ "A04": {
+  "_key": "232618:1792016808",
+  "box": [
+   211,
+   75,
+   770,
+   925
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 11.07,
+  "edge_full": 12.83,
+  "height": 0.559,
+  "highlight": 0.0011,
+  "margin": 0.075,
+  "margin_bottom": 0.23,
+  "margin_top": 0.211,
+  "saturation": 0.77,
+  "small_detail": "medium",
+  "why": "The sack of glowing beans rests on a flat, solid pink surface against a plain magenta studio background.",
+  "width": 0.85
+ },
+ "A05": {
+  "_key": "231505:1792016808",
+  "box": [
+   142,
+   90,
+   927,
+   913
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 4.6,
+  "edge_full": 6.2,
+  "height": 0.785,
+  "highlight": 0.0131,
+  "margin": 0.073,
+  "margin_bottom": 0.073,
+  "margin_top": 0.142,
+  "saturation": 0.879,
+  "small_detail": "low",
+  "why": "The golden apple floats freely against a stylized red sunburst background without any surface underneath.",
+  "width": 0.823
+ },
+ "A06": {
+  "_key": "256155:1792016810",
+  "box": [
+   0,
+   194,
+   909,
+   806
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 11.47,
+  "edge_full": 13.59,
+  "height": 0.909,
+  "highlight": 0.0357,
+  "margin": 0.0,
+  "margin_bottom": 0.091,
+  "margin_top": 0.0,
+  "saturation": 0.733,
+  "small_detail": "low",
+  "why": "The giant beanstalk is set in a vibrant outdoor landscape with grass, trees, and sky.",
+  "width": 0.612
+ },
+ "A07": {
+  "_key": "257908:1792016809",
+  "box": [
+   139,
+   70,
+   951,
+   929
+  ],
+  "category_confidence": "high",
+  "category_seen": 3,
+  "detail_lost": 11.96,
+  "edge_full": 13.99,
+  "height": 0.812,
+  "highlight": 0.0015,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.139,
+  "saturation": 0.779,
+  "small_detail": "medium",
+  "why": "The spinning wheel stands on a wooden tabletop in front of a simple vertical-panel purple wall, with thin glowing thread details that blur at small sizes.",
+  "width": 0.859
+ },
+ "A08": {
+  "_key": "239923:1792016809",
+  "box": [
+   138,
+   126,
+   951,
+   874
+  ],
+  "category_confidence": "high",
+  "category_seen": 1,
+  "detail_lost": 6.12,
+  "edge_full": 7.83,
+  "height": 0.813,
+  "highlight": 0.0909,
+  "margin": 0.049,
+  "margin_bottom": 0.049,
+  "margin_top": 0.138,
+  "saturation": 0.601,
+  "small_detail": "low",
+  "why": "The crystal ball floats in front of an abstract yellow sunburst background with no ground beneath it.",
+  "width": 0.748
+ },
+ "A09": {
+  "_key": "233720:1792016808",
+  "box": [
+   149,
+   74,
+   850,
+   924
+  ],
+  "category_confidence": "high",
+  "category_seen": 2,
+  "detail_lost": 12.86,
+  "edge_full": 14.82,
+  "height": 0.701,
+  "highlight": 0.0064,
+  "margin": 0.074,
+  "margin_bottom": 0.15,
+  "margin_top": 0.149,
+  "saturation": 0.693,
+  "small_detail": "medium",
+  "why": "The pocket watch rests on a flat, plain green surface with a clear horizon line against a simple green gradient background.",
+  "width": 0.85
+ },
+ "A10": {
+  "_key": "271124:1792016809",
+  "box": [
+   140,
+   137,
+   953,
+   869
+  ],
+  "category_confidence": "high",
+  "category_seen": 4,
+  "detail_lost": 14.29,
+  "edge_full": 16.48,
+  "height": 0.813,
+  "highlight": 0.0197,
+  "margin": 0.047,
+  "margin_bottom": 0.047,
+  "margin_top": 0.14,
+  "saturation": 0.622,
+  "small_detail": "medium",
+  "why": "The stone well is centrally positioned in a grassy field with trees and sky in the background.",
+  "width": 0.732
+ }
+}

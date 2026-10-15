@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The illustration clearly depicts the requested white chapel bell tower with a red roof, golden bell, and heart-shaped window."
+    },
+    "category": {
+      "pass": true,
+      "why": "The tower is set on a simple green grassy strip at the bottom against a clean blue sky with volumetric clouds, adhering to Category 4 rules."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no UI elements, text, borders, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The bell tower is centrally placed with generous margins on the top and sides, grounding neatly into the grass at the base."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Colours are vibrant, saturated, and warm, providing excellent contrast against the bright blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The surface is clean and smooth without noisy micro-textures, grooves, or distracting elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Features the exact chunky 3D toy-like aesthetic, soft shading, and satin sheen seen in the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4644,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 626
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 339,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 420
+  },
+  "est_cost_usd": 0.0042195,
+  "elapsed_s": 10.7
+}

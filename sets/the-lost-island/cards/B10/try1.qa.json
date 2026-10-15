@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear stone temple portal with required vines, golden door, and sun emblem."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low-angle heroic view with clear ground vegetation and a clean sky with horizon clouds."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered placement with adequate sky margins on top and sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm palette with clear contrast against the saturated blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth, simplified forms without noisy surface micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes with soft satin shading matching the reference style."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5028,
+    "total_input_tokens": 3885,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 626
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 279,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 864
+  },
+  "est_cost_usd": 0.0053715,
+  "elapsed_s": 24.2
+}

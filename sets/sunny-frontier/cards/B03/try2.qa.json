@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The canteen is immediately recognisable with its round body, metal cap, looping strap, and central sunflower patch."
+    },
+    "category": {
+      "pass": true,
+      "why": "The object floats cleanly in three-quarter view without ground or surface, set against radiating sunburst rays as requested for Category 1."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered with a chunky silhouette and generous margins on all four sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and warm palette with high contrast between the red canteen and the sunny yellow ray background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean, simplified forms without busy micro-textures or excessive small elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D volumes with a soft satin sheen that matches the reference style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.78,
+        "orange": 0.22
+      },
+      "why": "background is yellow (78% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4636,
+    "total_input_tokens": 4025,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 766
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 228,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 383
+  },
+  "est_cost_usd": 0.0038455,
+  "elapsed_s": 9.6
+}

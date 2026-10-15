@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately depicts the vintage typewriter with cream keys and the requested heart doodle."
+    },
+    "category": {
+      "pass": true,
+      "why": "Resting on a stylized tabletop against a clean, warm gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Object is centered with balanced negative space on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant mint green contrasts clearly against the saturated orange backdrop."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain chunky and clean without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, semi-gloss 3D aesthetic of the reference cards."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5017,
+    "total_input_tokens": 3867,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 608
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 277,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 873
+  },
+  "est_cost_usd": 0.0053835,
+  "elapsed_s": 19.0
+}

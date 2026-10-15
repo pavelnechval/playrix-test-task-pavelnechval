@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested townhouse with its key architectural features and muddy footprints."
+    },
+    "category": {
+      "pass": true,
+      "why": "Fits Category 4 well with a grounded low-angle perspective and clean environment."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Contains no text, UI elements, or characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "Flanking buildings crowd the lateral borders and disrupt the central silhouette's margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright, and saturated lighting with strong contrast against the blue sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, broad surfaces without noisy micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with the chunky volumes and satin sheen of the reference assets."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down or push back the flanking buildings to establish clear margins on both sides of the central townhouse.",
+  "usage": {
+    "total_tokens": 6145,
+    "total_input_tokens": 4208,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 949
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 301,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1636
+  },
+  "est_cost_usd": 0.007915,
+  "elapsed_s": 22.9
+}

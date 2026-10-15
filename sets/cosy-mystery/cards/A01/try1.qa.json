@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear magnifying glass with lens, rim, wooden handle, and magnified print."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floats in the air at an angle against a single gradient background pattern."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred, solid silhouette with clean margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated purple backdrop with good contrast against the gold and wood."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky forms with no micro-textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth 3D volumes and satin sheen."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "purple": 1.0
+      },
+      "why": "background is purple (100% of the background); planned purple"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4790,
+    "total_input_tokens": 4058,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 799
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 276,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 456
+  },
+  "est_cost_usd": 0.004225,
+  "elapsed_s": 16.3
+}

@@ -1,0 +1,67 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Contains the card, fingerprint, brush, and powder tin as briefed."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows the two-tone surface and wall backdrop requirements."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI, text, watermarks, and characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "Composition is split into loose separate pieces rather than one cohesive central silhouette."
+    },
+    "colour": {
+      "pass": false,
+      "why": "Tones are muted and cool rather than warm, rich, and juicy."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Detail level is controlled with simple primary shapes."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth shading matches the game's clean casual 3D look."
+    },
+    "bg_colour": {
+      "pass": false,
+      "level": "fail",
+      "measured": {
+        "grey/dark": 0.6,
+        "blue": 0.38,
+        "orange": 0.01,
+        "pink": 0.01,
+        "red": 0.0,
+        "purple": 0.0
+      },
+      "why": "background is grey/dark (60% of the background); the plan asks for purple"
+    }
+  },
+  "pass": false,
+  "fix": "Make the background purple: Plain soft violet-purple flat surface and a smooth purple wall gradient behind it, the surface lighter than the wall; no stripes; bright daylight.. Group the tin closely against the card into a single solid silhouette and boost overall color saturation.",
+  "usage": {
+    "total_tokens": 5183,
+    "total_input_tokens": 4085,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 826
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 293,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 805
+  },
+  "est_cost_usd": 0.0053365,
+  "elapsed_s": 17.9
+}

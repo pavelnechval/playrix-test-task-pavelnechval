@@ -1,0 +1,102 @@
+{
+ "C01": {
+  "box": [
+   93,
+   137,
+   897,
+   915
+  ],
+  "file": "sets\\the-lost-island\\cards\\C01\\try3.jpg",
+  "mtime": 1791940170
+ },
+ "C02": {
+  "box": [
+   58,
+   281,
+   900,
+   719
+  ],
+  "file": "sets\\the-lost-island\\cards\\C02\\try4.jpg",
+  "mtime": 1792013903
+ },
+ "C03": {
+  "box": [
+   297,
+   224,
+   789,
+   479
+  ],
+  "file": "sets\\the-lost-island\\cards\\C03\\try1.jpg",
+  "mtime": 1791928774
+ },
+ "C04": {
+  "box": [
+   279,
+   81,
+   804,
+   921
+  ],
+  "file": "sets\\the-lost-island\\cards\\C04\\try1.jpg",
+  "mtime": 1791928775
+ },
+ "C05": {
+  "box": [
+   99,
+   262,
+   901,
+   740
+  ],
+  "file": "sets\\the-lost-island\\cards\\C05\\try1.jpg",
+  "mtime": 1791928819
+ },
+ "C06": {
+  "box": [
+   199,
+   56,
+   842,
+   882
+  ],
+  "file": "sets\\the-lost-island\\cards\\C06\\try2.jpg",
+  "mtime": 1791928860
+ },
+ "C07": {
+  "box": [
+   173,
+   258,
+   793,
+   742
+  ],
+  "file": "sets\\the-lost-island\\cards\\C07\\try1.jpg",
+  "mtime": 1791928831
+ },
+ "C08": {
+  "box": [
+   171,
+   180,
+   870,
+   770
+  ],
+  "file": "sets\\the-lost-island\\cards\\C08\\try2.jpg",
+  "mtime": 1791928894
+ },
+ "C09": {
+  "box": [
+   228,
+   192,
+   799,
+   810
+  ],
+  "file": "sets\\the-lost-island\\cards\\C09\\try1.jpg",
+  "mtime": 1791928881
+ },
+ "C10": {
+  "box": [
+   102,
+   110,
+   879,
+   891
+  ],
+  "file": "sets\\the-lost-island\\cards\\C10\\try3.jpg",
+  "mtime": 1791928991
+ }
+}

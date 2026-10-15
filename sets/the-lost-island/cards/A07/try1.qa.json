@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The explorer's pith helmet is instantly recognizable, sitting on a wooden crate with its red band and feather as requested."
+    },
+    "category": {
+      "pass": true,
+      "why": "The hat rests on a stylized wooden crate surface against a single-color vertical wall with subtle concentric rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "The image is clean with no text, UI, borders, logos, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The main subject is well-centered with comfortable margins around the hat on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright, warm, and saturated, with the khaki hat contrasting clearly against the vivid red background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are stylized and chunky with no noisy micro-textures, scratches, or unnecessary clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style perfectly with smooth, chunky 3D forms, soft lighting, and a clean satin finish without outlines."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 6230,
+    "total_input_tokens": 3863,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 604
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 330,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2037
+  },
+  "est_cost_usd": 0.0090325,
+  "elapsed_s": 23.2
+}

@@ -1,0 +1,159 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 19.1,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChczSG5OYXNQeklxUDVuc0VQcFAzNGtBTRIXM0huTmFzUHpJcVA1bnNFUHBQMzRrQU0",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 6394,
+      "total_input_tokens": 4948,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 4480
+        },
+        {
+          "modality": "text",
+          "tokens": 468
+        }
+      ],
+      "total_cached_tokens": 0,
+      "total_output_tokens": 1253,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 193,
+      "raw_prompt_token": 5482,
+      "model_invocation_token_counts": [
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1002
+            },
+            {
+              "modality": "image",
+              "tokens": 4480
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 123
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 193
+            }
+          ]
+        },
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1342
+            },
+            {
+              "modality": "image",
+              "tokens": 4929
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 22
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 91
+            }
+          ]
+        }
+      ],
+      "non_grounding_model_invocation_token_counts": [
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1002
+            },
+            {
+              "modality": "image",
+              "tokens": 4480
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 123
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 193
+            }
+          ]
+        },
+        {
+          "prompt_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 1342
+            },
+            {
+              "modality": "image",
+              "tokens": 4929
+            }
+          ],
+          "candidates_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 22
+            }
+          ],
+          "thoughts_tokens_details": [
+            {
+              "modality": "text",
+              "tokens": 91
+            }
+          ]
+        }
+      ]
+    },
+    "created": "2026-10-13T00:23:06Z",
+    "updated": "2026-10-13T00:23:06Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<2216668 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<516312 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-3-pro-image"
+  },
+  "est_output_cost_usd": 0.134,
+  "received_at": "2026-10-13T00:23:04+00:00"
+}
