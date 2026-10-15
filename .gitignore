@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.pyc
+.pytest_cache/
 
 # Secrets: API keys live only in environment variables, never in files
 .env
