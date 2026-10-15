@@ -1578,7 +1578,7 @@ Asked whether, to split the process area into frames, the old copies may be dele
   - Codex reaches the same skill through `AGENTS.md`; this was checked in W025;
   - the full reviewer tests ran in Claude Code;
   - with either agent Gemini draws and checks the images, and choosing Codex doesn't switch on the ChatGPT route.
-- `prepare.py` still ends with "Open Claude Code in this folder". Left as it is because Pavel asked for the README only.
+- Pavel's follow-up (verbatim): "change prepare.py message too". The docstring and the final "Ready" message of `prepare.py` now say "Claude Code or Codex" too.
 
 ---
 

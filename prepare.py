@@ -1,4 +1,4 @@
-"""Prepare this folder for the card-set tool in one command, then open Claude Code here.
+"""Prepare this folder for the card-set tool in one command, then open Claude Code or Codex here.
 
     python prepare.py            (macOS and Linux: python3 prepare.py)
 
@@ -124,7 +124,7 @@ def main() -> int:
     else:
         print("      Codex CLI not found: fine, the main route is Gemini")
 
-    print("\nReady. Open Claude Code in this folder and describe the set, for example (README.md has it in Russian):")
+    print("\nReady. Open Claude Code or Codex in this folder and describe the set, for example (README.md has it in Russian):")
     print(f"  {EXAMPLE}")
     print("For a quicker look without planning, ask it to rerun an existing plan, for example Cosy Mystery, one variant.")
     return 0
