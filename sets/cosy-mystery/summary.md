@@ -1,8 +1,8 @@
 # Cosy Mystery: run summary
 
-Images generated: 57; QA reviews: 57; passed on the first try: 19 of 30; estimated cost $3.5 (QA rates unverified).
+Images generated: 57; QA reviews: 57; passed on the first try: 19 of 30.
 
-All paid calls so far (costs.jsonl): $0.229 (vision $0.017, outpaint $0.212). Text-model rates unverified.
+Estimated cost: $3.50 for generation and QA (from the attempt files) + $0.229 for vision $0.017, outpaint $0.212 (costs.jsonl) = $3.73. costs.jsonl started in W023: background extension and vision calls made before it are not included. Text-model rates unverified.
 
 Status: {'passed': 25, 'accepted_with_issues': 5, 'unchecked': 0, 'failed': 0, 'not_started': 0}
 

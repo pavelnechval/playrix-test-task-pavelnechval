@@ -1151,6 +1151,37 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
 
 ---
 
+## 2026-10-15 / W025 / A second outside review: two failure paths, the cost line, the Codex entry point
+
+### Pavel's prompt (verbatim; the pasted review is stored in full in `docs/review_other_model_W025.md`, which is kept out of the repository with the earlier readiness review)
+
+> Review from other model:
+>
+> "[pasted review: three findings (an unreadable QA answer still becomes "passed"; a balance failure during QA can replace the previous final image; Cosy Mystery's cost summary presents a partial log as the total), the Codex entry-point inconsistency, and a recommendation to finish the shovel, run the second clean-repository test, then build the Miro presentation]"
+>
+> Should we add ability to use CHATGPT API for reviewer?
+
+### Actions and results
+
+1. **An unreadable QA answer is now "no verdict", never a pass.**
+   - `review()` gives `pass: None` when the answer can't be parsed, isn't a JSON object, or its `pass` isn't a true/false value.
+   - New `judge()` asks the judge once more when there is no verdict, then applies the pixel colour check.
+   - Checked offline with a fake judge answering in prose. The attempt was recorded "QA answer has no true/false verdict" and the review was asked twice; the colour check then decided the card.
+2. **A balance failure during QA keeps the earlier final.** If the balance runs out before any new attempt passes, `produce_card` leaves `final/<id>.png` and `chosen.json` as they were. The new attempt waits in `cards/<id>/`.
+   - On the next run, an attempt with an image but no verdict is reviewed before anything new is drawn, so the image isn't paid for twice.
+   - `run` also picks up cards whose chosen status is `unchecked`.
+   - **Checked offline:**
+     - `regen` with the QA call failing on billing: checksum and choice unchanged, exit with the message.
+     - The same `regen` after the "top-up": the waiting attempt was reviewed and became final, with no new request.
+     - A new card interrupted the same way got no final image. An attempt that already has a verdict from the colour check is not re-reviewed, which is correct.
+3. **One cost line in `summary.md`:** generation and QA from the attempt files, plus the other kinds from `costs.jsonl` (outpaint, vision), with nothing counted twice.
+   - It says that `costs.jsonl` began in W023, so earlier extension and vision calls are missing.
+   - Cosy Mystery now reads $3.50 + $0.229 = $3.73. Its `after_test.md` gives the whole cost: about $4.6 for the agent's run plus $0.23 to finish it.
+4. **Codex entry point.** New `AGENTS.md` (read by Codex) points to the same skill. The README and `pipeline/README.md` name Claude Code as the entry point, with Codex through `AGENTS.md`.
+5. **Pavel's question, an OpenAI (ChatGPT) API route for reviewers:** answered with a recommendation, see the reply. Not built.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.

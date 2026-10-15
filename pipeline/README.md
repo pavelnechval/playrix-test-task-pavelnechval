@@ -7,7 +7,7 @@ Give it a set theme and free-form wishes. It returns 3–5 alternative 10-card s
 1. **One-time setup:**
    - Install Python 3 and Pillow (`pip install pillow`); tested with Python 3.14 and Pillow 12.3.
    - Create the user environment variable `GEMINI_API_KEY`. On Windows: Start → "Edit environment variables for your account" → New.
-2. **The easy way:** open this folder in Claude Code (or Codex) and say, for example:
+2. **The easy way:** open this folder in Claude Code and say, for example (Codex works too: `AGENTS.md` points it to the same skill):
    > Make a card set for the Cinema collection: "Love in the City", romantic comedy. Wishes: cosy, lots of hearts, no food. 3 variants.
 
    The `card-set` skill (`.claude/skills/card-set/SKILL.md`) does everything: it plans the set by the rulebook, then validates, generates, checks, retries and shows the sheets.

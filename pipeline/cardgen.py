@@ -250,13 +250,48 @@ def review(card: dict, image: bytes, mime: str, template: dict, qa_template: dic
     raw = result["text"]
     try:
         verdict = json.loads(raw[raw.index("{"): raw.rindex("}") + 1])
-    except ValueError:
-        verdict = {"pass": True, "qa_error": "unparseable QA answer", "raw": raw[:2000]}
+    except ValueError:  # W025: this used to count as a pass
+        verdict = {"pass": None, "qa_error": "unparseable QA answer", "raw": raw[:2000]}
+    if not isinstance(verdict, dict):
+        verdict = {"pass": None, "qa_error": "QA answer is not a JSON object", "raw": raw[:2000]}
+    elif not isinstance(verdict.get("pass"), bool):
+        verdict.update({"pass": None, "qa_error": "QA answer has no true/false verdict"})
     usage = result["response"].get("usage", {})
     verdict["usage"] = usage
     verdict["est_cost_usd"] = costs.text_cost(usage)
     verdict["elapsed_s"] = result["elapsed_s"]
     return verdict
+
+
+def judge(card: dict, image: bytes, mime: str, out: Path, template: dict, qa_template: dict, refs: Refs) -> dict:
+    """The QA verdict on one image: the vision judge, asked once more if its answer has no verdict, then the pixel
+    colour check. "pass" is True, False or None (no verdict: the call failed or the answer was unreadable)."""
+    verdict: dict = {"pass": None}
+    for _ in range(2):
+        try:
+            verdict = review(card, image, mime, template, qa_template, refs)
+            costs.log(out, "qa", card["id"], verdict["est_cost_usd"])
+        except gemini_image.GeminiError as err:  # unreviewed is "unchecked", never "passed" (W023)
+            verdict = {"pass": None, "qa_error": str(err)[:300]}
+            if isinstance(err, gemini_image.BillingError):
+                STOP.set()
+            break
+        if verdict.get("pass") is not None:
+            break
+    colour = colour_check.check(to_card(Image.open(io.BytesIO(image)).convert("RGB"), 480), card)
+    if colour:  # the pixel check overrules the vision judge on the background colour
+        verdict.setdefault("checks", {})["bg_colour"] = colour
+        if not colour["pass"]:
+            verdict["pass"] = False
+            verdict["fix"] = f"Make the background {card['bg_color']}: {card['background']}. {verdict.get('fix', '')}".strip()
+    return verdict
+
+
+def record_verdict(attempt: dict, verdict: dict, stem: Path) -> None:
+    Path(f"{stem}.qa.json").write_text(json.dumps(verdict, indent=2), encoding="utf-8")
+    attempt.update(qa_pass=qa_pass(verdict), qa_cost=verdict.get("est_cost_usd", 0),
+                   failed=[k for k, v in verdict.get("checks", {}).items() if isinstance(v, dict) and not v.get("pass")],
+                   fix=verdict.get("fix", ""), checks_passed=passed_checks(verdict))
 
 
 def passed_checks(verdict: dict) -> int:
@@ -270,7 +305,25 @@ def produce_card(card: dict, out: Path, template: dict, qa_template: dict, refs:
     attempts, fix, reviewer_fix = [], first_fix, ""
     existing = sorted(card_dir.glob("try*.request.json"))
     start = len(existing) + 1
-    for n in range(start, start + retries + 1):
+    rounds = retries + 1
+    # W025: an earlier attempt with an image but no verdict (its QA call failed or was cut off) is reviewed before
+    # anything new is drawn, so an interrupted run resumes without paying for the image again
+    waiting = next((a for a in reversed(collect_card(card, out)["attempts"]) if a.get("file") and a.get("qa_pass") is None),
+                   None) if use_qa else None
+    if waiting and not STOP.is_set():
+        image = (card_dir / waiting["file"]).read_bytes()
+        verdict = judge(card, image, "image/jpeg" if waiting["file"].endswith(".jpg") else "image/png", out, template,
+                        qa_template, refs)
+        attempt = {k: waiting[k] for k in ("try", "file", "gen_cost", "gen_s") if k in waiting}
+        record_verdict(attempt, verdict, card_dir / f"try{waiting['try']}")
+        attempts.append(attempt)
+        if attempt["qa_pass"] is not False:  # passed, or still no verdict: draw nothing new
+            rounds = 0
+        else:
+            reviewer_fix = attempt["fix"]
+            fix = " ".join(p for p in (first_fix, reviewer_fix) if p)
+            rounds = retries  # the reviewed attempt counts as one of the attempts
+    for n in range(start, start + rounds):
         if STOP.is_set():
             break
         parts, texts = generation_parts(card, template, refs, fix)
@@ -296,23 +349,7 @@ def produce_card(card: dict, out: Path, template: dict, qa_template: dict, refs:
         Path(f"{stem}.response.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
         attempt = {"try": n, "file": f"try{n}{ext}", "gen_cost": result["est_cost_usd"], "gen_s": result["elapsed_s"]}
         if use_qa:
-            try:
-                verdict = review(card, image, result["mime_type"], template, qa_template, refs)
-                costs.log(out, "qa", card["id"], verdict["est_cost_usd"])
-            except gemini_image.GeminiError as err:  # unreviewed is "unchecked", never "passed" (W023)
-                verdict = {"pass": None, "qa_error": str(err)[:300]}
-                if isinstance(err, gemini_image.BillingError):
-                    STOP.set()
-            colour = colour_check.check(to_card(Image.open(io.BytesIO(image)).convert("RGB"), 480), card)
-            if colour:  # the pixel check overrules the vision judge on the background colour
-                verdict.setdefault("checks", {})["bg_colour"] = colour
-                if not colour["pass"]:
-                    verdict["pass"] = False
-                    verdict["fix"] = f"Make the background {card['bg_color']}: {card['background']}. {verdict.get('fix', '')}".strip()
-            Path(f"{stem}.qa.json").write_text(json.dumps(verdict, indent=2), encoding="utf-8")
-            attempt.update(qa_pass=qa_pass(verdict), qa_cost=verdict.get("est_cost_usd", 0),
-                           failed=[k for k, v in verdict.get("checks", {}).items() if isinstance(v, dict) and not v.get("pass")],
-                           fix=verdict.get("fix", ""), checks_passed=passed_checks(verdict))
+            record_verdict(attempt, judge(card, image, result["mime_type"], out, template, qa_template, refs), stem)
         else:
             attempt.update(qa_pass=None, checks_passed=None)
         attempts.append(attempt)
@@ -323,6 +360,12 @@ def produce_card(card: dict, out: Path, template: dict, qa_template: dict, refs:
     errors = [a["error"] for a in attempts if "error" in a]
     note = f"; {len(errors)} call(s) failed, the last: {errors[-1][:90]}" if errors else ""
     good = [a for a in attempts if "file" in a]
+    if STOP.is_set() and not any(a.get("qa_pass") for a in good):
+        # W025: the balance ran out before a verdict; the earlier final image and choice stay, and the new attempt
+        # waits in cards/<id>/ to be reviewed on the next run
+        with LOCK:
+            print(f"{card['id']} {card['name']}: stopped, final image unchanged{note}", flush=True)
+        return {"id": card["id"], "status": "interrupted", "attempts": attempts}
     if not good:
         with LOCK:
             print(f"{card['id']} {card['name']}: no image{note}", flush=True)
@@ -365,7 +408,12 @@ def run(plan_path: Path, args: argparse.Namespace) -> None:
         raise SystemExit("Plan invalid:\n  " + "\n  ".join(errors))
     out = plan_path.parent
     template, qa_template, refs = load_sections(PROMPT_FILE), load_sections(QA_FILE), Refs()
-    todo = [c for c in selected_cards(plan, args.variants, args.cards) if not (out / "final" / f"{c['id']}.png").exists()]
+    def needs_work(card: dict) -> bool:
+        if not (out / "final" / f"{card['id']}.png").exists():
+            return True
+        chosen = out / "cards" / card["id"] / "chosen.json"  # W025: a card left without a verdict gets reviewed
+        return not args.no_qa and chosen.exists() and json.loads(chosen.read_text(encoding="utf-8")).get("status") == "unchecked"
+    todo = [c for c in selected_cards(plan, args.variants, args.cards) if needs_work(c)]
     print(f"{len(todo)} card(s) to make with {GEN_MODEL}; QA {'on (' + QA_MODEL + ')' if not args.no_qa else 'off'}; "
           f"up to {1 + args.retries} attempt(s) each; ~${0.055 * len(todo):.2f} per attempt round")
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:
@@ -481,9 +529,8 @@ def write_summary(plan: dict, out: Path) -> None:
     (out / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     lines = [f"# {plan['set']}: run summary", "",
              f"Images generated: {summary['images_generated']}; QA reviews: {summary['qa_reviews']}; "
-             f"passed on the first try: {summary['first_try_pass']} of {len(cards)}; "
-             f"estimated cost ${summary['est_cost_usd']} (QA rates unverified).", "",
-             spend_line(out), "",
+             f"passed on the first try: {summary['first_try_pass']} of {len(cards)}.", "",
+             cost_line(out, summary["est_cost_usd"]), "",
              f"Status: {summary['status_counts']}", "",
              "| card | name | status | attempts | QA fails on the chosen attempt | open reviewer's fix |", "|---|---|---|---|---|---|"]
     for c in cards:
@@ -495,12 +542,16 @@ def write_summary(plan: dict, out: Path) -> None:
     (out / "summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def spend_line(out: Path) -> str:
-    spent = costs.totals(out)
-    if not spent:
-        return "Spend log (costs.jsonl): empty; runs before W023 were not logged there."
-    parts = ", ".join(f"{k} ${v:.3f}" for k, v in spent.items() if k != "total")
-    return f"All paid calls so far (costs.jsonl): ${spent['total']} ({parts}). Text-model rates unverified."
+def cost_line(out: Path, gen_qa: float) -> str:
+    """Generation and QA come from the attempt files; everything else from costs.jsonl, so nothing is counted twice."""
+    other = {k: v for k, v in costs.totals(out).items() if k not in ("generate", "qa", "total")}
+    text = f"Estimated cost: ${gen_qa:.2f} for generation and QA (from the attempt files)"
+    if other:
+        extra = sum(other.values())
+        parts = ", ".join(f"{k} ${v:.3f}" for k, v in other.items())
+        text += f" + ${extra:.3f} for {parts} (costs.jsonl) = ${gen_qa + extra:.2f}"
+    return (text + ". costs.jsonl started in W023: background extension and vision calls made before it are not "
+            "included. Text-model rates unverified.")
 
 
 # ---------------------------------------------------------------- sheets
