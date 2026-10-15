@@ -1582,6 +1582,41 @@ Asked whether, to split the process area into frames, the old copies may be dele
 
 ---
 
+## 2026-10-15 / W035 / Independent review pass; the Gemini baseline beside the finals; README note on the finals' planning
+
+### Pavel's prompts (verbatim)
+
+> Check task: https://miro.com/app/board/uXjVEdsb-i4=/ and rate execution in Miro and Repo D:	est_task\playrix-test-task-pavelnechval as independent reviewer for Playrix. How would you rate it? Do not write anything, just suggest.
+>
+> Let's go
+
+Then, on the proposed follow-up card:
+
+> Do this task here: "Pre-submission accuracy fixes: board and repo"
+
+### The review (read-only; a Claude session with no part in the build)
+
+- Read: the brief (from the board), README, HISTORY, DECISIONS, PIPELINE, the skill, rulebook and set guidelines, both reviewer tests' notes, the three outside reviews, the final sheet and single final cards, the Gemini-route windows (Sunny Frontier, Cosy Mystery, Friendly Galaxy), the Road Trip reference window, and the whole results frame and "Анализ" frame of the board. Ran `cardgen.py validate` on all seven plans: every one prints `Plan OK`. Compiled every script; no secrets in the tree; the delivered clone matches `origin/main` (9bb20b2).
+- Verdict given to Pavel: about 8.5 of 10. Scores out of 5: analysis 5, final art 4, comparison with references 4, architecture 4, autonomy for a designer 3.5, research and transparency 5, presentation 4.
+- Gaps named, in order: the gallery is the ChatGPT route while the tool's automated route is Gemini, and the baseline was not shown beside the finals; 10 of the 12 category 1 finals use a ray backdrop where the references rotate rays, rings, waves and motifs; the four finals were planned before the set guidelines (lead colour blue in all four), said on the board but not in the README; no automated tests; a paid key is needed even for the demo; the W032 entry still read "pending".
+- Not done from the list (Pavel's call, after submission): the category 1 backdrop variety rule and validator warning; tests for the validator, QA parsing and the empty-balance path; a zero-cost dry run.
+
+### Actions and results
+
+1. **The Gemini baseline now sits beside the finals on the board.** Source: `sets/ratings/chosen_windows_reframed.jpg` (W019: the four chosen variants by the Gemini route, after redo round 1 and the three measured remakes, reframed). The 2×2 sheet was re-stacked into one vertical strip of four windows (cut at the midpoints, 1110×3024 px, 845 KB; scratchpad script `make_strip.py`; not committed, since it is a re-layout of a committed file).
+   - Image id 3458764687324077971, inside the results frame at centre (6563, 2710) frame-relative, width 1050 (about 2860 tall, so y 1280–4140), in the free right margin of the "Итог" panel (the panel is 120–7204 × 590–4210; the finals end at x 5922).
+   - Caption shape id 3458764687323877537 at (5962, 870), 1226×390, 38 px: «Те же четыре варианта автоматическим маршрутом Gemini. Те же планы; после прогона переделаны 6 карточек по оценкам Павла и 3 по замерам, кадр по нормам референсов (W016–W019). Окна слева нарисованы ChatGPT, Павел выбрал их вслепую (W021). В The Lost Island здесь ещё Shovel: Explorer Hat появилась позже (W024).»
+   - Nothing was moved or deleted. The template header «Описание хода работы» (y 4227–4686) stays uncovered, and the frame height is unchanged.
+2. **W032 left open on purpose.** At 12:27 the test-3 clone `D:\JOB2026HUNT\PLAYRIX_TEST3` was still writing `sets/pirates-ahoy/` (plan.json, cards, run1.log, costs.jsonl; no summary or notes yet), so the run is in progress and its own session closes the entry.
+3. **README, «Почему так»:** a new bullet says the four finals were planned in plan schema 1 (W012), before the set guidelines (W017–W018), so blue leads in all four (three daytime sky scenes each) and the set's character comes from the window colour, star order and object choice; sets planned under the guidelines differ in lead colour (D-023, D-024).
+4. **Both copies updated** (`D:\JOB2026HUNT\PLAYRIX_PRODUCER` and the delivered clone); committed locally in the clone, not pushed.
+
+### Explain it simply
+
+A reviewer who looks at the top of the board now sees two things side by side: the finals drawn by ChatGPT and chosen by Pavel, and what the automatic Gemini route made from the same plans. The README says plainly why all four finals lead with blue. The pirate test is still running, so its log entry stays open until it finishes.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
