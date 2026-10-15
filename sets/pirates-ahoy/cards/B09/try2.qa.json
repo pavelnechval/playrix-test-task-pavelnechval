@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The ship's bow is clearly recognizable with the requested red hull, cream sails, and smiling golden dolphin figurehead."
+    },
+    "category": {
+      "pass": true,
+      "why": "The bow rests firmly in a clear band of stylized water and foam with a simple sky backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The ship is centered with a solid silhouette and adequate breathing room from the outer edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The palette is bright and saturated, offering clear contrast against the planned blue sea and sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and chunky without distracting micro-textures or busy clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "The smooth, 3D satin-shaded style matches the reference cards accurately."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4985,
+    "total_input_tokens": 4164,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 905
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 224,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 597
+  },
+  "est_cost_usd": 0.004545,
+  "elapsed_s": 14.8
+}

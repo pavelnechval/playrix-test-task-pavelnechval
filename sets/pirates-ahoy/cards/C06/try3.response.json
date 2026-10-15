@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 22.0,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chd4NnJRYXYzNEtMM3FrZFVQdU9LZzJBRRIXeDZyUWF2MzRLTDNxa2RVUHVPS2cyQUU",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17464,
+      "total_input_tokens": 15104,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1664
+        }
+      ],
+      "total_cached_tokens": 7504,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 826
+        },
+        {
+          "modality": "image",
+          "tokens": 6678
+        }
+      ],
+      "total_output_tokens": 1572,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 788
+    },
+    "created": "2026-10-15T10:28:41Z",
+    "updated": "2026-10-15T10:28:41Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<665164 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the illustration for your Pirate Dock card. I designed it to match the casual, friendly 3D aesthetic of your existing cards, focusing on chunky, simplified shapes, vibrant colors, and natural environment details, with the black pirate flag clearly featured at the end of the harbor dock.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2354228 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<693080 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056256
+}

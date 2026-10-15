@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Features the cove, natural arch, and jetty as requested."
+    },
+    "category": {
+      "pass": true,
+      "why": "Stands on a solid ground band within an appropriate environment."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The cliffs crop significantly into the top, left, and right borders without clear margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright sunrise tones with good overall saturation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are chunky and uncluttered by micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, rounded forms and soft satin sheen match the references."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down and center the rock formation to leave clear margins along the top and side edges.",
+  "usage": {
+    "total_tokens": 5484,
+    "total_input_tokens": 4185,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 926
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 289,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1010
+  },
+  "est_cost_usd": 0.0059895,
+  "elapsed_s": 20.4
+}

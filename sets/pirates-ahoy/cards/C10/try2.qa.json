@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The ship matches the brief closely, including the red hull, masts, sails, slipway splash, and dolphin figurehead."
+    },
+    "category": {
+      "pass": true,
+      "why": "Low camera angle with a clear base of water and slipway anchored across the bottom."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI elements, text, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The ship is well-centered with ample breathing room on all sides except the grounded base."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated palette with strong contrast between the red hull and blue environment."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes and chunky splash geometry without noisy micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent 3D cartoon finish with soft lighting and smooth satin surfaces matching the references."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5082,
+    "total_input_tokens": 4188,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 929
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 301,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 593
+  },
+  "est_cost_usd": 0.004776,
+  "elapsed_s": 17.7
+}

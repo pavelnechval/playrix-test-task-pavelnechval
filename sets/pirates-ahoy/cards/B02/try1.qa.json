@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear depiction of a grilled fish on a stick with lemon and herbs."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 2 with a plain floor surface and gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, and external graphic elements."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Central placement with balanced borders and clear margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant pink backdrop with good contrast against the golden fish."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes with no unnecessary micro-textures or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes and smooth satin shading match references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 0.79,
+        "grey/dark": 0.21
+      },
+      "why": "background is pink (79% of the background); planned pink"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4767,
+    "total_input_tokens": 4065,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 806
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 269,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 433
+  },
+  "est_cost_usd": 0.0041385,
+  "elapsed_s": 12.1
+}

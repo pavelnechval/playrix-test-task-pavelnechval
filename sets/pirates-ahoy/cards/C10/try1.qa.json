@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The pirate ship is instantly recognizable with its red hull, round portholes, billowing sails, pirate flag, and golden dolphin figurehead."
+    },
+    "category": {
+      "pass": true,
+      "why": "The ship sits firmly in its environment across a clear ground band of wooden slipway and harbour water under an open sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermark, or characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The top of the main mast and the pirate flag are crowding and cut off by the top edge, leaving no margin above the ship."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, saturated, and juicy palette with clean separation between the warm red and gold ship, the blue water, and the sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simple, readable volumes with no busy micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth, chunky 3D forms with a satin finish that perfectly matches the reference cards."
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the ship slightly or lower the camera so the top mast and pirate flag have a comfortable margin from the top edge.",
+  "usage": {
+    "total_tokens": 5253,
+    "total_input_tokens": 4188,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 929
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 278,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 787
+  },
+  "est_cost_usd": 0.005289,
+  "elapsed_s": 17.0
+}

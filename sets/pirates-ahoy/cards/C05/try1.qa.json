@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately depicts the requested ship in a bottle on a wooden stand."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows Category 3 with a tabletop surface and plain gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The bottle is oversized horizontally and crowds the side edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright palette matches the brief and separates clearly."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes remain simple and chunky without excessive micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth volumes and satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 1.0,
+        "orange": 0.0
+      },
+      "why": "background is yellow (100% of the background); planned yellow"
+    }
+  },
+  "pass": false,
+  "fix": "Scale down the object slightly to provide wider margins on the left and right sides.",
+  "usage": {
+    "total_tokens": 6572,
+    "total_input_tokens": 4106,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 847
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 286,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 2180
+  },
+  "est_cost_usd": 0.009451,
+  "elapsed_s": 28.9
+}

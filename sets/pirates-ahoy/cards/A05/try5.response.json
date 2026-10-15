@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 28.5,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdpNnpRYXNxZ0xMdTl4TjhQM05hV3VBZxIXaTZ6UWFzcWdMTHU5eE44UDNOYVd1QWc",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 18159,
+      "total_input_tokens": 15046,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1606
+        }
+      ],
+      "total_cached_tokens": 9337,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 996
+        },
+        {
+          "modality": "image",
+          "tokens": 8341
+        }
+      ],
+      "total_output_tokens": 2028,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1085
+    },
+    "created": "2026-10-15T10:36:18Z",
+    "updated": "2026-10-15T10:36:18Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1241836 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the illustration of a Straw Hat for the game, featuring the wide-brimmed golden-yellow sun hat with its signature red band, resting on a flat light-blue surface against a saturated blue gradient background, fully matching the 3D-asset art style of your casual card collection.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2304936 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<655884 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056169
+}

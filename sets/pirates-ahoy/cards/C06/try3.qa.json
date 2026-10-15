@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The dock, posts, rope coil, and pirate flag match the brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "The structure rests naturally in a wide plane of water under an open sky."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI, text, watermarks, and characters."
+    },
+    "framing": {
+      "pass": false,
+      "why": "The dock cuts off abruptly at the right edge rather than keeping clear side margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant, warm wood tones that contrast well with the bright blue water and sky."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, chunky shapes without clutter or micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references in its smooth 3D forms and satin finish."
+    }
+  },
+  "pass": false,
+  "fix": "Pull the camera back to keep the entire dock contained within the frame with comfortable margins on the right.",
+  "usage": {
+    "total_tokens": 5180,
+    "total_input_tokens": 4168,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 909
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 225,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 787
+  },
+  "est_cost_usd": 0.00512,
+  "elapsed_s": 18.0
+}

@@ -1,0 +1,65 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately portrays a concertina with red bellows and striped end boxes."
+    },
+    "category": {
+      "pass": true,
+      "why": "Rests on a wooden surface with a clean vertical gradient background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Contains no text, watermarks, UI elements, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Nicely centered with clear margins and no cutoff."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright, warm, saturated tones with clear background separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, simplified forms without noisy micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references, showing smooth volumes and satin lighting."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.99,
+        "orange": 0.01,
+        "grey/dark": 0.0,
+        "pink": 0.0
+      },
+      "why": "background is yellow (99% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5034,
+    "total_input_tokens": 4100,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 841
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 269,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 665
+  },
+  "est_cost_usd": 0.004852,
+  "elapsed_s": 19.4
+}

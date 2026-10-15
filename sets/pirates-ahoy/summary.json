@@ -1,0 +1,764 @@
+{
+  "set": "Pirates Ahoy!",
+  "updated": "2026-10-15T10:38:41+00:00",
+  "images_generated": 43,
+  "qa_reviews": 43,
+  "first_try_pass": 23,
+  "est_cost_usd": 2.62,
+  "status_counts": {
+    "passed": 28,
+    "accepted_with_issues": 2,
+    "unchecked": 0,
+    "failed": 0,
+    "not_started": 0
+  },
+  "cards": {
+    "A01": {
+      "id": "A01",
+      "name": "Spyglass",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056083499999999994,
+          "gen_s": 26.6,
+          "qa_pass": true,
+          "qa_cost": 0.0041865,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A02": {
+      "id": "A02",
+      "name": "Tangerine Crate",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056083499999999994,
+          "gen_s": 24.5,
+          "qa_pass": true,
+          "qa_cost": 0.004041,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A03": {
+      "id": "A03",
+      "name": "Compass",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560535,
+          "gen_s": 22.3,
+          "qa_pass": false,
+          "qa_cost": 0.003602,
+          "fix": "Remove the letters N, E, S, and W from the compass face to keep it clean of text.",
+          "failed": [
+            "clean"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561045,
+          "gen_s": 24.6,
+          "qa_pass": true,
+          "qa_cost": 0.005306,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A04": {
+      "id": "A04",
+      "name": "Captain's Log",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561165,
+          "gen_s": 27.9,
+          "qa_pass": true,
+          "qa_cost": 0.0045605,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A05": {
+      "id": "A05",
+      "name": "Straw Hat",
+      "status": "passed",
+      "chosen": "try5.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056064,
+          "gen_s": 20.3,
+          "qa_pass": false,
+          "qa_cost": 0.004915,
+          "fix": "Scale down the hat to increase margins on the sides and remove the micro-texture from the red band for a smooth finish.",
+          "failed": [
+            "framing",
+            "detail"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561195,
+          "gen_s": 27.8,
+          "qa_pass": false,
+          "qa_cost": 0.005104,
+          "fix": "Scale the hat down slightly, simplify the weave into broader smooth bands, and soften the plastic look.",
+          "failed": [
+            "framing",
+            "detail",
+            "style"
+          ],
+          "checks_passed": 5
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056111999999999995,
+          "gen_s": 19.0,
+          "qa_pass": false,
+          "qa_cost": 0.004825,
+          "fix": "Simplify the weave texture into longer, continuous smooth bands instead of numerous small segmented blocks.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 4,
+          "file": "try4.jpg",
+          "gen_cost": 0.05613749999999999,
+          "gen_s": 16.7,
+          "qa_pass": false,
+          "qa_cost": 0.00568,
+          "fix": "Rework the hat construction into flatter, overlapping woven bands instead of rounded, coiled clay-like tubes.",
+          "failed": [
+            "style"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 5,
+          "file": "try5.jpg",
+          "gen_cost": 0.056169,
+          "gen_s": 28.5,
+          "qa_pass": true,
+          "qa_cost": 0.004924,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A06": {
+      "id": "A06",
+      "name": "Rowboat",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056236499999999995,
+          "gen_s": 23.3,
+          "qa_pass": true,
+          "qa_cost": 0.0044595,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A07": {
+      "id": "A07",
+      "name": "Ship's Wheel",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561195,
+          "gen_s": 38.6,
+          "qa_pass": true,
+          "qa_cost": 0.003829,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A08": {
+      "id": "A08",
+      "name": "Jolly Roger",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056061,
+          "gen_s": 18.4,
+          "qa_pass": true,
+          "qa_cost": 0.0042195,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A09": {
+      "id": "A09",
+      "name": "Pirate Cove",
+      "status": "accepted_with_issues",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056236499999999995,
+          "gen_s": 15.9,
+          "qa_pass": false,
+          "qa_cost": 0.0059895,
+          "fix": "Scale down and center the rock formation to leave clear margins along the top and side edges.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0562815,
+          "gen_s": 20.3,
+          "qa_pass": false,
+          "qa_cost": 0.0053715,
+          "fix": "Scale down and re-center the rock structure so it has clear margins on the top and sides rather than touching the canvas edges.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056293499999999996,
+          "gen_s": 23.2,
+          "qa_pass": false,
+          "qa_cost": 0.0067995,
+          "fix": "Lower the camera angle to ground level for a heroic view and zoom out so the rocks do not touch the side edges.",
+          "failed": [
+            "category",
+            "framing"
+          ],
+          "checks_passed": 5
+        }
+      ]
+    },
+    "A10": {
+      "id": "A10",
+      "name": "Full Sail!",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056237999999999996,
+          "gen_s": 21.1,
+          "qa_pass": true,
+          "qa_cost": 0.004455,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B01": {
+      "id": "B01",
+      "name": "Dinner Bell",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056061,
+          "gen_s": 17.6,
+          "qa_pass": true,
+          "qa_cost": 0.003777,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B02": {
+      "id": "B02",
+      "name": "Grilled Fish",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560625,
+          "gen_s": 32.3,
+          "qa_pass": true,
+          "qa_cost": 0.0041385,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B03": {
+      "id": "B03",
+      "name": "Fishing Rod",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056037,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.0042145,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B04": {
+      "id": "B04",
+      "name": "Pirate Cake",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056073,
+          "gen_s": 13.6,
+          "qa_pass": true,
+          "qa_cost": 0.0035475,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B05": {
+      "id": "B05",
+      "name": "Sea Shanty",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056111999999999995,
+          "gen_s": 20.3,
+          "qa_pass": true,
+          "qa_cost": 0.004852,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B06": {
+      "id": "B06",
+      "name": "Mighty Meat",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056069999999999995,
+          "gen_s": 35.4,
+          "qa_pass": true,
+          "qa_cost": 0.0043375,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B07": {
+      "id": "B07",
+      "name": "Tangerine Tree",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056106,
+          "gen_s": 15.6,
+          "qa_pass": true,
+          "qa_cost": 0.00485,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B08": {
+      "id": "B08",
+      "name": "Ship's Galley",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0562395,
+          "gen_s": 21.9,
+          "qa_pass": true,
+          "qa_cost": 0.0039625,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B09": {
+      "id": "B09",
+      "name": "Ship's Bow",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056207999999999994,
+          "gen_s": 14.9,
+          "qa_pass": false,
+          "qa_cost": 0.005331,
+          "fix": "Scale down the ship slightly to leave clear margin space above the sail.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056247,
+          "gen_s": 27.3,
+          "qa_pass": true,
+          "qa_cost": 0.004545,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B10": {
+      "id": "B10",
+      "name": "Deck Feast",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0562395,
+          "gen_s": 18.2,
+          "qa_pass": true,
+          "qa_cost": 0.0058065,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0563535,
+          "gen_s": 16.2,
+          "qa_pass": true,
+          "qa_cost": 0.0069795,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C01": {
+      "id": "C01",
+      "name": "Tricorn Hat",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056079,
+          "gen_s": 15.8,
+          "qa_pass": true,
+          "qa_cost": 0.004165,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "Sea Chart",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560745,
+          "gen_s": 15.0,
+          "qa_pass": true,
+          "qa_cost": 0.0038605,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "Anchor",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056049,
+          "gen_s": 19.1,
+          "qa_pass": true,
+          "qa_cost": 0.0037335,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "Buckle Boots",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560595,
+          "gen_s": 17.5,
+          "qa_pass": true,
+          "qa_cost": 0.0041875,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C05": {
+      "id": "C05",
+      "name": "Bottle Ship",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561225,
+          "gen_s": 13.2,
+          "qa_pass": false,
+          "qa_cost": 0.009451,
+          "fix": "Scale down the object slightly to provide wider margins on the left and right sides.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561645,
+          "gen_s": 18.9,
+          "qa_pass": true,
+          "qa_cost": 0.004258,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C06": {
+      "id": "C06",
+      "name": "Pirate Dock",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0562125,
+          "gen_s": 14.9,
+          "qa_pass": false,
+          "qa_cost": 0.006692,
+          "fix": "Center the dock from a lower camera angle and render with smooth 3D volumes and satin sheen.",
+          "failed": [
+            "category",
+            "framing",
+            "style"
+          ],
+          "checks_passed": 4
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0562605,
+          "gen_s": 26.2,
+          "qa_pass": false,
+          "qa_cost": 0.006299,
+          "fix": "Zoom out slightly to keep the entire dock contained within the frame with clear side margins.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056256,
+          "gen_s": 22.0,
+          "qa_pass": false,
+          "qa_cost": 0.00512,
+          "fix": "Pull the camera back to keep the entire dock contained within the frame with comfortable margins on the right.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        }
+      ]
+    },
+    "C07": {
+      "id": "C07",
+      "name": "Figurehead",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056092499999999997,
+          "gen_s": 23.8,
+          "qa_pass": true,
+          "qa_cost": 0.0045745,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C08": {
+      "id": "C08",
+      "name": "Fruit Stall",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056221499999999994,
+          "gen_s": 14.1,
+          "qa_pass": true,
+          "qa_cost": 0.0042205,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C09": {
+      "id": "C09",
+      "name": "Harbour Inn",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056221499999999994,
+          "gen_s": 20.8,
+          "qa_pass": true,
+          "qa_cost": 0.0046305,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C10": {
+      "id": "C10",
+      "name": "Launch Day",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056247,
+          "gen_s": 33.9,
+          "qa_pass": false,
+          "qa_cost": 0.005289,
+          "fix": "Scale down the ship slightly or lower the camera so the top mast and pirate flag have a comfortable margin from the top edge.",
+          "failed": [
+            "framing"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0563025,
+          "gen_s": 16.8,
+          "qa_pass": true,
+          "qa_cost": 0.004776,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    }
+  }
+}

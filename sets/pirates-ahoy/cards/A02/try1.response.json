@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 24.5,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdWS25RYXN1OE10S2drZFVQdGVDUjJRdxIXVktuUWFzdThNdEtna2RVUHRlQ1IyUXc",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17640,
+      "total_input_tokens": 14989,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1549
+        }
+      ],
+      "total_cached_tokens": 3713,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 383
+        },
+        {
+          "modality": "image",
+          "tokens": 3330
+        }
+      ],
+      "total_output_tokens": 1527,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1124
+    },
+    "created": "2026-10-15T10:22:30Z",
+    "updated": "2026-10-15T10:22:30Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<564092 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the illustration for the Tangerine Crate card, designed to perfectly match the art style of the casual mobile game based on the provided reference cards.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<990416 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<606984 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056083499999999994
+}

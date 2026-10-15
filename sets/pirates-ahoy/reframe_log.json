@@ -1,0 +1,387 @@
+{
+ "A01": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   19,
+   0,
+   54
+  ],
+  "room_above": 0.184,
+  "seam": 3.09,
+  "zoom": 0.933
+ },
+ "A02": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   19
+  ],
+  "room_above": 0.19,
+  "seam": 0.8,
+  "zoom": 1.062
+ },
+ "A03": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   26,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 0.84,
+  "zoom": 0.993
+ },
+ "A04": {
+  "extent": 0.89,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   36,
+   0,
+   54
+  ],
+  "room_above": 0.184,
+  "seam": 1.35,
+  "zoom": 0.92
+ },
+ "A05": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   9,
+   141
+  ],
+  "room_above": 0.21,
+  "seam": 1.1,
+  "zoom": 0.891
+ },
+ "A06": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   75
+  ],
+  "room_above": 0.21,
+  "seam": 1.13,
+  "zoom": 1.007
+ },
+ "A07": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   66,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.11,
+  "zoom": 0.97
+ },
+ "A08": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   40
+  ],
+  "room_above": 0.161,
+  "seam": 0.95,
+  "zoom": 1.015
+ },
+ "A09": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "override": "the subject is the whole cove: the rock arch, the sunrise sky and the jetty; the vision box held only the jetty, so framing zoomed 1.87x into it",
+  "pad": [
+   0,
+   123,
+   123,
+   0
+  ],
+  "room_above": 0.135,
+  "seam": 1.21,
+  "zoom": 0.9
+ },
+ "A10": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   110,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.4,
+  "zoom": 0.942
+ },
+ "B01": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   19,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.97,
+  "zoom": 1.031
+ },
+ "B02": {
+  "extent": 0.81,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.042
+ },
+ "B03": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   24,
+   0,
+   4
+  ],
+  "room_above": 0.14,
+  "seam": 1.85,
+  "zoom": 0.973
+ },
+ "B04": {
+  "extent": 0.85,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.121
+ },
+ "B05": {
+  "extent": 0.89,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   0,
+   0,
+   33
+  ],
+  "room_above": 0.191,
+  "seam": 1.27,
+  "zoom": 0.993
+ },
+ "B06": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   32,
+   0,
+   35
+  ],
+  "room_above": 0.158,
+  "seam": 1.21,
+  "zoom": 0.938
+ },
+ "B07": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   24,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.36,
+  "zoom": 1.014
+ },
+ "B08": {
+  "extent": 0.81,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.26
+ },
+ "B09": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   123,
+   0,
+   0
+  ],
+  "room_above": 0.131,
+  "seam": 1.33,
+  "zoom": 0.946
+ },
+ "B10": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   11,
+   24,
+   14,
+   123
+  ],
+  "room_above": 0.461,
+  "seam": 1.6,
+  "zoom": 0.874
+ },
+ "C01": {
+  "extent": 0.82,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   26,
+   33,
+   123
+  ],
+  "room_above": 0.21,
+  "seam": 0.84,
+  "zoom": 0.872
+ },
+ "C02": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   35,
+   0,
+   27,
+   202
+  ],
+  "room_above": 0.21,
+  "seam": 1.27,
+  "zoom": 0.844
+ },
+ "C03": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   40,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.01,
+  "zoom": 1.021
+ },
+ "C04": {
+  "extent": 0.85,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.056
+ },
+ "C05": {
+  "extent": 0.89,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.193,
+  "zoom": 1.162
+ },
+ "C06": {
+  "extent": 0.853,
+  "fill": "outpaint",
+  "pad": [
+   83,
+   123,
+   30,
+   123
+  ],
+  "room_above": 0.181,
+  "seam": 1.54,
+  "zoom": 0.806
+ },
+ "C07": {
+  "extent": 0.81,
+  "fill": "none",
+  "pad": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "zoom": 1.044
+ },
+ "C08": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   47,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.13,
+  "zoom": 0.986
+ },
+ "C09": {
+  "extent": 0.85,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   63,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.33,
+  "zoom": 1.009
+ },
+ "C10": {
+  "extent": 0.81,
+  "fill": "outpaint",
+  "pad": [
+   0,
+   106,
+   0,
+   0
+  ],
+  "room_above": 0.14,
+  "seam": 1.61,
+  "zoom": 1.047
+ }
+}

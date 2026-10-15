@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The compass is clearly identifiable with lid, needle, and casing."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floats centrally with a slight tilt against a patterned gradient background."
+    },
+    "clean": {
+      "pass": false,
+      "why": "Contains directional letters (N, E, S, W) on the dial."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered with solid margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and saturated pink background with distinct brass tones."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky forms without excessive micro-textures or busy elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D render with satin metallic finish matching references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 0.95,
+        "grey/dark": 0.05
+      },
+      "why": "background is pink (95% of the background); planned pink"
+    }
+  },
+  "pass": false,
+  "fix": "Remove the letters N, E, S, and W from the compass face to keep it clean of text.",
+  "usage": {
+    "total_tokens": 4584,
+    "total_input_tokens": 4060,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 801
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 212,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 312
+  },
+  "est_cost_usd": 0.003602,
+  "elapsed_s": 14.0
+}

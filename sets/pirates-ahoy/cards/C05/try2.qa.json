@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested bottle ship with ship, cradle, and cork."
+    },
+    "category": {
+      "pass": true,
+      "why": "Matches category 3 with a stylized tabletop and smooth gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI elements, text, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Subject is centered with clear margins and no cutoff elements."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and warm palette with good separation from the yellow background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Chunky forms without distracting micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent 3D stylized render with smooth volumes and satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 1.0
+      },
+      "why": "background is yellow (100% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4841,
+    "total_input_tokens": 4106,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 847
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 272,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 463
+  },
+  "est_cost_usd": 0.004258,
+  "elapsed_s": 15.5
+}

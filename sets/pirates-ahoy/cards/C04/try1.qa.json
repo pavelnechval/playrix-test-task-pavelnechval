@@ -1,0 +1,64 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The boots are clearly recognizable as tall black pirate boots with cuffs and prominent gold buckles."
+    },
+    "category": {
+      "pass": true,
+      "why": "The boots stand on a flat, plain surface with a smooth single-color gradient wall in the same pink color family."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, watermark, frame, or character present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The boots form a chunky, centered silhouette with generous margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The warm pink background is vibrant and saturated, providing excellent contrast against the dark boots and shiny gold buckles."
+    },
+    "detail": {
+      "pass": true,
+      "why": "There are no micro-details, clutter, or unrequested props; the forms and folds are simple and clean."
+    },
+    "style": {
+      "pass": true,
+      "why": "The smooth chunky 3D volumes, satin sheen, and gold finish closely match the reference style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 0.89,
+        "red": 0.07,
+        "grey/dark": 0.04
+      },
+      "why": "background is pink (89% of the background); planned pink"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4785,
+    "total_input_tokens": 4067,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 808
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 238,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 480
+  },
+  "est_cost_usd": 0.0041875,
+  "elapsed_s": 10.0
+}

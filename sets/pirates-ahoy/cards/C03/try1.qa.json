@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts an anchor with all required standard parts and rope."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floats centrally with a three-quarter tilt over radiating rays."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, borders, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Solid chunky silhouette well-centered with comfortable margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant red contrasts clearly against the saturated blue sunburst background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes with no excessive micro-textures or extraneous elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, chunky 3D style and satin sheen of the references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.81,
+        "teal": 0.19
+      },
+      "why": "background is blue (81% of the background); planned blue"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4627,
+    "total_input_tokens": 4059,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 800
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 273,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 295
+  },
+  "est_cost_usd": 0.0037335,
+  "elapsed_s": 13.7
+}

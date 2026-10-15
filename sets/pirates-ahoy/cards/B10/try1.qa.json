@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The feast table includes the requested roast, fruit bowl, cake, mast, and pirate flag."
+    },
+    "category": {
+      "pass": true,
+      "why": "The table stands firmly on wide deck planks with a low angle and simple backdrop."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters are present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The table is centrally placed with clear silhouettes and good border margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, juicy sunset palette with strong separation between foreground and background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Forms are chunky and stylized with no noisy textures or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft 3D volumes, smooth sheen, and clean edges."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5423,
+    "total_input_tokens": 4185,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 926
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 289,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 949
+  },
+  "est_cost_usd": 0.0058065,
+  "elapsed_s": 18.9
+}

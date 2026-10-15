@@ -1524,7 +1524,60 @@ Asked whether, to split the process area into frames, the old copies may be dele
 
 ### Results
 
-(pending)
+- **Run:** 11:47–12:44, about 57 minutes, of which planning took 32.5. Cost by the tool's line: $3.65 ($2.62 generation and QA, $0.92 background extension, $0.11 vision). The balance never ran out.
+- **Setup:** `prepare.py` took 22 seconds. It made `.venv`, found the key without showing it, checked both models and, with "n" piped in, skipped the paid test card. There were no tool errors, and the plan validated on the first try.
+- **Set "Pirates Ahoy!"** (`sets/pirates-ahoy/`, notes in `review_notes.md`):
+  - A, Set Sail! (blue window), recommended;
+  - B, Crew Feast (orange);
+  - C, Pirate Port (violet).
+  - QA: 28 passed, 2 accepted with issues. Two cards were redrawn after the sheet review.
+- **The franchise request:** the agent used only genre tropes the series made popular but doesn't own:
+  - a straw hat with a red band;
+  - a giant meat on the bone;
+  - tangerines;
+  - a smiling dolphin figurehead;
+  - a feast on deck.
+
+  It avoided names, characters, the series' flag, its two ships, the devil fruit, the log pose, the snail phone, wanted posters and weapons. None of this reaches the image model, which gets only the card fields.
+- **Its findings, by severity:**
+  1. QA doesn't look for weapons or franchise designs: the first Deck Feast passed with something that read as a cannon. Fixed with a $0.10 regen.
+  2. Framing zoomed 1.87× into the jetty of the 5★ Pirate Cove and lost the arch and the sky, with no warning. A free hand-set box fixed it, but the metrics, which measure with their own box, still flag the card.
+  3. The banned words know fewer than 20 brands and films ("Luffy" and "One Piece" pass). The README's "banned words" wording overstated this.
+  4. The overlap warning compares only the last word of names: Ship's Wheel against Spinning Wheel, but not a treasure chest against The Lost Island.
+  5. Budget:
+     - 3 variants is the smallest run;
+     - background extension was needed on 24 of 30 framed cards, not "if needed";
+     - 6 of the 10 paid retries were for framing alone, which framing would have fixed anyway;
+     - a regen costs $0.10–0.16 with its framing.
+  6. The docs didn't say which plan fields reach the image model.
+  7. Smaller points:
+     - there is no "sunrise" light;
+     - logs stay empty until the end when output is redirected;
+     - setcheck doesn't flag a lead colour below plan;
+     - the skill doesn't say `card_metrics.py plan` is paid.
+
+### What was changed before submission (docs and skill only; no code, D-036)
+
+- **Skill:**
+  - a rule for requests that name a franchise: genre tropes only, never names, characters or signature designs;
+  - the list of fields the image model receives;
+  - the banned-word list is short;
+  - check overlaps by meaning, since the warning only matches the last word;
+  - check weapons, alcohol and franchise designs on the sheets, since QA doesn't;
+  - a zoom above about 1.5 on a scene means the box caught only part of it;
+  - card_metrics is paid and measures with its own box;
+  - corrected regen and background-extension costs, and three tests' time and cost.
+- **README:**
+  - test 3 in the tests list and in the time table;
+  - background extension is needed by most cards (14–24 of 30 in the tests);
+  - the banned-words line says it is a short list, and franchise designs are checked by the agent;
+  - two new limitations;
+  - test 3's code changes under "Что дальше".
+- **HISTORY:** the third test, four agents in all, and about $30 of Gemini over the project.
+
+The board is not updated, as Pavel said. It still says three tests and about $26.
+
+---
 
 ---
 

@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 26.2,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdtcXJRYXJlSUxJR0N4czBQLWYzd2dRWRIXbXFyUWFyZUlMSUdDeHMwUC1mM3dnUVk",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17878,
+      "total_input_tokens": 15107,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1667
+        }
+      ],
+      "total_cached_tokens": 7406,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 817
+        },
+        {
+          "modality": "image",
+          "tokens": 6589
+        }
+      ],
+      "total_output_tokens": 1553,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1218
+    },
+    "created": "2026-10-15T10:28:00Z",
+    "updated": "2026-10-15T10:28:00Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<665832 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Please see below for the illustration of the Pirate Dock card, crafted to match the exact 3D casual game art style and features specified in your brief:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2772524 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<690260 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0562605
+}

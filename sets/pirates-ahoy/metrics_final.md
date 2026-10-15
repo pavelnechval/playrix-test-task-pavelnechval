@@ -1,0 +1,49 @@
+# Card metrics: pirates-ahoy (final)
+
+Reference norms by category, as the vision call classifies the 160 reference cards: median (middle half). Extent = the object's largest dimension as a share of the card.
+
+| Category | Cards | Extent | Smallest margin | Room above | Detail lost at 66 px | Highlight share |
+|---|---|---|---|---|---|---|
+| C1 | 36 | 0.82 (0.76-0.87) | 0.08 (0.05-0.11) | 0.16 (0.11-0.18) | 8.46 (6.07-9.80) | 0.00 (0.00-0.04) |
+| C2 | 20 | 0.85 (0.81-0.88) | 0.06 (0.04-0.09) | 0.13 (0.09-0.21) | 10.71 (7.99-15.06) | 0.02 (0.00-0.04) |
+| C3 | 27 | 0.89 (0.83-0.93) | 0.05 (0.03-0.08) | 0.12 (0.09-0.20) | 11.79 (8.19-13.95) | 0.01 (0.00-0.04) |
+| C4 | 46 | 0.85 (0.81-0.94) | 0.04 (0.00-0.08) | 0.14 (0.10-0.21) | 10.32 (7.44-13.03) | 0.03 (0.01-0.09) |
+
+Our cards. A flag means the value is outside the reference middle half by more than a quarter of that range, or the vision call reads a different category than the plan. Highlight is shown for information only: white objects count as shine.
+
+| Card | Name | Planned C | Seen C | Extent | Margin | Room above | Detail lost | Highlight | Flags |
+|---|---|---|---|---|---|---|---|---|---|
+| A01 | Spyglass | C1 | C1 | 0.82 | 0.09 | 0.18 | 7.0 | 0.009 | - |
+| A02 | Tangerine Crate | C2 | C2 | 0.84 | 0.08 | 0.19 | 8.2 | 0.000 | - |
+| A03 | Compass | C1 | C1 | 0.82 | 0.09 | 0.14 | 14.4 | 0.019 | fine detail lost |
+| A04 | Captain's Log | C3 | C3 | 0.89 | 0.05 | 0.18 | 11.0 | 0.001 | - |
+| A05 | Straw Hat | C2 | C2 | 0.85 | 0.07 | 0.21 | 15.2 | 0.000 | - |
+| A06 | Rowboat | C4 | C4 | 0.85 | 0.07 | 0.21 | 10.2 | 0.012 | - |
+| A07 | Ship's Wheel | C3 | C3 | 0.81 | 0.05 | 0.14 | 12.5 | 0.000 | - |
+| A08 | Jolly Roger | C1 | C1 | 0.82 | 0.09 | 0.16 | 8.3 | 0.040 | - |
+| A09 | Pirate Cove | C4 | C4 | 0.62 | 0.14 | 0.15 | 5.3 | 0.000 | small |
+| A10 | Full Sail! | C4 | C4 | 0.81 | 0.05 | 0.14 | 11.2 | 0.062 | - |
+| B01 | Dinner Bell | C1 | C1 | 0.81 | 0.05 | 0.14 | 8.4 | 0.006 | - |
+| B02 | Grilled Fish | C2 | C2 | 0.81 | 0.05 | 0.14 | 3.9 | 0.000 | - |
+| B03 | Fishing Rod | C1 | C1 | 0.82 | 0.09 | 0.14 | 7.5 | 0.002 | - |
+| B04 | Pirate Cake | C2 | C2 | 0.85 | 0.07 | 0.14 | 5.3 | 0.395 | - |
+| B05 | Sea Shanty | C3 | C3 | 0.89 | 0.06 | 0.19 | 12.2 | 0.093 | - |
+| B06 | Mighty Meat | C1 | C1 | 0.82 | 0.09 | 0.16 | 6.1 | 0.026 | - |
+| B07 | Tangerine Tree | C3 | C3 | 0.81 | 0.05 | 0.14 | 15.7 | 0.002 | fine detail lost |
+| B08 | Ship's Galley | C4 | C3 | 0.81 | 0.05 | 0.14 | 9.9 | 0.005 | reads as C3 (high) |
+| B09 | Ship's Bow | C4 | C4 | 0.81 | 0.06 | 0.13 | 10.8 | 0.064 | - |
+| B10 | Deck Feast | C4 | C4 | 0.86 | 0.07 | 0.46 | 13.4 | 0.012 | much room above |
+| C01 | Tricorn Hat | C1 | C1 | 0.82 | 0.09 | 0.21 | 8.3 | 0.002 | much room above |
+| C02 | Sea Chart | C2 | C2 | 0.86 | 0.07 | 0.21 | 7.5 | 0.062 | - |
+| C03 | Anchor | C1 | C1 | 0.81 | 0.05 | 0.14 | 7.5 | 0.004 | - |
+| C04 | Buckle Boots | C2 | C2 | 0.85 | 0.07 | 0.14 | 6.2 | 0.002 | - |
+| C05 | Bottle Ship | C3 | C3 | 0.89 | 0.05 | 0.19 | 9.3 | 0.022 | - |
+| C06 | Pirate Dock | C4 | C4 | 0.92 | 0.00 | 0.18 | 10.9 | 0.088 | - |
+| C07 | Figurehead | C3 | C3 | 0.81 | 0.05 | 0.14 | 5.8 | 0.001 | - |
+| C08 | Fruit Stall | C4 | C3 | 0.85 | 0.08 | 0.14 | 14.8 | 0.060 | reads as C3 (high), fine detail lost |
+| C09 | Harbour Inn | C4 | C4 | 0.85 | 0.07 | 0.14 | 15.5 | 0.000 | fine detail lost |
+| C10 | Launch Day | C4 | C4 | 0.82 | 0.04 | 0.14 | 10.0 | 0.039 | - |
+
+Extent across these cards: median 0.82, middle half 0.81-0.85 (a narrower spread = more even sizes).
+
+8 of 30 cards flagged.

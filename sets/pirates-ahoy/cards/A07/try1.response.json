@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 38.6,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdnS25RYXRQaERyRDRuc0VQc3Z2Y3FBcxIXZ0tuUWF0UGhEckQ0bnNFUHN2dmNxQXM",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17904,
+      "total_input_tokens": 15013,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1573
+        }
+      ],
+      "total_cached_tokens": 9386,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 983
+        },
+        {
+          "modality": "image",
+          "tokens": 8403
+        }
+      ],
+      "total_output_tokens": 1983,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 908
+    },
+    "created": "2026-10-15T10:23:29Z",
+    "updated": "2026-10-15T10:23:29Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1442820 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "I've created the illustration for the collectible card of the Ship's Wheel. It features a classic, chunky wooden ship's wheel on a sturdy pedestal, complete with its unique red-rope-wrapped top spoke, on polished deck planks against a vibrant purple background. Let me know if you would like any adjustments!",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2820884 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<745308 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0561195
+}

@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested cartoon roast on a bone with glaze and herbs."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floats centrally at an angle over a gradient background with pattern motifs."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred with a chunky silhouette and ample margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated tones that pop distinctly against the rich blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simple, readable forms without excessive micro-textures or cluttered elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth volumes, soft lighting, and clean materials."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 1.0
+      },
+      "why": "background is blue (100% of the background); planned blue"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4840,
+    "total_input_tokens": 4073,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 814
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 279,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 488
+  },
+  "est_cost_usd": 0.0043375,
+  "elapsed_s": 14.8
+}

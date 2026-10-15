@@ -1,0 +1,66 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear sea chart with rolled ends, compass rose, islands, and red ribbon."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows category 2 with a plain surface and smooth single-colour gradient background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered with solid silhouette and comfortable margins."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and saturated with clear separation between object and green background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Chunky 3D volumes and smooth satin sheen consistent with reference art."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 0.93,
+        "yellow": 0.05,
+        "red": 0.01,
+        "orange": 0.01,
+        "grey/dark": 0.01
+      },
+      "why": "background is green (93% of the background); planned green"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4681,
+    "total_input_tokens": 4073,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 814
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 274,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 334
+  },
+  "est_cost_usd": 0.0038605,
+  "elapsed_s": 14.4
+}

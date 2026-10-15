@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The Jolly Roger flag is instantly recognisable, complete with its wooden pole and friendly skull and crossbones emblem."
+    },
+    "category": {
+      "pass": true,
+      "why": "The flag floats freely in the air with no ground or table, set against a radiating sunburst pattern as required for Category 1."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There is no text, UI, borders, watermarks, or extraneous characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The flag is centrally positioned with comfortable margins on all sides and a chunky, readable silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The background has bright, saturated warm yellow light rays that offer strong, clear contrast against the black flag."
+    },
+    "detail": {
+      "pass": true,
+      "why": "The shapes are bold and simplified without noisy micro-textures, scratches, or unrequested props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D chunky volumes with soft satin sheen and clean bevels matching the game's reference style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 0.83,
+        "orange": 0.17
+      },
+      "why": "background is yellow (83% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4794,
+    "total_input_tokens": 4065,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 806
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 329,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 400
+  },
+  "est_cost_usd": 0.0042195,
+  "elapsed_s": 9.9
+}
