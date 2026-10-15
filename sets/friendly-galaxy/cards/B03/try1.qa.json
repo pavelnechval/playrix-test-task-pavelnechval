@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Matches the requested planet lollipop with stick, ring, and star."
+    },
+    "category": {
+      "pass": true,
+      "why": "Correct floating Category 1 presentation with radiating sunburst background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No UI, text, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered composition with ample breathing room."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant palette with clear subject-to-background contrast."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean chunky geometry without busy micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent smooth 3D render with reference style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.95,
+        "teal": 0.05
+      },
+      "why": "background is blue (95% of the background); planned blue"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4520,
+    "total_input_tokens": 4070,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 811
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 180,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 270
+  },
+  "est_cost_usd": 0.003385,
+  "elapsed_s": 12.0
+}

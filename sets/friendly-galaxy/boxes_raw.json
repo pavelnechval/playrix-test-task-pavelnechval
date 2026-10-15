@@ -1,0 +1,302 @@
+{
+ "A01": {
+  "box": [
+   158,
+   171,
+   847,
+   839
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A01\\try2.jpg",
+  "mtime": 1792032779
+ },
+ "A02": {
+  "box": [
+   254,
+   105,
+   825,
+   908
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A02\\try3.jpg",
+  "mtime": 1792033374
+ },
+ "A03": {
+  "box": [
+   266,
+   134,
+   834,
+   842
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A03\\try1.jpg",
+  "mtime": 1792032729
+ },
+ "A04": {
+  "box": [
+   183,
+   201,
+   862,
+   835
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A04\\try1.jpg",
+  "mtime": 1792032725
+ },
+ "A05": {
+  "box": [
+   168,
+   189,
+   850,
+   809
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A05\\try1.jpg",
+  "mtime": 1792032763
+ },
+ "A06": {
+  "box": [
+   151,
+   143,
+   904,
+   827
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A06\\try1.jpg",
+  "mtime": 1792032757
+ },
+ "A07": {
+  "box": [
+   78,
+   143,
+   928,
+   856
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A07\\try2.jpg",
+  "mtime": 1792033439
+ },
+ "A08": {
+  "box": [
+   127,
+   200,
+   930,
+   831
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A08\\try1.jpg",
+  "mtime": 1792032807
+ },
+ "A09": {
+  "box": [
+   112,
+   301,
+   731,
+   699
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A09\\try1.jpg",
+  "mtime": 1792032823
+ },
+ "A10": {
+  "box": [
+   261,
+   154,
+   837,
+   867
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\A10\\try1.jpg",
+  "mtime": 1792032835
+ },
+ "B01": {
+  "box": [
+   99,
+   172,
+   893,
+   834
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B01\\try1.jpg",
+  "mtime": 1792032864
+ },
+ "B02": {
+  "box": [
+   95,
+   260,
+   846,
+   711
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B02\\try1.jpg",
+  "mtime": 1792032860
+ },
+ "B03": {
+  "box": [
+   157,
+   137,
+   887,
+   866
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B03\\try1.jpg",
+  "mtime": 1792032862
+ },
+ "B04": {
+  "box": [
+   136,
+   237,
+   863,
+   768
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B04\\try1.jpg",
+  "mtime": 1792032863
+ },
+ "B05": {
+  "box": [
+   266,
+   133,
+   810,
+   903
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B05\\try3.jpg",
+  "mtime": 1792033576
+ },
+ "B06": {
+  "box": [
+   185,
+   75,
+   903,
+   867
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B06\\try2.jpg",
+  "mtime": 1792033642
+ },
+ "B07": {
+  "box": [
+   119,
+   311,
+   839,
+   699
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B07\\try1.jpg",
+  "mtime": 1792032895
+ },
+ "B08": {
+  "box": [
+   158,
+   137,
+   804,
+   878
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B08\\try1.jpg",
+  "mtime": 1792032899
+ },
+ "B09": {
+  "box": [
+   238,
+   169,
+   829,
+   860
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B09\\try1.jpg",
+  "mtime": 1792032921
+ },
+ "B10": {
+  "box": [
+   183,
+   68,
+   850,
+   932
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\B10\\try1.jpg",
+  "mtime": 1792032931
+ },
+ "C01": {
+  "box": [
+   42,
+   258,
+   911,
+   747
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C01\\try1.jpg",
+  "mtime": 1792032933
+ },
+ "C02": {
+  "box": [
+   115,
+   227,
+   903,
+   729
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C02\\try1.jpg",
+  "mtime": 1792032932
+ },
+ "C03": {
+  "box": [
+   147,
+   133,
+   861,
+   853
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C03\\try1.jpg",
+  "mtime": 1792032947
+ },
+ "C04": {
+  "box": [
+   166,
+   161,
+   878,
+   831
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C04\\try1.jpg",
+  "mtime": 1792032965
+ },
+ "C05": {
+  "box": [
+   130,
+   206,
+   874,
+   788
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C05\\try1.jpg",
+  "mtime": 1792032966
+ },
+ "C06": {
+  "box": [
+   158,
+   179,
+   935,
+   820
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C06\\try2.jpg",
+  "mtime": 1792033727
+ },
+ "C07": {
+  "box": [
+   184,
+   52,
+   827,
+   941
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C07\\try3.jpg",
+  "mtime": 1792033835
+ },
+ "C08": {
+  "box": [
+   193,
+   126,
+   810,
+   915
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C08\\try1.jpg",
+  "mtime": 1792032988
+ },
+ "C09": {
+  "box": [
+   168,
+   184,
+   929,
+   813
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C09\\try1.jpg",
+  "mtime": 1792032997
+ },
+ "C10": {
+  "box": [
+   54,
+   127,
+   874,
+   905
+  ],
+  "file": "sets\\friendly-galaxy\\cards\\C10\\try1.jpg",
+  "mtime": 1792032991
+ }
+}

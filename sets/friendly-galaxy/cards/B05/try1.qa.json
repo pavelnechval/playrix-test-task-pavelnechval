@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The retro hover scooter clearly matches all requested elements and recognizable parts."
+    },
+    "category": {
+      "pass": true,
+      "why": "Floats centrally with no floor, backed by a themed pattern and smooth gradient."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI, borders, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered chunky silhouette with adequate negative space around the edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant candy-pink background offers strong contrast against the mint body."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes with no clutter, micro-textures, or unnecessary props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references, showing smooth 3D forms and a soft satin sheen."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "pink": 1.0,
+        "grey/dark": 0.0
+      },
+      "why": "background is pink (100% of the background); planned pink"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4741,
+    "total_input_tokens": 4083,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 824
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 203,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 455
+  },
+  "est_cost_usd": 0.0040155,
+  "elapsed_s": 11.9
+}

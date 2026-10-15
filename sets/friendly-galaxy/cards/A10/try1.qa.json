@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested lunar lander with all required standard components."
+    },
+    "category": {
+      "pass": true,
+      "why": "Stands firmly on a wide ground plane with a low camera angle per category 4 rules."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, interfaces, borders, and visible characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Heroic central placement with comfortable margins surrounding the subject."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Saturated, vibrant palette with strong figure-ground contrast."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean stylized forms without distracting micro-textures or extraneous clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references, showing chunky shapes, soft lighting, and satin sheens."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5093,
+    "total_input_tokens": 4251,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 992
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 198,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 644
+  },
+  "est_cost_usd": 0.0046515,
+  "elapsed_s": 14.6
+}

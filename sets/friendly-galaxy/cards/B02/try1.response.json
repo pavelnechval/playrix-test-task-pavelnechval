@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 21.3,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChZTVURRYXJ2LUNKXzV2ZElQaGYyWlFBEhZTVURRYXJ2LUNKXzV2ZElQaGYyWlFB",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17594,
+      "total_input_tokens": 15020,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1580
+        }
+      ],
+      "total_cached_tokens": 7445,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 783
+        },
+        {
+          "modality": "image",
+          "tokens": 6662
+        }
+      ],
+      "total_output_tokens": 1503,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 1071
+    },
+    "created": "2026-10-15T02:54:18Z",
+    "updated": "2026-10-15T02:54:18Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<432448 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the brand new 3D space scanner illustration for the mobile game card album, made in the exact same art style.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<858668 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<496888 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.05613
+}

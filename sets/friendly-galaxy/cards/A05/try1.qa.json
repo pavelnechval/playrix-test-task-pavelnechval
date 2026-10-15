@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts the requested space helmet with all specified components."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object floats centered on a gradient background with concentric rings and motifs."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of text, UI elements, characters, or borders."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-balanced central composition with sufficient margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, bright orange background with strong object contrast."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without micro-details, adhering to requested elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the chunky, satin 3D look of the reference illustrations."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "orange": 1.0,
+        "grey/dark": 0.0
+      },
+      "why": "background is orange (100% of the background); planned orange"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4923,
+    "total_input_tokens": 4082,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 823
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 269,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 572
+  },
+  "est_cost_usd": 0.004564,
+  "elapsed_s": 15.1
+}

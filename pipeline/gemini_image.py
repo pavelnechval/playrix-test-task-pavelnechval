@@ -215,7 +215,8 @@ def main(argv: list[str]) -> int:
     except GeminiError as err:
         print(f"FAILED: {err}")
         return 1
-    print(f"Key OK. {len(models)} models visible. Image-related models:")
+    print(f"Key OK. {len(models)} models visible. The balance is not checked here: the first paid call reports an "
+          "empty one. Image-related models:")
     for model in models:
         name = model.get("name", "")
         if "image" in name or "banana" in name:

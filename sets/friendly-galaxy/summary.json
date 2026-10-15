@@ -1,0 +1,724 @@
+{
+  "set": "Friendly Galaxy",
+  "updated": "2026-10-15T03:21:55+00:00",
+  "images_generated": 41,
+  "qa_reviews": 41,
+  "first_try_pass": 28,
+  "est_cost_usd": 2.51,
+  "status_counts": {
+    "passed": 28,
+    "accepted_with_issues": 2,
+    "unchecked": 0,
+    "failed": 0,
+    "not_started": 0
+  },
+  "cards": {
+    "A01": {
+      "id": "A01",
+      "name": "Mission Patch",
+      "status": "accepted_with_issues",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056125499999999995,
+          "gen_s": 21.3,
+          "qa_pass": false,
+          "qa_cost": 0.005012,
+          "fix": "Remove the realistic stitched fabric micro-textures and render the patch with smooth, stylized satin volumes matching the references.",
+          "failed": [
+            "detail",
+            "style"
+          ],
+          "checks_passed": 6
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561765,
+          "gen_s": 32.6,
+          "qa_pass": false,
+          "qa_cost": 0.004874,
+          "fix": "Adjust the stars beneath the rocket into a short curved trail of three tiny stars rather than a cluster of four.",
+          "failed": [
+            "detail"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.0561765,
+          "gen_s": 22.9,
+          "qa_pass": false,
+          "qa_cost": 0.005111,
+          "fix": "Smooth out the embroidered thread textures to give the patch the clean, chunky satin look of the reference assets.",
+          "failed": [
+            "detail",
+            "style"
+          ],
+          "checks_passed": 6
+        }
+      ]
+    },
+    "A02": {
+      "id": "A02",
+      "name": "Tube Lunch",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05616,
+          "gen_s": 24.7,
+          "qa_pass": false,
+          "qa_cost": 0.0053815,
+          "fix": "Align the left tube's design with the others so the pink puree dispenses directly from the open cap end rather than having fixtures on both sides.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056222999999999995,
+          "gen_s": 29.1,
+          "qa_pass": true,
+          "qa_cost": 0.0058765,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056264999999999996,
+          "gen_s": 23.2,
+          "qa_pass": true,
+          "qa_cost": 0.00598,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A03": {
+      "id": "A03",
+      "name": "Astro Boots",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561165,
+          "gen_s": 18.4,
+          "qa_pass": true,
+          "qa_cost": 0.0051765,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A04": {
+      "id": "A04",
+      "name": "Countdown",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056187,
+          "gen_s": 13.9,
+          "qa_pass": true,
+          "qa_cost": 0.004214,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A05": {
+      "id": "A05",
+      "name": "Space Helmet",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560895,
+          "gen_s": 24.7,
+          "qa_pass": true,
+          "qa_cost": 0.004564,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A06": {
+      "id": "A06",
+      "name": "Jetpack",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056098499999999996,
+          "gen_s": 12.0,
+          "qa_pass": true,
+          "qa_cost": 0.0057045,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A07": {
+      "id": "A07",
+      "name": "Moon Rock",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056153999999999996,
+          "gen_s": 18.7,
+          "qa_pass": true,
+          "qa_cost": 0.0044205,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0562725,
+          "gen_s": 25.3,
+          "qa_pass": true,
+          "qa_cost": 0.005637,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "A08": {
+      "id": "A08",
+      "name": "Radar Dish",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056247,
+          "gen_s": 26.9,
+          "qa_pass": true,
+          "qa_cost": 0.0046155,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A09": {
+      "id": "A09",
+      "name": "Blast Off!",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056295,
+          "gen_s": 14.2,
+          "qa_pass": true,
+          "qa_cost": 0.0062035,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "A10": {
+      "id": "A10",
+      "name": "Moon Landing",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0563385,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.0046515,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B01": {
+      "id": "B01",
+      "name": "Star Map",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056109,
+          "gen_s": 45.2,
+          "qa_pass": true,
+          "qa_cost": 0.007291,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B02": {
+      "id": "B02",
+      "name": "Space Scanner",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.05613,
+          "gen_s": 21.3,
+          "qa_pass": true,
+          "qa_cost": 0.0037495,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B03": {
+      "id": "B03",
+      "name": "Planet Pop",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056069999999999995,
+          "gen_s": 20.0,
+          "qa_pass": true,
+          "qa_cost": 0.003385,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B04": {
+      "id": "B04",
+      "name": "Star Jar",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561495,
+          "gen_s": 13.7,
+          "qa_pass": true,
+          "qa_cost": 0.0065845,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B05": {
+      "id": "B05",
+      "name": "Hover Bike",
+      "status": "passed",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0560895,
+          "gen_s": 21.5,
+          "qa_pass": true,
+          "qa_cost": 0.0040155,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0562125,
+          "gen_s": 12.2,
+          "qa_pass": false,
+          "qa_cost": 0.0088435,
+          "fix": "Reduce the four thruster pods underneath to two to properly reflect a hover bike design.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056237999999999996,
+          "gen_s": 55.4,
+          "qa_pass": true,
+          "qa_cost": 0.0041845,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B06": {
+      "id": "B06",
+      "name": "Explorer Helmet",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056115,
+          "gen_s": 23.6,
+          "qa_pass": true,
+          "qa_cost": 0.004607,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056209499999999996,
+          "gen_s": 29.9,
+          "qa_pass": true,
+          "qa_cost": 0.004615,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B07": {
+      "id": "B07",
+      "name": "Glow Bloom",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561885,
+          "gen_s": 15.6,
+          "qa_pass": true,
+          "qa_cost": 0.0053585,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "B08": {
+      "id": "B08",
+      "name": "Dune Rover",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0562845,
+          "gen_s": 17.0,
+          "qa_pass": true,
+          "qa_cost": 0.0043835,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B09": {
+      "id": "B09",
+      "name": "Base Camp",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056289,
+          "gen_s": 13.7,
+          "qa_pass": true,
+          "qa_cost": 0.0037585,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "B10": {
+      "id": "B10",
+      "name": "Flying Saucer",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0563025,
+          "gen_s": 19.5,
+          "qa_pass": true,
+          "qa_cost": 0.0043135,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C01": {
+      "id": "C01",
+      "name": "Juice Bubbles",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056103,
+          "gen_s": 21.2,
+          "qa_pass": true,
+          "qa_cost": 0.003951,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C02": {
+      "id": "C02",
+      "name": "Astro Glove",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056092499999999997,
+          "gen_s": 15.5,
+          "qa_pass": true,
+          "qa_cost": 0.005077,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C03": {
+      "id": "C03",
+      "name": "Satellite",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056067,
+          "gen_s": 14.1,
+          "qa_pass": true,
+          "qa_cost": 0.0037745,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C04": {
+      "id": "C04",
+      "name": "Space Treat",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.0561075,
+          "gen_s": 19.8,
+          "qa_pass": true,
+          "qa_cost": 0.0045115,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C05": {
+      "id": "C05",
+      "name": "Orbit Taxi",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056133,
+          "gen_s": 18.7,
+          "qa_pass": true,
+          "qa_cost": 0.004562,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C06": {
+      "id": "C06",
+      "name": "Telescope",
+      "status": "passed",
+      "chosen": "try2.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056152499999999994,
+          "gen_s": 15.0,
+          "qa_pass": true,
+          "qa_cost": 0.003896,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.056203499999999997,
+          "gen_s": 19.0,
+          "qa_pass": true,
+          "qa_cost": 0.0039375,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C07": {
+      "id": "C07",
+      "name": "Space Station",
+      "status": "accepted_with_issues",
+      "chosen": "try3.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056109,
+          "gen_s": 19.9,
+          "qa_pass": true,
+          "qa_cost": 0.0047885,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        },
+        {
+          "try": 2,
+          "file": "try2.jpg",
+          "gen_cost": 0.0561735,
+          "gen_s": 33.9,
+          "qa_pass": false,
+          "qa_cost": 0.004977,
+          "fix": "Add the third cylinder module joined to the central hub to complete the planned T-shape layout.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 7
+        },
+        {
+          "try": 3,
+          "file": "try3.jpg",
+          "gen_cost": 0.056202,
+          "gen_s": 25.1,
+          "qa_pass": false,
+          "qa_cost": 0.00666,
+          "fix": "Add the third white cylinder module around the central hub to complete the T-shaped layout.",
+          "failed": [
+            "subject"
+          ],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C08": {
+      "id": "C08",
+      "name": "Shuttle",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056151,
+          "gen_s": 13.8,
+          "qa_pass": true,
+          "qa_cost": 0.004461,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 8
+        }
+      ]
+    },
+    "C09": {
+      "id": "C09",
+      "name": "Zero-G Garden",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056278499999999995,
+          "gen_s": 18.3,
+          "qa_pass": true,
+          "qa_cost": 0.004625,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    },
+    "C10": {
+      "id": "C10",
+      "name": "Splashdown",
+      "status": "passed",
+      "chosen": "try1.jpg",
+      "attempts": [
+        {
+          "try": 1,
+          "file": "try1.jpg",
+          "gen_cost": 0.056283,
+          "gen_s": 12.0,
+          "qa_pass": true,
+          "qa_cost": 0.005184,
+          "fix": "",
+          "failed": [],
+          "checks_passed": 7
+        }
+      ]
+    }
+  }
+}

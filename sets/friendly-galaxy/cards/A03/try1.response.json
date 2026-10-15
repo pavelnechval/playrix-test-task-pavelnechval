@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 18.4,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chd5al9RYXBLNkQ1MjFrZFVQLTgzcDJRMBIXeWpfUWFwSzZENTIxa2RVUC04M3AyUTA",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 17222,
+      "total_input_tokens": 15011,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1571
+        }
+      ],
+      "total_cached_tokens": 3764,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 394
+        },
+        {
+          "modality": "image",
+          "tokens": 3370
+        }
+      ],
+      "total_output_tokens": 1489,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 722
+    },
+    "created": "2026-10-15T02:52:06Z",
+    "updated": "2026-10-15T02:52:06Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<468156 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Here is the illustration for the \"Astro Boots\" collectible card, designed to perfectly match the art style and visual quality of your game's existing cards:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2157988 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<525416 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0561165
+}

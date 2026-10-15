@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The space shuttle is instantly recognisable, featuring chunky stylized proportions, landing gear, cockpit window, delta wings, engines, and the requested red crescent moon on the tail fin."
+    },
+    "category": {
+      "pass": true,
+      "why": "The composition strictly follows Category 3 with the shuttle resting on a smooth glossy floor with soft reflections against a plain gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "There are no UI elements, text, logos, watermarks, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The shuttle is well-centred with generous, balanced margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "The warm sunny yellow wall and cream floor complement the crisp white and navy blue shuttle, providing vibrant contrast and clear separation."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Shapes are clean and smooth without unnecessary surface clutter, panel lines, or micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "The smooth volumes, soft lighting, and clean satin finish perfectly match the style of the references."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "yellow": 1.0
+      },
+      "why": "background is yellow (100% of the background); planned yellow"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4922,
+    "total_input_tokens": 4122,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 863
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 254,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 546
+  },
+  "est_cost_usd": 0.004461,
+  "elapsed_s": 10.4
+}

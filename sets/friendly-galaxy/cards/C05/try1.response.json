@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 18.7,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_Chd0VURRYXZxTkZzbUx2ZElQcmJtdzRBcxIXdFVEUWF2cU5Gc21MdmRJUHJibXc0QXM",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16895,
+      "total_input_tokens": 15022,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1582
+        }
+      ],
+      "total_cached_tokens": 7604,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 800
+        },
+        {
+          "modality": "image",
+          "tokens": 6804
+        }
+      ],
+      "total_output_tokens": 1517,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 356
+    },
+    "created": "2026-10-15T02:56:03Z",
+    "updated": "2026-10-15T02:56:03Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<453488 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": "Please find the illustration for the \"Orbit Taxi\" collectible card designed in the requested casual game art style.",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<883888 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<535856 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.056133
+}

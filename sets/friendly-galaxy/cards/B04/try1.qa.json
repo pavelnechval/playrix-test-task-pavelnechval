@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear star jar with cork, twine bow, and three glowing stars matching the prompt."
+    },
+    "category": {
+      "pass": true,
+      "why": "Features a stylized wooden surface with reflections against a simple gradient wall."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centred composition with solid margins and a readable silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, vibrant tones with strong contrast between the yellow stars and violet wall."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Clean shapes without excessive micro-textures or extraneous elements."
+    },
+    "style": {
+      "pass": true,
+      "why": "Smooth 3D render with soft highlights matching the reference cards."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "purple": 1.0
+      },
+      "why": "background is purple (100% of the background); planned purple"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5629,
+    "total_input_tokens": 4121,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 862
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 277,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1231
+  },
+  "est_cost_usd": 0.0065845,
+  "elapsed_s": 18.3
+}

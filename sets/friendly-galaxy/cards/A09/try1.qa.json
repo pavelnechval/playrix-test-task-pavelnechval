@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clear retro rocket with requested fins, porthole, star detail, and exhaust."
+    },
+    "category": {
+      "pass": true,
+      "why": "Ground band of stone pad and grass runs fully across the bottom."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, or human characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered subject with solid margins and clear separation on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Warm, saturated sunrise tones matching the brief with crisp contrast."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Simplified shapes without noisy micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with smooth volumes and satin sheen."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5587,
+    "total_input_tokens": 4223,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 964
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 272,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 1092
+  },
+  "est_cost_usd": 0.0062035,
+  "elapsed_s": 18.9
+}

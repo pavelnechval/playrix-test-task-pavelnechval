@@ -2,7 +2,7 @@
 
 Images generated: 57; QA reviews: 57; passed on the first try: 19 of 30.
 
-Estimated cost: $3.50 for generation and QA (from the attempt files) + $0.229 for vision $0.017, outpaint $0.212 (costs.jsonl) = $3.73. costs.jsonl started in W023: background extension and vision calls made before it are not included. Text-model rates unverified.
+Estimated cost: $3.50 for generation and QA (from the attempt files) + $0.229 for vision $0.017, outpaint $0.212 (costs.jsonl) = $3.73. This set began before costs.jsonl existed (W023), so earlier background extension and vision calls are missing. Text-model rates unverified.
 
 Status: {'passed': 25, 'accepted_with_issues': 5, 'unchecked': 0, 'failed': 0, 'not_started': 0}
 

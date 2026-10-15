@@ -286,7 +286,11 @@ def main(argv: list[str]) -> int:
         measure_all({p.stem: p for p in sorted(CARDS.glob("r*c*.png"))}, REF_OUT)
     elif args.command == "plan":
         _, items, cache_path = plan_items(args.plan, args.final_dir, args.variants)
-        if not measure_all(items, cache_path, args.plan.parent):
+        complete = measure_all(items, cache_path, args.plan.parent)
+        if (args.plan.parent / "summary.json").exists():  # W030: keep summary.md's cost line current
+            import cardgen
+            cardgen.write_summary(json.loads(args.plan.read_text(encoding="utf-8")), args.plan.parent)
+        if not complete:
             return 2
     elif args.command == "fixes":
         fixes = make_fixes(args.plan, args.final_dir, args.variants)

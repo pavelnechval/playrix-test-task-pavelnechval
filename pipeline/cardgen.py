@@ -69,7 +69,8 @@ COLOUR_WORDS = {"red": "red", "crimson": "red", "scarlet": "red", "cherry": "red
                 "purple": "purple", "violet": "purple", "lilac": "purple", "lavender": "purple"}
 # Set bible (plan schema 2), from set_guidelines.md: the checklist items a plan can be checked against.
 ROLES = {"carry": "a thing you carry or wear", "food": "food or drink", "gear": "a gadget, furniture or gear",
-         "vehicle": "a vehicle", "place": "a place, building or landmark", "nature": "a plant or animal as scenery"}
+         "vehicle": "a vehicle", "place": "a place, building or landmark",
+         "nature": "a natural thing: a plant, animal, rock, shell or celestial body"}  # W030: rocks and planets had no role
 LIGHTS = {"day", "sunset", "night"}
 WINDOW_COLORS = {"orange", "pink", "violet", "blue"}  # the 4 empty set templates on the brief's board
 STARS = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5]  # rarity layout of the final reference windows and the templates
@@ -152,8 +153,35 @@ def check_set_bible(variant: dict, errors: list[str], warnings: list[str]) -> No
                  for c in cards if len(str(c.get("name", "")).split()) > 2 or len(str(c.get("name", ""))) > 16]
 
 
-def validate(plan: dict) -> tuple[list[str], list[str]]:
+NOT_OBJECTS = {"time", "spot", "day", "night", "party", "fun", "life", "trail", "hunt", "dream", "show", "magic"}
+
+
+def collection_overlaps(plan: dict, plan_path: Path) -> list[str]:
+    """Cards whose name ends in the same object word as a card of a finished set of the collection, that is a set
+    with final_set/sources.json (W030: the QA judge sees one card at a time, so it passed a scooter that repeated
+    Love in the City's Vintage Scooter)."""
+    def head(name: str) -> str:
+        word = re.sub(r"[^a-z]", "", (name.lower().split() or [""])[-1])
+        return word[:-1] if word.endswith("s") and not word.endswith("ss") and len(word) > 3 else word
+    others: dict[str, str] = {}
+    for sources in sorted(plan_path.resolve().parent.parent.glob("*/final_set/sources.json")):
+        if sources.parent.parent == plan_path.resolve().parent:
+            continue
+        try:
+            data = json.loads(sources.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            continue
+        for card in data.get("cards", {}).values():
+            others.setdefault(head(card.get("name", "")), f"{card.get('name')} ({data.get('set', sources.parent.parent.name)})")
+    return [f"{c.get('id')}: '{c.get('name')}' repeats the object of {others[key]} in the collection"
+            for v in plan.get("variants", []) for c in v.get("cards", [])
+            if (key := head(c.get("name", ""))) in others and key not in NOT_OBJECTS]
+
+
+def validate(plan: dict, plan_path: Path | None = None) -> tuple[list[str], list[str]]:
     errors, warnings = [], []
+    if plan_path is not None:
+        warnings += collection_overlaps(plan, plan_path)
     schema = plan.get("schema", 1)
     if schema < 2:
         warnings.append("plan schema 1: no set bible, so set_guidelines.md is not checked (new plans use \"schema\": 2)")
@@ -550,8 +578,24 @@ def cost_line(out: Path, gen_qa: float) -> str:
         extra = sum(other.values())
         parts = ", ".join(f"{k} ${v:.3f}" for k, v in other.items())
         text += f" + ${extra:.3f} for {parts} (costs.jsonl) = ${gen_qa + extra:.2f}"
-    return (text + ". costs.jsonl started in W023: background extension and vision calls made before it are not "
-            "included. Text-model rates unverified.")
+    if older_than_log(out):  # only sets begun before the log existed (W030: the remark confused a new set's report)
+        text += (". This set began before costs.jsonl existed (W023), so earlier background extension and vision calls "
+                 "are missing")
+    return text + ". Text-model rates unverified."
+
+
+def older_than_log(out: Path) -> bool:
+    """True if the set's first generation request is older than its first costs.jsonl entry."""
+    log = out / "costs.jsonl"
+    first_logged = log.read_text(encoding="utf-8").split("\n", 1)[0] if log.exists() else ""
+    sent = [json.loads(p.read_text(encoding="utf-8")).get("sent_at", "") for p in out.glob("cards/*/try1.request.json")]
+    if not sent:
+        return False
+    if not first_logged:
+        return True
+    # a request is stamped when sent and its log line written when it returns, so allow a margin
+    first_sent = datetime.fromisoformat(min(s for s in sent if s))
+    return (datetime.fromisoformat(json.loads(first_logged)["at"]) - first_sent).total_seconds() > 600
 
 
 # ---------------------------------------------------------------- sheets
@@ -641,7 +685,7 @@ def main(argv: list[str]) -> int:
     parser.add_argument("--final-dir", default="final", help="setcheck: folder of finished images, relative to the plan")
     args = parser.parse_args(argv)
     if args.command == "validate":
-        errors, warnings = validate(json.loads(args.plan.read_text(encoding="utf-8")))
+        errors, warnings = validate(json.loads(args.plan.read_text(encoding="utf-8")), args.plan)
         for w in warnings:
             print("warning:", w)
         print("\n".join(f"ERROR: {e}" for e in errors) or "Plan OK")

@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Clearly depicts a stylized moon rock inside a glass dome on a plinth with the requested star."
+    },
+    "category": {
+      "pass": true,
+      "why": "Correctly posed on a stylized reflective surface against a gradient wall with subtle rings."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI elements, text, borders, and characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered with balanced proportions and ample margin space around all edges."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant palette with clear separation between the green background and the neutral rock."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth, chunky surfaces without micro-textures or excessive clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference style with soft 3D shading, rounded forms, and satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 0.99,
+        "grey/dark": 0.01
+      },
+      "why": "background is green (99% of the background); planned green"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5334,
+    "total_input_tokens": 4146,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 887
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 207,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 981
+  },
+  "est_cost_usd": 0.005637,
+  "elapsed_s": 19.4
+}

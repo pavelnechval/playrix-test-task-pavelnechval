@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Base camp habitat is clearly depicted with all requested elements, including the antenna, solar panel, and flower."
+    },
+    "category": {
+      "pass": true,
+      "why": "Object rests solidly on a wide ground plane with a low perspective and simple background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, interface elements, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Central composition with well-balanced margins and a clear silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated palette with clean separation between the dome and environment."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Smooth surfaces without excessive texture, noise, or unprompted clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Consistent with references, featuring chunky 3D forms, soft lighting, and a satin finish."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4767,
+    "total_input_tokens": 4217,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 958
+      },
+      {
+        "modality": "image",
+        "tokens": 3259
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 291,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 259
+  },
+  "est_cost_usd": 0.0037585,
+  "elapsed_s": 11.7
+}

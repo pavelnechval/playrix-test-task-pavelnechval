@@ -23,7 +23,7 @@ Give it a set theme and free-form wishes. It returns 3–5 alternative 10-card s
    - `sets/<slug>/sheets/overview.png`: all variants;
    - `variant_<X>.png`: one variant as a 5×2 set window;
    - `final/`: the PNGs to place in the set templates;
-   - `summary.md`: status and cost. Its "All paid calls so far" line totals `costs.jsonl`, which every paid call of every script appends to: generation, QA, background extension and vision measurements.
+   - `summary.md`: status and cost. Its "Estimated cost" line adds generation and QA (from the attempt files) to the other paid calls in `costs.jsonl` (background extension and vision measurements), without counting anything twice. The scripts refresh it as they run.
    - A card marked `unchecked` has no QA verdict, for example because the QA call failed. It is never counted as passed.
 5. **Fix single cards** without touching the rest:
    ```

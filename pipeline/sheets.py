@@ -77,8 +77,11 @@ def build_sheet(rows: list[tuple[str, list[tuple[str, Path]]]], out_path: Path, 
     height = margin * 2 + title_h + len(rows) * (cell_height + caption_h + gap)
     sheet = Image.new("RGB", (width, height), "white")
     draw = ImageDraw.Draw(sheet)
-    if title:
-        draw.text((margin, margin), title, fill="black", font=font)
+    if title:  # W030: a long title shrinks to the sheet width instead of being cut off
+        size = font_size
+        while size > 10 and draw.textlength(title, font=caption_font(size)) > width - 2 * margin:
+            size -= 1
+        draw.text((margin, margin), title, fill="black", font=caption_font(size))
     y = margin + title_h
     for label, items in rows:
         draw.text((margin, y + cell_height // 2 - font_size // 2), label, fill="black", font=font)

@@ -1,0 +1,37 @@
+start 05:02:29
+A02 Tube Lunch: passed after 1 attempt(s)
+A02: compare it with the earlier attempts in cards/A02/; 'cardgen.py choose <plan> A02 try<n>' brings an earlier one back
+A02 Tube Lunch: zoom 0.948, extent 0.85, room above 0.21, pad [0, 0, 0, 89] (outpaint)
+outpainted 1 cards, estimated $0.04
+Sheets: sets\friendly-galaxy\sheets
+A02 exit=0
+A07 Moon Rock: passed after 1 attempt(s)
+A07: compare it with the earlier attempts in cards/A07/; 'cardgen.py choose <plan> A07 try<n>' brings an earlier one back
+A07 Moon Rock: zoom 0.953, extent 0.81, room above 0.14, pad [0, 71, 0, 0] (outpaint)
+outpainted 1 cards, estimated $0.04
+Sheets: sets\friendly-galaxy\sheets
+A07 exit=0
+B05 Hover Bike: passed after 2 attempt(s)
+B05: compare it with the earlier attempts in cards/B05/; 'cardgen.py choose <plan> B05 try<n>' brings an earlier one back
+B05 Hover Bike: zoom 0.954, extent 0.82, room above 0.21, pad [0, 0, 0, 96] (outpaint)
+outpainted 1 cards, estimated $0.04
+Sheets: sets\friendly-galaxy\sheets
+B05 exit=0
+B06 Explorer Helmet: passed after 1 attempt(s)
+B06: compare it with the earlier attempts in cards/B06/; 'cardgen.py choose <plan> B06 try<n>' brings an earlier one back
+B06 Explorer Helmet: zoom 0.961, extent 0.85, room above 0.155, pad [0, 0, 0, 66] (outpaint)
+outpainted 1 cards, estimated $0.04
+Sheets: sets\friendly-galaxy\sheets
+B06 exit=0
+C06 Telescope: passed after 1 attempt(s)
+C06: compare it with the earlier attempts in cards/C06/; 'cardgen.py choose <plan> C06 try<n>' brings an earlier one back
+C06 Telescope: zoom 1.042, extent 0.81, room above 0.14, pad [0, 0, 0, 0] (none)
+Sheets: sets\friendly-galaxy\sheets
+C06 exit=0
+C07 Space Station: accepted_with_issues after 2 attempt(s)
+C07: compare it with the earlier attempts in cards/C07/; 'cardgen.py choose <plan> C07 try<n>' brings an earlier one back
+C07 Space Station: zoom 0.824, extent 0.82, room above 0.21, pad [45, 15, 45, 204] (outpaint)
+outpainted 1 cards, estimated $0.04
+Sheets: sets\friendly-galaxy\sheets
+C07 exit=0
+end 05:11:27

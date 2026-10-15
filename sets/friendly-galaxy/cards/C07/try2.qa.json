@@ -1,0 +1,67 @@
+{
+  "checks": {
+    "subject": {
+      "pass": false,
+      "why": "Lacks the third module to form the requested T-shape, making it appear more like a satellite than a space station."
+    },
+    "category": {
+      "pass": true,
+      "why": "Correctly depicted floating in three-quarter view against a patterned graphic gradient."
+    },
+    "clean": {
+      "pass": true,
+      "why": "Free of UI elements, text, borders, or characters."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Well-centered with balanced margins and no clipped elements."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Bright and saturated palette with good contrast against the planned blue background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, smooth forms without excessive micro-textures or clutter."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the reference 3D art style with chunky proportions and smooth satin materials."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "blue": 0.97,
+        "yellow": 0.02,
+        "orange": 0.01,
+        "teal": 0.0,
+        "grey/dark": 0.0,
+        "green": 0.0
+      },
+      "why": "background is blue (97% of the background); planned blue"
+    }
+  },
+  "pass": false,
+  "fix": "Add the third cylinder module joined to the central hub to complete the planned T-shape layout.",
+  "usage": {
+    "total_tokens": 5079,
+    "total_input_tokens": 4104,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 845
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 228,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 747
+  },
+  "est_cost_usd": 0.004977,
+  "elapsed_s": 20.5
+}

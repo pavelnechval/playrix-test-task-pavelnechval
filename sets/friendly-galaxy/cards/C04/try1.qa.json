@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Neapolitan freeze-dried ice cream block with missing corner bite in a silver pouch matches the brief."
+    },
+    "category": {
+      "pass": true,
+      "why": "Features a plain lighter green surface with a smooth darker green wall gradient."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, borders, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Solid central silhouette with comfortable margins on all borders."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant leaf-green background complements the tri-color block."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Broad shapes and smooth surfaces without distracting micro-textures."
+    },
+    "style": {
+      "pass": true,
+      "why": "Rendered with smooth volumes and satin lighting matching the game's art style."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 1.0
+      },
+      "why": "background is green (100% of the background); planned green"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 4913,
+    "total_input_tokens": 4091,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 832
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 280,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 542
+  },
+  "est_cost_usd": 0.0045115,
+  "elapsed_s": 13.2
+}

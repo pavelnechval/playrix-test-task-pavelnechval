@@ -1299,6 +1299,101 @@ Some pictures had to be widened to fit the card shape. Before, we smeared the ed
    - the quick demonstration: copy an existing plan, start at validation, `--variants A`, and say it shows the pipeline, not planning.
 4. **Not done:** a hosted interface, as agreed.
 
+---
+
+## 2026-10-15 / W029 / Miro: access checked, plan agreed, building the board
+
+### Pavel's prompts (verbatim)
+
+> ok, start building Miro, check if you have access to https://miro.com/app/board/uXjVEdsb-i4=/ first, confirm and let me know your plan briefly. i'll go to sleep and then we'll continue. next steps are: waiting for task #2 result (fix if needed), building Miro board narrative. Good suggestion about building it:
+>
+> "Build Miro around evidence, not the chronological log
+> I'd use this sequence:
+> 1. Final results and task requirements.
+> 2. Reference principles, illustrated with actual examples.
+> 3. Model comparisons and the chosen routes.
+> 4. Workflow diagram, showing automated steps and human decisions.
+> 5. Three before/after learning stories: backgrounds, framing, evaluation.
+> 6. Final sets beside relevant references.
+> 7. Fresh-run demonstration, costs, limitations and repository link.
+> Preserve representative rejected images and before/after comparisons. Since intermediate images are excluded from Git, a private archive would support the brief's request for the iteration history; JSON logs alone cannot show visual failures."
+
+> sounds good, looks like a solid plan. let's do it few with tweaks suggested by other model:
+>
+> "1. Give reviewers a clear reading order. Add a small "Начните здесь" note: Итог → Анализ → Как работает → Эксперименты → Проверка автономности. The main story should be understandable in 3–5 minutes; detailed iterations can sit below it.
+> 2. State brief coverage explicitly beside the finals. Suggested wording: "4 жанровых набора: по 10 карточек, категории 1–4, без золотых карточек. Для каждой темы разработано 3 варианта; итоговые варианты выбраны продюсером." Present the fourth set as an additional result beyond the requested three.
+> 3. Separate observations from your production rules. In "Анализ," distinguish: Observed in references: composition, lighting, palette distribution, framing. Adopted for the tool: default category mix, object-role checklist, motif frequency. This shows how you translated analysis into decisions without implying every rule came directly from the brief. Label model-estimated measurements as estimates.
+> 4. Make the three improvement stories more distinct. Background variety: All-blue skies → context-appropriate environments and deliberate palette. Framing and extension: Crop damage → measured framing → rejected stretching → outpainting. Evaluation: Automatic QA → disagreement with your ratings → technical checks plus human selection. Stretching and outpainting belong with framing. This avoids telling the same story twice.
+> 5. Put the caveats directly beside the headline numbers. 7/7: your preference in these comparisons; four final-set comparisons had ChatGPT consistently in the first position. 73% vs 60%: your acceptance among QA-passed versus QA-flagged cards; the flagged group contained only 10 cards. "Players wouldn't notice": a reviewer's judgement, not a player-test result. Small captions are enough. These qualifications make the evidence more credible.
+> 6. Make autonomy evidence easy to inspect. Give each test a compact row: starting conditions → request → outputs → elapsed time/cost → interventions → remaining issues. Distinguish the original test result from fixes and finishing performed afterward. Only mark test 2 complete once its outcome is documented.
+> 7. End with a practical handoff panel. Show the three reviewer actions: подготовить окружение → описать тему → выбрать вариант, with prerequisites, approximate runtime, estimated API cost and the private-repository access instructions. Keep the Gemini baseline and ChatGPT final-art route clearly labelled.
+> For the iteration archive, prepare the ZIP, but keep the essential evidence visible on Miro. A reviewer should understand every major decision without downloading 450 MB. The archive can hold the exhaustive record, ideally with a short index.
+> The most valuable addition is a consistent caption under each experiment: "Что заметил → что изменил → почему принял или отклонил результат." That will make your producer judgement visible throughout the board."
+
+### Actions and results
+
+1. **Board access checked** through the Miro connector, read-only. The board has four frames:
+   - "Примеры карточек";
+   - "Пример коллекции";
+   - "Анализ принципов составления коллекций (идеи / арт)": empty except its header;
+   - "Фрейм для описания хода работы и результатов": "Итоговые наборы" with the 4 empty templates, and "Описание хода работы", which is empty.
+
+   Outside the frames are the three brief texts.
+2. **Rules for the build:** in Russian; additions only; nothing existing is moved or deleted. The template sizes can't be read through the API (their width reads as 0), so a white panel covers the template area and the four filled windows sit on it in a 2×2 grid. The empty templates stay underneath, unchanged.
+3. **First content on the board** (the results frame):
+   - the panel;
+   - the brief-coverage line in the suggested wording, with the fourth set as an addition;
+   - the four final windows.
+
+   One slip: the first two items were made outside the frame, because the frame wrapper lacked its title attribute. Moving items into a frame is refused, so these two items, made by the assistant seconds earlier and holding nothing else, were deleted and created again inside the frame. `image_create` takes centre coordinates; the first window was moved after the read-back showed this.
+
+---
+
+## 2026-10-15 / W030 / Reviewer test 2 passed; its findings fixed
+
+No new prompt from Pavel; this continues W029 ("waiting for task #2 result (fix if needed)").
+
+### Results of test 2
+
+- **Setup:** a fresh agent on a clean clone of GitHub commit 19f0c4c, with the README's own example (space adventure, "more objects than locations", 3 variants).
+- **Outcome:** no crashes and no balance messages. It produced "Friendly Galaxy":
+  - A, Moon Mission;
+  - B, Friendly Planet (recommended);
+  - C, Life in Orbit.
+- **Numbers:** 30 cards, 41 images, 28 passed QA and 2 accepted with issues. About 45 minutes, $3.33.
+- **Plan:** `Plan OK` on the first try, 0 warnings.
+- **Review:** the agent's sheet review caught 6 cards that QA had passed and redrew them, editing their plan entries first:
+  - paint-like food tubes;
+  - a lumpy moon rock;
+  - a Vespa repeating Love in the City's Vintage Scooter;
+  - a cake-cover helmet;
+  - a floor read as category 2;
+  - a station like a steering wheel.
+
+  It used `choose` once. The set and its notes are now in `sets/friendly-galaxy/`.
+
+### Its findings and the fixes
+
+1. **QA misses name-test failures and repeats from other sets.** The validator now warns when a card's object word repeats a card of a finished set (one with `final_set/sources.json`), with a stoplist of non-object words. On the galaxy plan as it was before the review, it flags exactly "Hover Scooter" against Vintage Scooter. The name test stays with the agent's sheet review, as the skill says.
+2. **The cost line didn't match the docs and went stale after `card_metrics.py`.**
+   - Fix: the docs now name the "Estimated cost" line.
+   - `card_metrics.py plan` refreshes `summary.md`.
+   - The "began before costs.jsonl" remark appears only for sets whose first request is more than 10 minutes older than their first log line. Cosy Mystery keeps it; Friendly Galaxy does not.
+3. **Category 3 vs the measurement:** the rulebook and skill now prefer a wooden or textured tabletop or a podium over a plain glossy floor. The skill says the measured category is an estimate, to judge by eye and report.
+4. **Wishes vs defaults:** the skill says producer wishes come before the defaults, with the "more objects than locations" example, and to note what changed.
+5. **No ground (space, underwater, sky):**
+   - `nature` now covers rocks, shells and celestial bodies;
+   - ships and stations float as category 1;
+   - category 4 stands on a planet surface, a deck or the sea floor;
+   - open space counts as a saturated blue night.
+6. **`reframe.py` without `--route`:** Gemini is now the default, and a missing route folder gives a clear message instead of a traceback.
+7. **Smaller fixes:**
+   - after regens or `choose`, the skill now lists what to re-run;
+   - sheet titles shrink to fit;
+   - the key check and the README say the balance isn't checked there;
+   - the skill says the window's "+2", 8/25 and "Set 4/10" are the template's game UI;
+   - the README and HISTORY list both tests, with a time table for each.
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.

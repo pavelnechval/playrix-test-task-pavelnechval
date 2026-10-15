@@ -1,0 +1,80 @@
+{
+  "mime_type": "image/jpeg",
+  "elapsed_s": 22.9,
+  "attempts": 1,
+  "images_in_response": 1,
+  "image_source": "steps.model_output",
+  "response": {
+    "id": "v1_ChdJMERRYXJ6X05hV0x2ZElQOVp5RHFRWRIXSTBEUWFyel9OYVdMdmRJUDlaeURxUVk",
+    "status": "completed",
+    "usage": {
+      "total_tokens": 16930,
+      "total_input_tokens": 15051,
+      "input_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 13440
+        },
+        {
+          "modality": "text",
+          "tokens": 1611
+        }
+      ],
+      "total_cached_tokens": 2434,
+      "cached_tokens_by_modality": [
+        {
+          "modality": "text",
+          "tokens": 260
+        },
+        {
+          "modality": "image",
+          "tokens": 2174
+        }
+      ],
+      "total_output_tokens": 1879,
+      "output_tokens_by_modality": [
+        {
+          "modality": "image",
+          "tokens": 1120
+        }
+      ],
+      "total_tool_use_tokens": 0,
+      "total_thought_tokens": 0
+    },
+    "created": "2026-10-15T02:53:41Z",
+    "updated": "2026-10-15T02:53:41Z",
+    "service_tier": "standard",
+    "steps": [
+      {
+        "signature": "<1545072 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "text": " Here is the collectible card illustration for \"Mission Patch,\" created to match the distinct game-style with a smooth, chunky 3D polish and the requested design:",
+            "type": "text"
+          }
+        ],
+        "type": "model_output"
+      },
+      {
+        "signature": "<2860016 chars omitted>",
+        "type": "thought"
+      },
+      {
+        "content": [
+          {
+            "data": "<773540 chars omitted>",
+            "mime_type": "image/jpeg",
+            "type": "image"
+          }
+        ],
+        "type": "model_output"
+      }
+    ],
+    "object": "interaction",
+    "model": "gemini-nano-banana-2.1"
+  },
+  "est_cost_usd": 0.0561765
+}

@@ -275,7 +275,7 @@ def main(argv: list[str]) -> int:
     sys.stdout.reconfigure(errors="replace")
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("plan", type=Path)
-    parser.add_argument("--route", default="gpt", help="gemini, or the ChatGPT route folder (gpt, gpt_v7 ...)")
+    parser.add_argument("--route", default="gemini", help="gemini (default), or the ChatGPT route folder (gpt, gpt_v7 ...)")
     parser.add_argument("--ids", help="variant or card ids, comma-separated")
     parser.add_argument("--fill", default="outpaint",
                         help="outpaint or stretch: how to extend the background; with --override also a saved attempt file")
@@ -294,6 +294,11 @@ def main(argv: list[str]) -> int:
         args.ids = args.override or args.clear_override
     items = sources(plan, folder, args.route, set(args.ids.split(",")) if args.ids else None)
     route_dir = folder if args.route == "gemini" else folder / args.route
+    if not route_dir.is_dir():  # W030: a mistyped route used to end in a traceback
+        raise SystemExit(f"No route folder {route_dir}. Use --route gemini for cards made by cardgen.py, or the "
+                         "folder name of a ChatGPT run (gpt, gpt_v7 ...).")
+    if not items:
+        raise SystemExit(f"No generated images found for route {args.route} in {folder}.")
     if args.override:
         if args.override not in items:
             raise SystemExit(f"{args.override}: no generated image found for route {args.route}")

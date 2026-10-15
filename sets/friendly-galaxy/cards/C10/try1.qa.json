@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "The space capsule includes the orange float ring, round window, three striped parachutes, and moon emblem."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows Category 4 with a solid water base across the bottom and a simple sky background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "The subject is centrally composed with safe margins on all sides."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated palette with clean separation between the subject and background."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, broad shapes with no distracting micro-textures or extraneous props."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches the smooth, chunky 3D toy aesthetic and satin finish of the reference images."
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5233,
+    "total_input_tokens": 4206,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 947
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 296,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 731
+  },
+  "est_cost_usd": 0.005184,
+  "elapsed_s": 18.1
+}

@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "subject": {
+      "pass": true,
+      "why": "Accurately depicts the requested star-shaped alien flower and ringed planet pot."
+    },
+    "category": {
+      "pass": true,
+      "why": "Follows Category 3 composition with a glossy podium and subtle ringed background."
+    },
+    "clean": {
+      "pass": true,
+      "why": "No text, UI, watermarks, or extra characters present."
+    },
+    "framing": {
+      "pass": true,
+      "why": "Centered placement with balanced margins and a solid silhouette."
+    },
+    "colour": {
+      "pass": true,
+      "why": "Vibrant and saturated tones with clear contrast against the green wall."
+    },
+    "detail": {
+      "pass": true,
+      "why": "Features clean, broad shapes free of unnecessary micro-details."
+    },
+    "style": {
+      "pass": true,
+      "why": "Matches reference style with smooth, chunky 3D volumes and satin finish."
+    },
+    "bg_colour": {
+      "pass": true,
+      "level": "ok",
+      "measured": {
+        "green": 1.0
+      },
+      "why": "background is green (100% of the background); planned green"
+    }
+  },
+  "pass": true,
+  "fix": "",
+  "usage": {
+    "total_tokens": 5242,
+    "total_input_tokens": 4147,
+    "input_tokens_by_modality": [
+      {
+        "modality": "image",
+        "tokens": 3259
+      },
+      {
+        "modality": "text",
+        "tokens": 888
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 281,
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 814
+  },
+  "est_cost_usd": 0.0053585,
+  "elapsed_s": 16.5
+}

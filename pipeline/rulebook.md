@@ -162,7 +162,9 @@ Schema 2 adds the **set bible** from `set_guidelines.md`:
 - **Card order is star order:** 1, 1, 2, 2, 3, 3, 4, 4, 5, 5.
   - **Commons are small but unmistakable props of the theme.** Every card must pass the name test on its own, commons included: Sandcastle, Diving Mask, Grad Cap, not generic pancakes or a handbag. W018: the commons were the weak end of all three Western variants.
   - **The 4–5-star cards are the big places plus the most iconic or precious objects.** With 3 category 4 scenes, one top slot holds a signature object (a saddle, a guitar). At least one 4–5-star card is a category 4 scene, and the last card is the climax.
-- **`role`:** one of `carry` (a thing you carry or wear), `food` (food or drink), `gear` (a gadget, furniture or gear), `vehicle`, `place` (a place, building or landmark) or `nature` (a plant or animal as scenery). At least 4 roles, at most 4 cards per role.
+- **`role`:** one of `carry` (a thing you carry or wear), `food` (food or drink), `gear` (a gadget, furniture or gear), `vehicle`, `place` (a place, building or landmark) or `nature` (a natural thing: a plant, animal, rock, shell or celestial body). At least 4 roles, at most 4 cards per role.
+- **Settings without ground (space, underwater, sky)** [W030]: ships and stations float as category 1. A category 4 scene stands on a planet surface, a deck or the sea floor. Open space counts as a night scene in saturated blue.
+- **Category 3 surface** [W030]: prefer a wooden or textured tabletop or a podium. A plain glossy floor is often read as category 2 by the measurement, and it is harder to tell apart for players too.
 - **`light`:** `day`, `sunset` or `night`. At most 2 cards that are not `day`. Describe the light in `background` too.
 - **Colours:**
   - `bg_color` and `lead_color` are one of red, orange, yellow, green, blue, purple, pink.
