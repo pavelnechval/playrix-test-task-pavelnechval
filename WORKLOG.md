@@ -1447,6 +1447,60 @@ No new prompt from Pavel; this continues W029 ("waiting for task #2 result (fix 
    - the skill says the window's "+2", 8/25 and "Set 4/10" are the template's game UI;
    - the README and HISTORY list both tests, with a time table for each.
 
+## 2026-10-15 / W031 / Board review: takeaways, a larger diagram, genre labels, comparable pairs
+
+### Pavel's prompt (verbatim; the pasted review is stored in full in `docs/reviews/2026-10-15_board_review.md`)
+
+> This is board review (from PDF file), let's do these improvements and then i'll review whole board
+
+Asked whether, to split the process area into frames, the old copies may be deleted after recreating them, Pavel chose: "Don't split frames" (keep one long frame and apply only the other improvements).
+
+### Actions and results
+
+1. **Splitting into frames, tested and dropped.**
+   - The Miro tools refuse to move an existing item into another frame ("target parent is not the actual parent").
+   - So a split means recreating the sections and deleting the old copies. Pavel chose to keep the one frame.
+   - The empty test frame the assistant had just made was deleted.
+2. **Workflow diagram (review point 2).**
+   - New hand-built flow of 6 stages in large type: theme and wishes → set plan → cards → framing and measures → review and windows → choice of variant.
+   - Yellow marks the designer's or producer's decisions; blue marks the agent and scripts. A dashed loop shows optional ratings and notes leading to redraws.
+   - The Mermaid diagram stays below it as the detailed scheme. Miro can't resize it.
+3. **Takeaways (point 3).** A "Вывод: …" band sits above each comparison:
+   - the models;
+   - each of the three stories;
+   - the comparison with the references;
+   - the autonomy section.
+4. **Framing pairs (point 3).** New image `framing_pairs.jpg`: two cards large, with the changed edges marked. Each shows the model's square with the old centre crop and the measured window, the old crop result, and the final card with the edges of the original picture.
+   - Station Wagon: the centre crop cut the car on both sides. The measured window extends the background on every side; object 0.88 of the card.
+   - Matching Mugs: the centre crop left 33% empty above. Measured: 21% above, object 0.85, table extended below.
+   - The numbers come from `reframe.window()` on the stored boxes. It reproduces the logged overrun of every final card.
+5. **Genre labels (point 4).** The four windows are slightly smaller (2,350 → 2,180 px). Under each: the genre and one line about the set's moment, taken from its plan.
+6. **Two purposes of the reference comparison (point 5).**
+   - New image `style_pairs.jpg`: four pairs, one per category, each with a similar subject:
+     - Red Umbrella and the Beach sunshade;
+     - Fruit Basket and the Countrystead apple basket;
+     - Jewel Goblet and the Sports trophy;
+     - Station Wagon and the Tour bus.
+
+     None of these references is among the 12 sent with every request, and none is a gold card.
+   - The full rows are now labelled as being for palette and rhythm only, with a note that they include gold character cards.
+   - The section is renamed "Сравнение с референсами".
+7. **Layout.**
+   - Sections 2–4 moved down to make room; the frame is now 38,139 px tall. The area below was checked empty first.
+   - Miro's measured bounds showed two problems, both fixed:
+     - a heading wrapping into the band below;
+     - images resized around their centres.
+   - Nothing of Pavel's template was moved or deleted. Item ids stay the same, so the "Начните здесь" links still work.
+8. **Export and entry point (point 6)** can't be fixed without splitting the frames. For Pavel:
+   - in the Frames panel, put the results frame and "Анализ" first;
+   - export only these frames;
+   - send the repository link separately, since PDF links aren't clickable.
+
+   The "Начните здесь" panel isn't in a frame, so it's not in the PDF.
+9. **Docs:** the review is stored in `docs/reviews/`, and the reviews README lists what was done.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
