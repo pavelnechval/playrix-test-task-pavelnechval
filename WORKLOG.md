@@ -1788,6 +1788,35 @@ The board now tells the same story as the repository: four agents tested the too
 
 ---
 
+## 2026-10-16 / W038 / Board in the first person
+
+### Pavel's request
+
+Change the board's wording to the first person (for example «которые я оценил»), to show what he did with the agents. First list the places and the suggested wording, without changing the board.
+
+(with a screenshot of the Story 3 sheet header: «Оценку ставит человек: карточки, которые Павел оценил на 3 и ниже, переделаны по его замечаниям (W016)»)
+
+> OK, only Must changes though
+
+### Actions and results
+
+1. **Scan.** Every text item in the results frame, the "Анализ" frame and the "Начните здесь" panel was read and searched locally, and the image headers were checked against the scripts that drew them. The list given to Pavel:
+   - 14 "must" places that name him in the third person: 12 text items and 2 image headers (BENCH-03 and Story 3);
+   - 3 places where «продюсер» or «без автора» means him;
+   - about 10 optional ones (мы/наш, impersonal wording);
+   - the role words that describe the tool's user, which stay: the yellow diagram boxes, the detailed scheme and «вариант выбирает человек».
+2. **Applied: the 14 "must" places only.**
+   - **Text, 12 items.** For example «предпочтение Павла» → «моё предпочтение», «Павел принял 73%» → «Я принял 73%», «Павел добавит ревьюера» → «я добавлю ревьюера». In the «Анализ» caveat, «наше прочтение…; Павел принял их» → «моё прочтение…, которое я сформулировал с агентом и утвердил в W018».
+   - The edits are built from each item's current text, so the formatting and links are unchanged.
+   - Miro didn't confirm 3 items on the first pass; a read-back showed the old text, and the retry applied them.
+   - **Images, 2.** Only the header line was repainted; every card pixel stays as it was. The new images replace the old ones at the same position and size, and the old two were removed with Pavel's OK.
+     - BENCH-03 is now id 3458764687470034104;
+     - Story 3 is now id 3458764687470034142.
+   - A final board search finds no third-person mention of Pavel.
+3. **Not applied, as Pavel said:** the «продюсер/автор» group and the optional items. The repository is unchanged.
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
