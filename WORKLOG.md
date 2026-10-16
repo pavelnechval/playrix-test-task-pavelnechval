@@ -1817,6 +1817,29 @@ Change the board's wording to the first person (for example «которые я 
 
 ---
 
+## 2026-10-17 / W039 / Consistency pass: first person in HISTORY and the reviews summary; the notice for a public repository
+
+### Pavel's prompts (verbatim)
+
+> ok, check for consistency
+
+> Yes, two board slips, notice, history and review summary
+
+### Actions and results
+
+1. **The check found these consistent:**
+   - GitHub main (4c29f0a) has no private remarks anywhere in its history;
+   - README and WORKLOG match between the working folder and the delivered clone;
+   - the README and the board are in the first person;
+   - the board no longer calls the repository private (Pavel's own edits).
+2. **Fixed:**
+   - **Board:** two punctuation slips in Pavel's edits: «…pavelnechval.С чего начать» in the repository box of «4. Как запустить», and «…pavelnechval . README» in the «Начните здесь» panel.
+   - **`references/NOTICE.md`:** "do not publish or share outside this private repository" became "included here only as part of the test task: do not reuse them for any other purpose or redistribute them separately", in Russian and English. The Playrix ownership note stays.
+   - **`HISTORY.md`:** the 10 third-person mentions are now first person, for example «Работали вдвоём: я (продюсер…) и Claude Code (агент…)», «Мой выбор», «Я попросил агента…». The intro's step ranges are updated to W001–W039 and D-001–D-036.
+   - **`docs/reviews/README.md`:** 3 mentions: «По моей просьбе…», «моё предпочтение», «я решил не делать».
+
+---
+
 ## Entry template
 
 Experiment runs use the detailed template at the end of `D:\JOB2026HUNT\AI-PILLED\WORKLOG.md`, saved as `experiments/<RUN-ID>/result.md`.
